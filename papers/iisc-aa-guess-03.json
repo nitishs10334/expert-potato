@@ -1,0 +1,1181 @@
+{
+  "schemaVersion": "1.0",
+  "id": "iisc-aa-guess-03",
+  "title": "IISc Administrative Assistant Guess Paper 3",
+  "subtitle": "Realistic prediction based on 2023 examiner patterns",
+  "version": "2026.07.05",
+  "durationMinutes": 90,
+  "language": "English",
+  "tags": ["iisc", "administrative-assistant", "guess-paper", "2026"],
+  "metadata": {
+    "exam": "IISc Administrative Assistant",
+    "year": 2026,
+    "source": "Guess Paper 3 of 5"
+  },
+  "instructions": [
+    "Total 80 questions to be attempted in 90 minutes.",
+    "Each correct answer earns +1 mark.",
+    "Negative marking applies: 0.33333 marks (one-third) are deducted for every incorrect answer.",
+    "Unattempted questions receive 0 marks.",
+    "Figure-based placeholder questions are unscored and carry 0 marks either way."
+  ],
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.33333,
+    "unattempted": 0,
+    "partial": false
+  },
+  "analytics": {
+    "groupBy": ["section", "topic", "difficulty"]
+  },
+  "sections": [
+    {
+      "id": "quantitative-ability",
+      "title": "Quantitative Ability",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single",
+          "metadata": {"topic": "Percentage", "difficulty": "medium"},
+          "text": "A number is increased by 20% and the result is then decreased by 20%. The net change in the number is:",
+          "options": [
+            {"id": "A", "text": "No change"},
+            {"id": "B", "text": "4% increase"},
+            {"id": "C", "text": "4% decrease"},
+            {"id": "D", "text": "2% decrease"}
+          ],
+          "answer": "C",
+          "explanation": "1.2 x 0.8 = 0.96, a 4% decrease."
+        },
+        {
+          "id": "q2",
+          "type": "single",
+          "metadata": {"topic": "Profit & Loss", "difficulty": "medium"},
+          "text": "An article sold at a 15% loss fetches Rs 1020. To gain 15%, it should be sold for:",
+          "options": [
+            {"id": "A", "text": "Rs 1320"},
+            {"id": "B", "text": "Rs 1380"},
+            {"id": "C", "text": "Rs 1400"},
+            {"id": "D", "text": "Rs 1275"}
+          ],
+          "answer": "B",
+          "explanation": "CP = 1020/0.85 = 1200; SP = 1200 x 1.15 = 1380."
+        },
+        {
+          "id": "q3",
+          "type": "single",
+          "metadata": {"topic": "Discount (Successive)", "difficulty": "medium"},
+          "text": "A single discount equivalent to two successive discounts of 10% and 20% is:",
+          "options": [
+            {"id": "A", "text": "30%"},
+            {"id": "B", "text": "29%"},
+            {"id": "C", "text": "28%"},
+            {"id": "D", "text": "27%"}
+          ],
+          "answer": "C",
+          "explanation": "1 - 0.9 x 0.8 = 0.28, i.e. 28%."
+        },
+        {
+          "id": "q4",
+          "type": "single",
+          "metadata": {"topic": "Time & Work", "difficulty": "hard"},
+          "text": "12 men can complete a work in 15 days. After 5 days, 3 men leave. In how many more days will the remaining men finish the work?",
+          "options": [
+            {"id": "A", "text": "12 days"},
+            {"id": "B", "text": "40/3 days"},
+            {"id": "C", "text": "14 days"},
+            {"id": "D", "text": "44/3 days"}
+          ],
+          "answer": "B",
+          "explanation": "120 man-days remain for 9 men: 120/9 = 40/3."
+        },
+        {
+          "id": "q5",
+          "type": "single",
+          "metadata": {"topic": "Time & Distance (Trains)", "difficulty": "medium"},
+          "text": "Two trains of lengths 150 m and 100 m run in opposite directions at 60 km/h and 30 km/h. The time they take to cross each other is:",
+          "options": [
+            {"id": "A", "text": "8 seconds"},
+            {"id": "B", "text": "10 seconds"},
+            {"id": "C", "text": "12 seconds"},
+            {"id": "D", "text": "15 seconds"}
+          ],
+          "answer": "B",
+          "explanation": "250 m at 25 m/s relative speed takes 10 s."
+        },
+        {
+          "id": "q6",
+          "type": "single",
+          "metadata": {"topic": "Boats & Streams", "difficulty": "medium"},
+          "text": "A man rows 15 km upstream in 3 hours and returns the same distance downstream in 1.5 hours. His speed in still water is:",
+          "options": [
+            {"id": "A", "text": "6 km/h"},
+            {"id": "B", "text": "7 km/h"},
+            {"id": "C", "text": "7.5 km/h"},
+            {"id": "D", "text": "8 km/h"}
+          ],
+          "answer": "C",
+          "explanation": "Up 5, down 10; still water = (5+10)/2 = 7.5."
+        },
+        {
+          "id": "q7",
+          "type": "single",
+          "metadata": {"topic": "Simple Interest", "difficulty": "medium"},
+          "text": "A sum of money doubles itself in 8 years at simple interest. The rate of interest per annum is:",
+          "options": [
+            {"id": "A", "text": "10%"},
+            {"id": "B", "text": "12%"},
+            {"id": "C", "text": "12.5%"},
+            {"id": "D", "text": "15%"}
+          ],
+          "answer": "C",
+          "explanation": "Interest equals principal in 8 years: 100/8 = 12.5%."
+        },
+        {
+          "id": "q8",
+          "type": "single",
+          "metadata": {"topic": "Ratio & Proportion", "difficulty": "easy"},
+          "text": "If a:b = 2:3 and b:c = 4:5, then a:b:c is:",
+          "options": [
+            {"id": "A", "text": "2:3:5"},
+            {"id": "B", "text": "8:12:15"},
+            {"id": "C", "text": "6:8:10"},
+            {"id": "D", "text": "8:10:15"}
+          ],
+          "answer": "B",
+          "explanation": "Scale to make b common: 8:12 and 12:15."
+        },
+        {
+          "id": "q9",
+          "type": "single",
+          "metadata": {"topic": "Mixture & Alligation", "difficulty": "medium"},
+          "text": "A 60-litre mixture has milk and water in the ratio 2:1. How much water must be added to make the ratio 1:2?",
+          "options": [
+            {"id": "A", "text": "40 litres"},
+            {"id": "B", "text": "50 litres"},
+            {"id": "C", "text": "60 litres"},
+            {"id": "D", "text": "80 litres"}
+          ],
+          "answer": "C",
+          "explanation": "Milk 40 needs water 80; add 80 - 20 = 60 L."
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "metadata": {"topic": "Number Sense", "difficulty": "medium"},
+          "text": "The sum of the digits of a two-digit number is 9. The number exceeds the number formed by reversing its digits by 27. The number is:",
+          "options": [
+            {"id": "A", "text": "45"},
+            {"id": "B", "text": "54"},
+            {"id": "C", "text": "63"},
+            {"id": "D", "text": "72"}
+          ],
+          "answer": "C",
+          "explanation": "a + b = 9 and a - b = 3 give 63."
+        },
+        {
+          "id": "q11",
+          "type": "numerical",
+          "metadata": {"topic": "Algebraic Identities", "difficulty": "hard"},
+          "text": "If x - 1/x = 3, enter the value of x^3 - 1/x^3.",
+          "answer": 36,
+          "tolerance": 0.01,
+          "explanation": "a^3 + 3a where a = 3: 27 + 9 = 36."
+        },
+        {
+          "id": "q12",
+          "type": "single",
+          "metadata": {"topic": "Partnership Business", "difficulty": "medium"},
+          "text": "A and B invest capitals in the ratio 3:5. A invests for 8 months and B for 6 months. The ratio in which profit is shared is:",
+          "options": [
+            {"id": "A", "text": "3:5"},
+            {"id": "B", "text": "4:5"},
+            {"id": "C", "text": "5:4"},
+            {"id": "D", "text": "24:30"}
+          ],
+          "answer": "B",
+          "explanation": "24:30 simplifies to 4:5."
+        },
+        {
+          "id": "q13",
+          "type": "single",
+          "metadata": {"topic": "Mensuration + Flow Rate", "difficulty": "hard"},
+          "text": "Water flows through a pipe of cross-section 5 sq cm at 20 cm/s into a rectangular tank of base 50 cm x 40 cm. The rise in water level in one minute is:",
+          "options": [
+            {"id": "A", "text": "2 cm"},
+            {"id": "B", "text": "2.5 cm"},
+            {"id": "C", "text": "3 cm"},
+            {"id": "D", "text": "4 cm"}
+          ],
+          "answer": "C",
+          "explanation": "6000 cu cm per minute over 2000 sq cm = 3 cm."
+        },
+        {
+          "id": "q14",
+          "type": "single",
+          "metadata": {"topic": "Mensuration (Cone)", "difficulty": "medium"},
+          "text": "A right circular cone has radius 6 cm and height 8 cm. Its total surface area is:",
+          "options": [
+            {"id": "A", "text": "84 pi sq cm"},
+            {"id": "B", "text": "90 pi sq cm"},
+            {"id": "C", "text": "96 pi sq cm"},
+            {"id": "D", "text": "100 pi sq cm"}
+          ],
+          "answer": "C",
+          "explanation": "Slant 10; TSA = pi x 6 x (10 + 6) = 96 pi."
+        },
+        {
+          "id": "q15",
+          "type": "single",
+          "metadata": {"topic": "Graphs of Linear Equations", "difficulty": "medium"},
+          "text": "The system x + 2y = 8 and 2x + 4y = k has infinitely many solutions when k equals:",
+          "options": [
+            {"id": "A", "text": "4"},
+            {"id": "B", "text": "8"},
+            {"id": "C", "text": "12"},
+            {"id": "D", "text": "16"}
+          ],
+          "answer": "D",
+          "explanation": "The second equation must be twice the first."
+        },
+        {
+          "id": "q16",
+          "type": "single",
+          "metadata": {"topic": "Percentage (Savings)", "difficulty": "easy"},
+          "text": "Ravi saves 25% of his monthly income. If his monthly expenditure is Rs 13500, his monthly income is:",
+          "options": [
+            {"id": "A", "text": "Rs 16000"},
+            {"id": "B", "text": "Rs 17500"},
+            {"id": "C", "text": "Rs 18000"},
+            {"id": "D", "text": "Rs 20000"}
+          ],
+          "answer": "C",
+          "explanation": "Expenditure is 75%, so income = 13500/0.75 = 18000."
+        }
+      ]
+    },
+    {
+      "id": "verbal-ability",
+      "title": "Verbal Ability",
+      "questions": [
+        {
+          "id": "q17",
+          "type": "single",
+          "metadata": {"topic": "Shuffling of Sentences", "difficulty": "medium"},
+          "text": "Sentence 1: The old banyan tree stood at the centre of the village. Arrange P, Q, R, S. P: Traders spread their wares in its shade every market day. Q: Its branches covered nearly half an acre. R: For generations it had been the meeting place for the panchayat. S: Children swung from its hanging roots in the evenings.",
+          "options": [
+            {"id": "A", "text": "QRPS"},
+            {"id": "B", "text": "RQPS"},
+            {"id": "C", "text": "QPRS"},
+            {"id": "D", "text": "PQSR"}
+          ],
+          "answer": "A",
+          "explanation": "Size first, then its roles: panchayat, traders, children."
+        },
+        {
+          "id": "q18",
+          "type": "single",
+          "metadata": {"topic": "Shuffling of Sentences", "difficulty": "medium"},
+          "text": "Sentence 1: Regular exercise benefits far more than the body. Arrange P, Q, R, S. P: Studies show it sharpens memory and concentration. Q: It also lifts mood by releasing endorphins. R: Doctors therefore prescribe walking even for mental health. S: The brain, too, gains from improved blood flow.",
+          "options": [
+            {"id": "A", "text": "SPQR"},
+            {"id": "B", "text": "PSQR"},
+            {"id": "C", "text": "QSPR"},
+            {"id": "D", "text": "SQPR"}
+          ],
+          "answer": "A",
+          "explanation": "Brain benefit, evidence, mood, then the conclusion."
+        },
+        {
+          "id": "q19",
+          "type": "single",
+          "metadata": {"topic": "Idioms & Phrases", "difficulty": "easy"},
+          "text": "Select the meaning of the idiom: To kick the bucket",
+          "options": [
+            {"id": "A", "text": "To die"},
+            {"id": "B", "text": "To lose one's temper"},
+            {"id": "C", "text": "To miss a chance"},
+            {"id": "D", "text": "To start a fight"}
+          ],
+          "answer": "A",
+          "explanation": "It is an informal way of saying to die."
+        },
+        {
+          "id": "q20",
+          "type": "single",
+          "metadata": {"topic": "Idioms & Phrases", "difficulty": "easy"},
+          "text": "Select the meaning of the idiom: Under the weather",
+          "options": [
+            {"id": "A", "text": "Caught in the rain"},
+            {"id": "B", "text": "Slightly unwell"},
+            {"id": "C", "text": "In serious trouble"},
+            {"id": "D", "text": "Feeling sleepy"}
+          ],
+          "answer": "B",
+          "explanation": "It means feeling mildly ill."
+        },
+        {
+          "id": "q21",
+          "type": "single",
+          "metadata": {"topic": "Idioms & Phrases", "difficulty": "medium"},
+          "text": "Select the meaning of the idiom: At the drop of a hat",
+          "options": [
+            {"id": "A", "text": "Without any hesitation"},
+            {"id": "B", "text": "In great anger"},
+            {"id": "C", "text": "By pure chance"},
+            {"id": "D", "text": "With great difficulty"}
+          ],
+          "answer": "A",
+          "explanation": "It means immediately, without delay."
+        },
+        {
+          "id": "q22",
+          "type": "single",
+          "metadata": {"topic": "One-word Substitution", "difficulty": "medium"},
+          "text": "One who hates mankind:",
+          "options": [
+            {"id": "A", "text": "Philanthropist"},
+            {"id": "B", "text": "Misanthrope"},
+            {"id": "C", "text": "Misogynist"},
+            {"id": "D", "text": "Anthropologist"}
+          ],
+          "answer": "B",
+          "explanation": "A misanthrope dislikes humanity."
+        },
+        {
+          "id": "q23",
+          "type": "single",
+          "metadata": {"topic": "One-word Substitution", "difficulty": "medium"},
+          "text": "Words inscribed on a tomb:",
+          "options": [
+            {"id": "A", "text": "Epilogue"},
+            {"id": "B", "text": "Epitaph"},
+            {"id": "C", "text": "Epigram"},
+            {"id": "D", "text": "Elegy"}
+          ],
+          "answer": "B",
+          "explanation": "An epitaph is written in memory of the dead."
+        },
+        {
+          "id": "q24",
+          "type": "single",
+          "metadata": {"topic": "Spelling", "difficulty": "medium"},
+          "text": "Select the correctly spelt word:",
+          "options": [
+            {"id": "A", "text": "Embarassment"},
+            {"id": "B", "text": "Embarrasment"},
+            {"id": "C", "text": "Embarrassment"},
+            {"id": "D", "text": "Embarrassement"}
+          ],
+          "answer": "C",
+          "explanation": "Double r and double s: embarrassment."
+        },
+        {
+          "id": "q25",
+          "type": "single",
+          "metadata": {"topic": "Spelling", "difficulty": "easy"},
+          "text": "Select the incorrectly spelt word:",
+          "options": [
+            {"id": "A", "text": "Recieve"},
+            {"id": "B", "text": "Deceive"},
+            {"id": "C", "text": "Perceive"},
+            {"id": "D", "text": "Conceive"}
+          ],
+          "answer": "A",
+          "explanation": "The correct form is receive: i before e except after c."
+        },
+        {
+          "id": "q26",
+          "type": "single",
+          "metadata": {"topic": "Improvement of Sentences", "difficulty": "medium"},
+          "text": "Improve the underlined part: ONE OF MY FRIEND lives in Bengaluru.",
+          "options": [
+            {"id": "A", "text": "One of my friends"},
+            {"id": "B", "text": "One of mine friend"},
+            {"id": "C", "text": "One my friend"},
+            {"id": "D", "text": "No improvement"}
+          ],
+          "answer": "A",
+          "explanation": "'One of' requires a plural noun."
+        },
+        {
+          "id": "q27",
+          "type": "single",
+          "metadata": {"topic": "Improvement of Sentences", "difficulty": "medium"},
+          "text": "Improve the underlined part: My COUSIN BROTHER is visiting us next week.",
+          "options": [
+            {"id": "A", "text": "cousin"},
+            {"id": "B", "text": "brother cousin"},
+            {"id": "C", "text": "cousin-brother"},
+            {"id": "D", "text": "No improvement"}
+          ],
+          "answer": "A",
+          "explanation": "'Cousin' alone is correct; 'cousin brother' is redundant."
+        },
+        {
+          "id": "q28",
+          "type": "single",
+          "metadata": {"topic": "Synonyms", "difficulty": "medium"},
+          "text": "Select the synonym of OBSOLETE:",
+          "options": [
+            {"id": "A", "text": "Outdated"},
+            {"id": "B", "text": "Modern"},
+            {"id": "C", "text": "Rare"},
+            {"id": "D", "text": "Broken"}
+          ],
+          "answer": "A",
+          "explanation": "Obsolete means no longer in use."
+        },
+        {
+          "id": "q29",
+          "type": "single",
+          "metadata": {"topic": "Antonyms", "difficulty": "easy"},
+          "text": "Select the antonym of SCARCE:",
+          "options": [
+            {"id": "A", "text": "Rare"},
+            {"id": "B", "text": "Abundant"},
+            {"id": "C", "text": "Costly"},
+            {"id": "D", "text": "Hidden"}
+          ],
+          "answer": "B",
+          "explanation": "Scarce (in short supply) is opposite to abundant."
+        },
+        {
+          "id": "q30",
+          "type": "paragraph",
+          "metadata": {"topic": "Comprehension Passage", "difficulty": "medium"},
+          "passage": "Every year millions of tonnes of plastic waste enter the oceans, where currents grind it into fragments smaller than a grain of rice. These microplastics are swallowed by fish and shellfish, and through them enter the human food chain. Researchers have found plastic particles in drinking water, table salt and even mountain air. Although many nations have banned single-use carry bags, production of virgin plastic continues to rise. Experts argue that recycling alone cannot solve the problem; manufacturers must redesign packaging so that less plastic is created in the first place.",
+          "text": "According to the passage, microplastics enter the human food chain mainly through:",
+          "options": [
+            {"id": "A", "text": "Contaminated fruits"},
+            {"id": "B", "text": "Fish and shellfish"},
+            {"id": "C", "text": "Plastic bottles"},
+            {"id": "D", "text": "Mountain air"}
+          ],
+          "answer": "B",
+          "explanation": "The passage says fish and shellfish swallow them."
+        },
+        {
+          "id": "q31",
+          "type": "paragraph",
+          "metadata": {"topic": "Comprehension Passage", "difficulty": "medium"},
+          "passage": "Every year millions of tonnes of plastic waste enter the oceans, where currents grind it into fragments smaller than a grain of rice. These microplastics are swallowed by fish and shellfish, and through them enter the human food chain. Researchers have found plastic particles in drinking water, table salt and even mountain air. Although many nations have banned single-use carry bags, production of virgin plastic continues to rise. Experts argue that recycling alone cannot solve the problem; manufacturers must redesign packaging so that less plastic is created in the first place.",
+          "text": "What solution do experts favour, according to the passage?",
+          "options": [
+            {"id": "A", "text": "Better recycling technology alone"},
+            {"id": "B", "text": "Banning all fishing"},
+            {"id": "C", "text": "Redesigning packaging to use less plastic"},
+            {"id": "D", "text": "Cleaning mountain air"}
+          ],
+          "answer": "C",
+          "explanation": "Experts want less plastic created at the source."
+        },
+        {
+          "id": "q32",
+          "type": "paragraph",
+          "metadata": {"topic": "Comprehension Passage", "difficulty": "easy"},
+          "passage": "Every year millions of tonnes of plastic waste enter the oceans, where currents grind it into fragments smaller than a grain of rice. These microplastics are swallowed by fish and shellfish, and through them enter the human food chain. Researchers have found plastic particles in drinking water, table salt and even mountain air. Although many nations have banned single-use carry bags, production of virgin plastic continues to rise. Experts argue that recycling alone cannot solve the problem; manufacturers must redesign packaging so that less plastic is created in the first place.",
+          "text": "In the passage, 'virgin plastic' most nearly means:",
+          "options": [
+            {"id": "A", "text": "Recycled plastic"},
+            {"id": "B", "text": "Newly manufactured plastic"},
+            {"id": "C", "text": "Biodegradable plastic"},
+            {"id": "D", "text": "Transparent plastic"}
+          ],
+          "answer": "B",
+          "explanation": "Virgin plastic is plastic made fresh, not recycled."
+        }
+      ]
+    },
+    {
+      "id": "logical-numerical-reasoning",
+      "title": "Logical and Numerical Reasoning",
+      "questions": [
+        {
+          "id": "q33",
+          "type": "single",
+          "metadata": {"topic": "Number Series", "difficulty": "medium"},
+          "text": "Find the next term: 1, 4, 10, 22, 46, ?",
+          "options": [
+            {"id": "A", "text": "84"},
+            {"id": "B", "text": "90"},
+            {"id": "C", "text": "94"},
+            {"id": "D", "text": "98"}
+          ],
+          "answer": "C",
+          "explanation": "Each term is double the previous plus 2."
+        },
+        {
+          "id": "q34",
+          "type": "single",
+          "metadata": {"topic": "Number Series", "difficulty": "medium"},
+          "text": "Find the next term: 8, 12, 18, 27, ?",
+          "options": [
+            {"id": "A", "text": "36"},
+            {"id": "B", "text": "38"},
+            {"id": "C", "text": "40.5"},
+            {"id": "D", "text": "45"}
+          ],
+          "answer": "C",
+          "explanation": "Each term is 1.5 times the previous."
+        },
+        {
+          "id": "q35",
+          "type": "single",
+          "metadata": {"topic": "Number Series", "difficulty": "easy"},
+          "text": "Find the next term: 2, 3, 5, 8, 13, 21, ?",
+          "options": [
+            {"id": "A", "text": "29"},
+            {"id": "B", "text": "34"},
+            {"id": "C", "text": "31"},
+            {"id": "D", "text": "36"}
+          ],
+          "answer": "B",
+          "explanation": "Each term is the sum of the previous two."
+        },
+        {
+          "id": "q36",
+          "type": "single",
+          "metadata": {"topic": "Letter Series", "difficulty": "medium"},
+          "text": "Find the next term: AB, DE, HI, MN, ?",
+          "options": [
+            {"id": "A", "text": "RS"},
+            {"id": "B", "text": "ST"},
+            {"id": "C", "text": "TU"},
+            {"id": "D", "text": "QR"}
+          ],
+          "answer": "B",
+          "explanation": "Starting letters skip 2, 3, 4, then 5 letters."
+        },
+        {
+          "id": "q37",
+          "type": "single",
+          "metadata": {"topic": "Alphanumeric Reasoning", "difficulty": "medium"},
+          "text": "In the sequence 3 5 7 5 7 3 7 5 7 7 5 7, how many 7s are immediately preceded by 5?",
+          "options": [
+            {"id": "A", "text": "2"},
+            {"id": "B", "text": "3"},
+            {"id": "C", "text": "4"},
+            {"id": "D", "text": "5"}
+          ],
+          "answer": "C",
+          "explanation": "The pairs 5-7 occur four times."
+        },
+        {
+          "id": "q38",
+          "type": "single",
+          "metadata": {"topic": "Coding-Decoding", "difficulty": "hard"},
+          "text": "In a code, MANGO is written as NZMTL. How is APPLE written in that code?",
+          "options": [
+            {"id": "A", "text": "ZKKOV"},
+            {"id": "B", "text": "ZKKVO"},
+            {"id": "C", "text": "ZLKOV"},
+            {"id": "D", "text": "BKKOV"}
+          ],
+          "answer": "A",
+          "explanation": "Each letter is replaced by its reverse-alphabet partner."
+        },
+        {
+          "id": "q39",
+          "type": "single",
+          "metadata": {"topic": "Coding-Decoding", "difficulty": "medium"},
+          "text": "If ROSE = 57, then LOTUS = ?",
+          "options": [
+            {"id": "A", "text": "84"},
+            {"id": "B", "text": "87"},
+            {"id": "C", "text": "89"},
+            {"id": "D", "text": "92"}
+          ],
+          "answer": "B",
+          "explanation": "Sum of positions: 12 + 15 + 20 + 21 + 19 = 87."
+        },
+        {
+          "id": "q40",
+          "type": "single",
+          "metadata": {"topic": "Coding-Decoding", "difficulty": "medium"},
+          "text": "In a code language, 'read books daily' = 'kam tok pit', 'books are heavy' = 'tok sa na' and 'daily new books' = 'pit ru tok'. What is the code for 'books'?",
+          "options": [
+            {"id": "A", "text": "kam"},
+            {"id": "B", "text": "pit"},
+            {"id": "C", "text": "tok"},
+            {"id": "D", "text": "sa"}
+          ],
+          "answer": "C",
+          "explanation": "'tok' appears in all three sentences."
+        },
+        {
+          "id": "q41",
+          "type": "single",
+          "metadata": {"topic": "Linear Seating Arrangement", "difficulty": "medium"},
+          "text": "Five boys P, Q, R, S, T sit in a row. P is at the extreme left. R is exactly in the middle. Q sits between P and R. T is at an extreme end. Who is second to the right of R?",
+          "options": [
+            {"id": "A", "text": "S"},
+            {"id": "B", "text": "T"},
+            {"id": "C", "text": "Q"},
+            {"id": "D", "text": "P"}
+          ],
+          "answer": "B",
+          "explanation": "Order is P, Q, R, S, T; two right of R is T."
+        },
+        {
+          "id": "q42",
+          "type": "single",
+          "metadata": {"topic": "Circular Seating Arrangement", "difficulty": "medium"},
+          "text": "Five friends J, K, L, M, N sit around a circular table. J sits between K and L. M sits between L and N. Who are the immediate neighbours of N?",
+          "options": [
+            {"id": "A", "text": "M and K"},
+            {"id": "B", "text": "J and L"},
+            {"id": "C", "text": "M and J"},
+            {"id": "D", "text": "K and L"}
+          ],
+          "answer": "A",
+          "explanation": "Circle order K, J, L, M, N closes with N next to K."
+        },
+        {
+          "id": "q43",
+          "type": "single",
+          "metadata": {"topic": "Floor Puzzle", "difficulty": "medium"},
+          "text": "Five people J, K, L, M, N live on five floors of a building (floor 1 lowest). M lives on the lowest floor and N on the top floor. J lives above K but below L. Who lives on floor 3?",
+          "options": [
+            {"id": "A", "text": "J"},
+            {"id": "B", "text": "K"},
+            {"id": "C", "text": "L"},
+            {"id": "D", "text": "M"}
+          ],
+          "answer": "A",
+          "explanation": "Floors from bottom: M, K, J, L, N."
+        },
+        {
+          "id": "q44",
+          "type": "single",
+          "metadata": {"topic": "Ranking (Interchange)", "difficulty": "hard"},
+          "text": "In a row, A is 7th from the left and B is 9th from the right. After they exchange places, A becomes 11th from the left. How many people are in the row?",
+          "options": [
+            {"id": "A", "text": "18"},
+            {"id": "B", "text": "19"},
+            {"id": "C", "text": "20"},
+            {"id": "D", "text": "21"}
+          ],
+          "answer": "B",
+          "explanation": "A now occupies B's place: 11 + 9 - 1 = 19."
+        },
+        {
+          "id": "q45",
+          "type": "single",
+          "metadata": {"topic": "Blood Relations", "difficulty": "medium"},
+          "text": "Pointing to a photograph, Amit said, 'She is the mother of my father's only grandson.' How is the woman related to Amit?",
+          "options": [
+            {"id": "A", "text": "Mother"},
+            {"id": "B", "text": "Sister"},
+            {"id": "C", "text": "Wife"},
+            {"id": "D", "text": "Aunt"}
+          ],
+          "answer": "C",
+          "explanation": "The only grandson is Amit's son, so she is Amit's wife."
+        },
+        {
+          "id": "q46",
+          "type": "single",
+          "metadata": {"topic": "Coded Blood Relations", "difficulty": "medium"},
+          "text": "P @ Q means P is the mother of Q, P & Q means P is the brother of Q, P % Q means P is the son of Q. What does A & B % C mean?",
+          "options": [
+            {"id": "A", "text": "A is the son of C"},
+            {"id": "B", "text": "A is the father of C"},
+            {"id": "C", "text": "C is the son of A"},
+            {"id": "D", "text": "A is the brother of C"}
+          ],
+          "answer": "A",
+          "explanation": "A is B's brother and B is C's son, so A is also C's son."
+        },
+        {
+          "id": "q47",
+          "type": "single",
+          "metadata": {"topic": "Direction Sense", "difficulty": "easy"},
+          "text": "P walks 10 m south, turns left and walks 15 m, then turns left again and walks 10 m. How far and in which direction is P from the start?",
+          "options": [
+            {"id": "A", "text": "15 m east"},
+            {"id": "B", "text": "15 m west"},
+            {"id": "C", "text": "10 m south"},
+            {"id": "D", "text": "25 m east"}
+          ],
+          "answer": "A",
+          "explanation": "The south legs cancel, leaving 15 m east."
+        },
+        {
+          "id": "q48",
+          "type": "single",
+          "metadata": {"topic": "Numerical Operations (BODMAS)", "difficulty": "easy"},
+          "text": "The value of 18 / 3 x 2 + 8 - 4 is:",
+          "options": [
+            {"id": "A", "text": "7"},
+            {"id": "B", "text": "16"},
+            {"id": "C", "text": "13"},
+            {"id": "D", "text": "10"}
+          ],
+          "answer": "B",
+          "explanation": "6 x 2 + 8 - 4 = 16."
+        },
+        {
+          "id": "q49",
+          "type": "single",
+          "metadata": {"topic": "Number Analogy", "difficulty": "easy"},
+          "text": "36 : 49 :: 64 : ?",
+          "options": [
+            {"id": "A", "text": "72"},
+            {"id": "B", "text": "81"},
+            {"id": "C", "text": "90"},
+            {"id": "D", "text": "100"}
+          ],
+          "answer": "B",
+          "explanation": "Consecutive squares: 6^2, 7^2, 8^2, 9^2."
+        },
+        {
+          "id": "q50",
+          "type": "single",
+          "metadata": {"topic": "Classification (Odd One Out)", "difficulty": "medium"},
+          "text": "Find the odd one out: ACE, GIK, MOQ, SUV",
+          "options": [
+            {"id": "A", "text": "ACE"},
+            {"id": "B", "text": "GIK"},
+            {"id": "C", "text": "MOQ"},
+            {"id": "D", "text": "SUV"}
+          ],
+          "answer": "D",
+          "explanation": "Others skip one letter each time; SUV breaks the pattern."
+        },
+        {
+          "id": "q51",
+          "type": "single",
+          "metadata": {"topic": "Syllogism", "difficulty": "medium"},
+          "text": "Statements: All roses are flowers. No flower is black. Conclusions: I. No rose is black. II. Some flowers are roses.",
+          "options": [
+            {"id": "A", "text": "Only I follows"},
+            {"id": "B", "text": "Only II follows"},
+            {"id": "C", "text": "Both follow"},
+            {"id": "D", "text": "Neither follows"}
+          ],
+          "answer": "C",
+          "explanation": "Roses are flowers, none of which are black; II is the converse."
+        },
+        {
+          "id": "q52",
+          "type": "figure",
+          "metadata": {"topic": "Figural Series", "difficulty": "medium"},
+          "text": "Select the figure that continues the given series of figures.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Figural Series",
+            "description": "Four figures show a dot moving clockwise around a square; the fifth position must be chosen."
+          },
+          "scoring": {"correct": 0, "incorrect": 0, "unattempted": 0, "partial": false},
+          "explanation": "Unscored placeholder for a visual series question."
+        },
+        {
+          "id": "q53",
+          "type": "figure",
+          "metadata": {"topic": "Dice", "difficulty": "medium"},
+          "text": "From the two positions of a dice shown, determine the number opposite to 4.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Dice Positions",
+            "description": "Two views of a numbered dice from which the face opposite 4 must be deduced."
+          },
+          "scoring": {"correct": 0, "incorrect": 0, "unattempted": 0, "partial": false},
+          "explanation": "Unscored placeholder for a visual dice question."
+        },
+        {
+          "id": "q54",
+          "type": "figure",
+          "metadata": {"topic": "Mirror Image", "difficulty": "easy"},
+          "text": "Select the correct mirror image of the given word-and-number combination.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Mirror Image",
+            "description": "An alphanumeric string whose mirror image must be identified from four options."
+          },
+          "scoring": {"correct": 0, "incorrect": 0, "unattempted": 0, "partial": false},
+          "explanation": "Unscored placeholder for a visual mirror-image question."
+        }
+      ]
+    },
+    {
+      "id": "general-awareness",
+      "title": "General Awareness",
+      "questions": [
+        {
+          "id": "q55",
+          "type": "single",
+          "metadata": {"topic": "Current Events (Sports)", "difficulty": "easy"},
+          "text": "Which country won the ICC Men's T20 World Cup 2024?",
+          "options": [
+            {"id": "A", "text": "Australia"},
+            {"id": "B", "text": "England"},
+            {"id": "C", "text": "India"},
+            {"id": "D", "text": "South Africa"}
+          ],
+          "answer": "C",
+          "explanation": "India beat South Africa in the Barbados final."
+        },
+        {
+          "id": "q56",
+          "type": "single",
+          "metadata": {"topic": "Current Events (Awards)", "difficulty": "hard"},
+          "text": "The Nobel Prize in Physics 2024 was awarded to John Hopfield and Geoffrey Hinton for foundational work in:",
+          "options": [
+            {"id": "A", "text": "Quantum computing"},
+            {"id": "B", "text": "Machine learning with artificial neural networks"},
+            {"id": "C", "text": "Gravitational waves"},
+            {"id": "D", "text": "Superconductivity"}
+          ],
+          "answer": "B",
+          "explanation": "They were honoured for neural-network foundations."
+        },
+        {
+          "id": "q57",
+          "type": "single",
+          "metadata": {"topic": "Scientific Research (Space)", "difficulty": "hard"},
+          "text": "ISRO's XPoSat, launched on 1 January 2024, is designed to study:",
+          "options": [
+            {"id": "A", "text": "Ocean temperatures"},
+            {"id": "B", "text": "X-ray polarisation from cosmic sources like black holes"},
+            {"id": "C", "text": "The Martian atmosphere"},
+            {"id": "D", "text": "Earth's magnetic field"}
+          ],
+          "answer": "B",
+          "explanation": "XPoSat measures X-ray polarisation from celestial objects."
+        },
+        {
+          "id": "q58",
+          "type": "single",
+          "metadata": {"topic": "Economic Scene", "difficulty": "medium"},
+          "text": "The Economic Survey of India is presented annually by the:",
+          "options": [
+            {"id": "A", "text": "Reserve Bank of India"},
+            {"id": "B", "text": "Ministry of Finance"},
+            {"id": "C", "text": "NITI Aayog"},
+            {"id": "D", "text": "Ministry of Commerce"}
+          ],
+          "answer": "B",
+          "explanation": "It is tabled by the Finance Ministry before the Budget."
+        },
+        {
+          "id": "q59",
+          "type": "single",
+          "metadata": {"topic": "History (Medieval/Colonial)", "difficulty": "easy"},
+          "text": "The Battle of Plassey was fought in:",
+          "options": [
+            {"id": "A", "text": "1757"},
+            {"id": "B", "text": "1764"},
+            {"id": "C", "text": "1857"},
+            {"id": "D", "text": "1707"}
+          ],
+          "answer": "A",
+          "explanation": "Clive defeated Siraj-ud-Daulah in 1757."
+        },
+        {
+          "id": "q60",
+          "type": "single",
+          "metadata": {"topic": "History (Social Reform)", "difficulty": "medium"},
+          "text": "The Arya Samaj was founded by:",
+          "options": [
+            {"id": "A", "text": "Raja Ram Mohan Roy"},
+            {"id": "B", "text": "Swami Vivekananda"},
+            {"id": "C", "text": "Dayananda Saraswati"},
+            {"id": "D", "text": "Ishwar Chandra Vidyasagar"}
+          ],
+          "answer": "C",
+          "explanation": "Dayananda Saraswati founded it in 1875."
+        },
+        {
+          "id": "q61",
+          "type": "single",
+          "metadata": {"topic": "Geography (Lakes)", "difficulty": "medium"},
+          "text": "Loktak Lake, famous for its floating phumdis, is in which state?",
+          "options": [
+            {"id": "A", "text": "Assam"},
+            {"id": "B", "text": "Manipur"},
+            {"id": "C", "text": "Tripura"},
+            {"id": "D", "text": "Meghalaya"}
+          ],
+          "answer": "B",
+          "explanation": "Loktak is in Manipur."
+        },
+        {
+          "id": "q62",
+          "type": "single",
+          "metadata": {"topic": "Geography (Current Hook)", "difficulty": "medium"},
+          "text": "Katchatheevu, an island often in the news, lies between India and:",
+          "options": [
+            {"id": "A", "text": "Maldives"},
+            {"id": "B", "text": "Sri Lanka"},
+            {"id": "C", "text": "Bangladesh"},
+            {"id": "D", "text": "Myanmar"}
+          ],
+          "answer": "B",
+          "explanation": "It lies in the Palk Strait between India and Sri Lanka."
+        },
+        {
+          "id": "q63",
+          "type": "single",
+          "metadata": {"topic": "Culture (Festivals)", "difficulty": "easy"},
+          "text": "Bihu is a major festival of which state?",
+          "options": [
+            {"id": "A", "text": "Odisha"},
+            {"id": "B", "text": "West Bengal"},
+            {"id": "C", "text": "Assam"},
+            {"id": "D", "text": "Sikkim"}
+          ],
+          "answer": "C",
+          "explanation": "Bihu marks the Assamese new year and harvest."
+        },
+        {
+          "id": "q64",
+          "type": "single",
+          "metadata": {"topic": "Indian Constitution", "difficulty": "medium"},
+          "text": "President's Rule in a state is imposed under which Article?",
+          "options": [
+            {"id": "A", "text": "Article 352"},
+            {"id": "B", "text": "Article 356"},
+            {"id": "C", "text": "Article 360"},
+            {"id": "D", "text": "Article 370"}
+          ],
+          "answer": "B",
+          "explanation": "Article 356 covers failure of constitutional machinery."
+        },
+        {
+          "id": "q65",
+          "type": "single",
+          "metadata": {"topic": "Books & Authors", "difficulty": "easy"},
+          "text": "'Wings of Fire' is the autobiography of:",
+          "options": [
+            {"id": "A", "text": "A. P. J. Abdul Kalam"},
+            {"id": "B", "text": "Jawaharlal Nehru"},
+            {"id": "C", "text": "Vikram Sarabhai"},
+            {"id": "D", "text": "C. V. Raman"}
+          ],
+          "answer": "A",
+          "explanation": "Dr Kalam wrote it with Arun Tiwari."
+        },
+        {
+          "id": "q66",
+          "type": "single",
+          "metadata": {"topic": "Neighbouring Countries", "difficulty": "easy"},
+          "text": "Mount Everest is located in which neighbouring country of India?",
+          "options": [
+            {"id": "A", "text": "Bhutan"},
+            {"id": "B", "text": "Nepal"},
+            {"id": "C", "text": "China only"},
+            {"id": "D", "text": "Myanmar"}
+          ],
+          "answer": "B",
+          "explanation": "Everest lies on the Nepal-China border, in Nepal."
+        },
+        {
+          "id": "q67",
+          "type": "single",
+          "metadata": {"topic": "Current Events (Sports)", "difficulty": "medium"},
+          "text": "Neeraj Chopra won which medal in javelin throw at the Paris 2024 Olympics?",
+          "options": [
+            {"id": "A", "text": "Gold"},
+            {"id": "B", "text": "Silver"},
+            {"id": "C", "text": "Bronze"},
+            {"id": "D", "text": "No medal"}
+          ],
+          "answer": "B",
+          "explanation": "He took silver behind Arshad Nadeem."
+        },
+        {
+          "id": "q68",
+          "type": "single",
+          "metadata": {"topic": "Economic Scene", "difficulty": "medium"},
+          "text": "As of 2024, India's economy ranked as the world's:",
+          "options": [
+            {"id": "A", "text": "Third largest"},
+            {"id": "B", "text": "Fourth largest"},
+            {"id": "C", "text": "Fifth largest"},
+            {"id": "D", "text": "Sixth largest"}
+          ],
+          "answer": "C",
+          "explanation": "India was the fifth largest economy by nominal GDP."
+        },
+        {
+          "id": "q69",
+          "type": "single",
+          "metadata": {"topic": "Scientific Research (Defence)", "difficulty": "easy"},
+          "text": "INS Vikrant, commissioned in 2022, is India's first indigenous:",
+          "options": [
+            {"id": "A", "text": "Nuclear submarine"},
+            {"id": "B", "text": "Aircraft carrier"},
+            {"id": "C", "text": "Destroyer"},
+            {"id": "D", "text": "Frigate"}
+          ],
+          "answer": "B",
+          "explanation": "It is the first aircraft carrier built in India."
+        },
+        {
+          "id": "q70",
+          "type": "single",
+          "metadata": {"topic": "General Policy", "difficulty": "medium"},
+          "text": "The PM Surya Ghar Muft Bijli Yojana provides subsidies for:",
+          "options": [
+            {"id": "A", "text": "LPG connections"},
+            {"id": "B", "text": "Rooftop solar panels"},
+            {"id": "C", "text": "Electric vehicles"},
+            {"id": "D", "text": "LED bulbs"}
+          ],
+          "answer": "B",
+          "explanation": "The scheme funds rooftop solar for households."
+        }
+      ]
+    },
+    {
+      "id": "computer-applications",
+      "title": "Knowledge in Computer Applications",
+      "questions": [
+        {
+          "id": "q71",
+          "type": "single",
+          "metadata": {"topic": "MS Excel (Formula Evaluation)", "difficulty": "medium"},
+          "text": "In Excel, what does the formula =ROUND(7.856,1) return?",
+          "options": [
+            {"id": "A", "text": "7.8"},
+            {"id": "B", "text": "7.9"},
+            {"id": "C", "text": "8"},
+            {"id": "D", "text": "7.86"}
+          ],
+          "answer": "B",
+          "explanation": "7.856 rounded to one decimal place is 7.9."
+        },
+        {
+          "id": "q72",
+          "type": "single",
+          "metadata": {"topic": "MS Excel (Basics)", "difficulty": "easy"},
+          "text": "In Excel, the cell reference B12 refers to:",
+          "options": [
+            {"id": "A", "text": "Row B, column 12"},
+            {"id": "B", "text": "Column B, row 12"},
+            {"id": "C", "text": "Sheet B, cell 12"},
+            {"id": "D", "text": "The 12th workbook"}
+          ],
+          "answer": "B",
+          "explanation": "Letters denote columns and numbers denote rows."
+        },
+        {
+          "id": "q73",
+          "type": "single",
+          "metadata": {"topic": "Shortcuts", "difficulty": "easy"},
+          "text": "The keyboard shortcut Ctrl + P is used to:",
+          "options": [
+            {"id": "A", "text": "Paste content"},
+            {"id": "B", "text": "Open the print dialog"},
+            {"id": "C", "text": "Preview a slideshow"},
+            {"id": "D", "text": "Protect the document"}
+          ],
+          "answer": "B",
+          "explanation": "Ctrl + P opens the print dialog."
+        },
+        {
+          "id": "q74",
+          "type": "single",
+          "metadata": {"topic": "MS Excel (Shortcuts)", "difficulty": "medium"},
+          "text": "In Excel, pressing F2 while a cell is selected will:",
+          "options": [
+            {"id": "A", "text": "Delete the cell contents"},
+            {"id": "B", "text": "Put the cell into edit mode"},
+            {"id": "C", "text": "Open a new workbook"},
+            {"id": "D", "text": "Insert a function"}
+          ],
+          "answer": "B",
+          "explanation": "F2 lets you edit the active cell."
+        },
+        {
+          "id": "q75",
+          "type": "single",
+          "metadata": {"topic": "Computer Organisation (Memory)", "difficulty": "medium"},
+          "text": "Which of the following is NOT a primary memory?",
+          "options": [
+            {"id": "A", "text": "RAM"},
+            {"id": "B", "text": "ROM"},
+            {"id": "C", "text": "Cache"},
+            {"id": "D", "text": "Hard disk"}
+          ],
+          "answer": "D",
+          "explanation": "A hard disk is secondary storage."
+        },
+        {
+          "id": "q76",
+          "type": "single",
+          "metadata": {"topic": "Computer Organisation (Units)", "difficulty": "easy"},
+          "text": "1 gigabyte (GB) equals how many megabytes (MB)?",
+          "options": [
+            {"id": "A", "text": "100"},
+            {"id": "B", "text": "1000 exactly, in all systems"},
+            {"id": "C", "text": "1024"},
+            {"id": "D", "text": "512"}
+          ],
+          "answer": "C",
+          "explanation": "In the binary convention, 1 GB = 1024 MB."
+        },
+        {
+          "id": "q77",
+          "type": "single",
+          "metadata": {"topic": "Computer Software (Translators)", "difficulty": "medium"},
+          "text": "Which language translator converts and executes a program line by line?",
+          "options": [
+            {"id": "A", "text": "Compiler"},
+            {"id": "B", "text": "Interpreter"},
+            {"id": "C", "text": "Assembler"},
+            {"id": "D", "text": "Linker"}
+          ],
+          "answer": "B",
+          "explanation": "An interpreter processes one line at a time."
+        },
+        {
+          "id": "q78",
+          "type": "single",
+          "metadata": {"topic": "Computer Software (Classification)", "difficulty": "easy"},
+          "text": "Which of the following is NOT application software?",
+          "options": [
+            {"id": "A", "text": "Photoshop"},
+            {"id": "B", "text": "MS Excel"},
+            {"id": "C", "text": "Linux"},
+            {"id": "D", "text": "Google Chrome"}
+          ],
+          "answer": "C",
+          "explanation": "Linux is an operating system."
+        },
+        {
+          "id": "q79",
+          "type": "single",
+          "metadata": {"topic": "Operating System (Concepts)", "difficulty": "medium"},
+          "text": "Multitasking in an operating system means:",
+          "options": [
+            {"id": "A", "text": "Using many monitors at once"},
+            {"id": "B", "text": "Running several programs apparently at the same time"},
+            {"id": "C", "text": "Having many user accounts"},
+            {"id": "D", "text": "Installing many operating systems"}
+          ],
+          "answer": "B",
+          "explanation": "The OS switches the CPU rapidly among programs."
+        },
+        {
+          "id": "q80",
+          "type": "single",
+          "metadata": {"topic": "Characteristics of Computers", "difficulty": "easy"},
+          "text": "The 'versatility' of a computer refers to its ability to:",
+          "options": [
+            {"id": "A", "text": "Work at high speed"},
+            {"id": "B", "text": "Perform many different kinds of tasks"},
+            {"id": "C", "text": "Store data permanently"},
+            {"id": "D", "text": "Work without electricity"}
+          ],
+          "answer": "B",
+          "explanation": "Versatility means handling varied applications."
+        }
+      ]
+    }
+  ]
+}

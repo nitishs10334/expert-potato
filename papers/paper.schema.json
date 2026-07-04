@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.offline-exam-renderer/paper.schema.json",
+  "title": "Offline Examination Paper API",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["id", "title", "durationMinutes", "sections"],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "description": "Version of this public paper JSON API."
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable unique paper identifier."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "durationMinutes": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "language": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Arbitrary paper-level metadata used for display, search, and future integrations."
+    },
+    "instructions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "marking": {
+      "$ref": "#/$defs/scoring"
+    },
+    "analytics": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "groupBy": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Analytics dimensions. Use section for section grouping; other values are read from question.metadata."
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/section" }
+    }
+  },
+  "$defs": {
+    "section": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["id", "title", "questions"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "durationMinutes": { "type": "number", "minimum": 0 },
+        "metadata": { "type": "object" },
+        "questions": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/question" }
+        }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["id", "type", "text", "answer"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "displayNumber": {
+          "type": ["string", "number"],
+          "description": "Visual question number. Can be 1, Q1, 1.1, A-03, etc."
+        },
+        "type": {
+          "type": "string",
+          "enum": ["single", "multiple", "numerical", "fill", "paragraph", "figure"]
+        },
+        "metadata": {
+          "type": "object",
+          "description": "Arbitrary analytics/display metadata such as topic, difficulty, subject, chapter, skill, source, or questionType."
+        },
+        "text": { "type": "string" },
+        "passage": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "figure": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "label": { "type": "string" },
+            "description": { "type": "string" }
+          }
+        },
+        "options": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/option" }
+        },
+        "answer": {
+          "description": "Answer key. Shape depends on type: string option id, array of option ids, text, or number."
+        },
+        "tolerance": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Allowed absolute numeric tolerance for numerical questions."
+        },
+        "scoring": {
+          "$ref": "#/$defs/scoring"
+        },
+        "explanation": { "type": "string" }
+      }
+    },
+    "option": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["id", "text"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "text": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "metadata": { "type": "object" }
+      }
+    },
+    "scoring": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "correct": { "type": "number", "default": 1 },
+        "incorrect": { "type": "number", "default": 0 },
+        "unattempted": { "type": "number", "default": 0 },
+        "partial": { "type": "boolean", "default": false }
+      }
+    }
+  }
+}

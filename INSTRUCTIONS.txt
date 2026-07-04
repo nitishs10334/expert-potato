@@ -1,0 +1,30 @@
+=========================================
+Offline Mock Examination Portal Instructions
+=========================================
+
+Welcome! This folder contains a local, offline mock test portal built for practicing examinations.
+
+-----------------------------------------
+How to Run the Portal
+-----------------------------------------
+1. Double-click the file named "Start_Portal.bat".
+2. A black command prompt window will open and automatically check if Python is installed.
+   - If Python is installed: It will start a local server and open the portal automatically in your default web browser (Edge, Chrome, Firefox, etc.).
+   - If Python is not installed: It will show you clear instructions on how to install it for free from the Microsoft Store.
+3. Keep the black command prompt window open while you are taking your test.
+
+-----------------------------------------
+How to Close the Portal
+-----------------------------------------
+1. When you are done using the portal, go back to the black command prompt window.
+2. Press any key on your keyboard.
+3. The server will shut down automatically, and the window will close.
+
+-----------------------------------------
+Mock Test Rules
+-----------------------------------------
+* All progress, settings, and attempts are stored locally in your web browser. You do not need an internet connection to run tests.
+* The tests include sections like Quantitative Ability, Verbal Ability, Reasoning, General Awareness, and Computer Applications.
+* Grading follows the official marking scheme (+1 for correct answers, -0.33 for incorrect answers).
+
+Enjoy practicing!

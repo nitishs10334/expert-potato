@@ -1,0 +1,1181 @@
+{
+  "schemaVersion": "1.0",
+  "id": "iisc-aa-guess-04",
+  "title": "IISc Administrative Assistant Guess Paper 4",
+  "subtitle": "Realistic prediction based on 2023 examiner patterns",
+  "version": "2026.07.05",
+  "durationMinutes": 90,
+  "language": "English",
+  "tags": ["iisc", "administrative-assistant", "guess-paper", "2026"],
+  "metadata": {
+    "exam": "IISc Administrative Assistant",
+    "year": 2026,
+    "source": "Guess Paper 4 of 5"
+  },
+  "instructions": [
+    "Total 80 questions to be attempted in 90 minutes.",
+    "Each correct answer earns +1 mark.",
+    "Negative marking applies: 0.33333 marks (one-third) are deducted for every incorrect answer.",
+    "Unattempted questions receive 0 marks.",
+    "Figure-based placeholder questions are unscored and carry 0 marks either way."
+  ],
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.33333,
+    "unattempted": 0,
+    "partial": false
+  },
+  "analytics": {
+    "groupBy": ["section", "topic", "difficulty"]
+  },
+  "sections": [
+    {
+      "id": "quantitative-ability",
+      "title": "Quantitative Ability",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single",
+          "metadata": {"topic": "Percentage", "difficulty": "medium"},
+          "text": "60% of a number is 36 more than 40% of the same number. The number is:",
+          "options": [
+            {"id": "A", "text": "160"},
+            {"id": "B", "text": "180"},
+            {"id": "C", "text": "200"},
+            {"id": "D", "text": "240"}
+          ],
+          "answer": "B",
+          "explanation": "20% of the number is 36, so it is 180."
+        },
+        {
+          "id": "q2",
+          "type": "single",
+          "metadata": {"topic": "Profit & Loss", "difficulty": "medium"},
+          "text": "The cost price of 12 articles equals the selling price of 10 articles. The profit percentage is:",
+          "options": [
+            {"id": "A", "text": "16.67%"},
+            {"id": "B", "text": "20%"},
+            {"id": "C", "text": "25%"},
+            {"id": "D", "text": "12%"}
+          ],
+          "answer": "B",
+          "explanation": "SP/CP = 12/10, i.e. 20% profit."
+        },
+        {
+          "id": "q3",
+          "type": "single",
+          "metadata": {"topic": "Discount + Profit & Loss", "difficulty": "hard"},
+          "text": "An article marked at Rs 800 is sold after a discount of 12.5%. If the seller still gains 25%, the cost price is:",
+          "options": [
+            {"id": "A", "text": "Rs 520"},
+            {"id": "B", "text": "Rs 540"},
+            {"id": "C", "text": "Rs 560"},
+            {"id": "D", "text": "Rs 600"}
+          ],
+          "answer": "C",
+          "explanation": "SP = 700; CP = 700/1.25 = 560."
+        },
+        {
+          "id": "q4",
+          "type": "single",
+          "metadata": {"topic": "Time & Work", "difficulty": "medium"},
+          "text": "A and B together can finish a work in 6 days. A alone can finish it in 10 days. B alone can finish it in:",
+          "options": [
+            {"id": "A", "text": "12 days"},
+            {"id": "B", "text": "15 days"},
+            {"id": "C", "text": "16 days"},
+            {"id": "D", "text": "18 days"}
+          ],
+          "answer": "B",
+          "explanation": "1/6 - 1/10 = 1/15."
+        },
+        {
+          "id": "q5",
+          "type": "single",
+          "metadata": {"topic": "Pipes & Cisterns", "difficulty": "medium"},
+          "text": "A tap can fill a tank in 8 hours, while a leak can empty the full tank in 24 hours. With both open, the tank fills in:",
+          "options": [
+            {"id": "A", "text": "10 hours"},
+            {"id": "B", "text": "12 hours"},
+            {"id": "C", "text": "14 hours"},
+            {"id": "D", "text": "16 hours"}
+          ],
+          "answer": "B",
+          "explanation": "1/8 - 1/24 = 1/12."
+        },
+        {
+          "id": "q6",
+          "type": "single",
+          "metadata": {"topic": "Time & Distance (Average Speed)", "difficulty": "medium"},
+          "text": "A car travels from town A to town B at 60 km/h and returns at 40 km/h. Its average speed for the whole journey is:",
+          "options": [
+            {"id": "A", "text": "50 km/h"},
+            {"id": "B", "text": "52 km/h"},
+            {"id": "C", "text": "48 km/h"},
+            {"id": "D", "text": "45 km/h"}
+          ],
+          "answer": "C",
+          "explanation": "Average = 2xy/(x+y) = 4800/100 = 48."
+        },
+        {
+          "id": "q7",
+          "type": "single",
+          "metadata": {"topic": "Time & Distance (Trains)", "difficulty": "easy"},
+          "text": "A 180 m long train passes a pole in 12 seconds. Its speed is:",
+          "options": [
+            {"id": "A", "text": "48 km/h"},
+            {"id": "B", "text": "54 km/h"},
+            {"id": "C", "text": "60 km/h"},
+            {"id": "D", "text": "64 km/h"}
+          ],
+          "answer": "B",
+          "explanation": "15 m/s = 54 km/h."
+        },
+        {
+          "id": "q8",
+          "type": "single",
+          "metadata": {"topic": "Interest (CI vs SI)", "difficulty": "hard"},
+          "text": "The difference between compound interest and simple interest on Rs 5000 at 8% per annum for 2 years is:",
+          "options": [
+            {"id": "A", "text": "Rs 28"},
+            {"id": "B", "text": "Rs 30"},
+            {"id": "C", "text": "Rs 32"},
+            {"id": "D", "text": "Rs 40"}
+          ],
+          "answer": "C",
+          "explanation": "Difference = P(r/100)^2 = 5000 x 0.0064 = 32."
+        },
+        {
+          "id": "q9",
+          "type": "single",
+          "metadata": {"topic": "Ratio & Proportion", "difficulty": "easy"},
+          "text": "The third proportional to 8 and 12 is:",
+          "options": [
+            {"id": "A", "text": "16"},
+            {"id": "B", "text": "18"},
+            {"id": "C", "text": "20"},
+            {"id": "D", "text": "24"}
+          ],
+          "answer": "B",
+          "explanation": "8:12 :: 12:x gives x = 144/8 = 18."
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "metadata": {"topic": "Mixture & Alligation", "difficulty": "medium"},
+          "text": "Rice at Rs 40/kg and Rs 55/kg is mixed to get a mixture worth Rs 46/kg. The ratio of the cheaper to the dearer rice is:",
+          "options": [
+            {"id": "A", "text": "2:3"},
+            {"id": "B", "text": "3:2"},
+            {"id": "C", "text": "4:3"},
+            {"id": "D", "text": "5:3"}
+          ],
+          "answer": "B",
+          "explanation": "By alligation: (55-46):(46-40) = 9:6 = 3:2."
+        },
+        {
+          "id": "q11",
+          "type": "numerical",
+          "metadata": {"topic": "Number Sense (Unit Digit)", "difficulty": "medium"},
+          "text": "Enter the unit digit of 7 raised to the power 45.",
+          "answer": 7,
+          "tolerance": 0,
+          "explanation": "The cycle 7, 9, 3, 1 repeats; 45 mod 4 = 1 gives 7."
+        },
+        {
+          "id": "q12",
+          "type": "single",
+          "metadata": {"topic": "Algebraic Identities", "difficulty": "medium"},
+          "text": "If a + b = 10 and ab = 21, then a^3 + b^3 equals:",
+          "options": [
+            {"id": "A", "text": "340"},
+            {"id": "B", "text": "370"},
+            {"id": "C", "text": "400"},
+            {"id": "D", "text": "430"}
+          ],
+          "answer": "B",
+          "explanation": "(a+b)^3 - 3ab(a+b) = 1000 - 630 = 370."
+        },
+        {
+          "id": "q13",
+          "type": "single",
+          "metadata": {"topic": "Partnership Business", "difficulty": "medium"},
+          "text": "A, B and C invest Rs 25000, Rs 30000 and Rs 15000 for a year. Out of a profit of Rs 14000, C's share is:",
+          "options": [
+            {"id": "A", "text": "Rs 2500"},
+            {"id": "B", "text": "Rs 3000"},
+            {"id": "C", "text": "Rs 3500"},
+            {"id": "D", "text": "Rs 4200"}
+          ],
+          "answer": "B",
+          "explanation": "Ratio 5:6:3; C gets 3/14 of 14000 = 3000."
+        },
+        {
+          "id": "q14",
+          "type": "single",
+          "metadata": {"topic": "Mensuration (Wire Rebending)", "difficulty": "medium"},
+          "text": "A wire bent into a square of side 22 cm is re-bent into a circle. The radius of the circle is: (use pi = 22/7)",
+          "options": [
+            {"id": "A", "text": "7 cm"},
+            {"id": "B", "text": "14 cm"},
+            {"id": "C", "text": "21 cm"},
+            {"id": "D", "text": "28 cm"}
+          ],
+          "answer": "B",
+          "explanation": "Perimeter 88 = 2 x (22/7) x r gives r = 14."
+        },
+        {
+          "id": "q15",
+          "type": "single",
+          "metadata": {"topic": "Circle (Tangents)", "difficulty": "medium"},
+          "text": "The length of a tangent drawn from an external point to a circle of radius 7 cm is 24 cm. The distance of the point from the centre is:",
+          "options": [
+            {"id": "A", "text": "24 cm"},
+            {"id": "B", "text": "25 cm"},
+            {"id": "C", "text": "26 cm"},
+            {"id": "D", "text": "31 cm"}
+          ],
+          "answer": "B",
+          "explanation": "sqrt(24^2 + 7^2) = 25."
+        },
+        {
+          "id": "q16",
+          "type": "single",
+          "metadata": {"topic": "Graphs of Linear Equations", "difficulty": "medium"},
+          "text": "The line 3x + 4y = 24 cuts the coordinate axes at A and B. The area of triangle OAB (O is the origin) is:",
+          "options": [
+            {"id": "A", "text": "20 sq units"},
+            {"id": "B", "text": "24 sq units"},
+            {"id": "C", "text": "28 sq units"},
+            {"id": "D", "text": "48 sq units"}
+          ],
+          "answer": "B",
+          "explanation": "Intercepts 8 and 6; area = (1/2) x 8 x 6 = 24."
+        }
+      ]
+    },
+    {
+      "id": "verbal-ability",
+      "title": "Verbal Ability",
+      "questions": [
+        {
+          "id": "q17",
+          "type": "single",
+          "metadata": {"topic": "Shuffling of Sentences", "difficulty": "medium"},
+          "text": "Sentence 1: The monsoon is the true finance minister of India. Arrange P, Q, R, S. P: A poor monsoon, by contrast, shrinks harvests and rural incomes. Q: Good rains swell reservoirs and fill the fields with grain. R: Governments therefore watch the monsoon forecast anxiously every June. S: Rural spending then drives demand across the whole economy.",
+          "options": [
+            {"id": "A", "text": "QSPR"},
+            {"id": "B", "text": "PQSR"},
+            {"id": "C", "text": "QPSR"},
+            {"id": "D", "text": "RSPQ"}
+          ],
+          "answer": "A",
+          "explanation": "Good rains, their effect, the contrast, then the conclusion."
+        },
+        {
+          "id": "q18",
+          "type": "single",
+          "metadata": {"topic": "Shuffling of Sentences", "difficulty": "easy"},
+          "text": "Sentence 1: Yoga has travelled from ancient India to the whole world. Arrange P, Q, R, S. P: The United Nations now marks 21 June as International Yoga Day. Q: Millions across continents practise it daily for fitness and calm. R: Ancient sages developed it as a discipline of body and mind. S: Modern science, too, confirms many of its health benefits.",
+          "options": [
+            {"id": "A", "text": "RQSP"},
+            {"id": "B", "text": "QRSP"},
+            {"id": "C", "text": "RSQP"},
+            {"id": "D", "text": "PQRS"}
+          ],
+          "answer": "A",
+          "explanation": "Origin, global spread, scientific support, world recognition."
+        },
+        {
+          "id": "q19",
+          "type": "single",
+          "metadata": {"topic": "Idioms & Phrases", "difficulty": "easy"},
+          "text": "Select the meaning of the idiom: A blessing in disguise",
+          "options": [
+            {"id": "A", "text": "A hidden danger"},
+            {"id": "B", "text": "A misfortune that turns out to be good"},
+            {"id": "C", "text": "An unexpected gift"},
+            {"id": "D", "text": "A religious ceremony"}
+          ],
+          "answer": "B",
+          "explanation": "Something bad that later proves beneficial."
+        },
+        {
+          "id": "q20",
+          "type": "single",
+          "metadata": {"topic": "Idioms & Phrases", "difficulty": "medium"},
+          "text": "Select the meaning of the idiom: To hit the nail on the head",
+          "options": [
+            {"id": "A", "text": "To hurt someone"},
+            {"id": "B", "text": "To say exactly the right thing"},
+            {"id": "C", "text": "To work as a carpenter"},
+            {"id": "D", "text": "To finish a task forcefully"}
+          ],
+          "answer": "B",
+          "explanation": "It means to be exactly correct."
+        },
+        {
+          "id": "q21",
+          "type": "single",
+          "metadata": {"topic": "Idioms & Phrases", "difficulty": "medium"},
+          "text": "Select the meaning of the idiom: To cry over spilt milk",
+          "options": [
+            {"id": "A", "text": "To regret something that cannot be undone"},
+            {"id": "B", "text": "To weep without reason"},
+            {"id": "C", "text": "To complain about small losses"},
+            {"id": "D", "text": "To waste food carelessly"}
+          ],
+          "answer": "A",
+          "explanation": "It means useless regret over what is done."
+        },
+        {
+          "id": "q22",
+          "type": "single",
+          "metadata": {"topic": "One-word Substitution", "difficulty": "medium"},
+          "text": "A person unable to pay his debts:",
+          "options": [
+            {"id": "A", "text": "Miser"},
+            {"id": "B", "text": "Insolvent"},
+            {"id": "C", "text": "Creditor"},
+            {"id": "D", "text": "Pauper"}
+          ],
+          "answer": "B",
+          "explanation": "An insolvent cannot pay what he owes."
+        },
+        {
+          "id": "q23",
+          "type": "single",
+          "metadata": {"topic": "One-word Substitution", "difficulty": "easy"},
+          "text": "An animal that feeds only on plants:",
+          "options": [
+            {"id": "A", "text": "Carnivorous"},
+            {"id": "B", "text": "Omnivorous"},
+            {"id": "C", "text": "Herbivorous"},
+            {"id": "D", "text": "Amphibious"}
+          ],
+          "answer": "C",
+          "explanation": "Herbivores eat plants."
+        },
+        {
+          "id": "q24",
+          "type": "single",
+          "metadata": {"topic": "Spelling", "difficulty": "medium"},
+          "text": "Select the correctly spelt word:",
+          "options": [
+            {"id": "A", "text": "Milennium"},
+            {"id": "B", "text": "Millenium"},
+            {"id": "C", "text": "Millennium"},
+            {"id": "D", "text": "Milenium"}
+          ],
+          "answer": "C",
+          "explanation": "Double l and double n: millennium."
+        },
+        {
+          "id": "q25",
+          "type": "single",
+          "metadata": {"topic": "Spelling", "difficulty": "medium"},
+          "text": "Select the incorrectly spelt word:",
+          "options": [
+            {"id": "A", "text": "Maintenance"},
+            {"id": "B", "text": "Maintainance"},
+            {"id": "C", "text": "Governance"},
+            {"id": "D", "text": "Appearance"}
+          ],
+          "answer": "B",
+          "explanation": "The correct spelling is maintenance."
+        },
+        {
+          "id": "q26",
+          "type": "single",
+          "metadata": {"topic": "Improvement of Sentences", "difficulty": "medium"},
+          "text": "Improve the underlined part: My grandfather is ELDER THAN everyone in the village.",
+          "options": [
+            {"id": "A", "text": "older than"},
+            {"id": "B", "text": "eldest than"},
+            {"id": "C", "text": "more elder than"},
+            {"id": "D", "text": "No improvement"}
+          ],
+          "answer": "A",
+          "explanation": "'Elder' is not followed by 'than'; use 'older than'."
+        },
+        {
+          "id": "q27",
+          "type": "single",
+          "metadata": {"topic": "Improvement of Sentences", "difficulty": "easy"},
+          "text": "Improve the underlined part: Please RETURN BACK the library books by Friday.",
+          "options": [
+            {"id": "A", "text": "return"},
+            {"id": "B", "text": "return back again"},
+            {"id": "C", "text": "give return"},
+            {"id": "D", "text": "No improvement"}
+          ],
+          "answer": "A",
+          "explanation": "'Return back' is redundant."
+        },
+        {
+          "id": "q28",
+          "type": "single",
+          "metadata": {"topic": "Synonyms", "difficulty": "easy"},
+          "text": "Select the synonym of DILIGENT:",
+          "options": [
+            {"id": "A", "text": "Lazy"},
+            {"id": "B", "text": "Hardworking"},
+            {"id": "C", "text": "Talented"},
+            {"id": "D", "text": "Punctual"}
+          ],
+          "answer": "B",
+          "explanation": "Diligent means showing steady effort."
+        },
+        {
+          "id": "q29",
+          "type": "single",
+          "metadata": {"topic": "Antonyms", "difficulty": "easy"},
+          "text": "Select the antonym of ANCIENT:",
+          "options": [
+            {"id": "A", "text": "Old"},
+            {"id": "B", "text": "Antique"},
+            {"id": "C", "text": "Modern"},
+            {"id": "D", "text": "Historic"}
+          ],
+          "answer": "C",
+          "explanation": "Ancient is opposite to modern."
+        },
+        {
+          "id": "q30",
+          "type": "paragraph",
+          "metadata": {"topic": "Comprehension Passage", "difficulty": "medium"},
+          "passage": "The first passenger train in India steamed out of Bombay for Thane on 16 April 1853, covering thirty-four kilometres with fourteen carriages and four hundred passengers. What began as a colonial project to move cotton and troops soon became the lifeline of the subcontinent. Today Indian Railways operates one of the largest networks in the world, carrying more than twenty million passengers every day. Electrification and semi-high-speed trains such as Vande Bharat are transforming the system, yet the railways still face the challenge of modernising ageing tracks and signalling.",
+          "text": "According to the passage, India's first passenger train ran between:",
+          "options": [
+            {"id": "A", "text": "Bombay and Poona"},
+            {"id": "B", "text": "Bombay and Thane"},
+            {"id": "C", "text": "Calcutta and Delhi"},
+            {"id": "D", "text": "Madras and Bangalore"}
+          ],
+          "answer": "B",
+          "explanation": "The passage names Bombay to Thane, 1853."
+        },
+        {
+          "id": "q31",
+          "type": "paragraph",
+          "metadata": {"topic": "Comprehension Passage", "difficulty": "medium"},
+          "passage": "The first passenger train in India steamed out of Bombay for Thane on 16 April 1853, covering thirty-four kilometres with fourteen carriages and four hundred passengers. What began as a colonial project to move cotton and troops soon became the lifeline of the subcontinent. Today Indian Railways operates one of the largest networks in the world, carrying more than twenty million passengers every day. Electrification and semi-high-speed trains such as Vande Bharat are transforming the system, yet the railways still face the challenge of modernising ageing tracks and signalling.",
+          "text": "The railways were originally built by the colonial government mainly to:",
+          "options": [
+            {"id": "A", "text": "Promote tourism"},
+            {"id": "B", "text": "Carry pilgrims"},
+            {"id": "C", "text": "Move cotton and troops"},
+            {"id": "D", "text": "Connect all state capitals"}
+          ],
+          "answer": "C",
+          "explanation": "The passage calls it a project to move cotton and troops."
+        },
+        {
+          "id": "q32",
+          "type": "paragraph",
+          "metadata": {"topic": "Comprehension Passage", "difficulty": "easy"},
+          "passage": "The first passenger train in India steamed out of Bombay for Thane on 16 April 1853, covering thirty-four kilometres with fourteen carriages and four hundred passengers. What began as a colonial project to move cotton and troops soon became the lifeline of the subcontinent. Today Indian Railways operates one of the largest networks in the world, carrying more than twenty million passengers every day. Electrification and semi-high-speed trains such as Vande Bharat are transforming the system, yet the railways still face the challenge of modernising ageing tracks and signalling.",
+          "text": "In the passage, the word 'lifeline' most nearly means:",
+          "options": [
+            {"id": "A", "text": "A rescue rope"},
+            {"id": "B", "text": "An essential support system"},
+            {"id": "C", "text": "A long railway line"},
+            {"id": "D", "text": "A telephone connection"}
+          ],
+          "answer": "B",
+          "explanation": "It means something vital on which people depend."
+        }
+      ]
+    },
+    {
+      "id": "logical-numerical-reasoning",
+      "title": "Logical and Numerical Reasoning",
+      "questions": [
+        {
+          "id": "q33",
+          "type": "single",
+          "metadata": {"topic": "Number Series", "difficulty": "medium"},
+          "text": "Find the next term: 5, 11, 23, 47, 95, ?",
+          "options": [
+            {"id": "A", "text": "181"},
+            {"id": "B", "text": "189"},
+            {"id": "C", "text": "191"},
+            {"id": "D", "text": "195"}
+          ],
+          "answer": "C",
+          "explanation": "Each term is double the previous plus 1."
+        },
+        {
+          "id": "q34",
+          "type": "single",
+          "metadata": {"topic": "Number Series", "difficulty": "easy"},
+          "text": "Find the next term: 121, 100, 81, 64, ?",
+          "options": [
+            {"id": "A", "text": "48"},
+            {"id": "B", "text": "49"},
+            {"id": "C", "text": "50"},
+            {"id": "D", "text": "54"}
+          ],
+          "answer": "B",
+          "explanation": "Squares in reverse: 11, 10, 9, 8, then 7."
+        },
+        {
+          "id": "q35",
+          "type": "single",
+          "metadata": {"topic": "Number Series", "difficulty": "hard"},
+          "text": "Find the next term: 3, 7, 16, 32, 57, ?",
+          "options": [
+            {"id": "A", "text": "91"},
+            {"id": "B", "text": "93"},
+            {"id": "C", "text": "95"},
+            {"id": "D", "text": "97"}
+          ],
+          "answer": "B",
+          "explanation": "Differences are squares: 4, 9, 16, 25, then 36."
+        },
+        {
+          "id": "q36",
+          "type": "single",
+          "metadata": {"topic": "Letter Series", "difficulty": "hard"},
+          "text": "Find the next term: CFI, LOR, UXA, ?",
+          "options": [
+            {"id": "A", "text": "DGJ"},
+            {"id": "B", "text": "DHK"},
+            {"id": "C", "text": "EGJ"},
+            {"id": "D", "text": "CGJ"}
+          ],
+          "answer": "A",
+          "explanation": "Every letter advances 9 places cyclically."
+        },
+        {
+          "id": "q37",
+          "type": "single",
+          "metadata": {"topic": "Alphanumeric Reasoning", "difficulty": "medium"},
+          "text": "In the arrangement 8 3 5 1 9 2 7 4 6, if the digits are arranged in ascending order, how many digits remain in the same position?",
+          "options": [
+            {"id": "A", "text": "None"},
+            {"id": "B", "text": "One"},
+            {"id": "C", "text": "Two"},
+            {"id": "D", "text": "Three"}
+          ],
+          "answer": "B",
+          "explanation": "Only 7 keeps its seventh position."
+        },
+        {
+          "id": "q38",
+          "type": "single",
+          "metadata": {"topic": "Coding-Decoding", "difficulty": "medium"},
+          "text": "In a code, GARDEN is written as LFWIJS. How is FLOWER written in that code?",
+          "options": [
+            {"id": "A", "text": "KQTBJW"},
+            {"id": "B", "text": "KQTBJX"},
+            {"id": "C", "text": "KQSBJW"},
+            {"id": "D", "text": "KPTBJW"}
+          ],
+          "answer": "A",
+          "explanation": "Every letter shifts 5 places forward."
+        },
+        {
+          "id": "q39",
+          "type": "single",
+          "metadata": {"topic": "Coding-Decoding", "difficulty": "medium"},
+          "text": "If TEA = 26, then BAG = ?",
+          "options": [
+            {"id": "A", "text": "8"},
+            {"id": "B", "text": "10"},
+            {"id": "C", "text": "12"},
+            {"id": "D", "text": "14"}
+          ],
+          "answer": "B",
+          "explanation": "Sum of positions: 2 + 1 + 7 = 10."
+        },
+        {
+          "id": "q40",
+          "type": "single",
+          "metadata": {"topic": "Coding-Decoding (Substitution)", "difficulty": "easy"},
+          "text": "If red is called blue, blue is called green, and green is called yellow, what is the colour of grass in that language?",
+          "options": [
+            {"id": "A", "text": "Green"},
+            {"id": "B", "text": "Blue"},
+            {"id": "C", "text": "Yellow"},
+            {"id": "D", "text": "Red"}
+          ],
+          "answer": "C",
+          "explanation": "Grass is green, and green is called yellow."
+        },
+        {
+          "id": "q41",
+          "type": "single",
+          "metadata": {"topic": "Linear Seating Arrangement", "difficulty": "medium"},
+          "text": "Seven students A to G sit in a row facing north. A is at the extreme left and G at the extreme right. D sits exactly in the middle. B is immediately to the right of D. C is second from the left. F sits between B and G. Who sits third from the left?",
+          "options": [
+            {"id": "A", "text": "E"},
+            {"id": "B", "text": "B"},
+            {"id": "C", "text": "F"},
+            {"id": "D", "text": "D"}
+          ],
+          "answer": "A",
+          "explanation": "Order is A, C, E, D, B, F, G."
+        },
+        {
+          "id": "q42",
+          "type": "single",
+          "metadata": {"topic": "Circular Seating Arrangement", "difficulty": "medium"},
+          "text": "Eight persons P, Q, R, S, T, U, V, W sit around a circular table at equal distances in clockwise order. Who sits directly opposite Q?",
+          "options": [
+            {"id": "A", "text": "T"},
+            {"id": "B", "text": "U"},
+            {"id": "C", "text": "V"},
+            {"id": "D", "text": "S"}
+          ],
+          "answer": "B",
+          "explanation": "In eight seats, the person four places away from Q is U."
+        },
+        {
+          "id": "q43",
+          "type": "single",
+          "metadata": {"topic": "Ranking", "difficulty": "easy"},
+          "text": "Rohit ranks 9th from the top and 38th from the bottom in his class. How many students are in the class?",
+          "options": [
+            {"id": "A", "text": "45"},
+            {"id": "B", "text": "46"},
+            {"id": "C", "text": "47"},
+            {"id": "D", "text": "48"}
+          ],
+          "answer": "B",
+          "explanation": "9 + 38 - 1 = 46."
+        },
+        {
+          "id": "q44",
+          "type": "single",
+          "metadata": {"topic": "Calendar Puzzle", "difficulty": "medium"},
+          "text": "Today is Wednesday. What day of the week will it be after 61 days?",
+          "options": [
+            {"id": "A", "text": "Saturday"},
+            {"id": "B", "text": "Sunday"},
+            {"id": "C", "text": "Monday"},
+            {"id": "D", "text": "Tuesday"}
+          ],
+          "answer": "C",
+          "explanation": "61 mod 7 = 5; five days after Wednesday is Monday."
+        },
+        {
+          "id": "q45",
+          "type": "single",
+          "metadata": {"topic": "Blood Relations", "difficulty": "medium"},
+          "text": "Pointing to a man, Sita said, 'His mother is the only daughter of my mother.' How is Sita related to the man?",
+          "options": [
+            {"id": "A", "text": "Sister"},
+            {"id": "B", "text": "Aunt"},
+            {"id": "C", "text": "Mother"},
+            {"id": "D", "text": "Grandmother"}
+          ],
+          "answer": "C",
+          "explanation": "The only daughter of her mother is Sita herself."
+        },
+        {
+          "id": "q46",
+          "type": "single",
+          "metadata": {"topic": "Coded Blood Relations", "difficulty": "medium"},
+          "text": "A $ B means A is the husband of B, A # B means A is the daughter of B, A * B means A is the son of B. What does P * Q $ R mean for P and R?",
+          "options": [
+            {"id": "A", "text": "P is the son of R"},
+            {"id": "B", "text": "P is the brother of R"},
+            {"id": "C", "text": "P is the father of R"},
+            {"id": "D", "text": "P is the nephew of R"}
+          ],
+          "answer": "A",
+          "explanation": "P is Q's son and Q is R's husband, so P is R's son."
+        },
+        {
+          "id": "q47",
+          "type": "single",
+          "metadata": {"topic": "Direction Sense", "difficulty": "easy"},
+          "text": "A cyclist rides 8 km north and then 6 km east. The shortest distance from the starting point is:",
+          "options": [
+            {"id": "A", "text": "10 km"},
+            {"id": "B", "text": "12 km"},
+            {"id": "C", "text": "14 km"},
+            {"id": "D", "text": "9 km"}
+          ],
+          "answer": "A",
+          "explanation": "sqrt(64 + 36) = 10."
+        },
+        {
+          "id": "q48",
+          "type": "single",
+          "metadata": {"topic": "Numerical Operations (BODMAS)", "difficulty": "easy"},
+          "text": "The value of 15 / 3 x 4 - 8 + 2 is:",
+          "options": [
+            {"id": "A", "text": "10"},
+            {"id": "B", "text": "12"},
+            {"id": "C", "text": "14"},
+            {"id": "D", "text": "16"}
+          ],
+          "answer": "C",
+          "explanation": "5 x 4 - 8 + 2 = 14."
+        },
+        {
+          "id": "q49",
+          "type": "single",
+          "metadata": {"topic": "Mathematical Signs", "difficulty": "medium"},
+          "text": "If the signs '+' and '/' are interchanged, the value of 12 + 6 / 3 is:",
+          "options": [
+            {"id": "A", "text": "4"},
+            {"id": "B", "text": "5"},
+            {"id": "C", "text": "6"},
+            {"id": "D", "text": "9"}
+          ],
+          "answer": "B",
+          "explanation": "12 / 6 + 3 = 2 + 3 = 5."
+        },
+        {
+          "id": "q50",
+          "type": "single",
+          "metadata": {"topic": "Number Analogy", "difficulty": "medium"},
+          "text": "8 : 72 :: 6 : ?",
+          "options": [
+            {"id": "A", "text": "36"},
+            {"id": "B", "text": "42"},
+            {"id": "C", "text": "48"},
+            {"id": "D", "text": "54"}
+          ],
+          "answer": "B",
+          "explanation": "n x (n+1): 8 x 9 = 72, so 6 x 7 = 42."
+        },
+        {
+          "id": "q51",
+          "type": "single",
+          "metadata": {"topic": "Classification (Odd One Out)", "difficulty": "easy"},
+          "text": "Find the odd one out: 17, 27, 37, 47",
+          "options": [
+            {"id": "A", "text": "17"},
+            {"id": "B", "text": "27"},
+            {"id": "C", "text": "37"},
+            {"id": "D", "text": "47"}
+          ],
+          "answer": "B",
+          "explanation": "All others are prime; 27 is not."
+        },
+        {
+          "id": "q52",
+          "type": "single",
+          "metadata": {"topic": "Syllogism", "difficulty": "medium"},
+          "text": "Statements: All laptops are machines. Some machines are toys. Conclusions: I. Some laptops are toys. II. Some machines are laptops.",
+          "options": [
+            {"id": "A", "text": "Only I follows"},
+            {"id": "B", "text": "Only II follows"},
+            {"id": "C", "text": "Both follow"},
+            {"id": "D", "text": "Neither follows"}
+          ],
+          "answer": "B",
+          "explanation": "II is the converse of the first statement; I is uncertain."
+        },
+        {
+          "id": "q53",
+          "type": "figure",
+          "metadata": {"topic": "Figural Series", "difficulty": "medium"},
+          "text": "Select the figure that completes the given figure series.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Figural Series",
+            "description": "A sequence of figures in which an arrow rotates 45 degrees each step; the next figure must be chosen."
+          },
+          "scoring": {"correct": 0, "incorrect": 0, "unattempted": 0, "partial": false},
+          "explanation": "Unscored placeholder for a visual series question."
+        },
+        {
+          "id": "q54",
+          "type": "figure",
+          "metadata": {"topic": "Dice", "difficulty": "medium"},
+          "text": "From the two positions of a dice shown, determine the number on the face opposite to 6.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Dice Positions",
+            "description": "Two views of a numbered dice from which the face opposite 6 must be deduced."
+          },
+          "scoring": {"correct": 0, "incorrect": 0, "unattempted": 0, "partial": false},
+          "explanation": "Unscored placeholder for a visual dice question."
+        }
+      ]
+    },
+    {
+      "id": "general-awareness",
+      "title": "General Awareness",
+      "questions": [
+        {
+          "id": "q55",
+          "type": "single",
+          "metadata": {"topic": "Current Events (Sports)", "difficulty": "medium"},
+          "text": "Which Indian shooter won two bronze medals at the Paris 2024 Olympics?",
+          "options": [
+            {"id": "A", "text": "Manu Bhaker"},
+            {"id": "B", "text": "Saurabh Chaudhary"},
+            {"id": "C", "text": "Avani Lekhara"},
+            {"id": "D", "text": "Anjum Moudgil"}
+          ],
+          "answer": "A",
+          "explanation": "Manu Bhaker won two shooting bronzes in Paris."
+        },
+        {
+          "id": "q56",
+          "type": "single",
+          "metadata": {"topic": "Current Events (Awards)", "difficulty": "hard"},
+          "text": "The Booker Prize 2024 was won by Samantha Harvey for the novel:",
+          "options": [
+            {"id": "A", "text": "Orbital"},
+            {"id": "B", "text": "Prophet Song"},
+            {"id": "C", "text": "The Seven Moons"},
+            {"id": "D", "text": "Tomb of Sand"}
+          ],
+          "answer": "A",
+          "explanation": "'Orbital' is set aboard the International Space Station."
+        },
+        {
+          "id": "q57",
+          "type": "single",
+          "metadata": {"topic": "Scientific Research (Space)", "difficulty": "medium"},
+          "text": "NISAR, an Earth-observation satellite mission, is a joint project of ISRO and:",
+          "options": [
+            {"id": "A", "text": "ESA"},
+            {"id": "B", "text": "NASA"},
+            {"id": "C", "text": "JAXA"},
+            {"id": "D", "text": "Roscosmos"}
+          ],
+          "answer": "B",
+          "explanation": "NISAR stands for NASA-ISRO Synthetic Aperture Radar."
+        },
+        {
+          "id": "q58",
+          "type": "single",
+          "metadata": {"topic": "Economic Scene (Banking)", "difficulty": "medium"},
+          "text": "Who took over as Governor of the Reserve Bank of India in December 2024?",
+          "options": [
+            {"id": "A", "text": "Shaktikanta Das"},
+            {"id": "B", "text": "Sanjay Malhotra"},
+            {"id": "C", "text": "Urjit Patel"},
+            {"id": "D", "text": "T. Rabi Sankar"}
+          ],
+          "answer": "B",
+          "explanation": "Sanjay Malhotra succeeded Shaktikanta Das."
+        },
+        {
+          "id": "q59",
+          "type": "single",
+          "metadata": {"topic": "History (Freedom Struggle)", "difficulty": "easy"},
+          "text": "The Jallianwala Bagh massacre took place in:",
+          "options": [
+            {"id": "A", "text": "1917"},
+            {"id": "B", "text": "1919"},
+            {"id": "C", "text": "1921"},
+            {"id": "D", "text": "1927"}
+          ],
+          "answer": "B",
+          "explanation": "It occurred in Amritsar on 13 April 1919."
+        },
+        {
+          "id": "q60",
+          "type": "single",
+          "metadata": {"topic": "History (Medieval India)", "difficulty": "medium"},
+          "text": "The First Battle of Panipat (1526) was fought between Babur and:",
+          "options": [
+            {"id": "A", "text": "Rana Sanga"},
+            {"id": "B", "text": "Ibrahim Lodi"},
+            {"id": "C", "text": "Sher Shah Suri"},
+            {"id": "D", "text": "Hemu"}
+          ],
+          "answer": "B",
+          "explanation": "Babur defeated Ibrahim Lodi to found the Mughal empire."
+        },
+        {
+          "id": "q61",
+          "type": "single",
+          "metadata": {"topic": "Geography (Dams & Rivers)", "difficulty": "medium"},
+          "text": "The Bhakra Nangal Dam is built on which river?",
+          "options": [
+            {"id": "A", "text": "Beas"},
+            {"id": "B", "text": "Ravi"},
+            {"id": "C", "text": "Sutlej"},
+            {"id": "D", "text": "Chenab"}
+          ],
+          "answer": "C",
+          "explanation": "Bhakra Nangal stands on the Sutlej."
+        },
+        {
+          "id": "q62",
+          "type": "single",
+          "metadata": {"topic": "Geography (Coastline)", "difficulty": "medium"},
+          "text": "Which Indian state has the longest mainland coastline?",
+          "options": [
+            {"id": "A", "text": "Tamil Nadu"},
+            {"id": "B", "text": "Maharashtra"},
+            {"id": "C", "text": "Gujarat"},
+            {"id": "D", "text": "Andhra Pradesh"}
+          ],
+          "answer": "C",
+          "explanation": "Gujarat's coastline is about 1600 km."
+        },
+        {
+          "id": "q63",
+          "type": "single",
+          "metadata": {"topic": "Culture (Dance)", "difficulty": "easy"},
+          "text": "Kathakali is a classical dance form of which state?",
+          "options": [
+            {"id": "A", "text": "Tamil Nadu"},
+            {"id": "B", "text": "Kerala"},
+            {"id": "C", "text": "Karnataka"},
+            {"id": "D", "text": "Andhra Pradesh"}
+          ],
+          "answer": "B",
+          "explanation": "Kathakali originated in Kerala."
+        },
+        {
+          "id": "q64",
+          "type": "single",
+          "metadata": {"topic": "Indian Constitution", "difficulty": "medium"},
+          "text": "Article 21 of the Constitution guarantees:",
+          "options": [
+            {"id": "A", "text": "Right to equality"},
+            {"id": "B", "text": "Protection of life and personal liberty"},
+            {"id": "C", "text": "Right against exploitation"},
+            {"id": "D", "text": "Freedom of religion"}
+          ],
+          "answer": "B",
+          "explanation": "Article 21 protects life and personal liberty."
+        },
+        {
+          "id": "q65",
+          "type": "single",
+          "metadata": {"topic": "Books & Authors", "difficulty": "easy"},
+          "text": "'The Discovery of India' was written by:",
+          "options": [
+            {"id": "A", "text": "Mahatma Gandhi"},
+            {"id": "B", "text": "Jawaharlal Nehru"},
+            {"id": "C", "text": "Sardar Patel"},
+            {"id": "D", "text": "Maulana Azad"}
+          ],
+          "answer": "B",
+          "explanation": "Nehru wrote it in prison during 1942-46."
+        },
+        {
+          "id": "q66",
+          "type": "single",
+          "metadata": {"topic": "Neighbouring Countries", "difficulty": "easy"},
+          "text": "Which neighbouring country of India is known as the 'Land of the Thunder Dragon'?",
+          "options": [
+            {"id": "A", "text": "Nepal"},
+            {"id": "B", "text": "Bhutan"},
+            {"id": "C", "text": "Myanmar"},
+            {"id": "D", "text": "Sri Lanka"}
+          ],
+          "answer": "B",
+          "explanation": "Bhutan is called Druk Yul, land of the thunder dragon."
+        },
+        {
+          "id": "q67",
+          "type": "single",
+          "metadata": {"topic": "Geography (Wildlife)", "difficulty": "easy"},
+          "text": "Kaziranga National Park is famous for the:",
+          "options": [
+            {"id": "A", "text": "Asiatic lion"},
+            {"id": "B", "text": "One-horned rhinoceros"},
+            {"id": "C", "text": "Snow leopard"},
+            {"id": "D", "text": "Bengal fox"}
+          ],
+          "answer": "B",
+          "explanation": "Kaziranga in Assam hosts most of the world's one-horned rhinos."
+        },
+        {
+          "id": "q68",
+          "type": "single",
+          "metadata": {"topic": "Current Events (Science Administration)", "difficulty": "hard"},
+          "text": "Who became the Chairman of ISRO in January 2025?",
+          "options": [
+            {"id": "A", "text": "S. Somanath"},
+            {"id": "B", "text": "V. Narayanan"},
+            {"id": "C", "text": "K. Sivan"},
+            {"id": "D", "text": "P. Kunhikrishnan"}
+          ],
+          "answer": "B",
+          "explanation": "V. Narayanan succeeded S. Somanath."
+        },
+        {
+          "id": "q69",
+          "type": "single",
+          "metadata": {"topic": "Current Events (Sports)", "difficulty": "medium"},
+          "text": "India won the ICC Champions Trophy 2025 by defeating which team in the final at Dubai?",
+          "options": [
+            {"id": "A", "text": "Australia"},
+            {"id": "B", "text": "New Zealand"},
+            {"id": "C", "text": "England"},
+            {"id": "D", "text": "Pakistan"}
+          ],
+          "answer": "B",
+          "explanation": "India beat New Zealand in the March 2025 final."
+        },
+        {
+          "id": "q70",
+          "type": "single",
+          "metadata": {"topic": "General Policy", "difficulty": "easy"},
+          "text": "The Ayushman Bharat scheme is related to:",
+          "options": [
+            {"id": "A", "text": "Crop insurance"},
+            {"id": "B", "text": "Health insurance"},
+            {"id": "C", "text": "Housing loans"},
+            {"id": "D", "text": "School meals"}
+          ],
+          "answer": "B",
+          "explanation": "It provides health cover to eligible families."
+        }
+      ]
+    },
+    {
+      "id": "computer-applications",
+      "title": "Knowledge in Computer Applications",
+      "questions": [
+        {
+          "id": "q71",
+          "type": "single",
+          "metadata": {"topic": "MS Excel (Formula Evaluation)", "difficulty": "medium"},
+          "text": "In Excel, cells A1:A4 contain 10, 60, 45, 80. What does =COUNTIF(A1:A4,\">50\") return?",
+          "options": [
+            {"id": "A", "text": "1"},
+            {"id": "B", "text": "2"},
+            {"id": "C", "text": "3"},
+            {"id": "D", "text": "4"}
+          ],
+          "answer": "B",
+          "explanation": "Only 60 and 80 are greater than 50."
+        },
+        {
+          "id": "q72",
+          "type": "single",
+          "metadata": {"topic": "MS Excel (Order of Operations)", "difficulty": "medium"},
+          "text": "In Excel, the formula =2+3*2^2 evaluates to:",
+          "options": [
+            {"id": "A", "text": "14"},
+            {"id": "B", "text": "20"},
+            {"id": "C", "text": "100"},
+            {"id": "D", "text": "16"}
+          ],
+          "answer": "A",
+          "explanation": "Exponent first: 2 + 3 x 4 = 14."
+        },
+        {
+          "id": "q73",
+          "type": "single",
+          "metadata": {"topic": "Shortcuts", "difficulty": "easy"},
+          "text": "In MS Word, Ctrl + B applied to selected text will:",
+          "options": [
+            {"id": "A", "text": "Underline it"},
+            {"id": "B", "text": "Make it bold"},
+            {"id": "C", "text": "Make it italic"},
+            {"id": "D", "text": "Increase its size"}
+          ],
+          "answer": "B",
+          "explanation": "Ctrl + B toggles bold."
+        },
+        {
+          "id": "q74",
+          "type": "single",
+          "metadata": {"topic": "Operating System (Shortcuts)", "difficulty": "medium"},
+          "text": "Pressing Windows key + D in Windows will:",
+          "options": [
+            {"id": "A", "text": "Delete the selected file"},
+            {"id": "B", "text": "Show the desktop"},
+            {"id": "C", "text": "Open Documents"},
+            {"id": "D", "text": "Duplicate the window"}
+          ],
+          "answer": "B",
+          "explanation": "Windows + D minimises all windows to show the desktop."
+        },
+        {
+          "id": "q75",
+          "type": "single",
+          "metadata": {"topic": "Computer Organisation (CPU)", "difficulty": "easy"},
+          "text": "Which component is called the 'brain' of the computer?",
+          "options": [
+            {"id": "A", "text": "RAM"},
+            {"id": "B", "text": "CPU"},
+            {"id": "C", "text": "Hard disk"},
+            {"id": "D", "text": "Motherboard"}
+          ],
+          "answer": "B",
+          "explanation": "The CPU executes instructions and controls processing."
+        },
+        {
+          "id": "q76",
+          "type": "single",
+          "metadata": {"topic": "Computer Organisation (Storage)", "difficulty": "medium"},
+          "text": "Compared with a hard disk drive (HDD), a solid-state drive (SSD):",
+          "options": [
+            {"id": "A", "text": "Has more moving parts"},
+            {"id": "B", "text": "Has no moving parts and is faster"},
+            {"id": "C", "text": "Is always cheaper per GB"},
+            {"id": "D", "text": "Cannot store the operating system"}
+          ],
+          "answer": "B",
+          "explanation": "SSDs use flash memory with no mechanical parts."
+        },
+        {
+          "id": "q77",
+          "type": "single",
+          "metadata": {"topic": "Computer Software (Drivers)", "difficulty": "medium"},
+          "text": "A device driver is best classified as:",
+          "options": [
+            {"id": "A", "text": "Application software"},
+            {"id": "B", "text": "System software"},
+            {"id": "C", "text": "A hardware component"},
+            {"id": "D", "text": "A programming language"}
+          ],
+          "answer": "B",
+          "explanation": "Drivers let the OS communicate with hardware."
+        },
+        {
+          "id": "q78",
+          "type": "single",
+          "metadata": {"topic": "Computer Software (Open Source)", "difficulty": "easy"},
+          "text": "Which of the following is an open-source operating system?",
+          "options": [
+            {"id": "A", "text": "Windows 11"},
+            {"id": "B", "text": "macOS"},
+            {"id": "C", "text": "Linux"},
+            {"id": "D", "text": "MS-DOS"}
+          ],
+          "answer": "C",
+          "explanation": "Linux source code is freely available."
+        },
+        {
+          "id": "q79",
+          "type": "single",
+          "metadata": {"topic": "Operating System (GUI)", "difficulty": "easy"},
+          "text": "GUI stands for:",
+          "options": [
+            {"id": "A", "text": "General Utility Interface"},
+            {"id": "B", "text": "Graphical User Interface"},
+            {"id": "C", "text": "Guided User Installation"},
+            {"id": "D", "text": "Graphical Unified Internet"}
+          ],
+          "answer": "B",
+          "explanation": "GUI is Graphical User Interface."
+        },
+        {
+          "id": "q80",
+          "type": "single",
+          "metadata": {"topic": "Characteristics of Computers", "difficulty": "medium"},
+          "text": "The phrase 'Garbage In, Garbage Out' (GIGO) means:",
+          "options": [
+            {"id": "A", "text": "Computers create waste data"},
+            {"id": "B", "text": "Wrong input produces wrong output"},
+            {"id": "C", "text": "Old files must be deleted"},
+            {"id": "D", "text": "Viruses corrupt output"}
+          ],
+          "answer": "B",
+          "explanation": "Output quality depends on input quality."
+        }
+      ]
+    }
+  ]
+}

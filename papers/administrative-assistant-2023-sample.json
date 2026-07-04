@@ -1,0 +1,198 @@
+{
+  "schemaVersion": "1.0",
+  "id": "admin-assistant-2023-sample",
+  "title": "Administrative Assistant 2023 Practice Paper",
+  "subtitle": "Practice paper rendered entirely from JSON",
+  "version": "2026.07.04",
+  "metadata": {
+    "exam": "Administrative Assistant",
+    "year": 2023,
+    "source": "Sample data"
+  },
+  "durationMinutes": 90,
+  "language": "English",
+  "tags": ["practice", "administrative-assistant"],
+  "instructions": [
+    "The test is saved automatically on this device.",
+    "Use Save & Next to keep the current response and move forward.",
+    "Marked questions remain visible in the review palette."
+  ],
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.33333,
+    "unattempted": 0,
+    "partial": false
+  },
+  "analytics": {
+    "groupBy": ["section", "topic", "difficulty", "questionType"]
+  },
+  "sections": [
+    {
+      "id": "quant",
+      "title": "Quantitative Ability",
+      "durationMinutes": 20,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single",
+          "displayNumber": "1",
+          "metadata": {
+            "topic": "Algebra",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "The graphs of the linear equations 3x - y + 5 = 0 and 2x + 3y - 4 = 0 intersect at p(alpha, beta). Point p lies on the graph of which equation?",
+          "options": [
+            {"id": "A", "text": "4x + 3y - 1 = 0"},
+            {"id": "B", "text": "4x + 3y + 2 = 0"},
+            {"id": "C", "text": "5x + 2y + 1 = 0"},
+            {"id": "D", "text": "5x - 2y - 3 = 0"}
+          ],
+          "answer": "A",
+          "explanation": "Solve the two equations to get the intersection, then substitute the point in each option."
+        },
+        {
+          "id": "q2",
+          "type": "single",
+          "displayNumber": "2",
+          "metadata": {
+            "topic": "Geometry",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "The sides of a triangle are 48 cm, 55 cm and 73 cm. It is inscribed in a circle. The area of the circle excluding the triangle is closest to:",
+          "options": [
+            {"id": "A", "text": "2887"},
+            {"id": "B", "text": "2766"},
+            {"id": "C", "text": "2867"},
+            {"id": "D", "text": "2786"}
+          ],
+          "answer": "B",
+          "explanation": "Use Heron's formula and circumradius R = abc / 4Delta."
+        },
+        {
+          "id": "q3",
+          "type": "numerical",
+          "displayNumber": "3",
+          "metadata": {
+            "topic": "Profit and Loss",
+            "difficulty": "medium",
+            "questionType": "Numerical Answer"
+          },
+          "text": "Enter the profit percentage if an article sold at 5% less than the original selling price gives the required result.",
+          "answer": 21.6,
+          "tolerance": 0.05,
+          "explanation": "Let original selling price be 100. Work backward from the 68.75% sale and 12% loss."
+        }
+      ]
+    },
+    {
+      "id": "verbal",
+      "title": "Verbal Ability",
+      "durationMinutes": 20,
+      "questions": [
+        {
+          "id": "v1",
+          "type": "single",
+          "displayNumber": "4",
+          "metadata": {
+            "topic": "Idioms",
+            "difficulty": "easy",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the most appropriate meaning of the idiom: Over the moon",
+          "options": [
+            {"id": "A", "text": "Extremely happy"},
+            {"id": "B", "text": "On a journey"},
+            {"id": "C", "text": "Lost in thought"},
+            {"id": "D", "text": "Very far away"}
+          ],
+          "answer": "A",
+          "explanation": "The idiom means being delighted or extremely happy."
+        },
+        {
+          "id": "v2",
+          "type": "fill",
+          "displayNumber": "5",
+          "metadata": {
+            "topic": "Vocabulary",
+            "difficulty": "medium",
+            "questionType": "Fill in the Blank"
+          },
+          "text": "Human life is ______ (ephemeral), we should make every moment worthwhile.",
+          "answer": "transitory",
+          "explanation": "Ephemeral means temporary or transitory."
+        },
+        {
+          "id": "v3",
+          "type": "paragraph",
+          "displayNumber": "6",
+          "metadata": {
+            "topic": "Reading Comprehension",
+            "difficulty": "medium",
+            "questionType": "Paragraph"
+          },
+          "passage": "Offline examination systems need to protect candidates from progress loss while keeping navigation fast and predictable.",
+          "text": "Which design goal is most directly suggested by the passage?",
+          "options": [
+            {"id": "A", "text": "Autosave and resume support"},
+            {"id": "B", "text": "Online leaderboard"},
+            {"id": "C", "text": "Question generation"},
+            {"id": "D", "text": "Social sharing"}
+          ],
+          "answer": "A",
+          "explanation": "The passage emphasizes avoiding progress loss and predictable navigation."
+        }
+      ]
+    },
+    {
+      "id": "computer",
+      "title": "Computer Applications",
+      "durationMinutes": 10,
+      "questions": [
+        {
+          "id": "c1",
+          "type": "multiple",
+          "displayNumber": "7",
+          "metadata": {
+            "topic": "Computer Basics",
+            "difficulty": "easy",
+            "questionType": "Multiple Correct MCQ"
+          },
+          "text": "Select volatile memory types.",
+          "options": [
+            {"id": "A", "text": "RAM"},
+            {"id": "B", "text": "Cache memory"},
+            {"id": "C", "text": "ROM"},
+            {"id": "D", "text": "Hard disk"}
+          ],
+          "answer": ["A", "B"],
+          "explanation": "RAM and cache lose data when power is removed."
+        },
+        {
+          "id": "c2",
+          "type": "figure",
+          "displayNumber": "8",
+          "metadata": {
+            "topic": "Input Devices",
+            "difficulty": "easy",
+            "questionType": "Figure"
+          },
+          "figure": {
+            "label": "Figure placeholder: keyboard layout",
+            "description": "A keyboard diagram can be supplied with imageUrl in the JSON."
+          },
+          "text": "The device represented by the figure is primarily used for:",
+          "options": [
+            {"id": "A", "text": "Input"},
+            {"id": "B", "text": "Output"},
+            {"id": "C", "text": "Storage"},
+            {"id": "D", "text": "Networking"}
+          ],
+          "answer": "A",
+          "explanation": "A keyboard is an input device."
+        }
+      ]
+    }
+  ]
+}

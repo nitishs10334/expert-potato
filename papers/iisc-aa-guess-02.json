@@ -1,0 +1,1181 @@
+{
+  "schemaVersion": "1.0",
+  "id": "iisc-aa-guess-02",
+  "title": "IISc Administrative Assistant Guess Paper 2",
+  "subtitle": "Realistic prediction based on 2023 examiner patterns",
+  "version": "2026.07.05",
+  "durationMinutes": 90,
+  "language": "English",
+  "tags": ["iisc", "administrative-assistant", "guess-paper", "2026"],
+  "metadata": {
+    "exam": "IISc Administrative Assistant",
+    "year": 2026,
+    "source": "Guess Paper 2 of 5"
+  },
+  "instructions": [
+    "Total 80 questions to be attempted in 90 minutes.",
+    "Each correct answer earns +1 mark.",
+    "Negative marking applies: 0.33333 marks (one-third) are deducted for every incorrect answer.",
+    "Unattempted questions receive 0 marks.",
+    "Figure-based placeholder questions are unscored and carry 0 marks either way."
+  ],
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.33333,
+    "unattempted": 0,
+    "partial": false
+  },
+  "analytics": {
+    "groupBy": ["section", "topic", "difficulty"]
+  },
+  "sections": [
+    {
+      "id": "quantitative-ability",
+      "title": "Quantitative Ability",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single",
+          "metadata": {"topic": "Percentage (Elections)", "difficulty": "medium"},
+          "text": "In an election between two candidates, the winner got 55% of the votes and won by 1600 votes. The total number of votes polled was:",
+          "options": [
+            {"id": "A", "text": "12000"},
+            {"id": "B", "text": "14000"},
+            {"id": "C", "text": "16000"},
+            {"id": "D", "text": "18000"}
+          ],
+          "answer": "C",
+          "explanation": "The margin 10% equals 1600, so total is 16000."
+        },
+        {
+          "id": "q2",
+          "type": "single",
+          "metadata": {"topic": "Profit & Loss", "difficulty": "medium"},
+          "text": "The selling price of 20 articles equals the cost price of 25 articles. The profit percentage is:",
+          "options": [
+            {"id": "A", "text": "20%"},
+            {"id": "B", "text": "25%"},
+            {"id": "C", "text": "30%"},
+            {"id": "D", "text": "15%"}
+          ],
+          "answer": "B",
+          "explanation": "SP/CP per article = 25/20, a 25% profit."
+        },
+        {
+          "id": "q3",
+          "type": "single",
+          "metadata": {"topic": "Discount (Successive)", "difficulty": "medium"},
+          "text": "After two successive discounts of 20% and 10%, an article is sold for Rs 720. Its marked price was:",
+          "options": [
+            {"id": "A", "text": "Rs 900"},
+            {"id": "B", "text": "Rs 950"},
+            {"id": "C", "text": "Rs 1000"},
+            {"id": "D", "text": "Rs 1080"}
+          ],
+          "answer": "C",
+          "explanation": "720 / (0.8 x 0.9) = 1000."
+        },
+        {
+          "id": "q4",
+          "type": "single",
+          "metadata": {"topic": "Time & Work (Efficiency)", "difficulty": "medium"},
+          "text": "A is twice as efficient as B. Together they finish a work in 12 days. A alone can finish it in:",
+          "options": [
+            {"id": "A", "text": "16 days"},
+            {"id": "B", "text": "18 days"},
+            {"id": "C", "text": "20 days"},
+            {"id": "D", "text": "24 days"}
+          ],
+          "answer": "B",
+          "explanation": "Their combined rate is 3 units; A alone takes 36/2 = 18 days."
+        },
+        {
+          "id": "q5",
+          "type": "single",
+          "metadata": {"topic": "Pipes & Cisterns", "difficulty": "hard"},
+          "text": "Two pipes can fill a tank in 12 and 16 minutes respectively. When both pipes and a leak at the bottom are open together, the tank fills in 8 minutes. The leak alone can empty the full tank in:",
+          "options": [
+            {"id": "A", "text": "32 minutes"},
+            {"id": "B", "text": "40 minutes"},
+            {"id": "C", "text": "48 minutes"},
+            {"id": "D", "text": "56 minutes"}
+          ],
+          "answer": "C",
+          "explanation": "1/12 + 1/16 - 1/8 = 1/48."
+        },
+        {
+          "id": "q6",
+          "type": "single",
+          "metadata": {"topic": "Time & Distance", "difficulty": "medium"},
+          "text": "Walking at three-fourths of his usual speed, a man reaches office 20 minutes late. His usual time to reach office is:",
+          "options": [
+            {"id": "A", "text": "45 minutes"},
+            {"id": "B", "text": "60 minutes"},
+            {"id": "C", "text": "75 minutes"},
+            {"id": "D", "text": "80 minutes"}
+          ],
+          "answer": "B",
+          "explanation": "Time becomes 4/3 of usual, so T/3 = 20, T = 60."
+        },
+        {
+          "id": "q7",
+          "type": "single",
+          "metadata": {"topic": "Boats & Streams", "difficulty": "medium"},
+          "text": "A boat covers 30 km downstream in 2 hours and 18 km upstream in 3 hours. The speed of the stream is:",
+          "options": [
+            {"id": "A", "text": "3 km/h"},
+            {"id": "B", "text": "4 km/h"},
+            {"id": "C", "text": "4.5 km/h"},
+            {"id": "D", "text": "6 km/h"}
+          ],
+          "answer": "C",
+          "explanation": "Downstream 15, upstream 6; stream = (15-6)/2 = 4.5."
+        },
+        {
+          "id": "q8",
+          "type": "single",
+          "metadata": {"topic": "Compound Interest", "difficulty": "medium"},
+          "text": "The compound interest on Rs 10000 at 10% per annum for 2 years is:",
+          "options": [
+            {"id": "A", "text": "Rs 2000"},
+            {"id": "B", "text": "Rs 2100"},
+            {"id": "C", "text": "Rs 2200"},
+            {"id": "D", "text": "Rs 2400"}
+          ],
+          "answer": "B",
+          "explanation": "10000 x 1.21 - 10000 = 2100."
+        },
+        {
+          "id": "q9",
+          "type": "single",
+          "metadata": {"topic": "Ratio & Proportion", "difficulty": "medium"},
+          "text": "Rs 1560 is divided among A, B and C in the ratio 1/2 : 1/3 : 1/4. B's share is:",
+          "options": [
+            {"id": "A", "text": "Rs 360"},
+            {"id": "B", "text": "Rs 480"},
+            {"id": "C", "text": "Rs 520"},
+            {"id": "D", "text": "Rs 720"}
+          ],
+          "answer": "B",
+          "explanation": "Ratio becomes 6:4:3; B gets 4/13 of 1560 = 480."
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "metadata": {"topic": "Mixture & Alligation (Alloys)", "difficulty": "hard"},
+          "text": "Two alloys contain copper and zinc in the ratios 5:3 and 3:1. If equal weights of the two are melted together, the ratio of copper to zinc in the new alloy is:",
+          "options": [
+            {"id": "A", "text": "11:5"},
+            {"id": "B", "text": "8:3"},
+            {"id": "C", "text": "13:6"},
+            {"id": "D", "text": "9:4"}
+          ],
+          "answer": "A",
+          "explanation": "Copper 5/8 + 3/4 = 11/8; zinc 3/8 + 1/4 = 5/8."
+        },
+        {
+          "id": "q11",
+          "type": "single",
+          "metadata": {"topic": "Number Sense (LCM)", "difficulty": "medium"},
+          "text": "The least number which when divided by 12, 15 and 20 leaves a remainder of 5 in each case is:",
+          "options": [
+            {"id": "A", "text": "60"},
+            {"id": "B", "text": "65"},
+            {"id": "C", "text": "120"},
+            {"id": "D", "text": "125"}
+          ],
+          "answer": "B",
+          "explanation": "LCM(12,15,20) = 60; add 5."
+        },
+        {
+          "id": "q12",
+          "type": "numerical",
+          "metadata": {"topic": "Algebraic Identities", "difficulty": "medium"},
+          "text": "If x + 1/x = 5, enter the value of x^2 + 1/x^2.",
+          "answer": 23,
+          "tolerance": 0.01,
+          "explanation": "(x + 1/x)^2 - 2 = 25 - 2 = 23."
+        },
+        {
+          "id": "q13",
+          "type": "single",
+          "metadata": {"topic": "Partnership Business", "difficulty": "hard"},
+          "text": "A starts a business with Rs 8000 and B with Rs 10000. After 6 months A adds Rs 4000. Out of a year-end profit of Rs 20500, A's share is:",
+          "options": [
+            {"id": "A", "text": "Rs 9500"},
+            {"id": "B", "text": "Rs 10250"},
+            {"id": "C", "text": "Rs 11000"},
+            {"id": "D", "text": "Rs 12300"}
+          ],
+          "answer": "B",
+          "explanation": "A: 8000x6 + 12000x6 = 120000; B: 120000; ratio 1:1."
+        },
+        {
+          "id": "q14",
+          "type": "single",
+          "metadata": {"topic": "Mensuration (Hemisphere)", "difficulty": "medium"},
+          "text": "The volume of a hemisphere of radius 21 cm is: (use pi = 22/7)",
+          "options": [
+            {"id": "A", "text": "9702 cu cm"},
+            {"id": "B", "text": "19404 cu cm"},
+            {"id": "C", "text": "29106 cu cm"},
+            {"id": "D", "text": "38808 cu cm"}
+          ],
+          "answer": "B",
+          "explanation": "(2/3) x (22/7) x 21^3 = 19404."
+        },
+        {
+          "id": "q15",
+          "type": "single",
+          "metadata": {"topic": "Graphs of Linear Equations", "difficulty": "medium"},
+          "text": "For what value of k are the lines 3x + ky = 6 and 2x + 4y = 8 parallel?",
+          "options": [
+            {"id": "A", "text": "4"},
+            {"id": "B", "text": "5"},
+            {"id": "C", "text": "6"},
+            {"id": "D", "text": "8"}
+          ],
+          "answer": "C",
+          "explanation": "3/2 = k/4 gives k = 6."
+        },
+        {
+          "id": "q16",
+          "type": "single",
+          "metadata": {"topic": "Ratio (Ages)", "difficulty": "medium"},
+          "text": "The ages of A and B are in the ratio 5:7. After 8 years the ratio becomes 7:9. A's present age is:",
+          "options": [
+            {"id": "A", "text": "15 years"},
+            {"id": "B", "text": "20 years"},
+            {"id": "C", "text": "25 years"},
+            {"id": "D", "text": "28 years"}
+          ],
+          "answer": "B",
+          "explanation": "(5x+8)/(7x+8) = 7/9 gives x = 4, so A is 20."
+        }
+      ]
+    },
+    {
+      "id": "verbal-ability",
+      "title": "Verbal Ability",
+      "questions": [
+        {
+          "id": "q17",
+          "type": "single",
+          "metadata": {"topic": "Shuffling of Sentences", "difficulty": "medium"},
+          "text": "Sentence 1: The public library was once the heart of every town. Arrange P, Q, R, S. P: Many libraries responded by adding computers and digital archives. Q: With the internet, readers began finding information at home. R: Today the best libraries are community centres as much as book stores. S: Footfall consequently declined through the 2000s.",
+          "options": [
+            {"id": "A", "text": "QSPR"},
+            {"id": "B", "text": "PQRS"},
+            {"id": "C", "text": "SQPR"},
+            {"id": "D", "text": "QPSR"}
+          ],
+          "answer": "A",
+          "explanation": "Internet arrives, footfall falls, libraries adapt, present state."
+        },
+        {
+          "id": "q18",
+          "type": "single",
+          "metadata": {"topic": "Shuffling of Sentences", "difficulty": "easy"},
+          "text": "Sentence 1: Mount Everest attracts climbers from all over the world. Arrange P, Q, R, S. P: Sherpas guide most expeditions through these dangers. Q: The mountain, however, is dangerous, with thin air and sudden storms. R: Even so, hundreds attempt the summit each spring. S: Many climbers pay large sums for a chance at the peak.",
+          "options": [
+            {"id": "A", "text": "SQPR"},
+            {"id": "B", "text": "QPSR"},
+            {"id": "C", "text": "PQRS"},
+            {"id": "D", "text": "SPQR"}
+          ],
+          "answer": "A",
+          "explanation": "Demand, danger, help from Sherpas, continued attempts."
+        },
+        {
+          "id": "q19",
+          "type": "single",
+          "metadata": {"topic": "Idioms & Phrases", "difficulty": "easy"},
+          "text": "Select the meaning of the idiom: To spill the beans",
+          "options": [
+            {"id": "A", "text": "To waste food"},
+            {"id": "B", "text": "To reveal a secret"},
+            {"id": "C", "text": "To create confusion"},
+            {"id": "D", "text": "To start a quarrel"}
+          ],
+          "answer": "B",
+          "explanation": "It means to disclose secret information."
+        },
+        {
+          "id": "q20",
+          "type": "single",
+          "metadata": {"topic": "Idioms & Phrases", "difficulty": "easy"},
+          "text": "Select the meaning of the idiom: Once in a blue moon",
+          "options": [
+            {"id": "A", "text": "Very rarely"},
+            {"id": "B", "text": "Every full moon"},
+            {"id": "C", "text": "At night"},
+            {"id": "D", "text": "Unexpectedly"}
+          ],
+          "answer": "A",
+          "explanation": "It means something that happens very rarely."
+        },
+        {
+          "id": "q21",
+          "type": "single",
+          "metadata": {"topic": "Idioms & Phrases", "difficulty": "medium"},
+          "text": "Select the meaning of the idiom: To bury the hatchet",
+          "options": [
+            {"id": "A", "text": "To hide a weapon"},
+            {"id": "B", "text": "To make peace"},
+            {"id": "C", "text": "To dig a grave"},
+            {"id": "D", "text": "To plan revenge"}
+          ],
+          "answer": "B",
+          "explanation": "It means to end a quarrel and become friends."
+        },
+        {
+          "id": "q22",
+          "type": "single",
+          "metadata": {"topic": "One-word Substitution", "difficulty": "medium"},
+          "text": "A person who speaks many languages:",
+          "options": [
+            {"id": "A", "text": "Linguist"},
+            {"id": "B", "text": "Polyglot"},
+            {"id": "C", "text": "Orator"},
+            {"id": "D", "text": "Interpreter"}
+          ],
+          "answer": "B",
+          "explanation": "A polyglot knows several languages."
+        },
+        {
+          "id": "q23",
+          "type": "single",
+          "metadata": {"topic": "One-word Substitution", "difficulty": "medium"},
+          "text": "The scientific study of birds:",
+          "options": [
+            {"id": "A", "text": "Entomology"},
+            {"id": "B", "text": "Ornithology"},
+            {"id": "C", "text": "Etymology"},
+            {"id": "D", "text": "Ichthyology"}
+          ],
+          "answer": "B",
+          "explanation": "Ornithology is the study of birds."
+        },
+        {
+          "id": "q24",
+          "type": "single",
+          "metadata": {"topic": "Spelling", "difficulty": "easy"},
+          "text": "Select the correctly spelt word:",
+          "options": [
+            {"id": "A", "text": "Acommodate"},
+            {"id": "B", "text": "Accomodate"},
+            {"id": "C", "text": "Accommodate"},
+            {"id": "D", "text": "Acomodate"}
+          ],
+          "answer": "C",
+          "explanation": "Double c and double m: accommodate."
+        },
+        {
+          "id": "q25",
+          "type": "single",
+          "metadata": {"topic": "Spelling", "difficulty": "medium"},
+          "text": "Select the incorrectly spelt word:",
+          "options": [
+            {"id": "A", "text": "Receive"},
+            {"id": "B", "text": "Believe"},
+            {"id": "C", "text": "Achieve"},
+            {"id": "D", "text": "Seperate"}
+          ],
+          "answer": "D",
+          "explanation": "The correct spelling is separate."
+        },
+        {
+          "id": "q26",
+          "type": "single",
+          "metadata": {"topic": "Improvement of Sentences", "difficulty": "medium"},
+          "text": "Improve the underlined part: Neither of the two boys WERE present in class.",
+          "options": [
+            {"id": "A", "text": "was present"},
+            {"id": "B", "text": "are present"},
+            {"id": "C", "text": "have been present"},
+            {"id": "D", "text": "No improvement"}
+          ],
+          "answer": "A",
+          "explanation": "'Neither' takes a singular verb."
+        },
+        {
+          "id": "q27",
+          "type": "single",
+          "metadata": {"topic": "Improvement of Sentences", "difficulty": "medium"},
+          "text": "Improve the underlined part: Rahul is SENIOR THAN me by two years.",
+          "options": [
+            {"id": "A", "text": "senior to"},
+            {"id": "B", "text": "more senior than"},
+            {"id": "C", "text": "senior of"},
+            {"id": "D", "text": "No improvement"}
+          ],
+          "answer": "A",
+          "explanation": "'Senior' takes 'to', not 'than'."
+        },
+        {
+          "id": "q28",
+          "type": "single",
+          "metadata": {"topic": "Synonyms", "difficulty": "easy"},
+          "text": "Select the synonym of ABUNDANT:",
+          "options": [
+            {"id": "A", "text": "Scarce"},
+            {"id": "B", "text": "Plentiful"},
+            {"id": "C", "text": "Moderate"},
+            {"id": "D", "text": "Distant"}
+          ],
+          "answer": "B",
+          "explanation": "Abundant means existing in large quantities."
+        },
+        {
+          "id": "q29",
+          "type": "single",
+          "metadata": {"topic": "Antonyms", "difficulty": "medium"},
+          "text": "Select the antonym of TRANSPARENT:",
+          "options": [
+            {"id": "A", "text": "Clear"},
+            {"id": "B", "text": "Opaque"},
+            {"id": "C", "text": "Fragile"},
+            {"id": "D", "text": "Glossy"}
+          ],
+          "answer": "B",
+          "explanation": "Opaque means not allowing light through."
+        },
+        {
+          "id": "q30",
+          "type": "paragraph",
+          "metadata": {"topic": "Comprehension Passage", "difficulty": "medium"},
+          "passage": "Solar power has moved from the margins of energy policy to its centre. The cost of photovoltaic panels has fallen by nearly ninety per cent over the past decade, making sunlight the cheapest source of new electricity in many countries. India has used this shift to expand generation capacity rapidly, especially in Rajasthan and Gujarat, where vast solar parks now feed the national grid. Challenges remain, however: the sun does not shine at night, and storing electricity in batteries is still expensive. Until storage becomes cheaper, coal and gas plants will continue to balance the grid.",
+          "text": "According to the passage, what remains the main obstacle for solar power?",
+          "options": [
+            {"id": "A", "text": "High cost of photovoltaic panels"},
+            {"id": "B", "text": "Shortage of sunlight in India"},
+            {"id": "C", "text": "Expensive electricity storage"},
+            {"id": "D", "text": "Lack of land for solar parks"}
+          ],
+          "answer": "C",
+          "explanation": "The passage says battery storage is still costly."
+        },
+        {
+          "id": "q31",
+          "type": "paragraph",
+          "metadata": {"topic": "Comprehension Passage", "difficulty": "medium"},
+          "passage": "Solar power has moved from the margins of energy policy to its centre. The cost of photovoltaic panels has fallen by nearly ninety per cent over the past decade, making sunlight the cheapest source of new electricity in many countries. India has used this shift to expand generation capacity rapidly, especially in Rajasthan and Gujarat, where vast solar parks now feed the national grid. Challenges remain, however: the sun does not shine at night, and storing electricity in batteries is still expensive. Until storage becomes cheaper, coal and gas plants will continue to balance the grid.",
+          "text": "The most appropriate title for the passage is:",
+          "options": [
+            {"id": "A", "text": "The Rise of Solar Power"},
+            {"id": "B", "text": "The End of Coal"},
+            {"id": "C", "text": "Battery Technology Explained"},
+            {"id": "D", "text": "Deserts of Rajasthan"}
+          ],
+          "answer": "A",
+          "explanation": "The passage traces solar power's growth and challenges."
+        },
+        {
+          "id": "q32",
+          "type": "paragraph",
+          "metadata": {"topic": "Comprehension Passage", "difficulty": "easy"},
+          "passage": "Solar power has moved from the margins of energy policy to its centre. The cost of photovoltaic panels has fallen by nearly ninety per cent over the past decade, making sunlight the cheapest source of new electricity in many countries. India has used this shift to expand generation capacity rapidly, especially in Rajasthan and Gujarat, where vast solar parks now feed the national grid. Challenges remain, however: the sun does not shine at night, and storing electricity in batteries is still expensive. Until storage becomes cheaper, coal and gas plants will continue to balance the grid.",
+          "text": "In the passage, 'balance the grid' most nearly means:",
+          "options": [
+            {"id": "A", "text": "Repair transmission lines"},
+            {"id": "B", "text": "Supply power when solar is unavailable"},
+            {"id": "C", "text": "Reduce electricity prices"},
+            {"id": "D", "text": "Export surplus power"}
+          ],
+          "answer": "B",
+          "explanation": "Coal and gas fill the gap when the sun is not shining."
+        }
+      ]
+    },
+    {
+      "id": "logical-numerical-reasoning",
+      "title": "Logical and Numerical Reasoning",
+      "questions": [
+        {
+          "id": "q33",
+          "type": "single",
+          "metadata": {"topic": "Number Series", "difficulty": "easy"},
+          "text": "Find the next term: 2, 6, 12, 20, 30, ?",
+          "options": [
+            {"id": "A", "text": "40"},
+            {"id": "B", "text": "42"},
+            {"id": "C", "text": "44"},
+            {"id": "D", "text": "46"}
+          ],
+          "answer": "B",
+          "explanation": "Differences 4, 6, 8, 10, then 12."
+        },
+        {
+          "id": "q34",
+          "type": "single",
+          "metadata": {"topic": "Number Series", "difficulty": "medium"},
+          "text": "Find the next term: 100, 96, 88, 76, 60, ?",
+          "options": [
+            {"id": "A", "text": "44"},
+            {"id": "B", "text": "42"},
+            {"id": "C", "text": "40"},
+            {"id": "D", "text": "36"}
+          ],
+          "answer": "C",
+          "explanation": "Differences -4, -8, -12, -16, then -20."
+        },
+        {
+          "id": "q35",
+          "type": "single",
+          "metadata": {"topic": "Number Series", "difficulty": "hard"},
+          "text": "Find the next term: 4, 9, 25, 49, 121, ?",
+          "options": [
+            {"id": "A", "text": "144"},
+            {"id": "B", "text": "169"},
+            {"id": "C", "text": "196"},
+            {"id": "D", "text": "225"}
+          ],
+          "answer": "B",
+          "explanation": "Squares of primes 2, 3, 5, 7, 11, then 13."
+        },
+        {
+          "id": "q36",
+          "type": "single",
+          "metadata": {"topic": "Letter Series", "difficulty": "easy"},
+          "text": "Find the next term: AZ, BY, CX, ?",
+          "options": [
+            {"id": "A", "text": "DV"},
+            {"id": "B", "text": "DW"},
+            {"id": "C", "text": "EW"},
+            {"id": "D", "text": "DX"}
+          ],
+          "answer": "B",
+          "explanation": "First letters advance, second letters move back."
+        },
+        {
+          "id": "q37",
+          "type": "single",
+          "metadata": {"topic": "Alphanumeric Reasoning", "difficulty": "medium"},
+          "text": "If the letters of the word DELHI are arranged in alphabetical order, how many letters remain in the same position?",
+          "options": [
+            {"id": "A", "text": "None"},
+            {"id": "B", "text": "One"},
+            {"id": "C", "text": "Two"},
+            {"id": "D", "text": "Three"}
+          ],
+          "answer": "C",
+          "explanation": "DEHIL vs DELHI: D and E stay put."
+        },
+        {
+          "id": "q38",
+          "type": "single",
+          "metadata": {"topic": "Coding-Decoding", "difficulty": "medium"},
+          "text": "In a code, TABLE is written as UCEPJ. How is CHAIR written in that code?",
+          "options": [
+            {"id": "A", "text": "DJDMW"},
+            {"id": "B", "text": "DIDNW"},
+            {"id": "C", "text": "DJDNW"},
+            {"id": "D", "text": "DJEMW"}
+          ],
+          "answer": "A",
+          "explanation": "Letters shift by +1, +2, +3, +4, +5."
+        },
+        {
+          "id": "q39",
+          "type": "single",
+          "metadata": {"topic": "Coding-Decoding", "difficulty": "hard"},
+          "text": "If GO = 22 and SHE = 32, then SOME = ?",
+          "options": [
+            {"id": "A", "text": "48"},
+            {"id": "B", "text": "50"},
+            {"id": "C", "text": "52"},
+            {"id": "D", "text": "56"}
+          ],
+          "answer": "C",
+          "explanation": "Sum of positions: 19 + 15 + 13 + 5 = 52."
+        },
+        {
+          "id": "q40",
+          "type": "single",
+          "metadata": {"topic": "Coding-Decoding", "difficulty": "medium"},
+          "text": "In a code language, 'pen pencil book' = 'ka na ta', 'book is new' = 'ta ra sa' and 'pen is blue' = 'ka ra mo'. What is the code for 'book'?",
+          "options": [
+            {"id": "A", "text": "ka"},
+            {"id": "B", "text": "ta"},
+            {"id": "C", "text": "ra"},
+            {"id": "D", "text": "sa"}
+          ],
+          "answer": "B",
+          "explanation": "'ta' is common to the first two sentences."
+        },
+        {
+          "id": "q41",
+          "type": "single",
+          "metadata": {"topic": "Linear Seating Arrangement", "difficulty": "medium"},
+          "text": "Six friends A, B, C, D, E, F sit in a row facing north. B is at the extreme left and F at the extreme right. C is third from the left, A is immediately to the right of C, and D is immediately to the left of F. Who sits second from the left?",
+          "options": [
+            {"id": "A", "text": "A"},
+            {"id": "B", "text": "D"},
+            {"id": "C", "text": "E"},
+            {"id": "D", "text": "C"}
+          ],
+          "answer": "C",
+          "explanation": "Order is B, E, C, A, D, F."
+        },
+        {
+          "id": "q42",
+          "type": "single",
+          "metadata": {"topic": "Circular Seating Arrangement", "difficulty": "medium"},
+          "text": "Six children sit around a circle facing the centre in the clockwise order A, B, C, D, E, F. Counting to the left (clockwise), who is second to the left of D?",
+          "options": [
+            {"id": "A", "text": "B"},
+            {"id": "B", "text": "C"},
+            {"id": "C", "text": "E"},
+            {"id": "D", "text": "F"}
+          ],
+          "answer": "D",
+          "explanation": "For centre-facing people, left is clockwise: E, then F."
+        },
+        {
+          "id": "q43",
+          "type": "single",
+          "metadata": {"topic": "Ranking", "difficulty": "easy"},
+          "text": "Meena is 15th from the left end of a row and 20th from the right end. How many people are in the row?",
+          "options": [
+            {"id": "A", "text": "33"},
+            {"id": "B", "text": "34"},
+            {"id": "C", "text": "35"},
+            {"id": "D", "text": "36"}
+          ],
+          "answer": "B",
+          "explanation": "15 + 20 - 1 = 34."
+        },
+        {
+          "id": "q44",
+          "type": "single",
+          "metadata": {"topic": "Calendar Puzzle", "difficulty": "medium"},
+          "text": "If 1st January of a year is a Tuesday, what day of the week is 1st February of the same year?",
+          "options": [
+            {"id": "A", "text": "Thursday"},
+            {"id": "B", "text": "Friday"},
+            {"id": "C", "text": "Saturday"},
+            {"id": "D", "text": "Wednesday"}
+          ],
+          "answer": "B",
+          "explanation": "31 days later means +3 days: Friday."
+        },
+        {
+          "id": "q45",
+          "type": "single",
+          "metadata": {"topic": "Blood Relations", "difficulty": "medium"},
+          "text": "Introducing a boy, Meena said, 'He is the son of the only son of my grandfather.' How is the boy related to Meena?",
+          "options": [
+            {"id": "A", "text": "Brother"},
+            {"id": "B", "text": "Cousin"},
+            {"id": "C", "text": "Uncle"},
+            {"id": "D", "text": "Nephew"}
+          ],
+          "answer": "A",
+          "explanation": "The only son of her grandfather is her father; his son is her brother."
+        },
+        {
+          "id": "q46",
+          "type": "single",
+          "metadata": {"topic": "Coded Blood Relations", "difficulty": "medium"},
+          "text": "P + Q means P is the brother of Q, P x Q means P is the father of Q, P - Q means P is the sister of Q. Which expression shows that A is the aunt of B?",
+          "options": [
+            {"id": "A", "text": "A - C x B"},
+            {"id": "B", "text": "A + C x B"},
+            {"id": "C", "text": "A x C - B"},
+            {"id": "D", "text": "C x A - B"}
+          ],
+          "answer": "A",
+          "explanation": "A is sister of C and C is father of B, so A is B's aunt."
+        },
+        {
+          "id": "q47",
+          "type": "single",
+          "metadata": {"topic": "Direction Sense", "difficulty": "easy"},
+          "text": "A man walks 4 km east and then 3 km north. The shortest distance from his starting point is:",
+          "options": [
+            {"id": "A", "text": "5 km"},
+            {"id": "B", "text": "6 km"},
+            {"id": "C", "text": "7 km"},
+            {"id": "D", "text": "4 km"}
+          ],
+          "answer": "A",
+          "explanation": "sqrt(16 + 9) = 5."
+        },
+        {
+          "id": "q48",
+          "type": "single",
+          "metadata": {"topic": "Numerical Operations (BODMAS)", "difficulty": "easy"},
+          "text": "The value of 5 + 5 x 5 / 5 - 5 is:",
+          "options": [
+            {"id": "A", "text": "0"},
+            {"id": "B", "text": "5"},
+            {"id": "C", "text": "10"},
+            {"id": "D", "text": "25"}
+          ],
+          "answer": "B",
+          "explanation": "5 + 5 - 5 = 5 by BODMAS."
+        },
+        {
+          "id": "q49",
+          "type": "single",
+          "metadata": {"topic": "Mathematical Signs", "difficulty": "medium"},
+          "text": "If '+' means 'x', 'x' means '-', '/' means '+' and '-' means '/', then 8 + 4 x 6 / 3 - 1 = ?",
+          "options": [
+            {"id": "A", "text": "26"},
+            {"id": "B", "text": "29"},
+            {"id": "C", "text": "31"},
+            {"id": "D", "text": "35"}
+          ],
+          "answer": "B",
+          "explanation": "8 x 4 - 6 + 3 / 1 = 32 - 6 + 3 = 29."
+        },
+        {
+          "id": "q50",
+          "type": "single",
+          "metadata": {"topic": "Letter Analogy", "difficulty": "easy"},
+          "text": "EGIK : FHJL :: MOQS : ?",
+          "options": [
+            {"id": "A", "text": "NPRT"},
+            {"id": "B", "text": "NPRU"},
+            {"id": "C", "text": "NQRT"},
+            {"id": "D", "text": "OPRT"}
+          ],
+          "answer": "A",
+          "explanation": "Each letter moves one step forward."
+        },
+        {
+          "id": "q51",
+          "type": "single",
+          "metadata": {"topic": "Classification (Odd One Out)", "difficulty": "medium"},
+          "text": "Find the odd one out: 27, 64, 125, 218",
+          "options": [
+            {"id": "A", "text": "27"},
+            {"id": "B", "text": "64"},
+            {"id": "C", "text": "125"},
+            {"id": "D", "text": "218"}
+          ],
+          "answer": "D",
+          "explanation": "All others are perfect cubes; 218 is not."
+        },
+        {
+          "id": "q52",
+          "type": "single",
+          "metadata": {"topic": "Syllogism", "difficulty": "medium"},
+          "text": "Statements: Some cups are plates. All plates are spoons. Conclusions: I. Some spoons are cups. II. All spoons are plates.",
+          "options": [
+            {"id": "A", "text": "Only I follows"},
+            {"id": "B", "text": "Only II follows"},
+            {"id": "C", "text": "Both follow"},
+            {"id": "D", "text": "Neither follows"}
+          ],
+          "answer": "A",
+          "explanation": "Cups that are plates are also spoons, so I follows."
+        },
+        {
+          "id": "q53",
+          "type": "figure",
+          "metadata": {"topic": "Dice", "difficulty": "medium"},
+          "text": "Two positions of the same dice are shown. Find the number on the face opposite to 3.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Dice Positions",
+            "description": "Two views of a numbered dice from which the face opposite 3 must be deduced."
+          },
+          "scoring": {"correct": 0, "incorrect": 0, "unattempted": 0, "partial": false},
+          "explanation": "Unscored placeholder for a visual dice question."
+        },
+        {
+          "id": "q54",
+          "type": "figure",
+          "metadata": {"topic": "Paper Folding", "difficulty": "medium"},
+          "text": "A transparent sheet with a pattern is folded along the dotted line. Select the resulting figure.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Paper Folding",
+            "description": "A sheet with a printed pattern and a dotted fold line; the folded appearance must be chosen from four options."
+          },
+          "scoring": {"correct": 0, "incorrect": 0, "unattempted": 0, "partial": false},
+          "explanation": "Unscored placeholder for a visual folding question."
+        }
+      ]
+    },
+    {
+      "id": "general-awareness",
+      "title": "General Awareness",
+      "questions": [
+        {
+          "id": "q55",
+          "type": "single",
+          "metadata": {"topic": "Current Events (Sports)", "difficulty": "medium"},
+          "text": "How many medals did India win at the Paris 2024 Olympic Games?",
+          "options": [
+            {"id": "A", "text": "5"},
+            {"id": "B", "text": "6"},
+            {"id": "C", "text": "7"},
+            {"id": "D", "text": "8"}
+          ],
+          "answer": "B",
+          "explanation": "India won 6 medals: 1 silver and 5 bronze."
+        },
+        {
+          "id": "q56",
+          "type": "single",
+          "metadata": {"topic": "Current Events (Awards)", "difficulty": "hard"},
+          "text": "The Nobel Prize in Literature 2024 was awarded to:",
+          "options": [
+            {"id": "A", "text": "Han Kang"},
+            {"id": "B", "text": "Jon Fosse"},
+            {"id": "C", "text": "Annie Ernaux"},
+            {"id": "D", "text": "Salman Rushdie"}
+          ],
+          "answer": "A",
+          "explanation": "South Korean writer Han Kang won in 2024."
+        },
+        {
+          "id": "q57",
+          "type": "single",
+          "metadata": {"topic": "Scientific Research (Space)", "difficulty": "medium"},
+          "text": "ISRO's Aditya-L1 mission is designed to study:",
+          "options": [
+            {"id": "A", "text": "The Moon"},
+            {"id": "B", "text": "The Sun"},
+            {"id": "C", "text": "Mars"},
+            {"id": "D", "text": "Asteroids"}
+          ],
+          "answer": "B",
+          "explanation": "Aditya-L1 observes the Sun from the L1 point."
+        },
+        {
+          "id": "q58",
+          "type": "single",
+          "metadata": {"topic": "Economic Scene (Banking)", "difficulty": "medium"},
+          "text": "The repo rate is the rate at which:",
+          "options": [
+            {"id": "A", "text": "Banks lend to customers"},
+            {"id": "B", "text": "RBI lends short-term funds to banks"},
+            {"id": "C", "text": "Banks lend to each other overnight"},
+            {"id": "D", "text": "Government borrows from RBI"}
+          ],
+          "answer": "B",
+          "explanation": "Repo is the RBI's lending rate to commercial banks."
+        },
+        {
+          "id": "q59",
+          "type": "single",
+          "metadata": {"topic": "History (Freedom Struggle)", "difficulty": "easy"},
+          "text": "The Quit India Movement was launched in:",
+          "options": [
+            {"id": "A", "text": "1930"},
+            {"id": "B", "text": "1935"},
+            {"id": "C", "text": "1942"},
+            {"id": "D", "text": "1946"}
+          ],
+          "answer": "C",
+          "explanation": "It began in August 1942."
+        },
+        {
+          "id": "q60",
+          "type": "single",
+          "metadata": {"topic": "History (Modern India)", "difficulty": "medium"},
+          "text": "Who was the first President of the Indian National Congress?",
+          "options": [
+            {"id": "A", "text": "A. O. Hume"},
+            {"id": "B", "text": "W. C. Bonnerjee"},
+            {"id": "C", "text": "Dadabhai Naoroji"},
+            {"id": "D", "text": "Surendranath Banerjee"}
+          ],
+          "answer": "B",
+          "explanation": "W. C. Bonnerjee presided over the 1885 session."
+        },
+        {
+          "id": "q61",
+          "type": "single",
+          "metadata": {"topic": "Geography (Dams & Rivers)", "difficulty": "medium"},
+          "text": "The Tehri Dam is built on which river?",
+          "options": [
+            {"id": "A", "text": "Alaknanda"},
+            {"id": "B", "text": "Bhagirathi"},
+            {"id": "C", "text": "Yamuna"},
+            {"id": "D", "text": "Kali"}
+          ],
+          "answer": "B",
+          "explanation": "Tehri stands on the Bhagirathi in Uttarakhand."
+        },
+        {
+          "id": "q62",
+          "type": "single",
+          "metadata": {"topic": "Geography (Lakes)", "difficulty": "medium"},
+          "text": "The largest freshwater lake in India is:",
+          "options": [
+            {"id": "A", "text": "Chilika"},
+            {"id": "B", "text": "Wular"},
+            {"id": "C", "text": "Dal"},
+            {"id": "D", "text": "Loktak"}
+          ],
+          "answer": "B",
+          "explanation": "Wular Lake in Jammu and Kashmir is the largest."
+        },
+        {
+          "id": "q63",
+          "type": "single",
+          "metadata": {"topic": "Culture (Festivals)", "difficulty": "medium"},
+          "text": "The Hornbill Festival is celebrated in which state?",
+          "options": [
+            {"id": "A", "text": "Manipur"},
+            {"id": "B", "text": "Mizoram"},
+            {"id": "C", "text": "Nagaland"},
+            {"id": "D", "text": "Assam"}
+          ],
+          "answer": "C",
+          "explanation": "Nagaland hosts the Hornbill Festival every December."
+        },
+        {
+          "id": "q64",
+          "type": "single",
+          "metadata": {"topic": "Indian Constitution", "difficulty": "hard"},
+          "text": "A Money Bill is defined under which Article of the Constitution?",
+          "options": [
+            {"id": "A", "text": "Article 108"},
+            {"id": "B", "text": "Article 110"},
+            {"id": "C", "text": "Article 112"},
+            {"id": "D", "text": "Article 117"}
+          ],
+          "answer": "B",
+          "explanation": "Article 110 defines Money Bills."
+        },
+        {
+          "id": "q65",
+          "type": "single",
+          "metadata": {"topic": "Books & Authors", "difficulty": "medium"},
+          "text": "'An Era of Darkness: The British Empire in India' is written by:",
+          "options": [
+            {"id": "A", "text": "Ramachandra Guha"},
+            {"id": "B", "text": "Shashi Tharoor"},
+            {"id": "C", "text": "William Dalrymple"},
+            {"id": "D", "text": "Bipan Chandra"}
+          ],
+          "answer": "B",
+          "explanation": "Shashi Tharoor authored the book."
+        },
+        {
+          "id": "q66",
+          "type": "single",
+          "metadata": {"topic": "Neighbouring Countries", "difficulty": "medium"},
+          "text": "Which country shares the longest land border with India?",
+          "options": [
+            {"id": "A", "text": "China"},
+            {"id": "B", "text": "Pakistan"},
+            {"id": "C", "text": "Bangladesh"},
+            {"id": "D", "text": "Nepal"}
+          ],
+          "answer": "C",
+          "explanation": "The India-Bangladesh border is about 4096 km."
+        },
+        {
+          "id": "q67",
+          "type": "single",
+          "metadata": {"topic": "Current Events (Sports)", "difficulty": "medium"},
+          "text": "D. Gukesh won the 2024 World Chess Championship by defeating:",
+          "options": [
+            {"id": "A", "text": "Magnus Carlsen"},
+            {"id": "B", "text": "Ian Nepomniachtchi"},
+            {"id": "C", "text": "Ding Liren"},
+            {"id": "D", "text": "Fabiano Caruana"}
+          ],
+          "answer": "C",
+          "explanation": "Gukesh beat defending champion Ding Liren."
+        },
+        {
+          "id": "q68",
+          "type": "single",
+          "metadata": {"topic": "Economic Scene (Taxation)", "difficulty": "medium"},
+          "text": "The GST Council is chaired by:",
+          "options": [
+            {"id": "A", "text": "The Prime Minister"},
+            {"id": "B", "text": "The Union Finance Minister"},
+            {"id": "C", "text": "The RBI Governor"},
+            {"id": "D", "text": "The NITI Aayog CEO"}
+          ],
+          "answer": "B",
+          "explanation": "The Union Finance Minister heads the GST Council."
+        },
+        {
+          "id": "q69",
+          "type": "single",
+          "metadata": {"topic": "Scientific Research (Space)", "difficulty": "easy"},
+          "text": "Gaganyaan is India's programme for:",
+          "options": [
+            {"id": "A", "text": "Human spaceflight"},
+            {"id": "B", "text": "Mars sample return"},
+            {"id": "C", "text": "Space telescope"},
+            {"id": "D", "text": "Satellite navigation"}
+          ],
+          "answer": "A",
+          "explanation": "Gaganyaan aims to send Indian astronauts to orbit."
+        },
+        {
+          "id": "q70",
+          "type": "single",
+          "metadata": {"topic": "Current Events (Awards)", "difficulty": "medium"},
+          "text": "Karpoori Thakur, awarded the Bharat Ratna in 2024, was a former Chief Minister of:",
+          "options": [
+            {"id": "A", "text": "Uttar Pradesh"},
+            {"id": "B", "text": "Bihar"},
+            {"id": "C", "text": "Odisha"},
+            {"id": "D", "text": "Jharkhand"}
+          ],
+          "answer": "B",
+          "explanation": "He served twice as Bihar's Chief Minister."
+        }
+      ]
+    },
+    {
+      "id": "computer-applications",
+      "title": "Knowledge in Computer Applications",
+      "questions": [
+        {
+          "id": "q71",
+          "type": "single",
+          "metadata": {"topic": "MS Excel (Formula Evaluation)", "difficulty": "medium"},
+          "text": "In Excel, what does the formula =MAX(8,12,5)+MIN(8,12,5) return?",
+          "options": [
+            {"id": "A", "text": "25"},
+            {"id": "B", "text": "20"},
+            {"id": "C", "text": "17"},
+            {"id": "D", "text": "13"}
+          ],
+          "answer": "C",
+          "explanation": "12 + 5 = 17."
+        },
+        {
+          "id": "q72",
+          "type": "single",
+          "metadata": {"topic": "MS Excel (Functions)", "difficulty": "medium"},
+          "text": "In Excel, the formula =IF(15>10,\"Yes\",\"No\") displays:",
+          "options": [
+            {"id": "A", "text": "Yes"},
+            {"id": "B", "text": "No"},
+            {"id": "C", "text": "TRUE"},
+            {"id": "D", "text": "An error"}
+          ],
+          "answer": "A",
+          "explanation": "The condition 15>10 is true, so it returns Yes."
+        },
+        {
+          "id": "q73",
+          "type": "single",
+          "metadata": {"topic": "Shortcuts", "difficulty": "easy"},
+          "text": "The universal keyboard shortcut to undo the last action is:",
+          "options": [
+            {"id": "A", "text": "Ctrl + Y"},
+            {"id": "B", "text": "Ctrl + Z"},
+            {"id": "C", "text": "Ctrl + U"},
+            {"id": "D", "text": "Ctrl + X"}
+          ],
+          "answer": "B",
+          "explanation": "Ctrl + Z undoes; Ctrl + Y redoes."
+        },
+        {
+          "id": "q74",
+          "type": "single",
+          "metadata": {"topic": "Operating System (Shortcuts)", "difficulty": "easy"},
+          "text": "Which key combination switches between open windows in Windows?",
+          "options": [
+            {"id": "A", "text": "Ctrl + Tab"},
+            {"id": "B", "text": "Alt + Tab"},
+            {"id": "C", "text": "Shift + Tab"},
+            {"id": "D", "text": "Windows + Tab only"}
+          ],
+          "answer": "B",
+          "explanation": "Alt + Tab cycles through open windows."
+        },
+        {
+          "id": "q75",
+          "type": "single",
+          "metadata": {"topic": "Computer Organisation (ROM)", "difficulty": "medium"},
+          "text": "The BIOS of a computer is typically stored in:",
+          "options": [
+            {"id": "A", "text": "RAM"},
+            {"id": "B", "text": "ROM"},
+            {"id": "C", "text": "Hard disk"},
+            {"id": "D", "text": "Cache"}
+          ],
+          "answer": "B",
+          "explanation": "BIOS firmware resides in ROM/flash memory."
+        },
+        {
+          "id": "q76",
+          "type": "single",
+          "metadata": {"topic": "Computer Organisation (Cache)", "difficulty": "medium"},
+          "text": "The main purpose of cache memory is to:",
+          "options": [
+            {"id": "A", "text": "Store files permanently"},
+            {"id": "B", "text": "Speed up data access between CPU and main memory"},
+            {"id": "C", "text": "Back up the hard disk"},
+            {"id": "D", "text": "Run the operating system"}
+          ],
+          "answer": "B",
+          "explanation": "Cache bridges the speed gap between CPU and RAM."
+        },
+        {
+          "id": "q77",
+          "type": "single",
+          "metadata": {"topic": "Computer Software (Utility)", "difficulty": "easy"},
+          "text": "Antivirus software is best classified as:",
+          "options": [
+            {"id": "A", "text": "System software"},
+            {"id": "B", "text": "Utility software"},
+            {"id": "C", "text": "Application software"},
+            {"id": "D", "text": "Firmware"}
+          ],
+          "answer": "B",
+          "explanation": "It is a maintenance/protection utility."
+        },
+        {
+          "id": "q78",
+          "type": "single",
+          "metadata": {"topic": "Computer Software (Application)", "difficulty": "easy"},
+          "text": "Which of the following is application software?",
+          "options": [
+            {"id": "A", "text": "Windows 11"},
+            {"id": "B", "text": "Device driver"},
+            {"id": "C", "text": "MS Word"},
+            {"id": "D", "text": "BIOS"}
+          ],
+          "answer": "C",
+          "explanation": "MS Word is an end-user application."
+        },
+        {
+          "id": "q79",
+          "type": "single",
+          "metadata": {"topic": "Operating System", "difficulty": "easy"},
+          "text": "Which of the following is NOT an operating system?",
+          "options": [
+            {"id": "A", "text": "Windows"},
+            {"id": "B", "text": "Linux"},
+            {"id": "C", "text": "Oracle"},
+            {"id": "D", "text": "macOS"}
+          ],
+          "answer": "C",
+          "explanation": "Oracle is a database company/product, not an OS."
+        },
+        {
+          "id": "q80",
+          "type": "single",
+          "metadata": {"topic": "Characteristics of Computers", "difficulty": "easy"},
+          "text": "The characteristic 'diligence' of a computer means:",
+          "options": [
+            {"id": "A", "text": "It works at very high speed"},
+            {"id": "B", "text": "It can work continuously without fatigue"},
+            {"id": "C", "text": "It never makes mistakes"},
+            {"id": "D", "text": "It can think on its own"}
+          ],
+          "answer": "B",
+          "explanation": "Diligence means tireless, consistent working."
+        }
+      ]
+    }
+  ]
+}

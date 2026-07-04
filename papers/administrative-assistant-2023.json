@@ -1,0 +1,2880 @@
+{
+  "schemaVersion": "1.0",
+  "id": "administrative-assistant-2023",
+  "title": "2023 Administrative Assistants Exam",
+  "subtitle": "Production JSON conversion of the source markdown paper",
+  "version": "2026.07.04-conversion-1",
+  "durationMinutes": 90,
+  "language": "English",
+  "tags": [
+    "administrative-assistant",
+    "2023",
+    "production-conversion"
+  ],
+  "metadata": {
+    "exam": "Administrative Assistants Exam",
+    "year": 2023,
+    "source": "2023/2023paper.md",
+    "blueprint": "2023/exam_blueprint_2023.md"
+  },
+  "instructions": [
+    "Question wording and options are preserved from the source markdown.",
+    "Progress is saved locally on this device.",
+    "Figure placeholders are used where the source markdown did not include actual figure images."
+  ],
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.33333,
+    "unattempted": 0,
+    "partial": false
+  },
+  "analytics": {
+    "groupBy": [
+      "section",
+      "topic",
+      "subtopic",
+      "difficulty",
+      "questionType"
+    ]
+  },
+  "sections": [
+    {
+      "id": "quantitative-ability",
+      "title": "Quantitative Ability",
+      "metadata": {
+        "section": "Quantitative Ability"
+      },
+      "questions": [
+        {
+          "id": "quantitative-ability-q1",
+          "displayNumber": "Q1",
+          "type": "single",
+          "metadata": {
+            "topic": "Graphs of Linear Equations",
+            "subtopic": "Intersection of lines",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Direct syllabus question. Tests finding intersection points.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "The graphs of the linear equations 3x − y + 5 = 0 and 2x + 3y − 4 = 0 intersect at p(α, β). Point p lies on the graph of which of the following equations?",
+          "options": [
+            {
+              "id": "1",
+              "text": "4x + 3y − 1 = 0"
+            },
+            {
+              "id": "2",
+              "text": "4x + 3y + 2 = 0"
+            },
+            {
+              "id": "3",
+              "text": "5x + 2y + 1 = 0"
+            },
+            {
+              "id": "4",
+              "text": "5x − 2y − 3 = 0"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q2",
+          "displayNumber": "Q2",
+          "type": "single",
+          "metadata": {
+            "topic": "Triangle / Circle",
+            "subtopic": "Circumcircle, Area",
+            "difficulty": "hard",
+            "estimatedTime": "2.5 min",
+            "notes": "Combination. Uses Heron's formula and circumradius relation (R=abc/4A).",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "The length of the sides of a triangle are 48 cm, 55 cm and 73 cm. It is inscribed in a circle. The area (in cm²) of the circle excluding the area of the triangle is closest to (use π = 22/7):",
+          "options": [
+            {
+              "id": "1",
+              "text": "2887"
+            },
+            {
+              "id": "2",
+              "text": "2766"
+            },
+            {
+              "id": "3",
+              "text": "2867"
+            },
+            {
+              "id": "4",
+              "text": "2786"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q3",
+          "displayNumber": "Q3",
+          "type": "single",
+          "metadata": {
+            "topic": "Profit & Loss",
+            "subtopic": "Percentages, Profit/Loss",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Direct. Trick: Calculation using relative percentages instead of absolute values.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "By selling an article at 68.75% of its selling price, a shopkeeper loses 12%. If he sells it at 5% less than its original selling price, then what will be his profit per cent?",
+          "options": [
+            {
+              "id": "1",
+              "text": "21.6%"
+            },
+            {
+              "id": "2",
+              "text": "20.5%"
+            },
+            {
+              "id": "3",
+              "text": "22.5%"
+            },
+            {
+              "id": "4",
+              "text": "18.6%"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q4",
+          "displayNumber": "Q4",
+          "type": "single",
+          "metadata": {
+            "topic": "percentage",
+            "subtopic": "Income & Expenditure",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Direct. Classic percentage increase/decrease problem.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "The monthly expenditure of Tunisha is ₹30,400 which is 20% less than her monthly income. If her monthly income increases by 25% and monthly savings increase by 30%, then the difference between her new monthly expenditure and the initial monthly expenditure is:",
+          "options": [
+            {
+              "id": "1",
+              "text": "₹7,220"
+            },
+            {
+              "id": "2",
+              "text": "₹7,230"
+            },
+            {
+              "id": "3",
+              "text": "₹7,330"
+            },
+            {
+              "id": "4",
+              "text": "₹7,320"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q5",
+          "displayNumber": "Q5",
+          "type": "single",
+          "metadata": {
+            "topic": "Time & work",
+            "subtopic": "Efficiency",
+            "difficulty": "hard",
+            "estimatedTime": "2 min",
+            "notes": "Combination. Combines efficiency ratio with combined work rate.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "A and B together can complete a certain work in 30 days and B is 20% more efficient than C. A, B and C together can do the same work in 20 days. A alone can do 1/3rd of the original work in:",
+          "options": [
+            {
+              "id": "1",
+              "text": "18 days"
+            },
+            {
+              "id": "2",
+              "text": "20 days"
+            },
+            {
+              "id": "3",
+              "text": "25 days"
+            },
+            {
+              "id": "4",
+              "text": "30 days"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q6",
+          "displayNumber": "Q6",
+          "type": "single",
+          "metadata": {
+            "topic": "Number sense",
+            "subtopic": "Divisibility, Remainders",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Direct. Trick: Finding difference of numbers to determine the divisor.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "When 2998, 3850 and 5341 are divided by a 2-digit number x, the remainder in each case is y. What is the value of (x − y)?",
+          "options": [
+            {
+              "id": "1",
+              "text": "55"
+            },
+            {
+              "id": "2",
+              "text": "58"
+            },
+            {
+              "id": "3",
+              "text": "56"
+            },
+            {
+              "id": "4",
+              "text": "53"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q7",
+          "displayNumber": "Q7",
+          "type": "single",
+          "metadata": {
+            "topic": "Interest",
+            "subtopic": "Simple Interest",
+            "difficulty": "easy",
+            "estimatedTime": "1 min",
+            "notes": "Direct formula application.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "A certain sum invested at simple interest amounts to ₹6,214 in 3 years and amounts to ₹7,566 in 7 years. What is the rate of interest per annum?",
+          "options": [
+            {
+              "id": "1",
+              "text": "6.5%"
+            },
+            {
+              "id": "2",
+              "text": "7.5%"
+            },
+            {
+              "id": "3",
+              "text": "5.5%"
+            },
+            {
+              "id": "4",
+              "text": "8.5%"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q8",
+          "displayNumber": "Q8",
+          "type": "single",
+          "metadata": {
+            "topic": "Basic algebraic identities",
+            "subtopic": "Linear Equations, Ages",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Direct. Trick: Wordplay and forming simultaneous equations.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "Three times the present age (in years) of Sampat is one year more than twice the present age of Babita. After 5 years from now, the age of Babita will be 2 years less than twice the present age of Sampat. What is the difference (in years) between the present ages of Babita and Sampat?",
+          "options": [
+            {
+              "id": "1",
+              "text": "6"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "9"
+            },
+            {
+              "id": "4",
+              "text": "7"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q9",
+          "displayNumber": "Q9",
+          "type": "single",
+          "metadata": {
+            "topic": "Number sense",
+            "subtopic": "Fractions, BODMAS",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Direct. Careful calculation required to avoid basic errors.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "The value of (2/5 × 7½ ÷ 1½ − 3/4 ÷ 5/8 + 9 4/9 ÷ 11 1/3 of 5/12) is:",
+          "options": [
+            {
+              "id": "1",
+              "text": "1 2/15"
+            },
+            {
+              "id": "2",
+              "text": "2 4/5"
+            },
+            {
+              "id": "3",
+              "text": "2 1/6"
+            },
+            {
+              "id": "4",
+              "text": "1 1/3"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q10",
+          "displayNumber": "Q10",
+          "type": "single",
+          "metadata": {
+            "topic": "percentage",
+            "subtopic": "Weighted Average",
+            "difficulty": "medium",
+            "estimatedTime": "2 min",
+            "notes": "Combination. Tests percentage changes applied to multiple quantities.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "The cost of a computer is 140% more than the cost of a mobile phone. If the cost of a computer decreases by 20% and that of a mobile phone increases by 40%, then the total cost of 5 computers and 4 mobile phones is x% less than their total initial cost. What is the value of x?",
+          "options": [
+            {
+              "id": "1",
+              "text": "8"
+            },
+            {
+              "id": "2",
+              "text": "6"
+            },
+            {
+              "id": "3",
+              "text": "5"
+            },
+            {
+              "id": "4",
+              "text": "4"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q11",
+          "displayNumber": "Q11",
+          "type": "single",
+          "metadata": {
+            "topic": "Time & work",
+            "subtopic": "Pipes and Cisterns",
+            "difficulty": "hard",
+            "estimatedTime": "2 min",
+            "notes": "Direct extension of Time & Work with negative efficiency (emptying).",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "Pipes A and B can fill a tank in 15 hours and 25 hours, respectively. Pipe C is an emptying pipe. When all the three pipes are opened together, then 16% of the tank is filled up in 6 hours. Pipe C alone can empty 36% part of the tank in:",
+          "options": [
+            {
+              "id": "1",
+              "text": "5 hours"
+            },
+            {
+              "id": "2",
+              "text": "4 hours"
+            },
+            {
+              "id": "3",
+              "text": "4.5 hours"
+            },
+            {
+              "id": "4",
+              "text": "3.5 hours"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q12",
+          "displayNumber": "Q12",
+          "type": "single",
+          "metadata": {
+            "topic": "Right Circular Cone / Time and distance",
+            "subtopic": "Frustum volume, Flow rate",
+            "difficulty": "hard",
+            "estimatedTime": "2.5 min",
+            "notes": "Combination. Heavy calculation involving volume of a frustum and speed of water.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "Water is flowing at the rate of 2 m/sec through a pipe of internal radius 2½ cm into an empty tank, in the shape of a frustum of a cone, with radii of circular ends as 28 cm and 7 cm and height 45 cm. If the tank is completely filled in x seconds, then the value of x is between:",
+          "options": [
+            {
+              "id": "1",
+              "text": "12 and 13"
+            },
+            {
+              "id": "2",
+              "text": "11 and 12"
+            },
+            {
+              "id": "3",
+              "text": "9 and 10"
+            },
+            {
+              "id": "4",
+              "text": "10 and 11"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q13",
+          "displayNumber": "Q13",
+          "type": "single",
+          "metadata": {
+            "topic": "Discount, Profit & Loss",
+            "subtopic": "Marked Price",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Combination. Standard relationship between CP, MP, SP, Discount, and Profit.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "A trader sells an article for ₹462, after giving a discount of 12% on its marked price. Had he not given the discount, he would have earned a profit of 20%. What is the cost price (in ₹) of the article?",
+          "options": [
+            {
+              "id": "1",
+              "text": "433.50"
+            },
+            {
+              "id": "2",
+              "text": "432"
+            },
+            {
+              "id": "3",
+              "text": "435"
+            },
+            {
+              "id": "4",
+              "text": "437.50"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q14",
+          "displayNumber": "Q14",
+          "type": "single",
+          "metadata": {
+            "topic": "Partnership Business",
+            "subtopic": "Capital & Time variation",
+            "difficulty": "medium",
+            "estimatedTime": "2 min",
+            "notes": "Direct. Accounts for changing investments over time.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "A and B enter into a partnership with their capitals in the ratio 1/4 : 5/12. After 4 months, A doubles his capital and B reduces his capital by 40%. At the end of a year, what is the share (in ₹ lakhs) of B in the total profit of ₹31.2 lakhs?",
+          "options": [
+            {
+              "id": "1",
+              "text": "18"
+            },
+            {
+              "id": "2",
+              "text": "16.8"
+            },
+            {
+              "id": "3",
+              "text": "13.2"
+            },
+            {
+              "id": "4",
+              "text": "14.4"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q15",
+          "displayNumber": "Q15",
+          "type": "single",
+          "metadata": {
+            "topic": "Time and distance",
+            "subtopic": "Boats & Streams",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Direct. Setting up upstream/downstream speed equations.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "The time taken by a boat to go 25 km upstream is 1⅔ times the time taken by it to go 20 km downstream. The speed of the stream is 4 km/h. How much time (in hours) will the boat take to go 70 km in still water?",
+          "options": [
+            {
+              "id": "1",
+              "text": "2.5"
+            },
+            {
+              "id": "2",
+              "text": "2.1"
+            },
+            {
+              "id": "3",
+              "text": "2.8"
+            },
+            {
+              "id": "4",
+              "text": "3.5"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "quantitative-ability-q16",
+          "displayNumber": "Q16",
+          "type": "single",
+          "metadata": {
+            "topic": "Mixture and Allegation / Ratio & Proportion",
+            "subtopic": "Alloys",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Combination. Weighted mixing of two ratios to form a new ratio.",
+            "questionType": "Single Correct MCQ",
+            "section": "Quantitative Ability"
+          },
+          "text": "In alloys A and B, the ratio of copper and zinc is 3:7 and 4:11, respectively. 2 kg of A and 3 kg of B are melted and mixed to form a new alloy C. What is the percentage of zinc in C?",
+          "options": [
+            {
+              "id": "1",
+              "text": "28%"
+            },
+            {
+              "id": "2",
+              "text": "60%"
+            },
+            {
+              "id": "3",
+              "text": "70%"
+            },
+            {
+              "id": "4",
+              "text": "72%"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "verbal-ability",
+      "title": "Verbal Ability",
+      "metadata": {
+        "section": "Verbal Ability"
+      },
+      "questions": [
+        {
+          "id": "verbal-ability-q1",
+          "displayNumber": "Q1",
+          "type": "single",
+          "metadata": {
+            "topic": "shuffling of sentences",
+            "subtopic": "Paragraph Jumble",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Relies on finding logical transitions (But, However).",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. But all the money soon vanished into the bottomless pit of household needs.\nB. Little did she know that I was out of a job once again.\nC. However, my grandmother was happy that I had become responsible.\nD. I returned home with pockets full of my earnings.",
+          "options": [
+            {
+              "id": "1",
+              "text": "CABD"
+            },
+            {
+              "id": "2",
+              "text": "ADBC"
+            },
+            {
+              "id": "3",
+              "text": "DCAB"
+            },
+            {
+              "id": "4",
+              "text": "DACB"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q2",
+          "displayNumber": "Q2",
+          "type": "single",
+          "metadata": {
+            "topic": "shuffling of sentences",
+            "subtopic": "Paragraph Jumble",
+            "difficulty": "easy",
+            "estimatedTime": "1 min",
+            "notes": "Relies on chronological/causal links.",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. These sticks were fuzzy at one end.\nB. The fuzzy end was rubbed against the teeth to keep them clean.\nC. They used thin twigs called chew sticks as tooth cleaners.\nD. How did people clean their teeth before the toothbrush was invented?",
+          "options": [
+            {
+              "id": "1",
+              "text": "DBCA"
+            },
+            {
+              "id": "2",
+              "text": "DABC"
+            },
+            {
+              "id": "3",
+              "text": "DCAB"
+            },
+            {
+              "id": "4",
+              "text": "DCBA"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q3",
+          "displayNumber": "Q3",
+          "type": "single",
+          "metadata": {
+            "topic": "idioms & phrases",
+            "subtopic": "Idiom meaning",
+            "difficulty": "easy",
+            "estimatedTime": "0.5 min",
+            "notes": "Direct vocabulary test.",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Select the most appropriate meaning of the given idiom.\nOver the moon",
+          "options": [
+            {
+              "id": "1",
+              "text": "Extremely happy"
+            },
+            {
+              "id": "2",
+              "text": "On a journey"
+            },
+            {
+              "id": "3",
+              "text": "Lost in thought"
+            },
+            {
+              "id": "4",
+              "text": "Very far away"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q4",
+          "displayNumber": "Q4",
+          "type": "single",
+          "metadata": {
+            "topic": "idioms & phrases",
+            "subtopic": "Idiom meaning",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Direct vocabulary test.",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Select the most appropriate meaning of the given idiom.\nHook, line and sinker",
+          "options": [
+            {
+              "id": "1",
+              "text": "Seeking support from someone"
+            },
+            {
+              "id": "2",
+              "text": "Falling in esteem"
+            },
+            {
+              "id": "3",
+              "text": "Strengthening oneself"
+            },
+            {
+              "id": "4",
+              "text": "Believing something completely"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q5",
+          "displayNumber": "Q5",
+          "type": "single",
+          "metadata": {
+            "topic": "one-word substitution",
+            "subtopic": "Vocabulary",
+            "difficulty": "easy",
+            "estimatedTime": "0.5 min",
+            "notes": "Direct.",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Select the option that can be used as a one-word substitute for the given group of words.\nA place for burying the dead",
+          "options": [
+            {
+              "id": "1",
+              "text": "Memorial"
+            },
+            {
+              "id": "2",
+              "text": "Morgue"
+            },
+            {
+              "id": "3",
+              "text": "Cemetery"
+            },
+            {
+              "id": "4",
+              "text": "Vault"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q6",
+          "displayNumber": "Q6",
+          "type": "single",
+          "metadata": {
+            "topic": "idioms & phrases",
+            "subtopic": "Idiom meaning",
+            "difficulty": "hard",
+            "estimatedTime": "0.5 min",
+            "notes": "Unconventional idiom.",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Select the most appropriate meaning of the given idiom.\nBoil the ocean",
+          "options": [
+            {
+              "id": "1",
+              "text": "Plan to take revenge"
+            },
+            {
+              "id": "2",
+              "text": "An almost impossible project"
+            },
+            {
+              "id": "3",
+              "text": "Create a controversy"
+            },
+            {
+              "id": "4",
+              "text": "Be furious over something"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q7",
+          "displayNumber": "Q7",
+          "type": "single",
+          "metadata": {
+            "topic": "synonyms",
+            "subtopic": "Vocabulary",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Contextual synonym matching.",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Select the most appropriate synonym of the word given in brackets to fill in the blank.\nHuman life is ______ (ephemeral), we should make every moment worthwhile.",
+          "options": [
+            {
+              "id": "1",
+              "text": "enduring"
+            },
+            {
+              "id": "2",
+              "text": "transitory"
+            },
+            {
+              "id": "3",
+              "text": "perpetual"
+            },
+            {
+              "id": "4",
+              "text": "perennial"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q8",
+          "displayNumber": "Q8",
+          "type": "single",
+          "metadata": {
+            "topic": "Improvement of sentences",
+            "subtopic": "Grammar, Conjunctions",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Tests usage of \"still\" vs \"yet\".",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Select the most appropriate option that can substitute the underlined segment in the given sentence. If there is no need to substitute it, select \"No substitution required\".\nHe yet bears a grudge against me for not taking him into confidence.",
+          "options": [
+            {
+              "id": "1",
+              "text": "else"
+            },
+            {
+              "id": "2",
+              "text": "still"
+            },
+            {
+              "id": "3",
+              "text": "No substitution required"
+            },
+            {
+              "id": "4",
+              "text": "much"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q9",
+          "displayNumber": "Q9",
+          "type": "single",
+          "metadata": {
+            "topic": "spelling/ detecting mis-spelt words",
+            "subtopic": "Spelling",
+            "difficulty": "easy",
+            "estimatedTime": "0.5 min",
+            "notes": "Direct visual recognition.",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Select the INCORRECTLY spelt word.",
+          "options": [
+            {
+              "id": "1",
+              "text": "Orignal"
+            },
+            {
+              "id": "2",
+              "text": "Opposed"
+            },
+            {
+              "id": "3",
+              "text": "Orchard"
+            },
+            {
+              "id": "4",
+              "text": "Ordinary"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q10",
+          "displayNumber": "Q10",
+          "type": "single",
+          "metadata": {
+            "topic": "spelling/ detecting mis-spelt words",
+            "subtopic": "Spelling",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Direct visual recognition.",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Select the correctly spelt word.",
+          "options": [
+            {
+              "id": "1",
+              "text": "Vijelance"
+            },
+            {
+              "id": "2",
+              "text": "Vijilance"
+            },
+            {
+              "id": "3",
+              "text": "Vigilance"
+            },
+            {
+              "id": "4",
+              "text": "Vigilence"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q11",
+          "displayNumber": "Q11",
+          "type": "single",
+          "metadata": {
+            "topic": "Improvement of sentences",
+            "subtopic": "Grammar, Conditional",
+            "difficulty": "hard",
+            "estimatedTime": "1 min",
+            "notes": "Trick: Usage of \"lest\" followed by \"should\".",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Select the most appropriate option that can substitute the underlined segment in the given sentence.\nShe spent her money judiciously unless she should have to borrow in an emergency.",
+          "options": [
+            {
+              "id": "1",
+              "text": "until"
+            },
+            {
+              "id": "2",
+              "text": "No substitution required"
+            },
+            {
+              "id": "3",
+              "text": "lest"
+            },
+            {
+              "id": "4",
+              "text": "whether"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q12",
+          "displayNumber": "Q12",
+          "type": "single",
+          "metadata": {
+            "topic": "one-word substitution",
+            "subtopic": "Vocabulary",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Direct.",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Select the option that can be used as a one-word substitute for the given group of words.\nA particular occupation, business or profession especially suitable for you",
+          "options": [
+            {
+              "id": "1",
+              "text": "Recreation"
+            },
+            {
+              "id": "2",
+              "text": "Entertainment"
+            },
+            {
+              "id": "3",
+              "text": "Passion"
+            },
+            {
+              "id": "4",
+              "text": "Vocation"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q13",
+          "displayNumber": "Q13",
+          "type": "single",
+          "metadata": {
+            "topic": "antonyms",
+            "subtopic": "Vocabulary",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Contextual antonym matching.",
+            "questionType": "Single Correct MCQ",
+            "section": "Verbal Ability"
+          },
+          "text": "Select the most appropriate ANTONYM of the word given in brackets to fill in the blank.\nReema felt ______ (petrified) in the presence of her father although the drive in the hills was very risky.",
+          "options": [
+            {
+              "id": "1",
+              "text": "alarmed"
+            },
+            {
+              "id": "2",
+              "text": "grateful"
+            },
+            {
+              "id": "3",
+              "text": "reassured"
+            },
+            {
+              "id": "4",
+              "text": "responsible"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "verbal-ability-q14",
+          "displayNumber": "Q14",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "comprehension passage",
+            "subtopic": "Fact retrieval",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Information retrieval from text.",
+            "questionType": "Paragraph",
+            "section": "Verbal Ability"
+          },
+          "text": "Which of the following is NOT true about Lawrence of Arabia?",
+          "options": [
+            {
+              "id": "1",
+              "text": "The film holds a high value in the history of filmmaking."
+            },
+            {
+              "id": "2",
+              "text": "There is a gradual decline of the protagonist in the film."
+            },
+            {
+              "id": "3",
+              "text": "The action scenes were performed by real persons."
+            },
+            {
+              "id": "4",
+              "text": "The characterisation of the protagonist is not convincing."
+            }
+          ],
+          "answer": "4",
+          "explanation": "",
+          "passage": "The film Lawrence of Arabia may be somewhat dated by modern special-effects standards, but it remains a high-water mark in the annals of filmmaking. Since we're on the subject of computer-generated special effects, Lawrence has none for the simple reason that it was actually filmed using real people who really performed the action. The long, slow scenes of camels walking in the desert may seem dull to the modern animation-jaded viewer, but those willing to pay attention to the underlying themes will be well rewarded by what the movie is saying.\n\nAnd it is the theme of Lawrence that really stays with a viewer, even today, some 40 years after it was released. That theme is the age-old story of hubris, the pride of a man which raises him above his peers, only to dash him on the rocks of self-indulgence by the end.\n\nWe see this tragic foible of mankind worked out fully in the character of Lawrence himself, who begins the film as a brilliant genius who is eager to get involved in the desert conflicts of World War I. His cocky attitude irritates his superiors and amuses the Arabs fighting alongside the British, but his genius for details and strategy soon overcome all obstacles. Lawrence's brilliant victory at the Suez Canal could only have been accomplished by Lawrence, and his own self-sacrifice and commitment to his followers display the best of his character.\n\nUnfortunately, the baser elements of that character gradually take control as the film moves along, and Lawrence slowly declines into a dangerous blend of despair and self-assurance. The problem gradually becomes evident: Lawrence has grown to believe that he is equal to God, the one who both gives life and takes it away again."
+        },
+        {
+          "id": "verbal-ability-q15",
+          "displayNumber": "Q15",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "comprehension passage",
+            "subtopic": "Theme identification",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Inference based on overall passage meaning.",
+            "questionType": "Paragraph",
+            "section": "Verbal Ability"
+          },
+          "text": "Which of the following can be described as the theme of the film?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Fortune favours the brave."
+            },
+            {
+              "id": "2",
+              "text": "All that glitters is not gold."
+            },
+            {
+              "id": "3",
+              "text": "A stitch in time saves nine."
+            },
+            {
+              "id": "4",
+              "text": "Pride hath a fall."
+            }
+          ],
+          "answer": "4",
+          "explanation": "",
+          "passage": "The film Lawrence of Arabia may be somewhat dated by modern special-effects standards, but it remains a high-water mark in the annals of filmmaking. Since we're on the subject of computer-generated special effects, Lawrence has none for the simple reason that it was actually filmed using real people who really performed the action. The long, slow scenes of camels walking in the desert may seem dull to the modern animation-jaded viewer, but those willing to pay attention to the underlying themes will be well rewarded by what the movie is saying.\n\nAnd it is the theme of Lawrence that really stays with a viewer, even today, some 40 years after it was released. That theme is the age-old story of hubris, the pride of a man which raises him above his peers, only to dash him on the rocks of self-indulgence by the end.\n\nWe see this tragic foible of mankind worked out fully in the character of Lawrence himself, who begins the film as a brilliant genius who is eager to get involved in the desert conflicts of World War I. His cocky attitude irritates his superiors and amuses the Arabs fighting alongside the British, but his genius for details and strategy soon overcome all obstacles. Lawrence's brilliant victory at the Suez Canal could only have been accomplished by Lawrence, and his own self-sacrifice and commitment to his followers display the best of his character.\n\nUnfortunately, the baser elements of that character gradually take control as the film moves along, and Lawrence slowly declines into a dangerous blend of despair and self-assurance. The problem gradually becomes evident: Lawrence has grown to believe that he is equal to God, the one who both gives life and takes it away again."
+        },
+        {
+          "id": "verbal-ability-q16",
+          "displayNumber": "Q16",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "comprehension passage",
+            "subtopic": "Vocabulary in context",
+            "difficulty": "easy",
+            "estimatedTime": "1 min",
+            "notes": "Contextual meaning of a phrase.",
+            "questionType": "Paragraph",
+            "section": "Verbal Ability"
+          },
+          "text": "\"The film Lawrence of Arabia may be somewhat dated\" means it is:",
+          "options": [
+            {
+              "id": "1",
+              "text": "old fashioned"
+            },
+            {
+              "id": "2",
+              "text": "a love story"
+            },
+            {
+              "id": "3",
+              "text": "very modern"
+            },
+            {
+              "id": "4",
+              "text": "a high-tech film"
+            }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "passage": "The film Lawrence of Arabia may be somewhat dated by modern special-effects standards, but it remains a high-water mark in the annals of filmmaking. Since we're on the subject of computer-generated special effects, Lawrence has none for the simple reason that it was actually filmed using real people who really performed the action. The long, slow scenes of camels walking in the desert may seem dull to the modern animation-jaded viewer, but those willing to pay attention to the underlying themes will be well rewarded by what the movie is saying.\n\nAnd it is the theme of Lawrence that really stays with a viewer, even today, some 40 years after it was released. That theme is the age-old story of hubris, the pride of a man which raises him above his peers, only to dash him on the rocks of self-indulgence by the end.\n\nWe see this tragic foible of mankind worked out fully in the character of Lawrence himself, who begins the film as a brilliant genius who is eager to get involved in the desert conflicts of World War I. His cocky attitude irritates his superiors and amuses the Arabs fighting alongside the British, but his genius for details and strategy soon overcome all obstacles. Lawrence's brilliant victory at the Suez Canal could only have been accomplished by Lawrence, and his own self-sacrifice and commitment to his followers display the best of his character.\n\nUnfortunately, the baser elements of that character gradually take control as the film moves along, and Lawrence slowly declines into a dangerous blend of despair and self-assurance. The problem gradually becomes evident: Lawrence has grown to believe that he is equal to God, the one who both gives life and takes it away again."
+        }
+      ]
+    },
+    {
+      "id": "logical-numerical-reasoning",
+      "title": "Logical & Numerical Reasoning",
+      "metadata": {
+        "section": "Logical & Numerical Reasoning"
+      },
+      "questions": [
+        {
+          "id": "logical-numerical-reasoning-q1",
+          "displayNumber": "Q1",
+          "type": "figure",
+          "metadata": {
+            "topic": "Figural Series",
+            "subtopic": "Image sequence",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Direct pattern recognition.",
+            "questionType": "Figure Placeholder",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Select the figure from among the given options that can replace the question mark (?) in the following series.",
+          "options": [
+            {
+              "id": "1",
+              "text": ""
+            },
+            {
+              "id": "2",
+              "text": ""
+            },
+            {
+              "id": "3",
+              "text": ""
+            },
+            {
+              "id": "4",
+              "text": ""
+            }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "figure": {
+            "label": "Logical & Numerical Reasoning Q1",
+            "description": "Select the figure from among the given options that can replace the question mark (?) in the following series."
+          }
+        },
+        {
+          "id": "logical-numerical-reasoning-q2",
+          "displayNumber": "Q2",
+          "type": "single",
+          "metadata": {
+            "topic": "Space Orientation / Problem Solving",
+            "subtopic": "Linear Seating",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Multi-step arrangement constraint satisfaction.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Seven persons named P, Q, R, S, T, U and V are sitting in a straight line facing north. P is second to the left of V. U is third to the right of T. S is second to the left of T. Only S is sitting between R and P. Who is sitting second to the left of Q?",
+          "options": [
+            {
+              "id": "1",
+              "text": "T"
+            },
+            {
+              "id": "2",
+              "text": "U"
+            },
+            {
+              "id": "3",
+              "text": "V"
+            },
+            {
+              "id": "4",
+              "text": "P"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q3",
+          "displayNumber": "Q3",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding & de-coding",
+            "subtopic": "Letter shifting",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Identifying position shift in alphabets.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "In a code language, 'PRIMEX' is written as 'YFNJSQ'. How will 'NECTAR' be written in that language?",
+          "options": [
+            {
+              "id": "1",
+              "text": "SBUDFO"
+            },
+            {
+              "id": "2",
+              "text": "OFDSBQ"
+            },
+            {
+              "id": "3",
+              "text": "DFOSBS"
+            },
+            {
+              "id": "4",
+              "text": "SBDFVO"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q4",
+          "displayNumber": "Q4",
+          "type": "single",
+          "metadata": {
+            "topic": "Problem Solving",
+            "subtopic": "Ordering / Ranking",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Simple inequality chain.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Among six friends Chirag, Maya, Naitik, Parag, Saniya and Zena, Chirag scores lesser marks than Naitik. Saniya scores more marks than Naitik. Parag scores lesser marks than Zena. Zena scores lesser marks than Maya. Parag scores more marks than Saniya. Who scored the least marks among the six friends?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Chirag"
+            },
+            {
+              "id": "2",
+              "text": "Naitik"
+            },
+            {
+              "id": "3",
+              "text": "Saniya"
+            },
+            {
+              "id": "4",
+              "text": "Zena"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q5",
+          "displayNumber": "Q5",
+          "type": "single",
+          "metadata": {
+            "topic": "Symbolic/Number Analogy",
+            "subtopic": "Letter cluster analogy",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Pattern matching between pairs.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Select the option that is related to the fifth letter-cluster in the same way as the first letter-cluster is related to the second letter-cluster and the third letter-cluster is related to the fourth letter-cluster.\nCAMP : BDNQ :: PLAN : BMOQ :: ROSE : ?",
+          "options": [
+            {
+              "id": "1",
+              "text": "PSTG"
+            },
+            {
+              "id": "2",
+              "text": "SPFT"
+            },
+            {
+              "id": "3",
+              "text": "FPST"
+            },
+            {
+              "id": "4",
+              "text": "SNTF"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q6",
+          "displayNumber": "Q6",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "subtopic": "Difference sequence",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Identifying arithmetic progression of differences.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Select the number from among the given options that can replace the question mark (?) in the following series.\n27, 52, 88, 137, ?, 282",
+          "options": [
+            {
+              "id": "1",
+              "text": "212"
+            },
+            {
+              "id": "2",
+              "text": "196"
+            },
+            {
+              "id": "3",
+              "text": "224"
+            },
+            {
+              "id": "4",
+              "text": "201"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q7",
+          "displayNumber": "Q7",
+          "type": "single",
+          "metadata": {
+            "topic": "Small & Capital letters... classification",
+            "subtopic": "Odd one out",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Finding the irregular letter shift pattern.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Four letter-cluster pairs have been given, out of which three are alike in some manner and one is different. Select the one that is different.",
+          "options": [
+            {
+              "id": "1",
+              "text": "CLEAR : MDUSZ"
+            },
+            {
+              "id": "2",
+              "text": "PLOTS : MQLTU"
+            },
+            {
+              "id": "3",
+              "text": "RINSE : JSMFT"
+            },
+            {
+              "id": "4",
+              "text": "COUNT : PDFUO"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q8",
+          "displayNumber": "Q8",
+          "type": "single",
+          "metadata": {
+            "topic": "relationship concepts",
+            "subtopic": "Blood Relation",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Linguistic deduction of family tree.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Pointing to the photograph of a boy, Pratyush said, 'he is my father's only brother's wife's son'. How is Pratyush related to that boy's father's father?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Maternal grandson"
+            },
+            {
+              "id": "2",
+              "text": "Son"
+            },
+            {
+              "id": "3",
+              "text": "Paternal grandson"
+            },
+            {
+              "id": "4",
+              "text": "Paternal uncle"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q9",
+          "displayNumber": "Q9",
+          "type": "single",
+          "metadata": {
+            "topic": "Numerical Operations",
+            "subtopic": "BODMAS, Approximation",
+            "difficulty": "easy",
+            "estimatedTime": "1 min",
+            "notes": "Rounding decimals to nearest integers first.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "What will be the approximate value of the following equation?",
+          "options": [
+            {
+              "id": "29",
+              "text": "9996 ÷ 6.006 − 12.998 + 11.015 × 4.995 = ?"
+            },
+            {
+              "id": "1",
+              "text": "47"
+            },
+            {
+              "id": "2",
+              "text": "73"
+            },
+            {
+              "id": "3",
+              "text": "37"
+            },
+            {
+              "id": "4",
+              "text": "57"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q10",
+          "displayNumber": "Q10",
+          "type": "single",
+          "metadata": {
+            "topic": "Space Orientation",
+            "subtopic": "Direction Sense",
+            "difficulty": "easy",
+            "estimatedTime": "1 min",
+            "notes": "Angle tracking (clockwise/anticlockwise).",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "A man is standing in a park facing south direction, then he turns 90 degrees clockwise. After that he turns 135 degrees clockwise. In which direction is he facing now?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Southeast"
+            },
+            {
+              "id": "2",
+              "text": "Northeast"
+            },
+            {
+              "id": "3",
+              "text": "North"
+            },
+            {
+              "id": "4",
+              "text": "Northwest"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q11",
+          "displayNumber": "Q11",
+          "type": "single",
+          "metadata": {
+            "topic": "Numerical Operations",
+            "subtopic": "Mathematical signs",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Trial and error of swapping numbers.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Which two numbers should be interchanged to make the following equation correct?\n16 − 42 + 24 × 12 ÷ 6 = 14",
+          "options": [
+            {
+              "id": "1",
+              "text": "12 and 24"
+            },
+            {
+              "id": "2",
+              "text": "24 and 42"
+            },
+            {
+              "id": "3",
+              "text": "16 and 24"
+            },
+            {
+              "id": "4",
+              "text": "12 and 16"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q12",
+          "displayNumber": "Q12",
+          "type": "single",
+          "metadata": {
+            "topic": "Semantic Series",
+            "subtopic": "Repeating letter sequence",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Finding the repeating block.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Select the combination of letters that when sequentially placed in the blanks of the given series will complete the series.\nH _ B V _ W _ N _ V Z _ H _ B V _ W",
+          "options": [
+            {
+              "id": "1",
+              "text": "N Z H B W N W"
+            },
+            {
+              "id": "2",
+              "text": "N Z H B W N Z"
+            },
+            {
+              "id": "3",
+              "text": "N Z H V W N Z"
+            },
+            {
+              "id": "4",
+              "text": "V Z H B W N Z"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q13",
+          "displayNumber": "Q13",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding & de-coding",
+            "subtopic": "Letter to Number",
+            "difficulty": "hard",
+            "estimatedTime": "1.5 min",
+            "notes": "Trick: Reverse alphabet numbering or sum of positional values.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "In a code language, 'CLASSY' is written as '79'. How will 'NIGHTS' be written in that language?",
+          "options": [
+            {
+              "id": "1",
+              "text": "77"
+            },
+            {
+              "id": "2",
+              "text": "74"
+            },
+            {
+              "id": "3",
+              "text": "80"
+            },
+            {
+              "id": "4",
+              "text": "70"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q14",
+          "displayNumber": "Q14",
+          "type": "single",
+          "metadata": {
+            "topic": "Problem Solving",
+            "subtopic": "Day Puzzle",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Constraint satisfaction grid.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Each of K, L, M, N, O, P and R has an exam on a different day of the week starting on Monday and ending on Sunday of the same week. N's exam is on the day just after L's day of the exam. Only three persons have exams before P. K's exam is just before the day of M's exam. R's exam is on Wednesday. Only two persons take exams between R and K. Who has an exam on Friday?",
+          "options": [
+            {
+              "id": "1",
+              "text": "L"
+            },
+            {
+              "id": "2",
+              "text": "N"
+            },
+            {
+              "id": "3",
+              "text": "M"
+            },
+            {
+              "id": "4",
+              "text": "O"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q15",
+          "displayNumber": "Q15",
+          "type": "figure",
+          "metadata": {
+            "topic": "Space Visualisation",
+            "subtopic": "Dice",
+            "difficulty": "easy",
+            "estimatedTime": "0.5 min",
+            "notes": "Finding opposite faces.",
+            "questionType": "Figure Placeholder",
+            "section": "Logical & Numerical Reasoning",
+            "answerKeyStatus": "missing in source; official key skipped this figure question"
+          },
+          "text": "(Figure / Dice question)",
+          "options": [],
+          "answer": null,
+          "explanation": "",
+          "figure": {
+            "label": "Logical & Numerical Reasoning Q15",
+            "description": "(Figure / Dice question)"
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          }
+        },
+        {
+          "id": "logical-numerical-reasoning-q16",
+          "displayNumber": "Q16",
+          "type": "single",
+          "metadata": {
+            "topic": "Number / Semantic Series",
+            "subtopic": "Alphanumeric string",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Conditional operation (deleting evens) before counting.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Refer to the following number-letter series and answer the question.\n(Left)\nD H B 6 4 T Y U P K L A E 9 8 H B N 3 C X 2 B M 7 6 H K P A 6 4 3 E U P L 6 5 3 G V 4 2 K 9 A W\n(Right)\n\nIf all the even numbers in the above string are deleted, then which would be the 10th letter/number from the right end in the remaining string?",
+          "options": [
+            {
+              "id": "1",
+              "text": "U"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "P"
+            },
+            {
+              "id": "4",
+              "text": "L"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q17",
+          "displayNumber": "Q17",
+          "type": "figure",
+          "metadata": {
+            "topic": "Figural Series",
+            "subtopic": "Image sequence",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Direct pattern recognition.",
+            "questionType": "Figure Placeholder",
+            "section": "Logical & Numerical Reasoning",
+            "answerKeyStatus": "missing in source; official key skipped this figure question"
+          },
+          "text": "(Figure series question)",
+          "options": [],
+          "answer": null,
+          "explanation": "",
+          "figure": {
+            "label": "Logical & Numerical Reasoning Q17",
+            "description": "(Figure series question)"
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          }
+        },
+        {
+          "id": "logical-numerical-reasoning-q18",
+          "displayNumber": "Q18",
+          "type": "single",
+          "metadata": {
+            "topic": "syllogistic reasoning",
+            "subtopic": "Syllogism",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Venn diagram deduction.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which conclusion(s) logically follow(s) from the statements.\nStatements:\n\nAll utensils are buckets.\nAll spoons are buckets.\nAll buckets are dustbins.\n\nConclusions:\n\nI. Some dustbins are utensils.\nII. All spoons are dustbins.\nIII. No utensil is a dustbin.",
+          "options": [
+            {
+              "id": "1",
+              "text": "All of I, II and III follow."
+            },
+            {
+              "id": "2",
+              "text": "Both I and III follow."
+            },
+            {
+              "id": "3",
+              "text": "Both II and III follow."
+            },
+            {
+              "id": "4",
+              "text": "Both I and II follow."
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q19",
+          "displayNumber": "Q19",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "subtopic": "Multiplication series",
+            "difficulty": "hard",
+            "estimatedTime": "1.5 min",
+            "notes": "Complex pattern combining multiplication and addition.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Select the number from among the given options that can replace the question mark (?) in the following series.\n12, 14, 31, 97, ?, 1971",
+          "options": [
+            {
+              "id": "1",
+              "text": "390"
+            },
+            {
+              "id": "2",
+              "text": "393"
+            },
+            {
+              "id": "3",
+              "text": "375"
+            },
+            {
+              "id": "4",
+              "text": "385"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q20",
+          "displayNumber": "Q20",
+          "type": "single",
+          "metadata": {
+            "topic": "Space Orientation",
+            "subtopic": "Circular Seating",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Relative positioning around a circle.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "Six friends named P, Q, R, S, T and U are sitting around a circular table facing the centre but not necessarily in the same order. T is second to the left of S. U is third to the right of P. R is to the immediate right of U. Who is sitting second to the right of P?",
+          "options": [
+            {
+              "id": "1",
+              "text": "T"
+            },
+            {
+              "id": "2",
+              "text": "Q"
+            },
+            {
+              "id": "3",
+              "text": "S"
+            },
+            {
+              "id": "4",
+              "text": "R"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q21",
+          "displayNumber": "Q21",
+          "type": "single",
+          "metadata": {
+            "topic": "relationship concepts",
+            "subtopic": "Coded Blood Relation",
+            "difficulty": "medium",
+            "estimatedTime": "1.5 min",
+            "notes": "Decoding symbols to build a family tree.",
+            "questionType": "Single Correct MCQ",
+            "section": "Logical & Numerical Reasoning"
+          },
+          "text": "A & B means 'A is the daughter of B'\nA % B means 'A is the father of B'\n\nA @ B means 'A is the sister of B'\n\nA # B means 'A is the mother of B'\n\nA + B means 'A is the husband of B'\n\nIf M @ R & N & C + H # F % K, then how is R related to F?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Brother's daughter"
+            },
+            {
+              "id": "2",
+              "text": "Daughter"
+            },
+            {
+              "id": "3",
+              "text": "Sister"
+            },
+            {
+              "id": "4",
+              "text": "Sister's daughter"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "logical-numerical-reasoning-q22",
+          "displayNumber": "Q22",
+          "type": "figure",
+          "metadata": {
+            "topic": "Space Visualisation",
+            "subtopic": "Mirror Image",
+            "difficulty": "easy",
+            "estimatedTime": "0.5 min",
+            "notes": "Direct spatial reasoning.",
+            "questionType": "Figure Placeholder",
+            "section": "Logical & Numerical Reasoning",
+            "answerKeyStatus": "missing in source; official key skipped this figure question"
+          },
+          "text": "(Figure / Mirror image question)",
+          "options": [],
+          "answer": null,
+          "explanation": "",
+          "figure": {
+            "label": "Logical & Numerical Reasoning Q22",
+            "description": "(Figure / Mirror image question)"
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-awareness",
+      "title": "General Awareness",
+      "metadata": {
+        "section": "General Awareness"
+      },
+      "questions": [
+        {
+          "id": "general-awareness-q1",
+          "displayNumber": "Q1",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography",
+            "subtopic": "Projects / Dams",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Direct factual knowledge.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "Teesta Barrage Project is one of the largest irrigation projects that was started in which of the following states?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Chhattisgarh"
+            },
+            {
+              "id": "2",
+              "text": "Odisha"
+            },
+            {
+              "id": "3",
+              "text": "Manipur"
+            },
+            {
+              "id": "4",
+              "text": "West Bengal"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q2",
+          "displayNumber": "Q2",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene",
+            "subtopic": "Current Events (Market)",
+            "difficulty": "hard",
+            "estimatedTime": "0.5 min",
+            "notes": "Very specific current affairs timeline.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "In which of the following months of 2022 did the SENSEX Stock Market Index reach an all-time high?",
+          "options": [
+            {
+              "id": "1",
+              "text": "September"
+            },
+            {
+              "id": "2",
+              "text": "October"
+            },
+            {
+              "id": "3",
+              "text": "November"
+            },
+            {
+              "id": "4",
+              "text": "December"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q3",
+          "displayNumber": "Q3",
+          "type": "single",
+          "metadata": {
+            "topic": "History",
+            "subtopic": "Modern India (INC)",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Standard historical fact.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "Who headed the Indian National Congress when the Lucknow Pact was adopted in 1916?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Dadabhai Naoroji"
+            },
+            {
+              "id": "2",
+              "text": "Gopal Krishna Gokhale"
+            },
+            {
+              "id": "3",
+              "text": "Bal Gangadhar Tilak"
+            },
+            {
+              "id": "4",
+              "text": "Jawaharlal Nehru"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q4",
+          "displayNumber": "Q4",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene",
+            "subtopic": "Current Events (Corporate)",
+            "difficulty": "hard",
+            "estimatedTime": "0.5 min",
+            "notes": "Specific business current affairs.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "In the month of December 2022, which of the following Fintech Unicorn companies was separated from Flipkart to operate under the US-based retail chain Walmart?",
+          "options": [
+            {
+              "id": "1",
+              "text": "PhonePe"
+            },
+            {
+              "id": "2",
+              "text": "Instamojo"
+            },
+            {
+              "id": "3",
+              "text": "MoneyTap"
+            },
+            {
+              "id": "4",
+              "text": "MobiKwik"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q5",
+          "displayNumber": "Q5",
+          "type": "single",
+          "metadata": {
+            "topic": "Culture",
+            "subtopic": "Classical Languages",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Static GK.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "Which of the following languages has NOT been given the status of classical language in India?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Telugu"
+            },
+            {
+              "id": "2",
+              "text": "Bengali"
+            },
+            {
+              "id": "3",
+              "text": "Kannada"
+            },
+            {
+              "id": "4",
+              "text": "Odia"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q6",
+          "displayNumber": "Q6",
+          "type": "single",
+          "metadata": {
+            "topic": "neighbouring Countries",
+            "subtopic": "Demographics",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Geographic/Demographic knowledge.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "Which of the following neighbouring countries of India has the highest population of Hindus?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Sri Lanka"
+            },
+            {
+              "id": "2",
+              "text": "Bangladesh"
+            },
+            {
+              "id": "3",
+              "text": "Nepal"
+            },
+            {
+              "id": "4",
+              "text": "Bhutan"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q7",
+          "displayNumber": "Q7",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events",
+            "subtopic": "Sports",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Recent sports achievements.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "Who among the following sportspersons became the first Indian to win a gold medal in the men's triple jump in Commonwealth Games 2022?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Ashwini Chidananda Shetty"
+            },
+            {
+              "id": "2",
+              "text": "Eldhose Paul"
+            },
+            {
+              "id": "3",
+              "text": "Praveen Chithravel"
+            },
+            {
+              "id": "4",
+              "text": "Deepak Kumar"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q8",
+          "displayNumber": "Q8",
+          "type": "single",
+          "metadata": {
+            "topic": "Indian Constitution",
+            "subtopic": "Fundamental Rights",
+            "difficulty": "hard",
+            "estimatedTime": "0.5 min",
+            "notes": "Requires precise knowledge of Articles 19-22.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "In the Indian Constitution under Right to Freedom (Articles 19 to 22), which of the following freedoms is NOT guaranteed to the citizens?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Protection in respect of conviction for offences"
+            },
+            {
+              "id": "2",
+              "text": "Freedom of conscience and free profession, practice and propagation of religion"
+            },
+            {
+              "id": "3",
+              "text": "Protection of life and personal liberty"
+            },
+            {
+              "id": "4",
+              "text": "Protection of certain rights regarding freedom of speech, etc."
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q9",
+          "displayNumber": "Q9",
+          "type": "single",
+          "metadata": {
+            "topic": "History",
+            "subtopic": "Freedom Struggle",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Biographical timeline of a historical figure.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "When did Subhash Chandra Bose quit his high-paying ICS job in England to join India's struggle for Independence?",
+          "options": [
+            {
+              "id": "1",
+              "text": "1919"
+            },
+            {
+              "id": "2",
+              "text": "1921"
+            },
+            {
+              "id": "3",
+              "text": "1916"
+            },
+            {
+              "id": "4",
+              "text": "1924"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q10",
+          "displayNumber": "Q10",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events",
+            "subtopic": "Sports Awards",
+            "difficulty": "hard",
+            "estimatedTime": "0.5 min",
+            "notes": "Specific names in recent awards.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "In the year 2022, which of the following persons received the Dronacharya Award (Lifetime) for the sport of cricket?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Jiwanjot Singh Teja"
+            },
+            {
+              "id": "2",
+              "text": "Dharamvir Singh"
+            },
+            {
+              "id": "3",
+              "text": "Dinesh Jawahar Lad"
+            },
+            {
+              "id": "4",
+              "text": "Bimal Prafulla Ghosh"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q11",
+          "displayNumber": "Q11",
+          "type": "single",
+          "metadata": {
+            "topic": "Scientific Research",
+            "subtopic": "Current Events (COVID)",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Recent developments in science/health.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "Intranasal vaccine, which got clearance in the month of December 2022 as a booster option in the COVID-19 immunisation is produced by which of the following pharmaceutical companies?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Serum Institute of India"
+            },
+            {
+              "id": "2",
+              "text": "British Biologicals"
+            },
+            {
+              "id": "3",
+              "text": "Bharat Biotech"
+            },
+            {
+              "id": "4",
+              "text": "Panacea Biotec"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q12",
+          "displayNumber": "Q12",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography",
+            "subtopic": "Rivers",
+            "difficulty": "easy",
+            "estimatedTime": "0.5 min",
+            "notes": "Static geography.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "The Zuari River is the longest river of which of the following states of India?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Odisha"
+            },
+            {
+              "id": "2",
+              "text": "Rajasthan"
+            },
+            {
+              "id": "3",
+              "text": "Goa"
+            },
+            {
+              "id": "4",
+              "text": "Gujarat"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q13",
+          "displayNumber": "Q13",
+          "type": "single",
+          "metadata": {
+            "topic": "History",
+            "subtopic": "Medieval India",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Chronology of empires.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "Who among the following Afghan rulers ruled in an interlude in the history of the Mughal Empire?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Mirwais Hotak"
+            },
+            {
+              "id": "2",
+              "text": "Sher Shah"
+            },
+            {
+              "id": "3",
+              "text": "Ahmad Shah"
+            },
+            {
+              "id": "4",
+              "text": "Ahmad Shah Durrani"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q14",
+          "displayNumber": "Q14",
+          "type": "single",
+          "metadata": {
+            "topic": "Culture",
+            "subtopic": "Festivals",
+            "difficulty": "hard",
+            "estimatedTime": "0.5 min",
+            "notes": "Deep cultural knowledge.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "Which of the following festivals of Odisha state commemorates the 2,000-year-old maritime and cultural links between ancient Kalinga and Southeast Asia?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Chandan Yatra"
+            },
+            {
+              "id": "2",
+              "text": "Chatar Jatra"
+            },
+            {
+              "id": "3",
+              "text": "Bali Yatra"
+            },
+            {
+              "id": "4",
+              "text": "Raja Parba"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q15",
+          "displayNumber": "Q15",
+          "type": "single",
+          "metadata": {
+            "topic": "General Policy",
+            "subtopic": "Books and Authors",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Famous political books.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "\"The Accidental Prime Minister: The Making and Unmaking of Manmohan Singh\" book was written by whom among the following authors?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Sanjaya Baru"
+            },
+            {
+              "id": "2",
+              "text": "Pramod Kumar Mishra"
+            },
+            {
+              "id": "3",
+              "text": "R.K. Dhawan"
+            },
+            {
+              "id": "4",
+              "text": "Parmeshwar Narayan Haksar"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "general-awareness-q16",
+          "displayNumber": "Q16",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene",
+            "subtopic": "Banking",
+            "difficulty": "hard",
+            "estimatedTime": "0.5 min",
+            "notes": "Recent changes in banking sector.",
+            "questionType": "Single Correct MCQ",
+            "section": "General Awareness"
+          },
+          "text": "As of January 2023, as per the Reserve Bank of India, which of the following is NOT a Scheduled Public Sector Bank anymore?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Punjab and Sind Bank"
+            },
+            {
+              "id": "2",
+              "text": "Bank of Maharashtra"
+            },
+            {
+              "id": "3",
+              "text": "Allahabad Bank"
+            },
+            {
+              "id": "4",
+              "text": "Bank of Baroda"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "computer-applications",
+      "title": "Knowledge in Computer Applications",
+      "metadata": {
+        "section": "Knowledge in Computer Applications"
+      },
+      "questions": [
+        {
+          "id": "computer-applications-q1",
+          "displayNumber": "Q1",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Office",
+            "subtopic": "Excel Functions",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Logical evaluation of a formula.",
+            "questionType": "Single Correct MCQ",
+            "section": "Knowledge in Computer Applications"
+          },
+          "text": "The function '=AND(A1=\"GOOD\", B2>10)' would output ________ in MS-Excel 2010.",
+          "options": [
+            {
+              "id": "1",
+              "text": "TRUE if A1 is GOOD and the value of B2 is greater than 10"
+            },
+            {
+              "id": "2",
+              "text": "TRUE if A1 is NOT GOOD and the value of B2 is greater than 10"
+            },
+            {
+              "id": "3",
+              "text": "TRUE if A1 is GOOD and the value of B2 is less than 10"
+            },
+            {
+              "id": "4",
+              "text": "TRUE if A1 is NOT GOOD and the value of B2 is less than 10"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "computer-applications-q2",
+          "displayNumber": "Q2",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Office",
+            "subtopic": "Shortcuts",
+            "difficulty": "easy",
+            "estimatedTime": "0.5 min",
+            "notes": "Direct memorization.",
+            "questionType": "Single Correct MCQ",
+            "section": "Knowledge in Computer Applications"
+          },
+          "text": "Which of the following keyboard shortcuts is used to close a workbook in MS-Excel 2010?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Ctrl + X"
+            },
+            {
+              "id": "2",
+              "text": "Ctrl + Z"
+            },
+            {
+              "id": "3",
+              "text": "Ctrl + Y"
+            },
+            {
+              "id": "4",
+              "text": "Ctrl + W"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "computer-applications-q3",
+          "displayNumber": "Q3",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Organisation",
+            "subtopic": "ROM",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Understanding acronyms and hardware traits.",
+            "questionType": "Single Correct MCQ",
+            "section": "Knowledge in Computer Applications"
+          },
+          "text": "Erasable and Programmable Read Only Memory (EPROM) retains its content until it is exposed to the ________.",
+          "options": [
+            {
+              "id": "1",
+              "text": "Magnetic signals"
+            },
+            {
+              "id": "2",
+              "text": "Radio signals"
+            },
+            {
+              "id": "3",
+              "text": "Ultraviolet light"
+            },
+            {
+              "id": "4",
+              "text": "Electrical signals"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "computer-applications-q4",
+          "displayNumber": "Q4",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Organisation",
+            "subtopic": "RAM",
+            "difficulty": "easy",
+            "estimatedTime": "0.5 min",
+            "notes": "Core hardware definitions.",
+            "questionType": "Single Correct MCQ",
+            "section": "Knowledge in Computer Applications"
+          },
+          "text": "Which of the following is the hardware in a computing device where the operating system, application programs and data in current use are kept so they can be quickly reached by the device's processor?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Hard disk"
+            },
+            {
+              "id": "2",
+              "text": "Flash drive"
+            },
+            {
+              "id": "3",
+              "text": "CD-ROM"
+            },
+            {
+              "id": "4",
+              "text": "RAM"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "computer-applications-q5",
+          "displayNumber": "Q5",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Software",
+            "subtopic": "Utility Software",
+            "difficulty": "easy",
+            "estimatedTime": "0.5 min",
+            "notes": "Software classification.",
+            "questionType": "Single Correct MCQ",
+            "section": "Knowledge in Computer Applications"
+          },
+          "text": "Which of the following is an example of utility software?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Antivirus"
+            },
+            {
+              "id": "2",
+              "text": "Operating system"
+            },
+            {
+              "id": "3",
+              "text": "Assembler"
+            },
+            {
+              "id": "4",
+              "text": "Interpreter"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "computer-applications-q6",
+          "displayNumber": "Q6",
+          "type": "single",
+          "metadata": {
+            "topic": "Operating System",
+            "subtopic": "Windows Shortcuts",
+            "difficulty": "easy",
+            "estimatedTime": "0.5 min",
+            "notes": "Basic OS usage.",
+            "questionType": "Single Correct MCQ",
+            "section": "Knowledge in Computer Applications"
+          },
+          "text": "Which of the following combination of keys is used to undo an action in Windows 10?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Alt + Tab"
+            },
+            {
+              "id": "2",
+              "text": "Alt + Z"
+            },
+            {
+              "id": "3",
+              "text": "Ctrl + Z"
+            },
+            {
+              "id": "4",
+              "text": "Ctrl + Tab"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "computer-applications-q7",
+          "displayNumber": "Q7",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Software",
+            "subtopic": "Compilers / Assembly",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Evaluating multiple technical statements.",
+            "questionType": "Single Correct MCQ",
+            "section": "Knowledge in Computer Applications"
+          },
+          "text": "Which of the following statements is/are true?\n(i) An assembly language is a machine dependent language.\n\n(ii) A compiler is a system software used to translate a high-level language program into its equivalent machine language program.",
+          "options": [
+            {
+              "id": "1",
+              "text": "Neither (i) nor (ii)"
+            },
+            {
+              "id": "2",
+              "text": "Only (i)"
+            },
+            {
+              "id": "3",
+              "text": "Only (ii)"
+            },
+            {
+              "id": "4",
+              "text": "Both (i) and (ii)"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "computer-applications-q8",
+          "displayNumber": "Q8",
+          "type": "single",
+          "metadata": {
+            "topic": "Characteristics of Computers",
+            "subtopic": "Basic Traits",
+            "difficulty": "easy",
+            "estimatedTime": "0.5 min",
+            "notes": "Conceptual understanding of AI/Computation.",
+            "questionType": "Single Correct MCQ",
+            "section": "Knowledge in Computer Applications"
+          },
+          "text": "Identify whether the given statements are true or false.\na) Power of remembrance: Computer can remember data for us.\n\nb) No Intelligence Quotient (IQ): Computer does not work without instruction.",
+          "options": [
+            {
+              "id": "1",
+              "text": "a) False\nb) True"
+            },
+            {
+              "id": "2",
+              "text": "a) False\nb) False"
+            },
+            {
+              "id": "3",
+              "text": "a) True\nb) False"
+            },
+            {
+              "id": "4",
+              "text": "a) True\nb) True"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "computer-applications-q9",
+          "displayNumber": "Q9",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Software",
+            "subtopic": "System Software",
+            "difficulty": "medium",
+            "estimatedTime": "0.5 min",
+            "notes": "Definitions.",
+            "questionType": "Single Correct MCQ",
+            "section": "Knowledge in Computer Applications"
+          },
+          "text": "A set of one or more programs designed to control the operation and extend the processing capabilities of a computer system is known as ______ software.",
+          "options": [
+            {
+              "id": "1",
+              "text": "control"
+            },
+            {
+              "id": "2",
+              "text": "application"
+            },
+            {
+              "id": "3",
+              "text": "system"
+            },
+            {
+              "id": "4",
+              "text": "operating"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "computer-applications-q10",
+          "displayNumber": "Q10",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Office",
+            "subtopic": "Excel Math Formula",
+            "difficulty": "medium",
+            "estimatedTime": "1 min",
+            "notes": "Calculation following Excel order of operations.",
+            "questionType": "Single Correct MCQ",
+            "section": "Knowledge in Computer Applications"
+          },
+          "text": "What will be the output of the following MS-Excel formula?\n=(5^2)+(2.5/5)",
+          "options": [
+            {
+              "id": "1",
+              "text": "12.0"
+            },
+            {
+              "id": "2",
+              "text": "25.5"
+            },
+            {
+              "id": "3",
+              "text": "1"
+            },
+            {
+              "id": "4",
+              "text": "1.2"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

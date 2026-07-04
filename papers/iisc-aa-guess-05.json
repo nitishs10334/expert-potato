@@ -1,0 +1,1183 @@
+{
+  "schemaVersion": "1.0",
+  "id": "iisc-aa-guess-05",
+  "title": "IISc Administrative Assistant Guess Paper 5 (Surprise Paper)",
+  "subtitle": "Boundary-testing paper covering 2026 syllabus topics skipped in 2023",
+  "version": "2026.07.05",
+  "durationMinutes": 90,
+  "language": "English",
+  "tags": ["iisc", "administrative-assistant", "guess-paper", "2026", "surprise"],
+  "metadata": {
+    "exam": "IISc Administrative Assistant",
+    "year": 2026,
+    "source": "Guess Paper 5 of 5",
+    "strategy": "Deliberately includes syllabus topics the 2023 examiner skipped: averages, trigonometry, heights and distances, data interpretation, surds, Venn diagrams, statement-conclusion, error spotting, voice, narration, IT Act, digital signatures and e-governance."
+  },
+  "instructions": [
+    "Total 80 questions to be attempted in 90 minutes.",
+    "Each correct answer earns +1 mark.",
+    "Negative marking applies: 0.33333 marks (one-third) are deducted for every incorrect answer.",
+    "Unattempted questions receive 0 marks.",
+    "Figure-based placeholder questions are unscored and carry 0 marks either way.",
+    "This surprise paper stretches to the edges of the official syllabus; expect topics not seen in the 2023 paper."
+  ],
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.33333,
+    "unattempted": 0,
+    "partial": false
+  },
+  "analytics": {
+    "groupBy": ["section", "topic", "difficulty"]
+  },
+  "sections": [
+    {
+      "id": "quantitative-ability",
+      "title": "Quantitative Ability",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "numerical",
+          "metadata": {"topic": "Averages", "difficulty": "medium"},
+          "text": "The average of 5 numbers is 27. When one number is removed, the average of the remaining numbers becomes 25. Enter the removed number.",
+          "answer": 35,
+          "tolerance": 0.01,
+          "explanation": "135 - 100 = 35."
+        },
+        {
+          "id": "q2",
+          "type": "single",
+          "metadata": {"topic": "Averages", "difficulty": "medium"},
+          "text": "A batsman averages 32 runs in 10 innings. He scores 76 in the 11th innings. His new average is:",
+          "options": [
+            {"id": "A", "text": "34"},
+            {"id": "B", "text": "35"},
+            {"id": "C", "text": "36"},
+            {"id": "D", "text": "38"}
+          ],
+          "answer": "C",
+          "explanation": "(320 + 76)/11 = 36."
+        },
+        {
+          "id": "q3",
+          "type": "single",
+          "metadata": {"topic": "Trigonometric Ratios", "difficulty": "medium"},
+          "text": "If tan(theta) = 3/4 and theta is acute, then sin(theta) equals:",
+          "options": [
+            {"id": "A", "text": "3/5"},
+            {"id": "B", "text": "4/5"},
+            {"id": "C", "text": "3/4"},
+            {"id": "D", "text": "5/3"}
+          ],
+          "answer": "A",
+          "explanation": "In a 3-4-5 triangle, sin = 3/5."
+        },
+        {
+          "id": "q4",
+          "type": "single",
+          "metadata": {"topic": "Trigonometric Identities", "difficulty": "easy"},
+          "text": "The value of sin 30 degrees + cos 60 degrees is:",
+          "options": [
+            {"id": "A", "text": "1/2"},
+            {"id": "B", "text": "1"},
+            {"id": "C", "text": "sqrt(3)/2"},
+            {"id": "D", "text": "2"}
+          ],
+          "answer": "B",
+          "explanation": "1/2 + 1/2 = 1."
+        },
+        {
+          "id": "q5",
+          "type": "single",
+          "metadata": {"topic": "Heights & Distances", "difficulty": "hard"},
+          "text": "From a point 30 m away from the foot of a tower, the angle of elevation of its top is 60 degrees. The height of the tower is:",
+          "options": [
+            {"id": "A", "text": "30 m"},
+            {"id": "B", "text": "30 sqrt(3) m"},
+            {"id": "C", "text": "15 sqrt(3) m"},
+            {"id": "D", "text": "60 m"}
+          ],
+          "answer": "B",
+          "explanation": "Height = 30 x tan 60 = 30 sqrt(3)."
+        },
+        {
+          "id": "q6",
+          "type": "single",
+          "metadata": {"topic": "Data Interpretation (Pie Chart)", "difficulty": "medium"},
+          "text": "A pie chart of a monthly budget of Rs 36000 shows: Food 120 degrees, Rent 90 degrees, Travel 60 degrees, Savings 90 degrees. The amount spent on Rent is:",
+          "options": [
+            {"id": "A", "text": "Rs 8000"},
+            {"id": "B", "text": "Rs 9000"},
+            {"id": "C", "text": "Rs 10000"},
+            {"id": "D", "text": "Rs 12000"}
+          ],
+          "answer": "B",
+          "explanation": "(90/360) x 36000 = 9000."
+        },
+        {
+          "id": "q7",
+          "type": "single",
+          "metadata": {"topic": "Data Interpretation (Pie Chart)", "difficulty": "medium"},
+          "text": "In the same budget pie chart (total Rs 36000; Food 120 degrees, Travel 60 degrees), spending on Food exceeds spending on Travel by:",
+          "options": [
+            {"id": "A", "text": "Rs 4000"},
+            {"id": "B", "text": "Rs 5000"},
+            {"id": "C", "text": "Rs 6000"},
+            {"id": "D", "text": "Rs 8000"}
+          ],
+          "answer": "C",
+          "explanation": "The 60-degree gap equals (60/360) x 36000 = 6000."
+        },
+        {
+          "id": "q8",
+          "type": "single",
+          "metadata": {"topic": "Square Roots", "difficulty": "easy"},
+          "text": "The value of the square root of 0.0081 is:",
+          "options": [
+            {"id": "A", "text": "0.9"},
+            {"id": "B", "text": "0.09"},
+            {"id": "C", "text": "0.009"},
+            {"id": "D", "text": "0.03"}
+          ],
+          "answer": "B",
+          "explanation": "0.09 x 0.09 = 0.0081."
+        },
+        {
+          "id": "q9",
+          "type": "single",
+          "metadata": {"topic": "Elementary Surds", "difficulty": "medium"},
+          "text": "After rationalising the denominator, 1/(sqrt(5) - 2) equals:",
+          "options": [
+            {"id": "A", "text": "sqrt(5) - 2"},
+            {"id": "B", "text": "sqrt(5) + 2"},
+            {"id": "C", "text": "(sqrt(5) + 2)/3"},
+            {"id": "D", "text": "(sqrt(5) - 2)/9"}
+          ],
+          "answer": "B",
+          "explanation": "Multiply by (sqrt(5)+2); denominator becomes 5 - 4 = 1."
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "metadata": {"topic": "Elementary Surds", "difficulty": "medium"},
+          "text": "Simplify: sqrt(48) + sqrt(27)",
+          "options": [
+            {"id": "A", "text": "5 sqrt(3)"},
+            {"id": "B", "text": "6 sqrt(3)"},
+            {"id": "C", "text": "7 sqrt(3)"},
+            {"id": "D", "text": "sqrt(75)"}
+          ],
+          "answer": "C",
+          "explanation": "4 sqrt(3) + 3 sqrt(3) = 7 sqrt(3)."
+        },
+        {
+          "id": "q11",
+          "type": "single",
+          "metadata": {"topic": "Percentage", "difficulty": "medium"},
+          "text": "A number is decreased by 10% and the result is again decreased by 10%. The overall decrease is:",
+          "options": [
+            {"id": "A", "text": "20%"},
+            {"id": "B", "text": "19%"},
+            {"id": "C", "text": "18%"},
+            {"id": "D", "text": "21%"}
+          ],
+          "answer": "B",
+          "explanation": "0.9 x 0.9 = 0.81, a 19% fall."
+        },
+        {
+          "id": "q12",
+          "type": "single",
+          "metadata": {"topic": "Profit & Loss", "difficulty": "hard"},
+          "text": "A trader sells two articles at Rs 990 each, gaining 10% on one and losing 10% on the other. Overall he makes:",
+          "options": [
+            {"id": "A", "text": "No profit, no loss"},
+            {"id": "B", "text": "1% loss"},
+            {"id": "C", "text": "1% profit"},
+            {"id": "D", "text": "2% loss"}
+          ],
+          "answer": "B",
+          "explanation": "CPs are 900 and 1100; SP 1980 vs CP 2000 is a 1% loss."
+        },
+        {
+          "id": "q13",
+          "type": "single",
+          "metadata": {"topic": "Time & Distance (Average Speed)", "difficulty": "medium"},
+          "text": "A car covers 150 km at 50 km/h and the next 150 km at 75 km/h. Its average speed for the whole journey is:",
+          "options": [
+            {"id": "A", "text": "60 km/h"},
+            {"id": "B", "text": "62.5 km/h"},
+            {"id": "C", "text": "65 km/h"},
+            {"id": "D", "text": "66.67 km/h"}
+          ],
+          "answer": "A",
+          "explanation": "300 km in 3 + 2 = 5 hours gives 60 km/h."
+        },
+        {
+          "id": "q14",
+          "type": "single",
+          "metadata": {"topic": "Compound Interest (Half-Yearly)", "difficulty": "hard"},
+          "text": "The compound interest on Rs 5000 for 1 year at 20% per annum, compounded half-yearly, is:",
+          "options": [
+            {"id": "A", "text": "Rs 1000"},
+            {"id": "B", "text": "Rs 1025"},
+            {"id": "C", "text": "Rs 1050"},
+            {"id": "D", "text": "Rs 1100"}
+          ],
+          "answer": "C",
+          "explanation": "10% twice: 5000 x 1.21 - 5000 = 1050."
+        },
+        {
+          "id": "q15",
+          "type": "single",
+          "metadata": {"topic": "Regular Polygons", "difficulty": "medium"},
+          "text": "Each interior angle of a regular octagon measures:",
+          "options": [
+            {"id": "A", "text": "120 degrees"},
+            {"id": "B", "text": "135 degrees"},
+            {"id": "C", "text": "140 degrees"},
+            {"id": "D", "text": "144 degrees"}
+          ],
+          "answer": "B",
+          "explanation": "(8-2) x 180 / 8 = 135."
+        },
+        {
+          "id": "q16",
+          "type": "single",
+          "metadata": {"topic": "Right Prism", "difficulty": "medium"},
+          "text": "A right prism has a square base of side 5 cm and height 12 cm. Its volume is:",
+          "options": [
+            {"id": "A", "text": "150 cu cm"},
+            {"id": "B", "text": "240 cu cm"},
+            {"id": "C", "text": "300 cu cm"},
+            {"id": "D", "text": "360 cu cm"}
+          ],
+          "answer": "C",
+          "explanation": "25 x 12 = 300."
+        }
+      ]
+    },
+    {
+      "id": "verbal-ability",
+      "title": "Verbal Ability",
+      "questions": [
+        {
+          "id": "q17",
+          "type": "single",
+          "metadata": {"topic": "Spotting the Error", "difficulty": "medium"},
+          "text": "Spot the part with the error: (a) One of the students / (b) have failed / (c) in the examination. / (d) No error",
+          "options": [
+            {"id": "A", "text": "(a)"},
+            {"id": "B", "text": "(b)"},
+            {"id": "C", "text": "(c)"},
+            {"id": "D", "text": "(d)"}
+          ],
+          "answer": "B",
+          "explanation": "'One of the students' takes the singular 'has failed'."
+        },
+        {
+          "id": "q18",
+          "type": "single",
+          "metadata": {"topic": "Spotting the Error", "difficulty": "medium"},
+          "text": "Spot the part with the error: (a) The committee have / (b) submitted its report / (c) to the director. / (d) No error",
+          "options": [
+            {"id": "A", "text": "(a)"},
+            {"id": "B", "text": "(b)"},
+            {"id": "C", "text": "(c)"},
+            {"id": "D", "text": "(d)"}
+          ],
+          "answer": "A",
+          "explanation": "Acting as one body, 'the committee has' is correct."
+        },
+        {
+          "id": "q19",
+          "type": "single",
+          "metadata": {"topic": "Fill in the Blanks", "difficulty": "easy"},
+          "text": "He is addicted ____ gambling.",
+          "options": [
+            {"id": "A", "text": "with"},
+            {"id": "B", "text": "for"},
+            {"id": "C", "text": "to"},
+            {"id": "D", "text": "in"}
+          ],
+          "answer": "C",
+          "explanation": "'Addicted' takes the preposition 'to'."
+        },
+        {
+          "id": "q20",
+          "type": "single",
+          "metadata": {"topic": "Fill in the Blanks", "difficulty": "medium"},
+          "text": "The committee is composed ____ ten members.",
+          "options": [
+            {"id": "A", "text": "with"},
+            {"id": "B", "text": "of"},
+            {"id": "C", "text": "by"},
+            {"id": "D", "text": "from"}
+          ],
+          "answer": "B",
+          "explanation": "'Composed of' is the correct phrase."
+        },
+        {
+          "id": "q21",
+          "type": "single",
+          "metadata": {"topic": "Active/Passive Voice", "difficulty": "medium"},
+          "text": "Change to passive voice: 'Someone stole my purse.'",
+          "options": [
+            {"id": "A", "text": "My purse was stolen."},
+            {"id": "B", "text": "My purse is stolen."},
+            {"id": "C", "text": "My purse has stolen."},
+            {"id": "D", "text": "My purse had been stole."}
+          ],
+          "answer": "A",
+          "explanation": "Simple past active becomes was + past participle."
+        },
+        {
+          "id": "q22",
+          "type": "single",
+          "metadata": {"topic": "Direct/Indirect Narration", "difficulty": "medium"},
+          "text": "Change to indirect speech: He said, 'I am busy.'",
+          "options": [
+            {"id": "A", "text": "He said that he is busy."},
+            {"id": "B", "text": "He said that he was busy."},
+            {"id": "C", "text": "He says that he was busy."},
+            {"id": "D", "text": "He told that he is busy."}
+          ],
+          "answer": "B",
+          "explanation": "Present tense shifts to past in reported speech."
+        },
+        {
+          "id": "q23",
+          "type": "single",
+          "metadata": {"topic": "Shuffling of Sentence Parts", "difficulty": "medium"},
+          "text": "Rearrange the parts to form a meaningful sentence: P: by the heavy rains / Q: the old bridge / R: was washed away / S: last monsoon",
+          "options": [
+            {"id": "A", "text": "QRPS"},
+            {"id": "B", "text": "QPRS"},
+            {"id": "C", "text": "PQRS"},
+            {"id": "D", "text": "SQPR"}
+          ],
+          "answer": "A",
+          "explanation": "The old bridge was washed away by the heavy rains last monsoon."
+        },
+        {
+          "id": "q24",
+          "type": "single",
+          "metadata": {"topic": "Improvement of Sentences", "difficulty": "medium"},
+          "text": "Improve the underlined part: The principal DISCUSSED ABOUT the new timetable.",
+          "options": [
+            {"id": "A", "text": "discussed"},
+            {"id": "B", "text": "discussed on"},
+            {"id": "C", "text": "discussed over"},
+            {"id": "D", "text": "No improvement"}
+          ],
+          "answer": "A",
+          "explanation": "'Discuss' never takes 'about'."
+        },
+        {
+          "id": "q25",
+          "type": "single",
+          "metadata": {"topic": "Idioms & Phrases", "difficulty": "medium"},
+          "text": "Select the meaning of the idiom: To turn a deaf ear",
+          "options": [
+            {"id": "A", "text": "To listen carefully"},
+            {"id": "B", "text": "To ignore deliberately"},
+            {"id": "C", "text": "To become deaf"},
+            {"id": "D", "text": "To speak loudly"}
+          ],
+          "answer": "B",
+          "explanation": "It means to refuse to listen."
+        },
+        {
+          "id": "q26",
+          "type": "single",
+          "metadata": {"topic": "One-word Substitution", "difficulty": "medium"},
+          "text": "One who is present everywhere:",
+          "options": [
+            {"id": "A", "text": "Omnipotent"},
+            {"id": "B", "text": "Omniscient"},
+            {"id": "C", "text": "Omnipresent"},
+            {"id": "D", "text": "Omnivorous"}
+          ],
+          "answer": "C",
+          "explanation": "Omnipresent means present everywhere."
+        },
+        {
+          "id": "q27",
+          "type": "single",
+          "metadata": {"topic": "Synonyms", "difficulty": "easy"},
+          "text": "Select the synonym of BENEVOLENT:",
+          "options": [
+            {"id": "A", "text": "Kind"},
+            {"id": "B", "text": "Cruel"},
+            {"id": "C", "text": "Proud"},
+            {"id": "D", "text": "Wealthy"}
+          ],
+          "answer": "A",
+          "explanation": "Benevolent means kind and charitable."
+        },
+        {
+          "id": "q28",
+          "type": "single",
+          "metadata": {"topic": "Antonyms", "difficulty": "easy"},
+          "text": "Select the antonym of OPTIMIST:",
+          "options": [
+            {"id": "A", "text": "Realist"},
+            {"id": "B", "text": "Pessimist"},
+            {"id": "C", "text": "Idealist"},
+            {"id": "D", "text": "Humorist"}
+          ],
+          "answer": "B",
+          "explanation": "A pessimist expects the worst."
+        },
+        {
+          "id": "q29",
+          "type": "single",
+          "metadata": {"topic": "Spelling", "difficulty": "medium"},
+          "text": "Select the correctly spelt word:",
+          "options": [
+            {"id": "A", "text": "Questionaire"},
+            {"id": "B", "text": "Questionnaire"},
+            {"id": "C", "text": "Questionair"},
+            {"id": "D", "text": "Questionnair"}
+          ],
+          "answer": "B",
+          "explanation": "Double n with -aire: questionnaire."
+        },
+        {
+          "id": "q30",
+          "type": "paragraph",
+          "metadata": {"topic": "Comprehension Passage", "difficulty": "medium"},
+          "passage": "Governments around the world are experimenting with artificial intelligence to deliver public services. Chatbots answer citizens' queries about pensions, algorithms flag suspicious tax returns, and translation tools make official portals available in dozens of languages. Supporters argue that AI cuts queues and paperwork, freeing officials for complex cases. Critics counter that automated decisions can be opaque and may quietly discriminate against the very citizens they are meant to serve. Most experts therefore recommend keeping a human officer responsible for every final decision, using AI as an assistant rather than a judge.",
+          "text": "According to the passage, critics of AI in public services fear that automated decisions may be:",
+          "options": [
+            {"id": "A", "text": "Too slow and costly"},
+            {"id": "B", "text": "Opaque and discriminatory"},
+            {"id": "C", "text": "Easily hacked"},
+            {"id": "D", "text": "Unpopular with officials"}
+          ],
+          "answer": "B",
+          "explanation": "The passage cites opacity and quiet discrimination."
+        },
+        {
+          "id": "q31",
+          "type": "paragraph",
+          "metadata": {"topic": "Comprehension Passage", "difficulty": "medium"},
+          "passage": "Governments around the world are experimenting with artificial intelligence to deliver public services. Chatbots answer citizens' queries about pensions, algorithms flag suspicious tax returns, and translation tools make official portals available in dozens of languages. Supporters argue that AI cuts queues and paperwork, freeing officials for complex cases. Critics counter that automated decisions can be opaque and may quietly discriminate against the very citizens they are meant to serve. Most experts therefore recommend keeping a human officer responsible for every final decision, using AI as an assistant rather than a judge.",
+          "text": "What do most experts recommend in the passage?",
+          "options": [
+            {"id": "A", "text": "Banning AI from government offices"},
+            {"id": "B", "text": "Letting AI take all routine decisions"},
+            {"id": "C", "text": "Keeping a human responsible for final decisions"},
+            {"id": "D", "text": "Using AI only for translation"}
+          ],
+          "answer": "C",
+          "explanation": "AI should assist, with humans making final decisions."
+        },
+        {
+          "id": "q32",
+          "type": "paragraph",
+          "metadata": {"topic": "Comprehension Passage", "difficulty": "easy"},
+          "passage": "Governments around the world are experimenting with artificial intelligence to deliver public services. Chatbots answer citizens' queries about pensions, algorithms flag suspicious tax returns, and translation tools make official portals available in dozens of languages. Supporters argue that AI cuts queues and paperwork, freeing officials for complex cases. Critics counter that automated decisions can be opaque and may quietly discriminate against the very citizens they are meant to serve. Most experts therefore recommend keeping a human officer responsible for every final decision, using AI as an assistant rather than a judge.",
+          "text": "In the passage, the word 'opaque' most nearly means:",
+          "options": [
+            {"id": "A", "text": "Transparent"},
+            {"id": "B", "text": "Difficult to understand"},
+            {"id": "C", "text": "Very fast"},
+            {"id": "D", "text": "Expensive"}
+          ],
+          "answer": "B",
+          "explanation": "Opaque decisions cannot be seen through or explained."
+        }
+      ]
+    },
+    {
+      "id": "logical-numerical-reasoning",
+      "title": "Logical and Numerical Reasoning",
+      "questions": [
+        {
+          "id": "q33",
+          "type": "single",
+          "metadata": {"topic": "Number Series", "difficulty": "hard"},
+          "text": "Find the next term: 2, 12, 36, 80, 150, ?",
+          "options": [
+            {"id": "A", "text": "222"},
+            {"id": "B", "text": "252"},
+            {"id": "C", "text": "246"},
+            {"id": "D", "text": "260"}
+          ],
+          "answer": "B",
+          "explanation": "n^3 + n^2: for n = 6, 216 + 36 = 252."
+        },
+        {
+          "id": "q34",
+          "type": "single",
+          "metadata": {"topic": "Number Series", "difficulty": "easy"},
+          "text": "Find the next term: 13, 17, 19, 23, ?",
+          "options": [
+            {"id": "A", "text": "25"},
+            {"id": "B", "text": "27"},
+            {"id": "C", "text": "29"},
+            {"id": "D", "text": "31"}
+          ],
+          "answer": "C",
+          "explanation": "These are consecutive primes."
+        },
+        {
+          "id": "q35",
+          "type": "single",
+          "metadata": {"topic": "Letter Series", "difficulty": "medium"},
+          "text": "Find the next term: Z, X, U, Q, L, ?",
+          "options": [
+            {"id": "A", "text": "F"},
+            {"id": "B", "text": "G"},
+            {"id": "C", "text": "E"},
+            {"id": "D", "text": "H"}
+          ],
+          "answer": "A",
+          "explanation": "Gaps grow: -2, -3, -4, -5, then -6."
+        },
+        {
+          "id": "q36",
+          "type": "single",
+          "metadata": {"topic": "Coding-Decoding", "difficulty": "easy"},
+          "text": "If STAR is coded as RATS, how is LAMP coded?",
+          "options": [
+            {"id": "A", "text": "PMAL"},
+            {"id": "B", "text": "PALM"},
+            {"id": "C", "text": "MALP"},
+            {"id": "D", "text": "AMPL"}
+          ],
+          "answer": "A",
+          "explanation": "The word is simply reversed."
+        },
+        {
+          "id": "q37",
+          "type": "single",
+          "metadata": {"topic": "Coding-Decoding", "difficulty": "medium"},
+          "text": "If DOG = 52, then CAT = ?",
+          "options": [
+            {"id": "A", "text": "24"},
+            {"id": "B", "text": "36"},
+            {"id": "C", "text": "48"},
+            {"id": "D", "text": "60"}
+          ],
+          "answer": "C",
+          "explanation": "Twice the sum of positions: 2 x (3+1+20) = 48."
+        },
+        {
+          "id": "q38",
+          "type": "single",
+          "metadata": {"topic": "Word Building", "difficulty": "medium"},
+          "text": "Which word CANNOT be formed from the letters of CREATION?",
+          "options": [
+            {"id": "A", "text": "REACT"},
+            {"id": "B", "text": "RATION"},
+            {"id": "C", "text": "CARTON"},
+            {"id": "D", "text": "CREAM"}
+          ],
+          "answer": "D",
+          "explanation": "CREATION has no letter M."
+        },
+        {
+          "id": "q39",
+          "type": "single",
+          "metadata": {"topic": "Venn Diagrams (Relationships)", "difficulty": "medium"},
+          "text": "Which diagram best represents the relationship between Furniture, Chairs and Tables?",
+          "options": [
+            {"id": "A", "text": "Three separate circles"},
+            {"id": "B", "text": "Two non-overlapping circles inside a larger circle"},
+            {"id": "C", "text": "Three concentric circles"},
+            {"id": "D", "text": "Two overlapping circles inside a larger circle"}
+          ],
+          "answer": "B",
+          "explanation": "Chairs and tables are distinct kinds of furniture."
+        },
+        {
+          "id": "q40",
+          "type": "single",
+          "metadata": {"topic": "Venn Diagrams (Numeric)", "difficulty": "medium"},
+          "text": "In a class of 60 students, 35 like tea, 30 like coffee and 15 like both. How many like neither?",
+          "options": [
+            {"id": "A", "text": "5"},
+            {"id": "B", "text": "10"},
+            {"id": "C", "text": "15"},
+            {"id": "D", "text": "20"}
+          ],
+          "answer": "B",
+          "explanation": "60 - (35 + 30 - 15) = 10."
+        },
+        {
+          "id": "q41",
+          "type": "single",
+          "metadata": {"topic": "Symbolic Operations", "difficulty": "easy"},
+          "text": "If @ means 'multiplied by' and # means 'added to', then 2 # 3 @ 4 = ?",
+          "options": [
+            {"id": "A", "text": "20"},
+            {"id": "B", "text": "14"},
+            {"id": "C", "text": "24"},
+            {"id": "D", "text": "11"}
+          ],
+          "answer": "B",
+          "explanation": "2 + (3 x 4) = 14."
+        },
+        {
+          "id": "q42",
+          "type": "single",
+          "metadata": {"topic": "Address Matching", "difficulty": "medium"},
+          "text": "Select the option that EXACTLY matches: Flat 4B, 221 M.G. Road, Bengaluru-560001",
+          "options": [
+            {"id": "A", "text": "Flat 4B, 221 M.G. Road, Bengaluru-560001"},
+            {"id": "B", "text": "Flat 4B, 212 M.G. Road, Bengaluru-560001"},
+            {"id": "C", "text": "Flat 4B, 221 M.G. Road, Bengaluru-560010"},
+            {"id": "D", "text": "Flat 48, 221 M.G. Road, Bengaluru-560001"}
+          ],
+          "answer": "A",
+          "explanation": "The others alter the number, PIN or flat."
+        },
+        {
+          "id": "q43",
+          "type": "single",
+          "metadata": {"topic": "Linear Seating Arrangement", "difficulty": "medium"},
+          "text": "V, W, X, Y, Z sit in a row facing north. X sits exactly in the middle. V is to the immediate left of X. Z is at the extreme right. W is between X and Z. Who is at the extreme left?",
+          "options": [
+            {"id": "A", "text": "V"},
+            {"id": "B", "text": "W"},
+            {"id": "C", "text": "Y"},
+            {"id": "D", "text": "Z"}
+          ],
+          "answer": "C",
+          "explanation": "Order is Y, V, X, W, Z."
+        },
+        {
+          "id": "q44",
+          "type": "single",
+          "metadata": {"topic": "Scheduling Puzzle", "difficulty": "medium"},
+          "text": "Sessions on Maths, Physics, Chemistry and Biology run Monday to Thursday, one per day. Biology is on Monday. Chemistry is immediately after Biology. Maths is on Thursday. On which day is Physics?",
+          "options": [
+            {"id": "A", "text": "Monday"},
+            {"id": "B", "text": "Tuesday"},
+            {"id": "C", "text": "Wednesday"},
+            {"id": "D", "text": "Thursday"}
+          ],
+          "answer": "C",
+          "explanation": "Bio Mon, Chem Tue, Maths Thu leaves Physics on Wednesday."
+        },
+        {
+          "id": "q45",
+          "type": "single",
+          "metadata": {"topic": "Blood Relations", "difficulty": "medium"},
+          "text": "A is B's sister. C is B's mother. D is C's father. How is A related to D?",
+          "options": [
+            {"id": "A", "text": "Granddaughter"},
+            {"id": "B", "text": "Daughter"},
+            {"id": "C", "text": "Grandmother"},
+            {"id": "D", "text": "Niece"}
+          ],
+          "answer": "A",
+          "explanation": "A is the child of C, whose father is D."
+        },
+        {
+          "id": "q46",
+          "type": "single",
+          "metadata": {"topic": "Direction Sense", "difficulty": "easy"},
+          "text": "Riya walks 6 km west, turns right and walks 8 km. How far is she from her starting point?",
+          "options": [
+            {"id": "A", "text": "10 km"},
+            {"id": "B", "text": "12 km"},
+            {"id": "C", "text": "14 km"},
+            {"id": "D", "text": "8 km"}
+          ],
+          "answer": "A",
+          "explanation": "sqrt(36 + 64) = 10."
+        },
+        {
+          "id": "q47",
+          "type": "single",
+          "metadata": {"topic": "Statement & Conclusions", "difficulty": "medium"},
+          "text": "Statement: All the windows of the new office are made of unbreakable glass. Conclusions: I. No window of the office can be broken easily. II. The office authorities feared theft.",
+          "options": [
+            {"id": "A", "text": "Only I follows"},
+            {"id": "B", "text": "Only II follows"},
+            {"id": "C", "text": "Both follow"},
+            {"id": "D", "text": "Neither follows"}
+          ],
+          "answer": "A",
+          "explanation": "I restates the fact; II assumes an unstated motive."
+        },
+        {
+          "id": "q48",
+          "type": "single",
+          "metadata": {"topic": "Statement & Conclusions", "difficulty": "medium"},
+          "text": "Statement: A notice in the library reads, 'Use of mobile phones is prohibited inside the library.' Conclusions: I. Some visitors bring mobile phones to the library. II. Mobile phones always disturb readers.",
+          "options": [
+            {"id": "A", "text": "Only I follows"},
+            {"id": "B", "text": "Only II follows"},
+            {"id": "C", "text": "Both follow"},
+            {"id": "D", "text": "Neither follows"}
+          ],
+          "answer": "A",
+          "explanation": "The notice implies phones are brought in; II is too absolute."
+        },
+        {
+          "id": "q49",
+          "type": "single",
+          "metadata": {"topic": "Drawing Inferences", "difficulty": "medium"},
+          "text": "During 2025, electric-vehicle registrations in a city doubled while petrol-vehicle registrations fell by 10%. Which conclusion best follows?",
+          "options": [
+            {"id": "A", "text": "Petrol will be banned next year"},
+            {"id": "B", "text": "Electric vehicles are gaining acceptance in the city"},
+            {"id": "C", "text": "All petrol pumps will close"},
+            {"id": "D", "text": "Electric vehicles are cheaper than petrol vehicles"}
+          ],
+          "answer": "B",
+          "explanation": "The trend supports growing acceptance; the rest overreach."
+        },
+        {
+          "id": "q50",
+          "type": "single",
+          "metadata": {"topic": "Syllogism (Three Statements)", "difficulty": "hard"},
+          "text": "Statements: All keys are locks. All locks are doors. Some doors are windows. Conclusions: I. Some doors are keys. II. Some windows are locks.",
+          "options": [
+            {"id": "A", "text": "Only I follows"},
+            {"id": "B", "text": "Only II follows"},
+            {"id": "C", "text": "Both follow"},
+            {"id": "D", "text": "Neither follows"}
+          ],
+          "answer": "A",
+          "explanation": "Keys are doors, so some doors are keys; II is uncertain."
+        },
+        {
+          "id": "q51",
+          "type": "single",
+          "metadata": {"topic": "Dice (Verbal)", "difficulty": "easy"},
+          "text": "On a standard die numbered 1 to 6, the number 2 is adjacent to 1, 3, 4 and 6. Which number is opposite 2?",
+          "options": [
+            {"id": "A", "text": "3"},
+            {"id": "B", "text": "4"},
+            {"id": "C", "text": "5"},
+            {"id": "D", "text": "6"}
+          ],
+          "answer": "C",
+          "explanation": "The only remaining face, 5, must be opposite."
+        },
+        {
+          "id": "q52",
+          "type": "figure",
+          "metadata": {"topic": "Punched Hole (Folding & Unfolding)", "difficulty": "hard"},
+          "text": "A square sheet is folded twice and a hole is punched as shown. Select how the sheet appears when unfolded.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Punched Hole Pattern",
+            "description": "A paper folded twice with one punch; the unfolded hole pattern must be chosen from four options."
+          },
+          "scoring": {"correct": 0, "incorrect": 0, "unattempted": 0, "partial": false},
+          "explanation": "Unscored placeholder for a visual punching question."
+        },
+        {
+          "id": "q53",
+          "type": "figure",
+          "metadata": {"topic": "Embedded Figures", "difficulty": "medium"},
+          "text": "Select the option in which the given simple figure is embedded.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Embedded Figure",
+            "description": "A simple geometric shape that must be located inside one of four complex figures."
+          },
+          "scoring": {"correct": 0, "incorrect": 0, "unattempted": 0, "partial": false},
+          "explanation": "Unscored placeholder for a visual embedded-figure question."
+        },
+        {
+          "id": "q54",
+          "type": "figure",
+          "metadata": {"topic": "Figural Analogy", "difficulty": "medium"},
+          "text": "The first pair of figures shares a relationship. Select the figure that completes the second pair in the same way.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Figural Analogy",
+            "description": "Figure A relates to figure B by rotation and shading; the option matching C to D in the same way must be chosen."
+          },
+          "scoring": {"correct": 0, "incorrect": 0, "unattempted": 0, "partial": false},
+          "explanation": "Unscored placeholder for a visual analogy question."
+        }
+      ]
+    },
+    {
+      "id": "general-awareness",
+      "title": "General Awareness",
+      "questions": [
+        {
+          "id": "q55",
+          "type": "single",
+          "metadata": {"topic": "Everyday Science", "difficulty": "easy"},
+          "text": "Ice floats on water because:",
+          "options": [
+            {"id": "A", "text": "It is colder than water"},
+            {"id": "B", "text": "Its density is lower than that of water"},
+            {"id": "C", "text": "It contains trapped salt"},
+            {"id": "D", "text": "Water pushes it upward magnetically"}
+          ],
+          "answer": "B",
+          "explanation": "Ice is less dense, so it floats."
+        },
+        {
+          "id": "q56",
+          "type": "single",
+          "metadata": {"topic": "Everyday Science", "difficulty": "easy"},
+          "text": "Which vitamin is produced in human skin on exposure to sunlight?",
+          "options": [
+            {"id": "A", "text": "Vitamin A"},
+            {"id": "B", "text": "Vitamin B12"},
+            {"id": "C", "text": "Vitamin C"},
+            {"id": "D", "text": "Vitamin D"}
+          ],
+          "answer": "D",
+          "explanation": "Sunlight triggers vitamin D synthesis in the skin."
+        },
+        {
+          "id": "q57",
+          "type": "single",
+          "metadata": {"topic": "Scientific Research", "difficulty": "medium"},
+          "text": "CRISPR technology, frequently in the news, is used for:",
+          "options": [
+            {"id": "A", "text": "Gene editing"},
+            {"id": "B", "text": "Weather forecasting"},
+            {"id": "C", "text": "Quantum encryption"},
+            {"id": "D", "text": "Nuclear fusion"}
+          ],
+          "answer": "A",
+          "explanation": "CRISPR allows precise editing of DNA."
+        },
+        {
+          "id": "q58",
+          "type": "single",
+          "metadata": {"topic": "Indian Constitution", "difficulty": "medium"},
+          "text": "The Chief Justice of India is appointed by:",
+          "options": [
+            {"id": "A", "text": "The Prime Minister"},
+            {"id": "B", "text": "The President"},
+            {"id": "C", "text": "The Law Minister"},
+            {"id": "D", "text": "The Supreme Court collegium directly"}
+          ],
+          "answer": "B",
+          "explanation": "The President formally appoints the CJI."
+        },
+        {
+          "id": "q59",
+          "type": "single",
+          "metadata": {"topic": "Indian Constitution", "difficulty": "hard"},
+          "text": "The words 'Socialist' and 'Secular' were added to the Preamble by which Amendment?",
+          "options": [
+            {"id": "A", "text": "24th Amendment"},
+            {"id": "B", "text": "42nd Amendment"},
+            {"id": "C", "text": "44th Amendment"},
+            {"id": "D", "text": "52nd Amendment"}
+          ],
+          "answer": "B",
+          "explanation": "The 42nd Amendment (1976) added them."
+        },
+        {
+          "id": "q60",
+          "type": "single",
+          "metadata": {"topic": "History (Ancient India)", "difficulty": "medium"},
+          "text": "The Kalinga War, after which Ashoka embraced Buddhism, was fought around:",
+          "options": [
+            {"id": "A", "text": "321 BCE"},
+            {"id": "B", "text": "261 BCE"},
+            {"id": "C", "text": "185 BCE"},
+            {"id": "D", "text": "78 CE"}
+          ],
+          "answer": "B",
+          "explanation": "The war took place about 261 BCE."
+        },
+        {
+          "id": "q61",
+          "type": "single",
+          "metadata": {"topic": "Culture (Dance)", "difficulty": "medium"},
+          "text": "Sattriya, a classical dance recognised by the Sangeet Natak Akademi, belongs to:",
+          "options": [
+            {"id": "A", "text": "Assam"},
+            {"id": "B", "text": "Odisha"},
+            {"id": "C", "text": "Manipur"},
+            {"id": "D", "text": "Kerala"}
+          ],
+          "answer": "A",
+          "explanation": "Sattriya originated in the monasteries of Assam."
+        },
+        {
+          "id": "q62",
+          "type": "single",
+          "metadata": {"topic": "Geography (Islands)", "difficulty": "hard"},
+          "text": "The Ten Degree Channel separates:",
+          "options": [
+            {"id": "A", "text": "India and Sri Lanka"},
+            {"id": "B", "text": "Lakshadweep and Maldives"},
+            {"id": "C", "text": "The Andaman and Nicobar island groups"},
+            {"id": "D", "text": "India and Indonesia"}
+          ],
+          "answer": "C",
+          "explanation": "It runs between the Andamans and the Nicobars."
+        },
+        {
+          "id": "q63",
+          "type": "single",
+          "metadata": {"topic": "Economic Scene", "difficulty": "medium"},
+          "text": "Retail inflation in India is primarily measured by:",
+          "options": [
+            {"id": "A", "text": "The Wholesale Price Index"},
+            {"id": "B", "text": "The Consumer Price Index"},
+            {"id": "C", "text": "The GDP deflator"},
+            {"id": "D", "text": "The Sensex"}
+          ],
+          "answer": "B",
+          "explanation": "CPI tracks retail prices for consumers."
+        },
+        {
+          "id": "q64",
+          "type": "single",
+          "metadata": {"topic": "Economic Scene (Institutions)", "difficulty": "medium"},
+          "text": "SIDBI is a financial institution that primarily supports:",
+          "options": [
+            {"id": "A", "text": "Large export houses"},
+            {"id": "B", "text": "Small and micro industries"},
+            {"id": "C", "text": "Housing finance"},
+            {"id": "D", "text": "Agriculture only"}
+          ],
+          "answer": "B",
+          "explanation": "SIDBI is the Small Industries Development Bank of India."
+        },
+        {
+          "id": "q65",
+          "type": "single",
+          "metadata": {"topic": "Current Events (Environment)", "difficulty": "medium"},
+          "text": "The COP29 climate summit (November 2024) was held in:",
+          "options": [
+            {"id": "A", "text": "Dubai, UAE"},
+            {"id": "B", "text": "Baku, Azerbaijan"},
+            {"id": "C", "text": "Glasgow, UK"},
+            {"id": "D", "text": "Cairo, Egypt"}
+          ],
+          "answer": "B",
+          "explanation": "Azerbaijan hosted COP29 in Baku."
+        },
+        {
+          "id": "q66",
+          "type": "single",
+          "metadata": {"topic": "General Policy (Sports)", "difficulty": "easy"},
+          "text": "The Khelo India programme is aimed at:",
+          "options": [
+            {"id": "A", "text": "Building sports culture and grassroots talent"},
+            {"id": "B", "text": "Promoting yoga abroad"},
+            {"id": "C", "text": "Funding only Olympic medallists"},
+            {"id": "D", "text": "Constructing cricket stadiums"}
+          ],
+          "answer": "A",
+          "explanation": "It develops grassroots sports across India."
+        },
+        {
+          "id": "q67",
+          "type": "single",
+          "metadata": {"topic": "Neighbouring Countries", "difficulty": "easy"},
+          "text": "The currency of Bangladesh is the:",
+          "options": [
+            {"id": "A", "text": "Rupee"},
+            {"id": "B", "text": "Taka"},
+            {"id": "C", "text": "Kyat"},
+            {"id": "D", "text": "Rufiyaa"}
+          ],
+          "answer": "B",
+          "explanation": "Bangladesh uses the taka."
+        },
+        {
+          "id": "q68",
+          "type": "single",
+          "metadata": {"topic": "General Policy (Digital)", "difficulty": "easy"},
+          "text": "The Digital India programme was launched in:",
+          "options": [
+            {"id": "A", "text": "2013"},
+            {"id": "B", "text": "2015"},
+            {"id": "C", "text": "2017"},
+            {"id": "D", "text": "2019"}
+          ],
+          "answer": "B",
+          "explanation": "It was launched on 1 July 2015."
+        },
+        {
+          "id": "q69",
+          "type": "single",
+          "metadata": {"topic": "Books & Authors", "difficulty": "medium"},
+          "text": "'Exam Warriors' is a book written by:",
+          "options": [
+            {"id": "A", "text": "Narendra Modi"},
+            {"id": "B", "text": "APJ Abdul Kalam"},
+            {"id": "C", "text": "Sudha Murty"},
+            {"id": "D", "text": "Chetan Bhagat"}
+          ],
+          "answer": "A",
+          "explanation": "PM Modi wrote it for students facing exams."
+        },
+        {
+          "id": "q70",
+          "type": "single",
+          "metadata": {"topic": "History & Current Hook (Education)", "difficulty": "medium"},
+          "text": "The ancient university of Nalanda, whose modern campus was inaugurated in 2024, is located in:",
+          "options": [
+            {"id": "A", "text": "Uttar Pradesh"},
+            {"id": "B", "text": "Bihar"},
+            {"id": "C", "text": "Madhya Pradesh"},
+            {"id": "D", "text": "Odisha"}
+          ],
+          "answer": "B",
+          "explanation": "Nalanda is in Bihar, near Rajgir."
+        }
+      ]
+    },
+    {
+      "id": "computer-applications",
+      "title": "Knowledge in Computer Applications",
+      "questions": [
+        {
+          "id": "q71",
+          "type": "single",
+          "metadata": {"topic": "IT Act", "difficulty": "medium"},
+          "text": "The Information Technology Act of India was enacted in the year:",
+          "options": [
+            {"id": "A", "text": "1998"},
+            {"id": "B", "text": "2000"},
+            {"id": "C", "text": "2003"},
+            {"id": "D", "text": "2008"}
+          ],
+          "answer": "B",
+          "explanation": "The IT Act came into force in 2000."
+        },
+        {
+          "id": "q72",
+          "type": "single",
+          "metadata": {"topic": "IT Act", "difficulty": "hard"},
+          "text": "Under the IT Act, Section 66 broadly deals with:",
+          "options": [
+            {"id": "A", "text": "Computer-related offences such as hacking"},
+            {"id": "B", "text": "Licensing of internet providers"},
+            {"id": "C", "text": "Regulation of e-commerce prices"},
+            {"id": "D", "text": "Software patents"}
+          ],
+          "answer": "A",
+          "explanation": "Section 66 covers dishonest or fraudulent computer offences."
+        },
+        {
+          "id": "q73",
+          "type": "single",
+          "metadata": {"topic": "Digital Signatures", "difficulty": "medium"},
+          "text": "A digital signature primarily ensures:",
+          "options": [
+            {"id": "A", "text": "Faster downloads"},
+            {"id": "B", "text": "Authentication and integrity of a document"},
+            {"id": "C", "text": "Compression of files"},
+            {"id": "D", "text": "Colour printing accuracy"}
+          ],
+          "answer": "B",
+          "explanation": "It verifies the signer and detects tampering."
+        },
+        {
+          "id": "q74",
+          "type": "single",
+          "metadata": {"topic": "E-Governance", "difficulty": "medium"},
+          "text": "Filing income-tax returns on the government portal is an example of which e-Governance interaction?",
+          "options": [
+            {"id": "A", "text": "G2C (Government to Citizen)"},
+            {"id": "B", "text": "B2B (Business to Business)"},
+            {"id": "C", "text": "C2C (Citizen to Citizen)"},
+            {"id": "D", "text": "G2G (Government to Government)"}
+          ],
+          "answer": "A",
+          "explanation": "The government provides a service directly to citizens."
+        },
+        {
+          "id": "q75",
+          "type": "single",
+          "metadata": {"topic": "E-Governance (Platforms)", "difficulty": "easy"},
+          "text": "DigiLocker is a government platform used for:",
+          "options": [
+            {"id": "A", "text": "Storing and sharing digital documents"},
+            {"id": "B", "text": "Booking railway tickets"},
+            {"id": "C", "text": "Online gaming"},
+            {"id": "D", "text": "Sending encrypted email"}
+          ],
+          "answer": "A",
+          "explanation": "DigiLocker holds digital copies of official documents."
+        },
+        {
+          "id": "q76",
+          "type": "single",
+          "metadata": {"topic": "Information Kiosks", "difficulty": "easy"},
+          "text": "An information kiosk is best described as:",
+          "options": [
+            {"id": "A", "text": "A public terminal providing access to information and services"},
+            {"id": "B", "text": "A portable hard drive"},
+            {"id": "C", "text": "A type of computer virus"},
+            {"id": "D", "text": "A programming language"}
+          ],
+          "answer": "A",
+          "explanation": "Kiosks are self-service public information terminals."
+        },
+        {
+          "id": "q77",
+          "type": "single",
+          "metadata": {"topic": "File System", "difficulty": "medium"},
+          "text": "NTFS is:",
+          "options": [
+            {"id": "A", "text": "A file system used by Windows"},
+            {"id": "B", "text": "A networking protocol"},
+            {"id": "C", "text": "An email service"},
+            {"id": "D", "text": "A printer driver"}
+          ],
+          "answer": "A",
+          "explanation": "NTFS is the New Technology File System of Windows."
+        },
+        {
+          "id": "q78",
+          "type": "single",
+          "metadata": {"topic": "Input Devices", "difficulty": "easy"},
+          "text": "Which of the following is an input device?",
+          "options": [
+            {"id": "A", "text": "Plotter"},
+            {"id": "B", "text": "OMR reader"},
+            {"id": "C", "text": "Speaker"},
+            {"id": "D", "text": "Projector"}
+          ],
+          "answer": "B",
+          "explanation": "An OMR reader feeds marked data into the computer."
+        },
+        {
+          "id": "q79",
+          "type": "single",
+          "metadata": {"topic": "MS Excel (Functions)", "difficulty": "easy"},
+          "text": "In Excel, what does the formula =LEN(\"IISC\") return?",
+          "options": [
+            {"id": "A", "text": "3"},
+            {"id": "B", "text": "4"},
+            {"id": "C", "text": "5"},
+            {"id": "D", "text": "An error"}
+          ],
+          "answer": "B",
+          "explanation": "LEN counts the four characters."
+        },
+        {
+          "id": "q80",
+          "type": "single",
+          "metadata": {"topic": "MS PowerPoint", "difficulty": "easy"},
+          "text": "In MS PowerPoint, pressing F5 will:",
+          "options": [
+            {"id": "A", "text": "Save the presentation"},
+            {"id": "B", "text": "Start the slide show from the beginning"},
+            {"id": "C", "text": "Insert a new slide"},
+            {"id": "D", "text": "Print the slides"}
+          ],
+          "answer": "B",
+          "explanation": "F5 starts the slide show from slide 1."
+        }
+      ]
+    }
+  ]
+}
