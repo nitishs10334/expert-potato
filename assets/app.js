@@ -26,7 +26,7 @@ const state = {
 };
 
 const $ = (selector, root = document) => root.querySelector(selector);
-const app = $("#app");
+const getApp = () => document.getElementById("app");
 
 function uid(prefix = "id") {
   return `${prefix}-${Date.now()}-${Math.random().toString(16).slice(2)}`;
@@ -46,6 +46,22 @@ function saveStore() {
     importedPapers: state.importedPapers,
     settings: state.settings
   }));
+}
+
+function setUsername(name) {
+  state.username = name.trim();
+  localStorage.setItem(USERNAME_KEY, state.username);
+  loadStore();
+}
+
+function switchUser() {
+  state.username = "";
+  localStorage.removeItem(USERNAME_KEY);
+  state.attempts = [];
+  state.importedPapers = [];
+  state.view = "dashboard";
+  stopTimer();
+  render();
 }
 
 function setUsername(name) {
@@ -191,8 +207,8 @@ function render() {
   if (!state.username) return renderWelcome();
   if (state.view === "exam") return renderExam();
   stopTimer();
-  app.className = "app-shell";
-  app.innerHTML = `
+  getApp().className = "app-shell";
+  getApp().innerHTML = `
     <header class="topbar">
       <div class="brand"><div class="brand-mark">EX</div><div>Offline Examination Portal</div></div>
       <div class="top-actions">
@@ -218,8 +234,8 @@ function render() {
 
 function renderWelcome() {
   stopTimer();
-  app.className = "app-shell";
-  app.innerHTML = `
+  getApp().className = "app-shell";
+  getApp().innerHTML = `
     <div class="welcome-overlay">
       <div class="welcome-card">
         <div class="brand" style="justify-content:center;margin-bottom:18px">
@@ -390,8 +406,8 @@ function renderExam() {
   const question = paper.questions[state.currentQuestion];
   attempt.visited[question.id] = true;
   saveStore();
-  app.className = "exam-shell";
-  app.innerHTML = `
+  getApp().className = "exam-shell";
+  getApp().innerHTML = `
     <header class="exam-header">
       <div><strong>${escapeHtml(paper.title)}</strong><div>${escapeHtml(question.sectionTitle)} • Question ${state.currentQuestion + 1} of ${paper.questions.length}</div></div>
       <div class="top-actions"><div class="timer ${attempt.remainingSeconds <= 300 ? "low" : ""}">${formatTime(attempt.remainingSeconds)}</div><button data-exam="fullscreen">Fullscreen</button><button data-exam="submit" class="danger">Submit Test</button></div>
@@ -713,8 +729,101 @@ function generateKeyPDF(paperId) {
   buildPrintWindow(`${paper.title} — Answer Key`, html);
 }
 
+/* ── PDF Generation ──────────────────────────────────────── */
+function buildPrintWindow(title, htmlBody) {
+  const win = window.open("", "_blank");
+  if (!win) { alert("Pop-up blocked! Please allow pop-ups for this page."); return; }
+  win.document.write(`<!doctype html><html><head><meta charset="utf-8"><title>${escapeHtml(title)}</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;color:#111;background:#fff;padding:28px 36px}
+    h1{font-size:20px;margin-bottom:4px}
+    .subtitle{color:#555;font-size:13px;margin-bottom:4px}
+    .meta{color:#444;font-size:12px;margin-bottom:20px;padding-bottom:10px;border-bottom:2px solid #222}
+    .section-head{font-size:14px;font-weight:700;background:#f2f2f2;padding:6px 10px;margin:22px 0 10px;border-left:4px solid #0f766e;page-break-after:avoid}
+    .q{margin-bottom:20px;page-break-inside:avoid}
+    .q-num{font-weight:700;color:#0f766e;margin-right:4px}
+    .q-text{margin:5px 0 8px;line-height:1.6}
+    .passage{border-left:3px solid #ccc;padding:8px 12px;margin-bottom:10px;color:#333;font-style:italic;background:#fafafa;font-size:12px}
+    .fig{border:1px dashed #aaa;padding:14px;text-align:center;color:#666;margin:8px 0;font-size:12px}
+    .opts{margin:0 0 4px 18px}
+    .opt{margin-bottom:5px;line-height:1.4}
+    .opt.correct{font-weight:700;color:#16a34a}
+    .ans{margin-top:8px;font-weight:700;color:#16a34a;font-size:13px}
+    .blank{margin-top:8px;color:#333;font-size:13px}
+    .exp{margin-top:5px;color:#555;font-size:12px;line-height:1.5}
+    .tip{background:#fffbeb;border:1px solid #f59e0b;padding:10px 14px;border-radius:6px;margin-bottom:20px;font-size:13px;display:flex;align-items:center;gap:12px}
+    .tip button{padding:6px 14px;background:#0f766e;color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:13px;white-space:nowrap}
+    @media print{.tip{display:none!important}}
+  </style></head><body>
+  <div class="tip">💡 Press <strong>Ctrl + P</strong> → set destination to <strong>"Save as PDF"</strong> to download.
+    <button onclick="window.print()">🖨 Print / Save as PDF</button>
+  </div>
+  ${htmlBody}
+  </body></html>`);
+  win.document.close();
+}
+
+function generatePaperPDF(paperId) {
+  const paper = paperFor(paperId);
+  if (!paper) return;
+  let html = `<h1>${escapeHtml(paper.title)}</h1>
+  <div class="subtitle">${escapeHtml(paper.subtitle || "")}</div>
+  <div class="meta">Duration: ${paper.durationMinutes} min &nbsp;|&nbsp; Questions: ${paper.questions.length} &nbsp;|&nbsp; Marking: +${paper.marking.correct} / ${paper.marking.incorrect}${paper.instructions?.length ? " &nbsp;|&nbsp; " + escapeHtml(paper.instructions.join(" | ")) : ""}</div>`;
+  for (const section of paper.sections) {
+    html += `<div class="section-head">${escapeHtml(section.title)}</div>`;
+    for (const q of section.questions) {
+      html += `<div class="q">`;
+      if (q.passage) html += `<div class="passage">${escapeHtml(q.passage)}</div>`;
+      if (q.figure) html += `<div class="fig">[Figure: ${escapeHtml(q.figure.label || "")}${q.figure.description ? " — " + escapeHtml(q.figure.description) : ""}]</div>`;
+      html += `<div class="q-text"><span class="q-num">Q${escapeHtml(String(q.displayNumber))}.</span>${escapeHtml(q.text)}</div>`;
+      if (q.options?.length) {
+        html += `<div class="opts">${q.options.map(o => `<div class="opt">(${escapeHtml(o.id)})&nbsp;${escapeHtml(o.text)}</div>`).join("")}</div>`;
+      } else {
+        html += `<div class="blank">Answer: _______________________</div>`;
+      }
+      html += `</div>`;
+    }
+  }
+  buildPrintWindow(`${paper.title} — Question Paper`, html);
+}
+
+function generateKeyPDF(paperId) {
+  const paper = paperFor(paperId);
+  if (!paper) return;
+  let html = `<h1>${escapeHtml(paper.title)} — Answer Key &amp; Solutions</h1>
+  <div class="subtitle">${escapeHtml(paper.subtitle || "")}</div>
+  <div class="meta">Duration: ${paper.durationMinutes} min &nbsp;|&nbsp; Questions: ${paper.questions.length} &nbsp;|&nbsp; Marking: +${paper.marking.correct} / ${paper.marking.incorrect}</div>`;
+  for (const section of paper.sections) {
+    html += `<div class="section-head">${escapeHtml(section.title)}</div>`;
+    for (const q of section.questions) {
+      const answerIds = q.answer === null || q.answer === undefined ? [] : Array.isArray(q.answer) ? q.answer : [q.answer];
+      let answerLabel = "—";
+      if (q.options?.length && answerIds.length) {
+        answerLabel = answerIds.map(id => { const o = q.options.find(x => x.id === id); return o ? `(${id}) ${o.text}` : id; }).join(", ");
+      } else if (answerIds.length) {
+        answerLabel = answerIds.join(", ");
+      }
+      html += `<div class="q">`;
+      if (q.passage) html += `<div class="passage">${escapeHtml(q.passage)}</div>`;
+      if (q.figure) html += `<div class="fig">[Figure: ${escapeHtml(q.figure.label || "")}${q.figure.description ? " — " + escapeHtml(q.figure.description) : ""}]</div>`;
+      html += `<div class="q-text"><span class="q-num">Q${escapeHtml(String(q.displayNumber))}.</span>${escapeHtml(q.text)}</div>`;
+      if (q.options?.length) {
+        html += `<div class="opts">${q.options.map(o => {
+          const isAns = answerIds.includes(o.id);
+          return `<div class="opt${isAns ? " correct" : "}">(${escapeHtml(o.id)})&nbsp;${escapeHtml(o.text)}${isAns ? " ✓" : ""}</div>`;
+        }).join("")}</div>`;
+      }
+      html += `<div class="ans">✅ Answer: ${escapeHtml(answerLabel)}</div>`;
+      if (q.explanation) html += `<div class="exp">💡 ${escapeHtml(q.explanation)}</div>`;
+      html += `</div>`;
+    }
+  }
+  buildPrintWindow(`${paper.title} — Answer Key`, html);
+}
+
 function bindShellEvents() {
-  app.onclick = event => {
+  getApp().onclick = event => {
     const button = event.target.closest("button");
     if (!button) return;
     const view = button.dataset.view;
@@ -730,7 +839,7 @@ function bindShellEvents() {
     if (action === "review" || action === "analysis") { state.activeAttemptId = button.dataset.attempt; state.view = "review"; render(); }
     if (action === "metadata") alert(JSON.stringify(paperFor(button.dataset.paper), null, 2));
   };
-  app.oninput = event => {
+  getApp().oninput = event => {
     const filter = event.target.dataset.filter;
     if (filter) { state.filters[filter] = event.target.value; render(); }
     const setting = event.target.dataset.setting;
@@ -742,7 +851,7 @@ function bindShellEvents() {
   $("#paperImport")?.addEventListener("change", importPaper);
 }
 
-app.addEventListener("click", event => {
+getApp().addEventListener("click", event => {
   if (state.view !== "exam") return;
   const button = event.target.closest("button");
   if (!button) return;
@@ -757,8 +866,8 @@ app.addEventListener("click", event => {
   if (action === "fullscreen") document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen();
 });
 
-app.addEventListener("change", () => { if (state.view === "exam") captureAnswer(); });
-app.addEventListener("input", event => { if (state.view === "exam" && event.target.matches("[data-answer-input]")) captureAnswer(); });
+getApp().addEventListener("change", () => { if (state.view === "exam") captureAnswer(); });
+getApp().addEventListener("input", event => { if (state.view === "exam" && event.target.matches("[data-answer-input]")) captureAnswer(); });
 
 document.addEventListener("keydown", event => {
   if (state.view !== "exam" || !state.settings.shortcuts || event.target.matches("input, textarea, select")) return;
@@ -847,9 +956,28 @@ function empty(message) {
   return `<div class="empty">${escapeHtml(message)}</div>`;
 }
 
-if (state.username) loadStore();
-await loadPapers();
-render();
+if (state.username) function showFatalError(err) {
+  const container = document.getElementById("app") || document.body;
+  container.innerHTML = `
+    <div style="font-family:sans-serif;padding:40px;max-width:600px;margin:40px auto;background:#fff1f2;border:1px solid #fca5a5;border-radius:10px">
+      <h2 style="color:#b91c1c;margin:0 0 12px">⚠️ Portal failed to start</h2>
+      <p style="margin:0 0 8px;color:#374151">An error occurred while loading. Please open the browser console (F12) for details.</p>
+      <pre style="background:#fee2e2;padding:12px;border-radius:6px;font-size:12px;overflow:auto;color:#7f1d1d">${escapeHtml(String(err?.stack || err))}</pre>
+      <button onclick="location.reload()" style="margin-top:14px;padding:8px 18px;background:#0f766e;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px">🔄 Retry</button>
+    </div>`;
+}
+
+window.addEventListener("error", e => showFatalError(e.error || e.message));
+window.addEventListener("unhandledrejection", e => showFatalError(e.reason));
+
+try {
+  state.username = localStorage.getItem(USERNAME_KEY) || "";
+  if (state.username) loadStore();
+  await loadPapers();
+  render();
+} catch (err) {
+  showFatalError(err);
+}
 
 window.addEventListener("beforeunload", () => {
   if (state.view === "exam") captureAnswer();
