@@ -718,7 +718,7 @@ function generateKeyPDF(paperId) {
       if (q.options?.length) {
         html += `<div class="opts">${q.options.map(o => {
           const isAns = answerIds.includes(o.id);
-          return `<div class="opt${isAns ? " correct" : "}">(${escapeHtml(o.id)})&nbsp;${escapeHtml(o.text)}${isAns ? " ✓" : ""}</div>`;
+          return `<div class="opt${isAns ? " correct" : ""}">(${escapeHtml(o.id)})&nbsp;${escapeHtml(o.text)}${isAns ? " ✓" : ""}</div>`;
         }).join("")}</div>`;
       }
       html += `<div class="ans">✅ Answer: ${escapeHtml(answerLabel)}</div>`;
@@ -811,7 +811,7 @@ function generateKeyPDF(paperId) {
       if (q.options?.length) {
         html += `<div class="opts">${q.options.map(o => {
           const isAns = answerIds.includes(o.id);
-          return `<div class="opt${isAns ? " correct" : "}">(${escapeHtml(o.id)})&nbsp;${escapeHtml(o.text)}${isAns ? " ✓" : ""}</div>`;
+          return `<div class="opt${isAns ? " correct" : ""}">(${escapeHtml(o.id)})&nbsp;${escapeHtml(o.text)}${isAns ? " ✓" : ""}</div>`;
         }).join("")}</div>`;
       }
       html += `<div class="ans">✅ Answer: ${escapeHtml(answerLabel)}</div>`;
