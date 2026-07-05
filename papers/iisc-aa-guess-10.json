@@ -1,0 +1,2360 @@
+{
+  "schemaVersion": "1.0",
+  "id": "iisc-aa-guess-10",
+  "title": "IISc Administrative Assistant Guess Paper 10",
+  "subtitle": "Hard boundary-testing paper covering 2026 syllabus topics skipped in 2023",
+  "version": "2026.07.05",
+  "durationMinutes": 90,
+  "language": "English",
+  "tags": [
+    "iisc",
+    "administrative-assistant",
+    "guess-paper",
+    "2026",
+    "surprise"
+  ],
+  "metadata": {
+    "exam": "IISc Administrative Assistant",
+    "year": 2026,
+    "source": "Guess Paper 5 of 5",
+    "strategy": "Deliberately includes hard questions on syllabus topics the 2023 examiner skipped: averages, trigonometry, heights and distances, data interpretation, surds, Venn diagrams, statement-conclusion, error spotting, voice, narration, IT Act, digital signatures and e-governance."
+  },
+  "instructions": [
+    "Total 80 questions to be attempted in 90 minutes.",
+    "Each correct answer earns +1 mark.",
+    "Negative marking applies: 0.33333 marks (one-third) are deducted for every incorrect answer.",
+    "Unattempted questions receive 0 marks.",
+    "Figure-based placeholder questions are unscored and carry 0 marks either way.",
+    "This surprise paper stretches to the edges of the official syllabus at a hard difficulty tier."
+  ],
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.33333,
+    "unattempted": 0,
+    "partial": false
+  },
+  "analytics": {
+    "groupBy": [
+      "section",
+      "topic",
+      "difficulty"
+    ]
+  },
+  "sections": [
+    {
+      "id": "quantitative-ability",
+      "title": "Quantitative Ability",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "numerical",
+          "metadata": {
+            "topic": "Averages (Overlapping Groups)",
+            "difficulty": "hard"
+          },
+          "text": "The average of 11 results is 50. The average of the first six is 49 and of the last six is 52. Enter the sixth result.",
+          "answer": 56,
+          "tolerance": 0.01,
+          "explanation": "6x49 + 6x52 - 11x50 = 56."
+        },
+        {
+          "id": "q2",
+          "type": "single",
+          "metadata": {
+            "topic": "Averages (Cricket)",
+            "difficulty": "hard"
+          },
+          "text": "A batsman scores 92 in his 17th innings, thereby increasing his average by 2 runs. His average after 17 innings is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "56"
+            },
+            {
+              "id": "B",
+              "text": "58"
+            },
+            {
+              "id": "C",
+              "text": "60"
+            },
+            {
+              "id": "D",
+              "text": "62"
+            }
+          ],
+          "answer": "C",
+          "explanation": "16(x-2) + 92 = 17x gives x = 60."
+        },
+        {
+          "id": "q3",
+          "type": "single",
+          "metadata": {
+            "topic": "Trigonometry (Mixed Values)",
+            "difficulty": "hard"
+          },
+          "text": "The value of sin^2(30) + cos^2(45) + tan^2(60) is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "3"
+            },
+            {
+              "id": "B",
+              "text": "3.25"
+            },
+            {
+              "id": "C",
+              "text": "3.75"
+            },
+            {
+              "id": "D",
+              "text": "4.25"
+            }
+          ],
+          "answer": "C",
+          "explanation": "1/4 + 1/2 + 3 = 15/4."
+        },
+        {
+          "id": "q4",
+          "type": "single",
+          "metadata": {
+            "topic": "Trigonometry (Identity Trick)",
+            "difficulty": "hard"
+          },
+          "text": "If tan(theta) + cot(theta) = 2, then tan^2(theta) + cot^2(theta) equals:",
+          "options": [
+            {
+              "id": "A",
+              "text": "2"
+            },
+            {
+              "id": "B",
+              "text": "4"
+            },
+            {
+              "id": "C",
+              "text": "6"
+            },
+            {
+              "id": "D",
+              "text": "8"
+            }
+          ],
+          "answer": "A",
+          "explanation": "(t + 1/t)^2 - 2 = 4 - 2 = 2."
+        },
+        {
+          "id": "q5",
+          "type": "single",
+          "metadata": {
+            "topic": "Heights & Distances (Two Angles)",
+            "difficulty": "hard"
+          },
+          "text": "From the top of a 60 m building, the angles of depression of the top and bottom of a tower are 30 and 60 degrees respectively. The height of the tower is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "30 m"
+            },
+            {
+              "id": "B",
+              "text": "40 m"
+            },
+            {
+              "id": "C",
+              "text": "45 m"
+            },
+            {
+              "id": "D",
+              "text": "20 sqrt(3) m"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Distance = 20 sqrt(3); 60 - 20 sqrt(3) x tan(30) = 40."
+        },
+        {
+          "id": "q6",
+          "type": "single",
+          "metadata": {
+            "topic": "Data Interpretation (Table)",
+            "difficulty": "medium"
+          },
+          "text": "A company's sales (Rs lakh) were: 2021: 32, 2022: 40, 2023: 50, 2024: 65. The percentage increase from 2023 to 2024 is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "25%"
+            },
+            {
+              "id": "B",
+              "text": "30%"
+            },
+            {
+              "id": "C",
+              "text": "32.5%"
+            },
+            {
+              "id": "D",
+              "text": "35%"
+            }
+          ],
+          "answer": "B",
+          "explanation": "15/50 = 30%."
+        },
+        {
+          "id": "q7",
+          "type": "single",
+          "metadata": {
+            "topic": "Data Interpretation (Ratio)",
+            "difficulty": "hard"
+          },
+          "text": "Using the same data (2021: 32, 2022: 40, 2023: 50, 2024: 65), the ratio of combined sales of 2021-22 to combined sales of 2023-24 is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "72:115"
+            },
+            {
+              "id": "B",
+              "text": "36:55"
+            },
+            {
+              "id": "C",
+              "text": "8:13"
+            },
+            {
+              "id": "D",
+              "text": "18:29"
+            }
+          ],
+          "answer": "A",
+          "explanation": "(32+40):(50+65) = 72:115."
+        },
+        {
+          "id": "q8",
+          "type": "single",
+          "metadata": {
+            "topic": "Square Roots (Decimals)",
+            "difficulty": "hard"
+          },
+          "text": "The square root of 0.000441 is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "0.21"
+            },
+            {
+              "id": "B",
+              "text": "0.021"
+            },
+            {
+              "id": "C",
+              "text": "0.0021"
+            },
+            {
+              "id": "D",
+              "text": "0.201"
+            }
+          ],
+          "answer": "B",
+          "explanation": "0.021 x 0.021 = 0.000441."
+        },
+        {
+          "id": "q9",
+          "type": "single",
+          "metadata": {
+            "topic": "Surds (Ordering)",
+            "difficulty": "hard"
+          },
+          "text": "Arrange in ascending order: sqrt(2), cube root of 3, fourth root of 5.",
+          "options": [
+            {
+              "id": "A",
+              "text": "sqrt(2) < cube root of 3 < fourth root of 5"
+            },
+            {
+              "id": "B",
+              "text": "fourth root of 5 < cube root of 3 < sqrt(2)"
+            },
+            {
+              "id": "C",
+              "text": "cube root of 3 < sqrt(2) < fourth root of 5"
+            },
+            {
+              "id": "D",
+              "text": "sqrt(2) < fourth root of 5 < cube root of 3"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Raise all to the 12th power: 64, 81, 125."
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "metadata": {
+            "topic": "Surds (Conjugate Sum)",
+            "difficulty": "hard"
+          },
+          "text": "The value of (sqrt(5)+sqrt(3))/(sqrt(5)-sqrt(3)) + (sqrt(5)-sqrt(3))/(sqrt(5)+sqrt(3)) is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "4"
+            },
+            {
+              "id": "B",
+              "text": "8"
+            },
+            {
+              "id": "C",
+              "text": "16"
+            },
+            {
+              "id": "D",
+              "text": "2 sqrt(15)"
+            }
+          ],
+          "answer": "B",
+          "explanation": "(8 + 2 sqrt15 + 8 - 2 sqrt15)/2 = 8."
+        },
+        {
+          "id": "q11",
+          "type": "single",
+          "metadata": {
+            "topic": "Percentage (Dehydration Classic)",
+            "difficulty": "hard"
+          },
+          "text": "Fresh fruit contains 68% water and dried fruit contains 20% water. How much dried fruit can be obtained from 100 kg of fresh fruit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "32 kg"
+            },
+            {
+              "id": "B",
+              "text": "40 kg"
+            },
+            {
+              "id": "C",
+              "text": "52 kg"
+            },
+            {
+              "id": "D",
+              "text": "80 kg"
+            }
+          ],
+          "answer": "B",
+          "explanation": "32 kg of solids form 80% of the dried fruit: 40 kg."
+        },
+        {
+          "id": "q12",
+          "type": "single",
+          "metadata": {
+            "topic": "Profit & Loss (Gain in Terms of SP)",
+            "difficulty": "hard"
+          },
+          "text": "By selling 33 metres of cloth, a trader gains an amount equal to the selling price of 11 metres. His gain percentage is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "33.33%"
+            },
+            {
+              "id": "B",
+              "text": "50%"
+            },
+            {
+              "id": "C",
+              "text": "40%"
+            },
+            {
+              "id": "D",
+              "text": "66.67%"
+            }
+          ],
+          "answer": "B",
+          "explanation": "SP of 33 - CP of 33 = SP of 11, so CP33 = SP22; gain 50%."
+        },
+        {
+          "id": "q13",
+          "type": "single",
+          "metadata": {
+            "topic": "Time & Distance (Weighted Average)",
+            "difficulty": "hard"
+          },
+          "text": "A bus covers 60% of a journey at 60 km/h and the remaining 40% at 40 km/h. Its average speed for the whole journey is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "48 km/h"
+            },
+            {
+              "id": "B",
+              "text": "50 km/h"
+            },
+            {
+              "id": "C",
+              "text": "52 km/h"
+            },
+            {
+              "id": "D",
+              "text": "54 km/h"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Time = 0.01D + 0.01D; average = D/0.02D = 50."
+        },
+        {
+          "id": "q14",
+          "type": "single",
+          "metadata": {
+            "topic": "Compound Interest (3-Year Difference)",
+            "difficulty": "hard"
+          },
+          "text": "The difference between compound interest and simple interest on a sum for 3 years at 10% per annum is Rs 62. The sum is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 1500"
+            },
+            {
+              "id": "B",
+              "text": "Rs 2000"
+            },
+            {
+              "id": "C",
+              "text": "Rs 2500"
+            },
+            {
+              "id": "D",
+              "text": "Rs 3000"
+            }
+          ],
+          "answer": "B",
+          "explanation": "CI - SI = 0.331P - 0.3P = 0.031P = 62."
+        },
+        {
+          "id": "q15",
+          "type": "single",
+          "metadata": {
+            "topic": "Regular Polygons (Angle Ratio)",
+            "difficulty": "hard"
+          },
+          "text": "The interior and exterior angles of a regular polygon are in the ratio 7:2. The number of sides of the polygon is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "7"
+            },
+            {
+              "id": "B",
+              "text": "8"
+            },
+            {
+              "id": "C",
+              "text": "9"
+            },
+            {
+              "id": "D",
+              "text": "10"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Exterior angle = 40 degrees; 360/40 = 9."
+        },
+        {
+          "id": "q16",
+          "type": "single",
+          "metadata": {
+            "topic": "Right Pyramid (Lateral Surface)",
+            "difficulty": "hard"
+          },
+          "text": "A right pyramid has a square base of side 10 cm and height 12 cm. Its lateral surface area is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "240 sq cm"
+            },
+            {
+              "id": "B",
+              "text": "260 sq cm"
+            },
+            {
+              "id": "C",
+              "text": "300 sq cm"
+            },
+            {
+              "id": "D",
+              "text": "340 sq cm"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Slant height = 13; LSA = (1/2) x 40 x 13 = 260."
+        }
+      ]
+    },
+    {
+      "id": "verbal-ability",
+      "title": "Verbal Ability",
+      "questions": [
+        {
+          "id": "q17",
+          "type": "single",
+          "metadata": {
+            "topic": "Spotting the Error",
+            "difficulty": "hard"
+          },
+          "text": "Spot the part with the error: (a) Being a rainy day / (b) we decided / (c) to stay indoors. / (d) No error",
+          "options": [
+            {
+              "id": "A",
+              "text": "(a)"
+            },
+            {
+              "id": "B",
+              "text": "(b)"
+            },
+            {
+              "id": "C",
+              "text": "(c)"
+            },
+            {
+              "id": "D",
+              "text": "(d)"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct form is 'It being a rainy day' (absolute construction)."
+        },
+        {
+          "id": "q18",
+          "type": "single",
+          "metadata": {
+            "topic": "Spotting the Error",
+            "difficulty": "hard"
+          },
+          "text": "Spot the part with the error: (a) The teacher as well as the students / (b) were present / (c) at the seminar. / (d) No error",
+          "options": [
+            {
+              "id": "A",
+              "text": "(a)"
+            },
+            {
+              "id": "B",
+              "text": "(b)"
+            },
+            {
+              "id": "C",
+              "text": "(c)"
+            },
+            {
+              "id": "D",
+              "text": "(d)"
+            }
+          ],
+          "answer": "B",
+          "explanation": "With 'as well as', the verb agrees with the first subject: 'was'."
+        },
+        {
+          "id": "q19",
+          "type": "single",
+          "metadata": {
+            "topic": "Fill in the Blanks (Preposition)",
+            "difficulty": "hard"
+          },
+          "text": "The lawyer prevailed ____ his client to settle the dispute out of court.",
+          "options": [
+            {
+              "id": "A",
+              "text": "over"
+            },
+            {
+              "id": "B",
+              "text": "upon"
+            },
+            {
+              "id": "C",
+              "text": "against"
+            },
+            {
+              "id": "D",
+              "text": "at"
+            }
+          ],
+          "answer": "B",
+          "explanation": "'Prevail upon' means to persuade."
+        },
+        {
+          "id": "q20",
+          "type": "single",
+          "metadata": {
+            "topic": "Fill in the Blanks (Preposition)",
+            "difficulty": "medium"
+          },
+          "text": "The officer was accused ____ accepting bribes.",
+          "options": [
+            {
+              "id": "A",
+              "text": "with"
+            },
+            {
+              "id": "B",
+              "text": "for"
+            },
+            {
+              "id": "C",
+              "text": "of"
+            },
+            {
+              "id": "D",
+              "text": "in"
+            }
+          ],
+          "answer": "C",
+          "explanation": "'Accused of' is the correct collocation."
+        },
+        {
+          "id": "q21",
+          "type": "single",
+          "metadata": {
+            "topic": "Active/Passive Voice",
+            "difficulty": "hard"
+          },
+          "text": "Change to passive voice: 'Who taught you French?'",
+          "options": [
+            {
+              "id": "A",
+              "text": "By whom were you taught French?"
+            },
+            {
+              "id": "B",
+              "text": "By whom French was taught to you?"
+            },
+            {
+              "id": "C",
+              "text": "Who was French taught by you?"
+            },
+            {
+              "id": "D",
+              "text": "French was taught you by whom?"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The interrogative takes 'By whom were you taught...'."
+        },
+        {
+          "id": "q22",
+          "type": "single",
+          "metadata": {
+            "topic": "Direct/Indirect Narration",
+            "difficulty": "hard"
+          },
+          "text": "Change to indirect speech: He said to me, 'Do you know the way to the station?'",
+          "options": [
+            {
+              "id": "A",
+              "text": "He asked me whether I knew the way to the station."
+            },
+            {
+              "id": "B",
+              "text": "He asked me did I know the way to the station."
+            },
+            {
+              "id": "C",
+              "text": "He told me whether I know the way to the station."
+            },
+            {
+              "id": "D",
+              "text": "He asked me that I knew the way to the station."
+            }
+          ],
+          "answer": "A",
+          "explanation": "Yes/no questions convert with 'whether/if' and backshift."
+        },
+        {
+          "id": "q23",
+          "type": "single",
+          "metadata": {
+            "topic": "Shuffling of Sentence Parts",
+            "difficulty": "hard"
+          },
+          "text": "Rearrange the parts to form a meaningful sentence: P: by the sudden collapse of the footbridge / Q: which had stood for over a century / R: the morning commuters were stranded / S: on both banks of the swollen river",
+          "options": [
+            {
+              "id": "A",
+              "text": "RPQS"
+            },
+            {
+              "id": "B",
+              "text": "PRQS"
+            },
+            {
+              "id": "C",
+              "text": "RPSQ"
+            },
+            {
+              "id": "D",
+              "text": "QRPS"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The commuters were stranded by the collapse of the bridge, which..., on both banks."
+        },
+        {
+          "id": "q24",
+          "type": "single",
+          "metadata": {
+            "topic": "Improvement of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Improve the underlined part: UNLESS YOU DON'T WORK hard, you will fail.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Unless you work"
+            },
+            {
+              "id": "B",
+              "text": "Until you don't work"
+            },
+            {
+              "id": "C",
+              "text": "If you don't works"
+            },
+            {
+              "id": "D",
+              "text": "No improvement"
+            }
+          ],
+          "answer": "A",
+          "explanation": "'Unless' already carries the negative sense."
+        },
+        {
+          "id": "q25",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "hard"
+          },
+          "text": "Select the meaning of the idiom: To take something with a pinch of salt",
+          "options": [
+            {
+              "id": "A",
+              "text": "To accept it eagerly"
+            },
+            {
+              "id": "B",
+              "text": "To doubt its complete truth"
+            },
+            {
+              "id": "C",
+              "text": "To make it more interesting"
+            },
+            {
+              "id": "D",
+              "text": "To forget it quickly"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It means to be sceptical about a claim."
+        },
+        {
+          "id": "q26",
+          "type": "single",
+          "metadata": {
+            "topic": "One-word Substitution",
+            "difficulty": "hard"
+          },
+          "text": "A formal speech or writing praising someone highly:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Panegyric"
+            },
+            {
+              "id": "B",
+              "text": "Diatribe"
+            },
+            {
+              "id": "C",
+              "text": "Epitaph"
+            },
+            {
+              "id": "D",
+              "text": "Satire"
+            }
+          ],
+          "answer": "A",
+          "explanation": "A panegyric is elaborate public praise."
+        },
+        {
+          "id": "q27",
+          "type": "single",
+          "metadata": {
+            "topic": "Synonyms",
+            "difficulty": "hard"
+          },
+          "text": "Select the synonym of SAGACIOUS:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Foolish"
+            },
+            {
+              "id": "B",
+              "text": "Wise"
+            },
+            {
+              "id": "C",
+              "text": "Aged"
+            },
+            {
+              "id": "D",
+              "text": "Talkative"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Sagacious means keenly discerning and wise."
+        },
+        {
+          "id": "q28",
+          "type": "single",
+          "metadata": {
+            "topic": "Antonyms",
+            "difficulty": "hard"
+          },
+          "text": "Select the antonym of IGNOMINY:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Disgrace"
+            },
+            {
+              "id": "B",
+              "text": "Honour"
+            },
+            {
+              "id": "C",
+              "text": "Poverty"
+            },
+            {
+              "id": "D",
+              "text": "Ignorance"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Ignominy (public shame) is opposite to honour."
+        },
+        {
+          "id": "q29",
+          "type": "single",
+          "metadata": {
+            "topic": "Spelling",
+            "difficulty": "hard"
+          },
+          "text": "Select the correctly spelt word:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rendezvous"
+            },
+            {
+              "id": "B",
+              "text": "Randezvous"
+            },
+            {
+              "id": "C",
+              "text": "Rendevous"
+            },
+            {
+              "id": "D",
+              "text": "Rendezvouz"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The French loanword is spelt rendezvous."
+        },
+        {
+          "id": "q30",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Main Point)",
+            "difficulty": "hard"
+          },
+          "passage": "India's digital public infrastructure, the trio of Aadhaar identity, UPI payments and consent-based data-sharing frameworks, has been praised abroad as a model for inclusive growth. Services that once demanded days of queuing, from opening a bank account to receiving a welfare payment, now conclude in minutes. Yet scholars caution that the same rails that deliver subsidies can also exclude: an authentication failure at a ration shop may deny food to those who need it most, and every transaction leaves a data trail that invites surveillance. The lesson, they argue, is that digital systems must be designed with error tolerance and privacy safeguards, not merely for speed and scale.",
+          "text": "According to the passage, India's digital public infrastructure has been praised mainly because it:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Eliminated all corruption"
+            },
+            {
+              "id": "B",
+              "text": "Delivers services quickly and inclusively"
+            },
+            {
+              "id": "C",
+              "text": "Was built without government funding"
+            },
+            {
+              "id": "D",
+              "text": "Prevents all data collection"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It is cited abroad as a model for fast, inclusive delivery."
+        },
+        {
+          "id": "q31",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Critique)",
+            "difficulty": "hard"
+          },
+          "passage": "India's digital public infrastructure, the trio of Aadhaar identity, UPI payments and consent-based data-sharing frameworks, has been praised abroad as a model for inclusive growth. Services that once demanded days of queuing, from opening a bank account to receiving a welfare payment, now conclude in minutes. Yet scholars caution that the same rails that deliver subsidies can also exclude: an authentication failure at a ration shop may deny food to those who need it most, and every transaction leaves a data trail that invites surveillance. The lesson, they argue, is that digital systems must be designed with error tolerance and privacy safeguards, not merely for speed and scale.",
+          "text": "The scholars' caution described in the passage concerns:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The high cost of maintaining servers"
+            },
+            {
+              "id": "B",
+              "text": "Exclusion through authentication failures and surveillance through data trails"
+            },
+            {
+              "id": "C",
+              "text": "The slow speed of digital payments"
+            },
+            {
+              "id": "D",
+              "text": "Foreign ownership of payment apps"
+            }
+          ],
+          "answer": "B",
+          "explanation": "They warn of exclusion errors and privacy risks."
+        },
+        {
+          "id": "q32",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Metaphor)",
+            "difficulty": "hard"
+          },
+          "passage": "India's digital public infrastructure, the trio of Aadhaar identity, UPI payments and consent-based data-sharing frameworks, has been praised abroad as a model for inclusive growth. Services that once demanded days of queuing, from opening a bank account to receiving a welfare payment, now conclude in minutes. Yet scholars caution that the same rails that deliver subsidies can also exclude: an authentication failure at a ration shop may deny food to those who need it most, and every transaction leaves a data trail that invites surveillance. The lesson, they argue, is that digital systems must be designed with error tolerance and privacy safeguards, not merely for speed and scale.",
+          "text": "In the passage, the word 'rails' is used metaphorically to mean:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Railway lines connecting villages"
+            },
+            {
+              "id": "B",
+              "text": "The underlying digital systems on which services run"
+            },
+            {
+              "id": "C",
+              "text": "Physical queues at ration shops"
+            },
+            {
+              "id": "D",
+              "text": "Guard rails on highways"
+            }
+          ],
+          "answer": "B",
+          "explanation": "'Rails' refers to the shared digital infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "logical-numerical-reasoning",
+      "title": "Logical and Numerical Reasoning",
+      "questions": [
+        {
+          "id": "q33",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series (Second Difference)",
+            "difficulty": "hard"
+          },
+          "text": "Find the next term: 5, 12, 33, 68, 117, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "170"
+            },
+            {
+              "id": "B",
+              "text": "180"
+            },
+            {
+              "id": "C",
+              "text": "186"
+            },
+            {
+              "id": "D",
+              "text": "196"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Differences 7, 21, 35, 49 grow by 14; next difference is 63."
+        },
+        {
+          "id": "q34",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series (Prime Squares)",
+            "difficulty": "hard"
+          },
+          "text": "Find the next term: 4, 9, 25, 49, 121, 169, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "225"
+            },
+            {
+              "id": "B",
+              "text": "289"
+            },
+            {
+              "id": "C",
+              "text": "324"
+            },
+            {
+              "id": "D",
+              "text": "361"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Squares of primes; next is 17^2 = 289."
+        },
+        {
+          "id": "q35",
+          "type": "single",
+          "metadata": {
+            "topic": "Letter Series (Double Track)",
+            "difficulty": "hard"
+          },
+          "text": "Find the next term: AZ, CX, FU, JQ, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "OL"
+            },
+            {
+              "id": "B",
+              "text": "NM"
+            },
+            {
+              "id": "C",
+              "text": "OM"
+            },
+            {
+              "id": "D",
+              "text": "PL"
+            }
+          ],
+          "answer": "A",
+          "explanation": "First letters +2,+3,+4,+5; second letters -2,-3,-4,-5."
+        },
+        {
+          "id": "q36",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Digit Map)",
+            "difficulty": "hard"
+          },
+          "text": "If ENGLAND is written as 1234526 and FRANCE as 785291, how is GREECE written?",
+          "options": [
+            {
+              "id": "A",
+              "text": "381191"
+            },
+            {
+              "id": "B",
+              "text": "381911"
+            },
+            {
+              "id": "C",
+              "text": "831191"
+            },
+            {
+              "id": "D",
+              "text": "381119"
+            }
+          ],
+          "answer": "A",
+          "explanation": "G=3, R=8, E=1, C=9."
+        },
+        {
+          "id": "q37",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Position Sum)",
+            "difficulty": "medium"
+          },
+          "text": "If MOBILE = 56, then PHONE = ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "56"
+            },
+            {
+              "id": "B",
+              "text": "58"
+            },
+            {
+              "id": "C",
+              "text": "60"
+            },
+            {
+              "id": "D",
+              "text": "62"
+            }
+          ],
+          "answer": "B",
+          "explanation": "16 + 8 + 15 + 14 + 5 = 58."
+        },
+        {
+          "id": "q38",
+          "type": "single",
+          "metadata": {
+            "topic": "Word Building",
+            "difficulty": "hard"
+          },
+          "text": "Which word CANNOT be formed from the letters of MEASUREMENT?",
+          "options": [
+            {
+              "id": "A",
+              "text": "MASTER"
+            },
+            {
+              "id": "B",
+              "text": "SUMMER"
+            },
+            {
+              "id": "C",
+              "text": "TENURE"
+            },
+            {
+              "id": "D",
+              "text": "REMNANT"
+            }
+          ],
+          "answer": "D",
+          "explanation": "REMNANT needs two Ns; MEASUREMENT has only one."
+        },
+        {
+          "id": "q39",
+          "type": "single",
+          "metadata": {
+            "topic": "Venn Diagrams (Class Relationship)",
+            "difficulty": "medium"
+          },
+          "text": "Which diagram best represents the relationship among Professors, Men and Married People?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Three separate circles"
+            },
+            {
+              "id": "B",
+              "text": "Three mutually intersecting circles"
+            },
+            {
+              "id": "C",
+              "text": "Two circles inside a third"
+            },
+            {
+              "id": "D",
+              "text": "Three concentric circles"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Each pair can overlap without full containment."
+        },
+        {
+          "id": "q40",
+          "type": "single",
+          "metadata": {
+            "topic": "Venn Diagrams (Three Sets)",
+            "difficulty": "hard"
+          },
+          "text": "Of 120 students, 65 study Physics, 45 Chemistry and 42 Biology; 20 study Physics and Chemistry, 25 Physics and Biology, 15 Chemistry and Biology, and 8 study all three. How many study ONLY Physics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "20"
+            },
+            {
+              "id": "B",
+              "text": "25"
+            },
+            {
+              "id": "C",
+              "text": "28"
+            },
+            {
+              "id": "D",
+              "text": "33"
+            }
+          ],
+          "answer": "C",
+          "explanation": "65 - (20 + 25 - 8) = 28."
+        },
+        {
+          "id": "q41",
+          "type": "single",
+          "metadata": {
+            "topic": "Symbolic Operations (Chained)",
+            "difficulty": "hard"
+          },
+          "text": "If a \u2206 b = a + b - 2, then the value of (3 \u2206 5) \u2206 4 is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "6"
+            },
+            {
+              "id": "B",
+              "text": "8"
+            },
+            {
+              "id": "C",
+              "text": "10"
+            },
+            {
+              "id": "D",
+              "text": "12"
+            }
+          ],
+          "answer": "B",
+          "explanation": "3 \u2206 5 = 6; then 6 \u2206 4 = 8."
+        },
+        {
+          "id": "q42",
+          "type": "single",
+          "metadata": {
+            "topic": "Date & City Matching",
+            "difficulty": "hard"
+          },
+          "text": "Select the option EXACTLY identical to: 14-08-2025 / Bengaluru - 560012",
+          "options": [
+            {
+              "id": "A",
+              "text": "14-08-2025 / Bengaluru - 560012"
+            },
+            {
+              "id": "B",
+              "text": "14-08-2052 / Bengaluru - 560012"
+            },
+            {
+              "id": "C",
+              "text": "14-08-2025 / Bengaluru - 560021"
+            },
+            {
+              "id": "D",
+              "text": "14-08-2025 / Bangalore - 560012"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The others alter the year, PIN or city spelling."
+        },
+        {
+          "id": "q43",
+          "type": "single",
+          "metadata": {
+            "topic": "Linear Seating (Elimination)",
+            "difficulty": "hard"
+          },
+          "text": "Five people A, B, C, D, E sit in a row facing north. Exactly two people sit between A and D. B is immediately to the right of A. E is not adjacent to D, and C sits second from the left. Who sits exactly in the middle?",
+          "options": [
+            {
+              "id": "A",
+              "text": "E"
+            },
+            {
+              "id": "B",
+              "text": "C"
+            },
+            {
+              "id": "C",
+              "text": "B"
+            },
+            {
+              "id": "D",
+              "text": "A"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The only valid order is D, C, E, A, B."
+        },
+        {
+          "id": "q44",
+          "type": "single",
+          "metadata": {
+            "topic": "Scheduling Puzzle",
+            "difficulty": "hard"
+          },
+          "text": "Six subjects are scheduled Monday to Saturday, one per day. English is on Wednesday and Hindi on Saturday. Maths is the day immediately after Biology, and Chemistry is the day immediately after English. Physics is not on Monday. On which day is Physics?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tuesday"
+            },
+            {
+              "id": "B",
+              "text": "Thursday"
+            },
+            {
+              "id": "C",
+              "text": "Friday"
+            },
+            {
+              "id": "D",
+              "text": "Monday"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Bio-Maths must take Mon-Tue; Chem Thu; Physics Friday."
+        },
+        {
+          "id": "q45",
+          "type": "single",
+          "metadata": {
+            "topic": "Blood Relations (Gender Trap)",
+            "difficulty": "hard"
+          },
+          "text": "A's mother is the sister of B and the daughter of C. D is the daughter of B and the sister of E. How is C related to E?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Grandfather"
+            },
+            {
+              "id": "B",
+              "text": "Grandmother"
+            },
+            {
+              "id": "C",
+              "text": "Grandparent (gender cannot be determined)"
+            },
+            {
+              "id": "D",
+              "text": "Uncle"
+            }
+          ],
+          "answer": "C",
+          "explanation": "C is the parent of B, and E is B's child; C's gender is unknown."
+        },
+        {
+          "id": "q46",
+          "type": "single",
+          "metadata": {
+            "topic": "Direction Sense",
+            "difficulty": "medium"
+          },
+          "text": "Riya walks 5 km north, then turns right and walks 12 km. How far is she from her starting point?",
+          "options": [
+            {
+              "id": "A",
+              "text": "13 km"
+            },
+            {
+              "id": "B",
+              "text": "17 km"
+            },
+            {
+              "id": "C",
+              "text": "12 km"
+            },
+            {
+              "id": "D",
+              "text": "7 km"
+            }
+          ],
+          "answer": "A",
+          "explanation": "sqrt(25 + 144) = 13."
+        },
+        {
+          "id": "q47",
+          "type": "single",
+          "metadata": {
+            "topic": "Statement & Conclusions",
+            "difficulty": "hard"
+          },
+          "text": "Statement: An advertisement says, 'Double your money in 24 months - invest in Scheme X.' Conclusions: I. Scheme X legally guarantees the returns. II. People wish to multiply their money.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only I follows"
+            },
+            {
+              "id": "B",
+              "text": "Only II follows"
+            },
+            {
+              "id": "C",
+              "text": "Both follow"
+            },
+            {
+              "id": "D",
+              "text": "Neither follows"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Ads appeal to a desire; a claim is not a legal guarantee."
+        },
+        {
+          "id": "q48",
+          "type": "single",
+          "metadata": {
+            "topic": "Statement & Conclusions (Conditional)",
+            "difficulty": "hard"
+          },
+          "text": "Statement: 'If it rains, the match will be shifted indoors.' It did not rain. Conclusions: I. The match was held outdoors. II. The match was cancelled.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only I follows"
+            },
+            {
+              "id": "B",
+              "text": "Only II follows"
+            },
+            {
+              "id": "C",
+              "text": "Both follow"
+            },
+            {
+              "id": "D",
+              "text": "Neither follows"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The statement says nothing about what happens without rain."
+        },
+        {
+          "id": "q49",
+          "type": "single",
+          "metadata": {
+            "topic": "Drawing Inferences",
+            "difficulty": "medium"
+          },
+          "text": "A city's average AQI was 180 in December but 95 in July. Which conclusion is best supported?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vehicles are banned in July"
+            },
+            {
+              "id": "B",
+              "text": "Air quality in this city worsens in winter"
+            },
+            {
+              "id": "C",
+              "text": "The city has the worst air in the country"
+            },
+            {
+              "id": "D",
+              "text": "Rain never falls in December"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The data shows a seasonal worsening, nothing more."
+        },
+        {
+          "id": "q50",
+          "type": "single",
+          "metadata": {
+            "topic": "Syllogism (Three Statements)",
+            "difficulty": "hard"
+          },
+          "text": "Statements: All pens are erasers. Some erasers are sharpeners. No sharpener is a scale. Conclusions: I. Some erasers are not scales. II. Some pens are sharpeners.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only I follows"
+            },
+            {
+              "id": "B",
+              "text": "Only II follows"
+            },
+            {
+              "id": "C",
+              "text": "Both follow"
+            },
+            {
+              "id": "D",
+              "text": "Neither follows"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Eraser-sharpeners cannot be scales; II is uncertain."
+        },
+        {
+          "id": "q51",
+          "type": "single",
+          "metadata": {
+            "topic": "Space Visualisation (Cube Cutting)",
+            "difficulty": "hard"
+          },
+          "text": "A 4 cm cube painted on all faces is cut into 1 cm cubes. How many small cubes have paint on exactly two faces?",
+          "options": [
+            {
+              "id": "A",
+              "text": "16"
+            },
+            {
+              "id": "B",
+              "text": "24"
+            },
+            {
+              "id": "C",
+              "text": "32"
+            },
+            {
+              "id": "D",
+              "text": "48"
+            }
+          ],
+          "answer": "B",
+          "explanation": "12 edges x (4-2) = 24 edge cubes."
+        },
+        {
+          "id": "q52",
+          "type": "figure",
+          "metadata": {
+            "topic": "Punched Hole (Folding & Unfolding)",
+            "difficulty": "hard"
+          },
+          "text": "A square sheet is folded twice, once vertically and once diagonally, and a hole is punched. Select how the sheet appears when unfolded.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Punched Hole Pattern",
+            "description": "A double-folded sheet with one punch; the unfolded symmetric hole pattern must be chosen from four options."
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          },
+          "explanation": "Unscored placeholder for a visual punching question."
+        },
+        {
+          "id": "q53",
+          "type": "figure",
+          "metadata": {
+            "topic": "Embedded Figures",
+            "difficulty": "hard"
+          },
+          "text": "Select the complex figure in which the given simple figure is embedded in its original orientation.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Embedded Figure",
+            "description": "A simple polygon that must be located, unrotated, inside one of four dense complex figures."
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          },
+          "explanation": "Unscored placeholder for a visual embedded-figure question."
+        },
+        {
+          "id": "q54",
+          "type": "figure",
+          "metadata": {
+            "topic": "Figural Analogy",
+            "difficulty": "hard"
+          },
+          "text": "Figure A relates to figure B by rotation and inversion of shading. Select the figure that relates to C in the same way.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Figural Analogy",
+            "description": "A pair of related figures whose rotation-and-shading rule must be applied to a third figure; four candidate answers."
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          },
+          "explanation": "Unscored placeholder for a visual analogy question."
+        }
+      ]
+    },
+    {
+      "id": "general-awareness",
+      "title": "General Awareness",
+      "questions": [
+        {
+          "id": "q55",
+          "type": "single",
+          "metadata": {
+            "topic": "Everyday Science (Physics)",
+            "difficulty": "medium"
+          },
+          "text": "Sound travels fastest through which of the following media?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vacuum"
+            },
+            {
+              "id": "B",
+              "text": "Air"
+            },
+            {
+              "id": "C",
+              "text": "Water"
+            },
+            {
+              "id": "D",
+              "text": "Steel"
+            }
+          ],
+          "answer": "D",
+          "explanation": "Sound is fastest in dense elastic solids like steel."
+        },
+        {
+          "id": "q56",
+          "type": "single",
+          "metadata": {
+            "topic": "Everyday Science (Health)",
+            "difficulty": "medium"
+          },
+          "text": "Deficiency of iodine in the diet most commonly causes:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Scurvy"
+            },
+            {
+              "id": "B",
+              "text": "Goitre"
+            },
+            {
+              "id": "C",
+              "text": "Rickets"
+            },
+            {
+              "id": "D",
+              "text": "Anaemia"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Iodine deficiency enlarges the thyroid (goitre)."
+        },
+        {
+          "id": "q57",
+          "type": "single",
+          "metadata": {
+            "topic": "Scientific Research (Genomics)",
+            "difficulty": "hard"
+          },
+          "text": "The Genome India Project, whose milestone was announced in early 2025, completed the sequencing of how many Indian genomes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "1,000"
+            },
+            {
+              "id": "B",
+              "text": "5,000"
+            },
+            {
+              "id": "C",
+              "text": "10,000"
+            },
+            {
+              "id": "D",
+              "text": "50,000"
+            }
+          ],
+          "answer": "C",
+          "explanation": "10,000 genomes from diverse Indian populations were sequenced."
+        },
+        {
+          "id": "q58",
+          "type": "single",
+          "metadata": {
+            "topic": "Indian Constitution (Preamble)",
+            "difficulty": "hard"
+          },
+          "text": "Which is the correct order of words in the Preamble describing the Republic of India?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sovereign, Secular, Socialist, Democratic"
+            },
+            {
+              "id": "B",
+              "text": "Sovereign, Socialist, Secular, Democratic"
+            },
+            {
+              "id": "C",
+              "text": "Socialist, Sovereign, Secular, Democratic"
+            },
+            {
+              "id": "D",
+              "text": "Secular, Socialist, Sovereign, Democratic"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The order is Sovereign Socialist Secular Democratic Republic."
+        },
+        {
+          "id": "q59",
+          "type": "single",
+          "metadata": {
+            "topic": "Indian Constitution (Fundamental Rights)",
+            "difficulty": "medium"
+          },
+          "text": "Abolition of untouchability is provided under which Article?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Article 14"
+            },
+            {
+              "id": "B",
+              "text": "Article 17"
+            },
+            {
+              "id": "C",
+              "text": "Article 19"
+            },
+            {
+              "id": "D",
+              "text": "Article 23"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Article 17 abolishes untouchability."
+        },
+        {
+          "id": "q60",
+          "type": "single",
+          "metadata": {
+            "topic": "History (Harappan Sites)",
+            "difficulty": "hard"
+          },
+          "text": "Dholavira, a UNESCO-listed Harappan city known for its water management, is located in:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rajasthan"
+            },
+            {
+              "id": "B",
+              "text": "Gujarat"
+            },
+            {
+              "id": "C",
+              "text": "Haryana"
+            },
+            {
+              "id": "D",
+              "text": "Punjab"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Dholavira lies in the Rann of Kutch, Gujarat."
+        },
+        {
+          "id": "q61",
+          "type": "single",
+          "metadata": {
+            "topic": "Culture (Folk Dance)",
+            "difficulty": "hard"
+          },
+          "text": "Cheraw, the bamboo dance performed between clapping bamboo staves, belongs to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nagaland"
+            },
+            {
+              "id": "B",
+              "text": "Mizoram"
+            },
+            {
+              "id": "C",
+              "text": "Tripura"
+            },
+            {
+              "id": "D",
+              "text": "Arunachal Pradesh"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Cheraw is Mizoram's traditional bamboo dance."
+        },
+        {
+          "id": "q62",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography (Border Disputes)",
+            "difficulty": "hard"
+          },
+          "text": "The Sir Creek boundary dispute is between India and:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bangladesh"
+            },
+            {
+              "id": "B",
+              "text": "Pakistan"
+            },
+            {
+              "id": "C",
+              "text": "Sri Lanka"
+            },
+            {
+              "id": "D",
+              "text": "Myanmar"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Sir Creek lies between Gujarat and Sindh."
+        },
+        {
+          "id": "q63",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene (Inflation)",
+            "difficulty": "hard"
+          },
+          "text": "'Core inflation' is headline inflation excluding the prices of:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Housing and clothing"
+            },
+            {
+              "id": "B",
+              "text": "Food and fuel"
+            },
+            {
+              "id": "C",
+              "text": "Imports and exports"
+            },
+            {
+              "id": "D",
+              "text": "Services and taxes"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Volatile food and fuel prices are stripped out."
+        },
+        {
+          "id": "q64",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene (Taxation)",
+            "difficulty": "hard"
+          },
+          "text": "The 'angel tax', abolished in the July 2024 Budget, was levied on:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Inherited property"
+            },
+            {
+              "id": "B",
+              "text": "Share premiums received by startups above fair value"
+            },
+            {
+              "id": "C",
+              "text": "Foreign remittances"
+            },
+            {
+              "id": "D",
+              "text": "Cryptocurrency profits"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It taxed startup share issues above fair market value."
+        },
+        {
+          "id": "q65",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Environment)",
+            "difficulty": "hard"
+          },
+          "text": "The COP16 summit on biological diversity (October 2024) was hosted by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cali, Colombia"
+            },
+            {
+              "id": "B",
+              "text": "Montreal, Canada"
+            },
+            {
+              "id": "C",
+              "text": "Kunming, China"
+            },
+            {
+              "id": "D",
+              "text": "Nairobi, Kenya"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Colombia hosted the biodiversity COP in Cali."
+        },
+        {
+          "id": "q66",
+          "type": "single",
+          "metadata": {
+            "topic": "Defence (Exercises)",
+            "difficulty": "medium"
+          },
+          "text": "'Yudh Abhyas' is a joint military exercise between India and:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Russia"
+            },
+            {
+              "id": "B",
+              "text": "The United States"
+            },
+            {
+              "id": "C",
+              "text": "France"
+            },
+            {
+              "id": "D",
+              "text": "Japan"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It is an annual India-US army exercise."
+        },
+        {
+          "id": "q67",
+          "type": "single",
+          "metadata": {
+            "topic": "Neighbouring Countries (Institutions)",
+            "difficulty": "medium"
+          },
+          "text": "The headquarters of SAARC is located in:",
+          "options": [
+            {
+              "id": "A",
+              "text": "New Delhi"
+            },
+            {
+              "id": "B",
+              "text": "Kathmandu"
+            },
+            {
+              "id": "C",
+              "text": "Dhaka"
+            },
+            {
+              "id": "D",
+              "text": "Colombo"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The SAARC Secretariat is in Kathmandu, Nepal."
+        },
+        {
+          "id": "q68",
+          "type": "single",
+          "metadata": {
+            "topic": "General Policy (Connectivity)",
+            "difficulty": "hard"
+          },
+          "text": "The BharatNet project aims to provide high-speed broadband connectivity to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "All airports"
+            },
+            {
+              "id": "B",
+              "text": "All gram panchayats"
+            },
+            {
+              "id": "C",
+              "text": "All railway stations"
+            },
+            {
+              "id": "D",
+              "text": "All universities"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It links gram panchayats with optical fibre."
+        },
+        {
+          "id": "q69",
+          "type": "single",
+          "metadata": {
+            "topic": "General Policy (Railways)",
+            "difficulty": "medium"
+          },
+          "text": "'Kavach', developed by Indian Railways, is a system for:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Online ticket booking"
+            },
+            {
+              "id": "B",
+              "text": "Automatic train protection against collisions"
+            },
+            {
+              "id": "C",
+              "text": "Freight tracking"
+            },
+            {
+              "id": "D",
+              "text": "Station cleanliness ratings"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Kavach automatically brakes trains to prevent collisions."
+        },
+        {
+          "id": "q70",
+          "type": "single",
+          "metadata": {
+            "topic": "Books & Awards",
+            "difficulty": "medium"
+          },
+          "text": "'The White Tiger', which won the Booker Prize in 2008, was written by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Aravind Adiga"
+            },
+            {
+              "id": "B",
+              "text": "Kiran Desai"
+            },
+            {
+              "id": "C",
+              "text": "Arundhati Roy"
+            },
+            {
+              "id": "D",
+              "text": "Salman Rushdie"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Adiga won for his debut novel."
+        }
+      ]
+    },
+    {
+      "id": "computer-applications",
+      "title": "Knowledge in Computer Applications",
+      "questions": [
+        {
+          "id": "q71",
+          "type": "single",
+          "metadata": {
+            "topic": "IT Act (Landmark Case)",
+            "difficulty": "hard"
+          },
+          "text": "Section 66A of the IT Act, which criminalised offensive online messages, was struck down by the Supreme Court in 2015 in which case?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Shreya Singhal v. Union of India"
+            },
+            {
+              "id": "B",
+              "text": "K. S. Puttaswamy v. Union of India"
+            },
+            {
+              "id": "C",
+              "text": "Kesavananda Bharati v. State of Kerala"
+            },
+            {
+              "id": "D",
+              "text": "Maneka Gandhi v. Union of India"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Shreya Singhal (2015) invalidated Section 66A."
+        },
+        {
+          "id": "q72",
+          "type": "single",
+          "metadata": {
+            "topic": "Digital Signatures (Cryptography)",
+            "difficulty": "hard"
+          },
+          "text": "In public-key cryptography, a digital signature is created using:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The signer's public key"
+            },
+            {
+              "id": "B",
+              "text": "The signer's private key"
+            },
+            {
+              "id": "C",
+              "text": "The receiver's private key"
+            },
+            {
+              "id": "D",
+              "text": "A shared password"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The private key signs; the public key verifies."
+        },
+        {
+          "id": "q73",
+          "type": "single",
+          "metadata": {
+            "topic": "Digital Signatures (Licensing)",
+            "difficulty": "hard"
+          },
+          "text": "Under the IT Act, licences to Certifying Authorities that issue digital signature certificates are granted by the:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reserve Bank of India"
+            },
+            {
+              "id": "B",
+              "text": "Controller of Certifying Authorities (CCA)"
+            },
+            {
+              "id": "C",
+              "text": "TRAI"
+            },
+            {
+              "id": "D",
+              "text": "NITI Aayog"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The CCA licenses and regulates Certifying Authorities."
+        },
+        {
+          "id": "q74",
+          "type": "single",
+          "metadata": {
+            "topic": "E-Governance (Apps)",
+            "difficulty": "medium"
+          },
+          "text": "The UMANG mobile app is designed to provide:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Unified access to multiple government services"
+            },
+            {
+              "id": "B",
+              "text": "Free video streaming"
+            },
+            {
+              "id": "C",
+              "text": "Stock trading facilities"
+            },
+            {
+              "id": "D",
+              "text": "Language translation only"
+            }
+          ],
+          "answer": "A",
+          "explanation": "UMANG bundles central and state e-services in one app."
+        },
+        {
+          "id": "q75",
+          "type": "single",
+          "metadata": {
+            "topic": "E-Governance (Models)",
+            "difficulty": "hard"
+          },
+          "text": "Data sharing between two government ministries through e-Office is an example of which e-Governance model?",
+          "options": [
+            {
+              "id": "A",
+              "text": "G2C"
+            },
+            {
+              "id": "B",
+              "text": "G2B"
+            },
+            {
+              "id": "C",
+              "text": "G2G"
+            },
+            {
+              "id": "D",
+              "text": "B2C"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Government-to-Government interaction."
+        },
+        {
+          "id": "q76",
+          "type": "single",
+          "metadata": {
+            "topic": "File System (Limits)",
+            "difficulty": "hard"
+          },
+          "text": "The maximum size of a single file on a FAT32 file system is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "2 GB"
+            },
+            {
+              "id": "B",
+              "text": "4 GB"
+            },
+            {
+              "id": "C",
+              "text": "16 GB"
+            },
+            {
+              "id": "D",
+              "text": "Unlimited"
+            }
+          ],
+          "answer": "B",
+          "explanation": "FAT32 caps individual files at 4 GB."
+        },
+        {
+          "id": "q77",
+          "type": "single",
+          "metadata": {
+            "topic": "Input Devices (Banking)",
+            "difficulty": "hard"
+          },
+          "text": "MICR technology, which reads the code line on cheques, is chiefly used by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Banks"
+            },
+            {
+              "id": "B",
+              "text": "Hospitals"
+            },
+            {
+              "id": "C",
+              "text": "Airlines"
+            },
+            {
+              "id": "D",
+              "text": "Examination boards"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Magnetic Ink Character Recognition processes cheques."
+        },
+        {
+          "id": "q78",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Excel (Functions)",
+            "difficulty": "medium"
+          },
+          "text": "In Excel, what does =POWER(2,10) return?",
+          "options": [
+            {
+              "id": "A",
+              "text": "20"
+            },
+            {
+              "id": "B",
+              "text": "100"
+            },
+            {
+              "id": "C",
+              "text": "1024"
+            },
+            {
+              "id": "D",
+              "text": "512"
+            }
+          ],
+          "answer": "C",
+          "explanation": "2 raised to the 10th power is 1024."
+        },
+        {
+          "id": "q79",
+          "type": "single",
+          "metadata": {
+            "topic": "MS PowerPoint (File Types)",
+            "difficulty": "hard"
+          },
+          "text": "A file with the extension .potx is a PowerPoint:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Macro-enabled show"
+            },
+            {
+              "id": "B",
+              "text": "Design template"
+            },
+            {
+              "id": "C",
+              "text": "Exported video"
+            },
+            {
+              "id": "D",
+              "text": "Add-in"
+            }
+          ],
+          "answer": "B",
+          "explanation": ".potx stores a presentation template."
+        },
+        {
+          "id": "q80",
+          "type": "single",
+          "metadata": {
+            "topic": "Information Kiosks (Rural Access)",
+            "difficulty": "medium"
+          },
+          "text": "The village-level centres that deliver e-governance services to citizens under the Digital India programme are called:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Common Service Centres (CSCs)"
+            },
+            {
+              "id": "B",
+              "text": "Krishi Vigyan Kendras"
+            },
+            {
+              "id": "C",
+              "text": "Jan Aushadhi Kendras"
+            },
+            {
+              "id": "D",
+              "text": "Anganwadi Centres"
+            }
+          ],
+          "answer": "A",
+          "explanation": "CSCs act as rural information and service kiosks."
+        }
+      ]
+    }
+  ]
+}

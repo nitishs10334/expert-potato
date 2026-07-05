@@ -1,0 +1,2365 @@
+{
+  "schemaVersion": "1.0",
+  "id": "iisc-aa-guess-09",
+  "title": "IISc Administrative Assistant Guess Paper 9",
+  "subtitle": "Hard-tier prediction set modelled on 2023 examiner patterns",
+  "version": "2026.07.05",
+  "durationMinutes": 90,
+  "language": "English",
+  "tags": [
+    "iisc",
+    "administrative-assistant",
+    "guess-paper",
+    "2026"
+  ],
+  "metadata": {
+    "exam": "IISc Administrative Assistant",
+    "year": 2026,
+    "source": "Guess Paper 4 of 5"
+  },
+  "instructions": [
+    "Total 80 questions to be attempted in 90 minutes.",
+    "Each correct answer earns +1 mark.",
+    "Negative marking applies: 0.33333 marks (one-third) are deducted for every incorrect answer.",
+    "Unattempted questions receive 0 marks.",
+    "Figure-based placeholder questions are unscored and carry 0 marks either way.",
+    "Difficulty is benchmarked at or above the actual 2023 paper: expect multi-step questions."
+  ],
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.33333,
+    "unattempted": 0,
+    "partial": false
+  },
+  "analytics": {
+    "groupBy": [
+      "section",
+      "topic",
+      "difficulty"
+    ]
+  },
+  "sections": [
+    {
+      "id": "quantitative-ability",
+      "title": "Quantitative Ability",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single",
+          "metadata": {
+            "topic": "Percentage (Cross Comparison)",
+            "difficulty": "hard"
+          },
+          "text": "Two numbers are respectively 30% and 40% less than a third number. The first number is what percentage of the second?",
+          "options": [
+            {
+              "id": "A",
+              "text": "110%"
+            },
+            {
+              "id": "B",
+              "text": "116.67%"
+            },
+            {
+              "id": "C",
+              "text": "120%"
+            },
+            {
+              "id": "D",
+              "text": "85.71%"
+            }
+          ],
+          "answer": "B",
+          "explanation": "0.7/0.6 = 7/6 = 116.67%."
+        },
+        {
+          "id": "q2",
+          "type": "single",
+          "metadata": {
+            "topic": "Profit & Loss (Quadratic)",
+            "difficulty": "hard"
+          },
+          "text": "A man sells an article for Rs 96 and gains a percentage numerically equal to its cost price in rupees. The cost price is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 50"
+            },
+            {
+              "id": "B",
+              "text": "Rs 60"
+            },
+            {
+              "id": "C",
+              "text": "Rs 64"
+            },
+            {
+              "id": "D",
+              "text": "Rs 80"
+            }
+          ],
+          "answer": "B",
+          "explanation": "CP + CP^2/100 = 96 gives CP = 60."
+        },
+        {
+          "id": "q3",
+          "type": "single",
+          "metadata": {
+            "topic": "Discount (Triple Successive)",
+            "difficulty": "medium"
+          },
+          "text": "An article marked at Rs 2000 is sold after successive discounts of 10%, 20% and 25%. The selling price is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 900"
+            },
+            {
+              "id": "B",
+              "text": "Rs 1080"
+            },
+            {
+              "id": "C",
+              "text": "Rs 1100"
+            },
+            {
+              "id": "D",
+              "text": "Rs 1200"
+            }
+          ],
+          "answer": "B",
+          "explanation": "2000 x 0.9 x 0.8 x 0.75 = 1080."
+        },
+        {
+          "id": "q4",
+          "type": "single",
+          "metadata": {
+            "topic": "Time & Work (Men-Women Equivalence)",
+            "difficulty": "hard"
+          },
+          "text": "12 men or 18 women can complete a work in 14 days. In how many days will 8 men and 16 women complete the same work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "8 days"
+            },
+            {
+              "id": "B",
+              "text": "9 days"
+            },
+            {
+              "id": "C",
+              "text": "10 days"
+            },
+            {
+              "id": "D",
+              "text": "12 days"
+            }
+          ],
+          "answer": "B",
+          "explanation": "8 men = 12 women, so 28 women; 18 x 14 / 28 = 9."
+        },
+        {
+          "id": "q5",
+          "type": "single",
+          "metadata": {
+            "topic": "Pipes & Cisterns (Early Shutoff)",
+            "difficulty": "hard"
+          },
+          "text": "Two pipes can fill a cistern in 15 and 20 minutes. Both are opened together, but the first is turned off after 4 minutes. The total time to fill the cistern is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "12 min 40 s"
+            },
+            {
+              "id": "B",
+              "text": "14 min 40 s"
+            },
+            {
+              "id": "C",
+              "text": "15 min 20 s"
+            },
+            {
+              "id": "D",
+              "text": "16 min"
+            }
+          ],
+          "answer": "B",
+          "explanation": "4 minutes fill 7/15; the rest takes (8/15)x20 = 32/3 min more."
+        },
+        {
+          "id": "q6",
+          "type": "single",
+          "metadata": {
+            "topic": "Time & Distance (Stoppages)",
+            "difficulty": "hard"
+          },
+          "text": "Without stoppages a bus averages 54 km/h; with stoppages it averages 45 km/h. For how many minutes per hour does the bus stop?",
+          "options": [
+            {
+              "id": "A",
+              "text": "8 minutes"
+            },
+            {
+              "id": "B",
+              "text": "9 minutes"
+            },
+            {
+              "id": "C",
+              "text": "10 minutes"
+            },
+            {
+              "id": "D",
+              "text": "12 minutes"
+            }
+          ],
+          "answer": "C",
+          "explanation": "It loses 9 of 54 km, i.e. 1/6 of the hour = 10 minutes."
+        },
+        {
+          "id": "q7",
+          "type": "single",
+          "metadata": {
+            "topic": "Time & Distance (Train Lengths)",
+            "difficulty": "hard"
+          },
+          "text": "A train crosses a 120 m platform in 15 seconds and a pole in 9 seconds. The length of the train is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "160 m"
+            },
+            {
+              "id": "B",
+              "text": "180 m"
+            },
+            {
+              "id": "C",
+              "text": "200 m"
+            },
+            {
+              "id": "D",
+              "text": "240 m"
+            }
+          ],
+          "answer": "B",
+          "explanation": "(L+120)/15 = L/9 gives L = 180."
+        },
+        {
+          "id": "q8",
+          "type": "single",
+          "metadata": {
+            "topic": "Compound Interest (Year Difference)",
+            "difficulty": "hard"
+          },
+          "text": "On a sum at 8% per annum compound interest, the interest for the second year exceeds that for the first year by Rs 64. The sum is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 8000"
+            },
+            {
+              "id": "B",
+              "text": "Rs 9000"
+            },
+            {
+              "id": "C",
+              "text": "Rs 10000"
+            },
+            {
+              "id": "D",
+              "text": "Rs 12500"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The excess is 8% of the first year's interest: 0.0064P = 64."
+        },
+        {
+          "id": "q9",
+          "type": "single",
+          "metadata": {
+            "topic": "Ratio (Mean Proportional)",
+            "difficulty": "medium"
+          },
+          "text": "The mean proportional between 0.08 and 0.18 is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "0.12"
+            },
+            {
+              "id": "B",
+              "text": "0.13"
+            },
+            {
+              "id": "C",
+              "text": "0.144"
+            },
+            {
+              "id": "D",
+              "text": "0.10"
+            }
+          ],
+          "answer": "A",
+          "explanation": "sqrt(0.08 x 0.18) = sqrt(0.0144) = 0.12."
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "metadata": {
+            "topic": "Alligation (Profit Mix)",
+            "difficulty": "hard"
+          },
+          "text": "A merchant has 100 kg of sugar. He sells part of it at 7% profit and the rest at 17% profit, gaining 10% overall. The quantity sold at 17% profit is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "30 kg"
+            },
+            {
+              "id": "B",
+              "text": "35 kg"
+            },
+            {
+              "id": "C",
+              "text": "65 kg"
+            },
+            {
+              "id": "D",
+              "text": "70 kg"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Alligation gives 7:3, so 30 kg at 17%."
+        },
+        {
+          "id": "q11",
+          "type": "numerical",
+          "metadata": {
+            "topic": "Number Sense (Counting Multiples)",
+            "difficulty": "medium"
+          },
+          "text": "Enter the count of numbers between 100 and 500 that are divisible by 7.",
+          "answer": 57,
+          "tolerance": 0,
+          "explanation": "105 to 497: (497-105)/7 + 1 = 57."
+        },
+        {
+          "id": "q12",
+          "type": "single",
+          "metadata": {
+            "topic": "Algebraic Identities (Three Variables)",
+            "difficulty": "hard"
+          },
+          "text": "If a + b + c = 9 and ab + bc + ca = 26, then a^2 + b^2 + c^2 equals:",
+          "options": [
+            {
+              "id": "A",
+              "text": "29"
+            },
+            {
+              "id": "B",
+              "text": "31"
+            },
+            {
+              "id": "C",
+              "text": "35"
+            },
+            {
+              "id": "D",
+              "text": "55"
+            }
+          ],
+          "answer": "A",
+          "explanation": "81 - 2 x 26 = 29."
+        },
+        {
+          "id": "q13",
+          "type": "single",
+          "metadata": {
+            "topic": "Partnership (Oxen-Months)",
+            "difficulty": "hard"
+          },
+          "text": "A, B and C rent a pasture. A grazes 10 oxen for 7 months, B grazes 12 oxen for 5 months and C grazes 15 oxen for 3 months. If the rent is Rs 175, C's share is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 45"
+            },
+            {
+              "id": "B",
+              "text": "Rs 50"
+            },
+            {
+              "id": "C",
+              "text": "Rs 55"
+            },
+            {
+              "id": "D",
+              "text": "Rs 60"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Oxen-months 70:60:45 total 175; C pays 45."
+        },
+        {
+          "id": "q14",
+          "type": "single",
+          "metadata": {
+            "topic": "Mensuration (Sphere to Wire)",
+            "difficulty": "hard"
+          },
+          "text": "A solid metal sphere of radius 3 cm is melted and drawn into a wire of radius 0.1 cm. The length of the wire is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "36 m"
+            },
+            {
+              "id": "B",
+              "text": "24 m"
+            },
+            {
+              "id": "C",
+              "text": "18 m"
+            },
+            {
+              "id": "D",
+              "text": "12 m"
+            }
+          ],
+          "answer": "A",
+          "explanation": "36 pi = pi x 0.01 x L gives L = 3600 cm."
+        },
+        {
+          "id": "q15",
+          "type": "single",
+          "metadata": {
+            "topic": "Triangle (Heron's Formula)",
+            "difficulty": "hard"
+          },
+          "text": "The area of a triangle with sides 13 cm, 14 cm and 15 cm is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "80 sq cm"
+            },
+            {
+              "id": "B",
+              "text": "84 sq cm"
+            },
+            {
+              "id": "C",
+              "text": "90 sq cm"
+            },
+            {
+              "id": "D",
+              "text": "96 sq cm"
+            }
+          ],
+          "answer": "B",
+          "explanation": "s = 21; sqrt(21 x 8 x 7 x 6) = 84."
+        },
+        {
+          "id": "q16",
+          "type": "single",
+          "metadata": {
+            "topic": "Coordinate Geometry (Perimeter)",
+            "difficulty": "medium"
+          },
+          "text": "A triangle has vertices at (0,0), (6,0) and (0,8). Its perimeter is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "14 units"
+            },
+            {
+              "id": "B",
+              "text": "24 units"
+            },
+            {
+              "id": "C",
+              "text": "20 units"
+            },
+            {
+              "id": "D",
+              "text": "28 units"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Sides 6, 8 and 10 give perimeter 24."
+        }
+      ]
+    },
+    {
+      "id": "verbal-ability",
+      "title": "Verbal Ability",
+      "questions": [
+        {
+          "id": "q17",
+          "type": "single",
+          "metadata": {
+            "topic": "Shuffling of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Sentence 1: Artificial lighting has stretched the human day far beyond sunset. Arrange P, Q, R, S. P: Sleep researchers link this exposure to rising insomnia and fatigue. Q: Blue light from screens delays the release of melatonin at night. R: Experts therefore advise switching off devices an hour before bed. S: The body's internal clock, tuned for darkness, is easily confused.",
+          "options": [
+            {
+              "id": "A",
+              "text": "SQPR"
+            },
+            {
+              "id": "B",
+              "text": "QSPR"
+            },
+            {
+              "id": "C",
+              "text": "SPQR"
+            },
+            {
+              "id": "D",
+              "text": "QPRS"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Vulnerability, mechanism, evidence, advice."
+        },
+        {
+          "id": "q18",
+          "type": "single",
+          "metadata": {
+            "topic": "Shuffling of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Sentence 1: The bicycle is enjoying a global revival. Arrange P, Q, R, S. P: Cities from Paris to Pune are laying dedicated cycle lanes. Q: Congested roads and climate worries have pushed commuters to rethink cars. R: Health benefits add a further argument in the bicycle's favour. S: Planners see cycling as the cheapest cure for urban gridlock.",
+          "options": [
+            {
+              "id": "A",
+              "text": "QSPR"
+            },
+            {
+              "id": "B",
+              "text": "PQSR"
+            },
+            {
+              "id": "C",
+              "text": "QPSR"
+            },
+            {
+              "id": "D",
+              "text": "SQPR"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Causes, planners' view, action taken, extra argument."
+        },
+        {
+          "id": "q19",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "hard"
+          },
+          "text": "Select the meaning of the idiom: To have too many irons in the fire",
+          "options": [
+            {
+              "id": "A",
+              "text": "To be involved in too many activities at once"
+            },
+            {
+              "id": "B",
+              "text": "To be well prepared for danger"
+            },
+            {
+              "id": "C",
+              "text": "To have many enemies"
+            },
+            {
+              "id": "D",
+              "text": "To hoard unnecessary tools"
+            }
+          ],
+          "answer": "A",
+          "explanation": "It warns against juggling too many ventures."
+        },
+        {
+          "id": "q20",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "hard"
+          },
+          "text": "Select the meaning of the idiom: To fish in troubled waters",
+          "options": [
+            {
+              "id": "A",
+              "text": "To attempt something impossible"
+            },
+            {
+              "id": "B",
+              "text": "To take advantage of a disturbed situation"
+            },
+            {
+              "id": "C",
+              "text": "To work in dangerous conditions"
+            },
+            {
+              "id": "D",
+              "text": "To search for something lost"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It means profiting from others' troubles."
+        },
+        {
+          "id": "q21",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "medium"
+          },
+          "text": "Select the meaning of the idiom: To blow one's own trumpet",
+          "options": [
+            {
+              "id": "A",
+              "text": "To praise oneself"
+            },
+            {
+              "id": "B",
+              "text": "To make a loud announcement"
+            },
+            {
+              "id": "C",
+              "text": "To celebrate a victory"
+            },
+            {
+              "id": "D",
+              "text": "To warn others of danger"
+            }
+          ],
+          "answer": "A",
+          "explanation": "It means boasting about oneself."
+        },
+        {
+          "id": "q22",
+          "type": "single",
+          "metadata": {
+            "topic": "One-word Substitution",
+            "difficulty": "hard"
+          },
+          "text": "A person or thing that cannot be corrected or reformed:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Invincible"
+            },
+            {
+              "id": "B",
+              "text": "Incorrigible"
+            },
+            {
+              "id": "C",
+              "text": "Indelible"
+            },
+            {
+              "id": "D",
+              "text": "Inevitable"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Incorrigible means beyond correction."
+        },
+        {
+          "id": "q23",
+          "type": "single",
+          "metadata": {
+            "topic": "One-word Substitution",
+            "difficulty": "hard"
+          },
+          "text": "A work published after the death of its author:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Posthumous"
+            },
+            {
+              "id": "B",
+              "text": "Anonymous"
+            },
+            {
+              "id": "C",
+              "text": "Autobiographical"
+            },
+            {
+              "id": "D",
+              "text": "Apocryphal"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Posthumous works appear after the author's death."
+        },
+        {
+          "id": "q24",
+          "type": "single",
+          "metadata": {
+            "topic": "Spelling",
+            "difficulty": "hard"
+          },
+          "text": "Select the correctly spelt word:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Idiosyncracy"
+            },
+            {
+              "id": "B",
+              "text": "Idiosyncrasy"
+            },
+            {
+              "id": "C",
+              "text": "Ideosyncrasy"
+            },
+            {
+              "id": "D",
+              "text": "Idiosincrasy"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It ends in -crasy, not -cracy."
+        },
+        {
+          "id": "q25",
+          "type": "single",
+          "metadata": {
+            "topic": "Spelling",
+            "difficulty": "medium"
+          },
+          "text": "Select the incorrectly spelt word:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Committee"
+            },
+            {
+              "id": "B",
+              "text": "Commision"
+            },
+            {
+              "id": "C",
+              "text": "Commitment"
+            },
+            {
+              "id": "D",
+              "text": "Communication"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct spelling is commission."
+        },
+        {
+          "id": "q26",
+          "type": "single",
+          "metadata": {
+            "topic": "Improvement of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Improve the underlined part: MANY A STUDENTS HAVE passed this examination with distinction.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Many a student has"
+            },
+            {
+              "id": "B",
+              "text": "Many a students has"
+            },
+            {
+              "id": "C",
+              "text": "Many a student have"
+            },
+            {
+              "id": "D",
+              "text": "No improvement"
+            }
+          ],
+          "answer": "A",
+          "explanation": "'Many a' takes a singular noun and verb."
+        },
+        {
+          "id": "q27",
+          "type": "single",
+          "metadata": {
+            "topic": "Improvement of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Improve the underlined part: He denied THAT HE HAS stolen the documents.",
+          "options": [
+            {
+              "id": "A",
+              "text": "that he had"
+            },
+            {
+              "id": "B",
+              "text": "that he have"
+            },
+            {
+              "id": "C",
+              "text": "of that he has"
+            },
+            {
+              "id": "D",
+              "text": "No improvement"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Past reporting verb shifts the clause to past perfect."
+        },
+        {
+          "id": "q28",
+          "type": "single",
+          "metadata": {
+            "topic": "Synonyms",
+            "difficulty": "hard"
+          },
+          "text": "Select the synonym of PRECARIOUS:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Safe"
+            },
+            {
+              "id": "B",
+              "text": "Uncertain"
+            },
+            {
+              "id": "C",
+              "text": "Valuable"
+            },
+            {
+              "id": "D",
+              "text": "Cautious"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Precarious means insecure or unstable."
+        },
+        {
+          "id": "q29",
+          "type": "single",
+          "metadata": {
+            "topic": "Antonyms",
+            "difficulty": "hard"
+          },
+          "text": "Select the antonym of ZENITH:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Summit"
+            },
+            {
+              "id": "B",
+              "text": "Nadir"
+            },
+            {
+              "id": "C",
+              "text": "Horizon"
+            },
+            {
+              "id": "D",
+              "text": "Apex"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Zenith (highest point) is opposite to nadir."
+        },
+        {
+          "id": "q30",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Detail)",
+            "difficulty": "hard"
+          },
+          "passage": "More than a hundred million fragments of debris now orbit the Earth, from dead satellites to flecks of paint travelling ten times faster than a bullet. At such speeds even a centimetre-sized shard can disable a spacecraft. Every collision spawns thousands of new fragments, raising the odds of further impacts, a chain reaction known as the Kessler syndrome that could one day render key orbits unusable. Space agencies now require new satellites to deorbit within years of retirement, and startups are testing nets, harpoons and robotic arms to capture large wrecks. Cleaning up, engineers concede, will be far harder than not littering in the first place.",
+          "text": "According to the passage, tiny debris fragments are dangerous because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are radioactive"
+            },
+            {
+              "id": "B",
+              "text": "They travel at extremely high speeds"
+            },
+            {
+              "id": "C",
+              "text": "They are invisible to radar"
+            },
+            {
+              "id": "D",
+              "text": "They are magnetic"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Speed, not size, gives them destructive energy."
+        },
+        {
+          "id": "q31",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Concept)",
+            "difficulty": "hard"
+          },
+          "passage": "More than a hundred million fragments of debris now orbit the Earth, from dead satellites to flecks of paint travelling ten times faster than a bullet. At such speeds even a centimetre-sized shard can disable a spacecraft. Every collision spawns thousands of new fragments, raising the odds of further impacts, a chain reaction known as the Kessler syndrome that could one day render key orbits unusable. Space agencies now require new satellites to deorbit within years of retirement, and startups are testing nets, harpoons and robotic arms to capture large wrecks. Cleaning up, engineers concede, will be far harder than not littering in the first place.",
+          "text": "The 'Kessler syndrome' described in the passage refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Astronauts falling ill in orbit"
+            },
+            {
+              "id": "B",
+              "text": "A cascade of collisions that multiplies debris"
+            },
+            {
+              "id": "C",
+              "text": "Satellites losing radio contact"
+            },
+            {
+              "id": "D",
+              "text": "The re-entry of old rockets"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Each collision breeds fragments that cause more collisions."
+        },
+        {
+          "id": "q32",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Inference)",
+            "difficulty": "hard"
+          },
+          "passage": "More than a hundred million fragments of debris now orbit the Earth, from dead satellites to flecks of paint travelling ten times faster than a bullet. At such speeds even a centimetre-sized shard can disable a spacecraft. Every collision spawns thousands of new fragments, raising the odds of further impacts, a chain reaction known as the Kessler syndrome that could one day render key orbits unusable. Space agencies now require new satellites to deorbit within years of retirement, and startups are testing nets, harpoons and robotic arms to capture large wrecks. Cleaning up, engineers concede, will be far harder than not littering in the first place.",
+          "text": "The final sentence implies that the most effective strategy against space debris is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Building stronger spacecraft"
+            },
+            {
+              "id": "B",
+              "text": "Preventing new debris rather than removing old debris"
+            },
+            {
+              "id": "C",
+              "text": "Abandoning low Earth orbit"
+            },
+            {
+              "id": "D",
+              "text": "Using larger nets and harpoons"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Not littering is said to beat cleaning up."
+        }
+      ]
+    },
+    {
+      "id": "logical-numerical-reasoning",
+      "title": "Logical and Numerical Reasoning",
+      "questions": [
+        {
+          "id": "q33",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "difficulty": "medium"
+          },
+          "text": "Find the next term: 3, 5, 9, 17, 33, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "63"
+            },
+            {
+              "id": "B",
+              "text": "65"
+            },
+            {
+              "id": "C",
+              "text": "66"
+            },
+            {
+              "id": "D",
+              "text": "68"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Each term is double the previous minus 1."
+        },
+        {
+          "id": "q34",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series (Alternating Ops)",
+            "difficulty": "hard"
+          },
+          "text": "Find the next term: 100, 50, 52, 26, 28, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "12"
+            },
+            {
+              "id": "B",
+              "text": "14"
+            },
+            {
+              "id": "C",
+              "text": "30"
+            },
+            {
+              "id": "D",
+              "text": "56"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The pattern alternates: divide by 2, add 2."
+        },
+        {
+          "id": "q35",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series (n^3 - n)",
+            "difficulty": "hard"
+          },
+          "text": "Find the next term: 0, 6, 24, 60, 120, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "180"
+            },
+            {
+              "id": "B",
+              "text": "210"
+            },
+            {
+              "id": "C",
+              "text": "216"
+            },
+            {
+              "id": "D",
+              "text": "240"
+            }
+          ],
+          "answer": "B",
+          "explanation": "n^3 - n: next is 216 - 6 = 210."
+        },
+        {
+          "id": "q36",
+          "type": "single",
+          "metadata": {
+            "topic": "Letter Series",
+            "difficulty": "hard"
+          },
+          "text": "Find the next term: DGK, GJN, JMQ, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "MPT"
+            },
+            {
+              "id": "B",
+              "text": "MQT"
+            },
+            {
+              "id": "C",
+              "text": "NPT"
+            },
+            {
+              "id": "D",
+              "text": "MPU"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Each position advances 3 letters between terms."
+        },
+        {
+          "id": "q37",
+          "type": "single",
+          "metadata": {
+            "topic": "Word Building",
+            "difficulty": "medium"
+          },
+          "text": "How many meaningful English words can be formed using the letters E, A, T, each exactly once?",
+          "options": [
+            {
+              "id": "A",
+              "text": "None"
+            },
+            {
+              "id": "B",
+              "text": "One"
+            },
+            {
+              "id": "C",
+              "text": "Two"
+            },
+            {
+              "id": "D",
+              "text": "More than two"
+            }
+          ],
+          "answer": "D",
+          "explanation": "EAT, TEA and ATE can all be formed."
+        },
+        {
+          "id": "q38",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Reverse + Shift)",
+            "difficulty": "hard"
+          },
+          "text": "If SHARP is coded as QSBIT, how is TABLE coded?",
+          "options": [
+            {
+              "id": "A",
+              "text": "FMCBU"
+            },
+            {
+              "id": "B",
+              "text": "FMCUB"
+            },
+            {
+              "id": "C",
+              "text": "EMCBU"
+            },
+            {
+              "id": "D",
+              "text": "FNCBU"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Reverse the word, then shift each letter +1."
+        },
+        {
+          "id": "q39",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Position Sum)",
+            "difficulty": "medium"
+          },
+          "text": "If WATER = 67, then EARTH = ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "50"
+            },
+            {
+              "id": "B",
+              "text": "52"
+            },
+            {
+              "id": "C",
+              "text": "54"
+            },
+            {
+              "id": "D",
+              "text": "56"
+            }
+          ],
+          "answer": "B",
+          "explanation": "5 + 1 + 18 + 20 + 8 = 52."
+        },
+        {
+          "id": "q40",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding (Word Substitution)",
+            "difficulty": "medium"
+          },
+          "text": "If 'sky' is called 'sea', 'sea' is called 'water', 'water' is called 'air' and 'air' is called 'cloud', then fish live in what (in this language)?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sea"
+            },
+            {
+              "id": "B",
+              "text": "Water"
+            },
+            {
+              "id": "C",
+              "text": "Air"
+            },
+            {
+              "id": "D",
+              "text": "Cloud"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Fish live in water, and water is called 'air'."
+        },
+        {
+          "id": "q41",
+          "type": "single",
+          "metadata": {
+            "topic": "Linear Seating (Seven People)",
+            "difficulty": "hard"
+          },
+          "text": "Seven people P, Q, R, S, T, U, V sit in a row facing north. V is at the extreme right and T at the extreme left. Q is second from the left and S is exactly in the middle. P sits between Q and S. R is immediately to the right of S, and U sits between R and V. Who is third from the right end?",
+          "options": [
+            {
+              "id": "A",
+              "text": "R"
+            },
+            {
+              "id": "B",
+              "text": "U"
+            },
+            {
+              "id": "C",
+              "text": "S"
+            },
+            {
+              "id": "D",
+              "text": "P"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Order: T, Q, P, S, R, U, V; third from right is R."
+        },
+        {
+          "id": "q42",
+          "type": "single",
+          "metadata": {
+            "topic": "Circular Seating (Chain)",
+            "difficulty": "medium"
+          },
+          "text": "Eight friends sit around a circular table: B between A and C, D between C and E, F between E and G, H between G and A. Who are the immediate neighbours of H?",
+          "options": [
+            {
+              "id": "A",
+              "text": "G and A"
+            },
+            {
+              "id": "B",
+              "text": "F and B"
+            },
+            {
+              "id": "C",
+              "text": "E and C"
+            },
+            {
+              "id": "D",
+              "text": "G and B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The order is A, B, C, D, E, F, G, H around the circle."
+        },
+        {
+          "id": "q43",
+          "type": "single",
+          "metadata": {
+            "topic": "Ranking (Symmetric)",
+            "difficulty": "medium"
+          },
+          "text": "Raju is 11th from both ends of his class ranking. How many students are in the class?",
+          "options": [
+            {
+              "id": "A",
+              "text": "20"
+            },
+            {
+              "id": "B",
+              "text": "21"
+            },
+            {
+              "id": "C",
+              "text": "22"
+            },
+            {
+              "id": "D",
+              "text": "23"
+            }
+          ],
+          "answer": "B",
+          "explanation": "11 + 11 - 1 = 21."
+        },
+        {
+          "id": "q44",
+          "type": "single",
+          "metadata": {
+            "topic": "Calendar (Day Count)",
+            "difficulty": "hard"
+          },
+          "text": "How many days are there from 15 March to 15 August of the same (non-leap) year, counting 15 August but not 15 March?",
+          "options": [
+            {
+              "id": "A",
+              "text": "150"
+            },
+            {
+              "id": "B",
+              "text": "152"
+            },
+            {
+              "id": "C",
+              "text": "153"
+            },
+            {
+              "id": "D",
+              "text": "155"
+            }
+          ],
+          "answer": "C",
+          "explanation": "16 + 30 + 31 + 30 + 31 + 15 = 153."
+        },
+        {
+          "id": "q45",
+          "type": "single",
+          "metadata": {
+            "topic": "Blood Relations (Classic Portrait)",
+            "difficulty": "hard"
+          },
+          "text": "Looking at a portrait, a man said, 'I have no brothers and sisters, but that man's father is my father's son.' Whose portrait was it?",
+          "options": [
+            {
+              "id": "A",
+              "text": "His own"
+            },
+            {
+              "id": "B",
+              "text": "His son's"
+            },
+            {
+              "id": "C",
+              "text": "His father's"
+            },
+            {
+              "id": "D",
+              "text": "His nephew's"
+            }
+          ],
+          "answer": "B",
+          "explanation": "'My father's son' is the speaker himself, so the man is his son."
+        },
+        {
+          "id": "q46",
+          "type": "single",
+          "metadata": {
+            "topic": "Coded Blood Relations",
+            "difficulty": "hard"
+          },
+          "text": "P + Q means P is the sister of Q; P x Q means P is the son of Q; P / Q means P is the father of Q. Which expression shows that A is the grandfather of B?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A / C / B"
+            },
+            {
+              "id": "B",
+              "text": "A x C / B"
+            },
+            {
+              "id": "C",
+              "text": "A + C / B"
+            },
+            {
+              "id": "D",
+              "text": "C / A / B"
+            }
+          ],
+          "answer": "A",
+          "explanation": "A is father of C and C is father of B."
+        },
+        {
+          "id": "q47",
+          "type": "single",
+          "metadata": {
+            "topic": "Direction Sense (Rotations)",
+            "difficulty": "hard"
+          },
+          "text": "Ram is facing west. He turns 45 degrees clockwise, then 180 degrees, and finally 270 degrees anticlockwise. Which direction is he facing now?",
+          "options": [
+            {
+              "id": "A",
+              "text": "North-West"
+            },
+            {
+              "id": "B",
+              "text": "South-West"
+            },
+            {
+              "id": "C",
+              "text": "South-East"
+            },
+            {
+              "id": "D",
+              "text": "North-East"
+            }
+          ],
+          "answer": "B",
+          "explanation": "270 -> 315 -> 135 -> 225 degrees, which is south-west."
+        },
+        {
+          "id": "q48",
+          "type": "single",
+          "metadata": {
+            "topic": "Symbolic Operations",
+            "difficulty": "medium"
+          },
+          "text": "If P denotes 'x', Q denotes '/', R denotes '+' and S denotes '-', then the value of 18 Q 6 P 4 R 9 S 5 is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "12"
+            },
+            {
+              "id": "B",
+              "text": "16"
+            },
+            {
+              "id": "C",
+              "text": "20"
+            },
+            {
+              "id": "D",
+              "text": "24"
+            }
+          ],
+          "answer": "B",
+          "explanation": "18 / 6 x 4 + 9 - 5 = 16."
+        },
+        {
+          "id": "q49",
+          "type": "single",
+          "metadata": {
+            "topic": "Letter Analogy (Reverse Pairs)",
+            "difficulty": "hard"
+          },
+          "text": "ACEG : ZXVT :: BDFH : ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "YWUS"
+            },
+            {
+              "id": "B",
+              "text": "YXWV"
+            },
+            {
+              "id": "C",
+              "text": "WUSQ"
+            },
+            {
+              "id": "D",
+              "text": "XVTR"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Each letter maps to its reverse-alphabet partner."
+        },
+        {
+          "id": "q50",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Analogy",
+            "difficulty": "hard"
+          },
+          "text": "13 : 170 :: 15 : ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "224"
+            },
+            {
+              "id": "B",
+              "text": "225"
+            },
+            {
+              "id": "C",
+              "text": "226"
+            },
+            {
+              "id": "D",
+              "text": "240"
+            }
+          ],
+          "answer": "C",
+          "explanation": "n^2 + 1: 169 + 1 and 225 + 1."
+        },
+        {
+          "id": "q51",
+          "type": "single",
+          "metadata": {
+            "topic": "Classification (Odd One Out)",
+            "difficulty": "hard"
+          },
+          "text": "Find the odd one out: BDF, HJL, NPR, TVX, ZAC",
+          "options": [
+            {
+              "id": "A",
+              "text": "HJL"
+            },
+            {
+              "id": "B",
+              "text": "NPR"
+            },
+            {
+              "id": "C",
+              "text": "TVX"
+            },
+            {
+              "id": "D",
+              "text": "ZAC"
+            }
+          ],
+          "answer": "D",
+          "explanation": "All others rise by 2 within the trio; ZAC breaks the step."
+        },
+        {
+          "id": "q52",
+          "type": "single",
+          "metadata": {
+            "topic": "Syllogism",
+            "difficulty": "medium"
+          },
+          "text": "Statements: Some doctors are engineers. All engineers are pilots. Conclusions: I. Some pilots are doctors. II. Some pilots are engineers.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only I follows"
+            },
+            {
+              "id": "B",
+              "text": "Only II follows"
+            },
+            {
+              "id": "C",
+              "text": "Both follow"
+            },
+            {
+              "id": "D",
+              "text": "Neither follows"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Doctor-engineers are pilots, and engineers are pilots."
+        },
+        {
+          "id": "q53",
+          "type": "figure",
+          "metadata": {
+            "topic": "Figural Series",
+            "difficulty": "hard"
+          },
+          "text": "Select the figure that continues the series, where the arrow rotates 45 degrees clockwise and a dot alternates between two corners.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Figural Series",
+            "description": "A four-figure sequence combining a rotating arrow with an alternating dot position; choose the fifth figure."
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          },
+          "explanation": "Unscored placeholder for a visual series question."
+        },
+        {
+          "id": "q54",
+          "type": "figure",
+          "metadata": {
+            "topic": "Dice",
+            "difficulty": "hard"
+          },
+          "text": "Two positions of a dice with letters A to F on its faces are shown. Determine the letter opposite A.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Dice Positions (Letters)",
+            "description": "Two views of a lettered dice from which the face opposite A must be deduced."
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          },
+          "explanation": "Unscored placeholder for a visual dice question."
+        }
+      ]
+    },
+    {
+      "id": "general-awareness",
+      "title": "General Awareness",
+      "questions": [
+        {
+          "id": "q55",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Cricket)",
+            "difficulty": "hard"
+          },
+          "text": "The ICC Champions Trophy 2025 was officially hosted by which country, with India playing its matches in Dubai under a hybrid model?",
+          "options": [
+            {
+              "id": "A",
+              "text": "UAE"
+            },
+            {
+              "id": "B",
+              "text": "Pakistan"
+            },
+            {
+              "id": "C",
+              "text": "Sri Lanka"
+            },
+            {
+              "id": "D",
+              "text": "England"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Pakistan hosted; India's games were shifted to Dubai."
+        },
+        {
+          "id": "q56",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Literary Awards)",
+            "difficulty": "hard"
+          },
+          "text": "The 58th Jnanpith Award (announced 2024) was conferred jointly on Gulzar and:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rambhadracharya"
+            },
+            {
+              "id": "B",
+              "text": "Vinod Kumar Shukla"
+            },
+            {
+              "id": "C",
+              "text": "Damodar Mauzo"
+            },
+            {
+              "id": "D",
+              "text": "Nilmani Phookan"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Sanskrit scholar Jagadguru Rambhadracharya shared it."
+        },
+        {
+          "id": "q57",
+          "type": "single",
+          "metadata": {
+            "topic": "Defence (Missiles)",
+            "difficulty": "hard"
+          },
+          "text": "'Astra', developed by DRDO, is what type of missile?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Surface-to-surface ballistic missile"
+            },
+            {
+              "id": "B",
+              "text": "Beyond-visual-range air-to-air missile"
+            },
+            {
+              "id": "C",
+              "text": "Anti-ship cruise missile"
+            },
+            {
+              "id": "D",
+              "text": "Anti-tank guided missile"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Astra is a BVR air-to-air missile."
+        },
+        {
+          "id": "q58",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene (Fintech)",
+            "difficulty": "hard"
+          },
+          "text": "The Account Aggregator framework, which lets customers share financial data with consent, is regulated by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "SEBI"
+            },
+            {
+              "id": "B",
+              "text": "RBI"
+            },
+            {
+              "id": "C",
+              "text": "IRDAI"
+            },
+            {
+              "id": "D",
+              "text": "TRAI"
+            }
+          ],
+          "answer": "B",
+          "explanation": "AAs are NBFCs licensed by the RBI."
+        },
+        {
+          "id": "q59",
+          "type": "single",
+          "metadata": {
+            "topic": "History (Colonial Policy)",
+            "difficulty": "medium"
+          },
+          "text": "The Doctrine of Lapse, used to annex states like Jhansi and Satara, is associated with:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lord Wellesley"
+            },
+            {
+              "id": "B",
+              "text": "Lord Dalhousie"
+            },
+            {
+              "id": "C",
+              "text": "Lord Cornwallis"
+            },
+            {
+              "id": "D",
+              "text": "Lord Canning"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Dalhousie applied the doctrine in the 1840s-50s."
+        },
+        {
+          "id": "q60",
+          "type": "single",
+          "metadata": {
+            "topic": "History & Culture (Art)",
+            "difficulty": "hard"
+          },
+          "text": "The murals of the Ajanta caves primarily depict:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Scenes from the Ramayana"
+            },
+            {
+              "id": "B",
+              "text": "Jataka tales of the Buddha's lives"
+            },
+            {
+              "id": "C",
+              "text": "Mughal court life"
+            },
+            {
+              "id": "D",
+              "text": "Chola naval expeditions"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Ajanta's Buddhist art narrates the Jatakas."
+        },
+        {
+          "id": "q61",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography (Straits & Passages)",
+            "difficulty": "hard"
+          },
+          "text": "The Duncan Passage separates:",
+          "options": [
+            {
+              "id": "A",
+              "text": "North and Middle Andaman"
+            },
+            {
+              "id": "B",
+              "text": "South Andaman and Little Andaman"
+            },
+            {
+              "id": "C",
+              "text": "Car Nicobar and Great Nicobar"
+            },
+            {
+              "id": "D",
+              "text": "India and Sri Lanka"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It lies between South Andaman and Little Andaman."
+        },
+        {
+          "id": "q62",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography (Infrastructure)",
+            "difficulty": "hard"
+          },
+          "text": "The Sela Tunnel, inaugurated in 2024 to give all-weather access towards Tawang, is located in:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sikkim"
+            },
+            {
+              "id": "B",
+              "text": "Arunachal Pradesh"
+            },
+            {
+              "id": "C",
+              "text": "Himachal Pradesh"
+            },
+            {
+              "id": "D",
+              "text": "Ladakh"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It crosses the Sela Pass in Arunachal Pradesh."
+        },
+        {
+          "id": "q63",
+          "type": "single",
+          "metadata": {
+            "topic": "Culture (Theatre)",
+            "difficulty": "hard"
+          },
+          "text": "Kutiyattam, recognised by UNESCO as a masterpiece of intangible heritage, is a Sanskrit theatre tradition of:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Kerala"
+            },
+            {
+              "id": "B",
+              "text": "Tamil Nadu"
+            },
+            {
+              "id": "C",
+              "text": "Odisha"
+            },
+            {
+              "id": "D",
+              "text": "Maharashtra"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Kutiyattam is performed in Kerala's temple theatres."
+        },
+        {
+          "id": "q64",
+          "type": "single",
+          "metadata": {
+            "topic": "Indian Constitution",
+            "difficulty": "medium"
+          },
+          "text": "The Vice-President of India is the ex-officio:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Chairman of the Rajya Sabha"
+            },
+            {
+              "id": "B",
+              "text": "Speaker of the Lok Sabha"
+            },
+            {
+              "id": "C",
+              "text": "Head of the NITI Aayog"
+            },
+            {
+              "id": "D",
+              "text": "Chancellor of central universities"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Article 64 makes the VP the Rajya Sabha Chairman."
+        },
+        {
+          "id": "q65",
+          "type": "single",
+          "metadata": {
+            "topic": "Books & Authors (Economic History)",
+            "difficulty": "hard"
+          },
+          "text": "'Poverty and Un-British Rule in India', which propounded the Drain Theory, was written by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dadabhai Naoroji"
+            },
+            {
+              "id": "B",
+              "text": "R. C. Dutt"
+            },
+            {
+              "id": "C",
+              "text": "M. G. Ranade"
+            },
+            {
+              "id": "D",
+              "text": "Gopal Krishna Gokhale"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Naoroji quantified the colonial drain of wealth."
+        },
+        {
+          "id": "q66",
+          "type": "single",
+          "metadata": {
+            "topic": "Neighbouring Countries (Ports)",
+            "difficulty": "hard"
+          },
+          "text": "The Gwadar Port, developed with Chinese assistance under CPEC, is located in:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Iran"
+            },
+            {
+              "id": "B",
+              "text": "Pakistan"
+            },
+            {
+              "id": "C",
+              "text": "Sri Lanka"
+            },
+            {
+              "id": "D",
+              "text": "Bangladesh"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Gwadar is in Pakistan's Balochistan province."
+        },
+        {
+          "id": "q67",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Asian Games)",
+            "difficulty": "hard"
+          },
+          "text": "India's medal tally at the Hangzhou Asian Games (2023) crossed 100 for the first time, finishing at:",
+          "options": [
+            {
+              "id": "A",
+              "text": "101"
+            },
+            {
+              "id": "B",
+              "text": "104"
+            },
+            {
+              "id": "C",
+              "text": "107"
+            },
+            {
+              "id": "D",
+              "text": "111"
+            }
+          ],
+          "answer": "C",
+          "explanation": "India ended with 107 medals, including 28 golds."
+        },
+        {
+          "id": "q68",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene (Indices)",
+            "difficulty": "hard"
+          },
+          "text": "The RBI-DPI, published half-yearly by the Reserve Bank, is an index that measures:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Diesel price inflation"
+            },
+            {
+              "id": "B",
+              "text": "The extent of digital payments adoption"
+            },
+            {
+              "id": "C",
+              "text": "Domestic production of industry"
+            },
+            {
+              "id": "D",
+              "text": "Deposit protection insurance"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The Digital Payments Index tracks payment digitisation."
+        },
+        {
+          "id": "q69",
+          "type": "single",
+          "metadata": {
+            "topic": "Defence (Missile Tests)",
+            "difficulty": "hard"
+          },
+          "text": "'Mission Divyastra' (March 2024) was the first flight test of which missile with MIRV technology?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Agni-V"
+            },
+            {
+              "id": "B",
+              "text": "Agni-Prime"
+            },
+            {
+              "id": "C",
+              "text": "BrahMos-II"
+            },
+            {
+              "id": "D",
+              "text": "Prithvi-III"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Agni-V flew with multiple independently targetable warheads."
+        },
+        {
+          "id": "q70",
+          "type": "single",
+          "metadata": {
+            "topic": "General Policy (Rural Schemes)",
+            "difficulty": "medium"
+          },
+          "text": "The 'Namo Drone Didi' scheme provides drones to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Border security forces"
+            },
+            {
+              "id": "B",
+              "text": "Women self-help groups for agricultural services"
+            },
+            {
+              "id": "C",
+              "text": "Private courier companies"
+            },
+            {
+              "id": "D",
+              "text": "School science clubs"
+            }
+          ],
+          "answer": "B",
+          "explanation": "SHG women rent out drones for spraying and monitoring."
+        }
+      ]
+    },
+    {
+      "id": "computer-applications",
+      "title": "Knowledge in Computer Applications",
+      "questions": [
+        {
+          "id": "q71",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Excel (Logical Functions)",
+            "difficulty": "hard"
+          },
+          "text": "In Excel, what does =IF(AND(5>3, 2>4), \"A\", \"B\") return?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A"
+            },
+            {
+              "id": "B",
+              "text": "B"
+            },
+            {
+              "id": "C",
+              "text": "TRUE"
+            },
+            {
+              "id": "D",
+              "text": "#VALUE!"
+            }
+          ],
+          "answer": "B",
+          "explanation": "AND is FALSE because 2>4 fails."
+        },
+        {
+          "id": "q72",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Excel (Text Operator)",
+            "difficulty": "medium"
+          },
+          "text": "In Excel, the operator used to join two text strings (e.g. =\"IN\"&\"DIA\") is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "+"
+            },
+            {
+              "id": "B",
+              "text": "&"
+            },
+            {
+              "id": "C",
+              "text": "%"
+            },
+            {
+              "id": "D",
+              "text": "@"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The ampersand concatenates text."
+        },
+        {
+          "id": "q73",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Word (Shortcuts)",
+            "difficulty": "hard"
+          },
+          "text": "In MS Word, Ctrl + Enter inserts:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A line break"
+            },
+            {
+              "id": "B",
+              "text": "A page break"
+            },
+            {
+              "id": "C",
+              "text": "A section break"
+            },
+            {
+              "id": "D",
+              "text": "A column break"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Ctrl + Enter forces a new page."
+        },
+        {
+          "id": "q74",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Excel (Navigation)",
+            "difficulty": "hard"
+          },
+          "text": "In Excel, Ctrl + Page Down moves the focus to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The last row of the sheet"
+            },
+            {
+              "id": "B",
+              "text": "The next worksheet"
+            },
+            {
+              "id": "C",
+              "text": "The next workbook"
+            },
+            {
+              "id": "D",
+              "text": "The bottom of the current column"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It switches to the next sheet tab."
+        },
+        {
+          "id": "q75",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Organisation (Registers)",
+            "difficulty": "medium"
+          },
+          "text": "Registers, the fastest storage elements, are located:",
+          "options": [
+            {
+              "id": "A",
+              "text": "On the hard disk"
+            },
+            {
+              "id": "B",
+              "text": "Inside the CPU"
+            },
+            {
+              "id": "C",
+              "text": "On the RAM modules"
+            },
+            {
+              "id": "D",
+              "text": "In the power supply"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Registers sit within the processor itself."
+        },
+        {
+          "id": "q76",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Organisation (EEPROM)",
+            "difficulty": "hard"
+          },
+          "text": "EEPROM differs from ordinary ROM in that it:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Loses data when power is off"
+            },
+            {
+              "id": "B",
+              "text": "Can be erased and reprogrammed electrically"
+            },
+            {
+              "id": "C",
+              "text": "Is faster than cache"
+            },
+            {
+              "id": "D",
+              "text": "Cannot store firmware"
+            }
+          ],
+          "answer": "B",
+          "explanation": "EEPROM is electrically erasable and rewritable."
+        },
+        {
+          "id": "q77",
+          "type": "single",
+          "metadata": {
+            "topic": "Operating System (Functions)",
+            "difficulty": "hard"
+          },
+          "text": "Which of the following is NOT a function of an operating system?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Memory management"
+            },
+            {
+              "id": "B",
+              "text": "Process scheduling"
+            },
+            {
+              "id": "C",
+              "text": "Compiling high-level programs"
+            },
+            {
+              "id": "D",
+              "text": "File management"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Compilation is done by a compiler, not the OS."
+        },
+        {
+          "id": "q78",
+          "type": "single",
+          "metadata": {
+            "topic": "Operating System (Deadlock)",
+            "difficulty": "hard"
+          },
+          "text": "A deadlock occurs when:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The CPU overheats"
+            },
+            {
+              "id": "B",
+              "text": "Two or more processes wait indefinitely for resources held by each other"
+            },
+            {
+              "id": "C",
+              "text": "RAM is completely full"
+            },
+            {
+              "id": "D",
+              "text": "A program has an infinite loop"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Circular waiting on resources causes deadlock."
+        },
+        {
+          "id": "q79",
+          "type": "single",
+          "metadata": {
+            "topic": "MS PowerPoint (Shortcuts)",
+            "difficulty": "hard"
+          },
+          "text": "In PowerPoint, Shift + F5 starts the slide show:",
+          "options": [
+            {
+              "id": "A",
+              "text": "From the first slide"
+            },
+            {
+              "id": "B",
+              "text": "From the current slide"
+            },
+            {
+              "id": "C",
+              "text": "In rehearsal mode"
+            },
+            {
+              "id": "D",
+              "text": "In presenter view only"
+            }
+          ],
+          "answer": "B",
+          "explanation": "F5 starts from the beginning; Shift+F5 from the current slide."
+        },
+        {
+          "id": "q80",
+          "type": "single",
+          "metadata": {
+            "topic": "Data Representation (Units)",
+            "difficulty": "medium"
+          },
+          "text": "A 'nibble' consists of how many bits?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2"
+            },
+            {
+              "id": "B",
+              "text": "4"
+            },
+            {
+              "id": "C",
+              "text": "8"
+            },
+            {
+              "id": "D",
+              "text": "16"
+            }
+          ],
+          "answer": "B",
+          "explanation": "A nibble is half a byte: 4 bits."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2365 @@
+{
+  "schemaVersion": "1.0",
+  "id": "iisc-aa-guess-07",
+  "title": "IISc Administrative Assistant Guess Paper 7",
+  "subtitle": "Hard-tier prediction set modelled on 2023 examiner patterns",
+  "version": "2026.07.05",
+  "durationMinutes": 90,
+  "language": "English",
+  "tags": [
+    "iisc",
+    "administrative-assistant",
+    "guess-paper",
+    "2026"
+  ],
+  "metadata": {
+    "exam": "IISc Administrative Assistant",
+    "year": 2026,
+    "source": "Guess Paper 2 of 5"
+  },
+  "instructions": [
+    "Total 80 questions to be attempted in 90 minutes.",
+    "Each correct answer earns +1 mark.",
+    "Negative marking applies: 0.33333 marks (one-third) are deducted for every incorrect answer.",
+    "Unattempted questions receive 0 marks.",
+    "Figure-based placeholder questions are unscored and carry 0 marks either way.",
+    "Difficulty is benchmarked at or above the actual 2023 paper: expect multi-step questions."
+  ],
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.33333,
+    "unattempted": 0,
+    "partial": false
+  },
+  "analytics": {
+    "groupBy": [
+      "section",
+      "topic",
+      "difficulty"
+    ]
+  },
+  "sections": [
+    {
+      "id": "quantitative-ability",
+      "title": "Quantitative Ability",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single",
+          "metadata": {
+            "topic": "Percentage (Set Overlap)",
+            "difficulty": "medium"
+          },
+          "text": "In an examination, 34% of candidates failed in Mathematics, 42% failed in English and 20% failed in both. The percentage of candidates who passed in both subjects is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "40%"
+            },
+            {
+              "id": "B",
+              "text": "44%"
+            },
+            {
+              "id": "C",
+              "text": "46%"
+            },
+            {
+              "id": "D",
+              "text": "56%"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Failed in at least one = 34 + 42 - 20 = 56; passed both = 44."
+        },
+        {
+          "id": "q2",
+          "type": "single",
+          "metadata": {
+            "topic": "Profit & Loss (Two Scenarios)",
+            "difficulty": "hard"
+          },
+          "text": "A man buys an article and sells it at 20% profit. Had he bought it for 20% less and sold it for Rs 75 less, he would have gained 25%. The original cost price is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 350"
+            },
+            {
+              "id": "B",
+              "text": "Rs 375"
+            },
+            {
+              "id": "C",
+              "text": "Rs 400"
+            },
+            {
+              "id": "D",
+              "text": "Rs 425"
+            }
+          ],
+          "answer": "B",
+          "explanation": "1.2x - 1.25(0.8x) = 75 gives 0.2x = 75, x = 375."
+        },
+        {
+          "id": "q3",
+          "type": "single",
+          "metadata": {
+            "topic": "Discount (Triple Successive)",
+            "difficulty": "medium"
+          },
+          "text": "The single discount equivalent to successive discounts of 20%, 15% and 10% is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "45%"
+            },
+            {
+              "id": "B",
+              "text": "40%"
+            },
+            {
+              "id": "C",
+              "text": "38.8%"
+            },
+            {
+              "id": "D",
+              "text": "36.4%"
+            }
+          ],
+          "answer": "C",
+          "explanation": "1 - 0.8 x 0.85 x 0.9 = 0.388."
+        },
+        {
+          "id": "q4",
+          "type": "single",
+          "metadata": {
+            "topic": "Time & Work (Men & Women)",
+            "difficulty": "hard"
+          },
+          "text": "4 men and 6 women finish a work in 8 days, while 3 men and 7 women finish it in 10 days. In how many days will 10 women alone finish it?",
+          "options": [
+            {
+              "id": "A",
+              "text": "35 days"
+            },
+            {
+              "id": "B",
+              "text": "40 days"
+            },
+            {
+              "id": "C",
+              "text": "45 days"
+            },
+            {
+              "id": "D",
+              "text": "50 days"
+            }
+          ],
+          "answer": "B",
+          "explanation": "1 man = 11 women; total work = 400 woman-days."
+        },
+        {
+          "id": "q5",
+          "type": "single",
+          "metadata": {
+            "topic": "Pipes & Cisterns (Staggered Opening)",
+            "difficulty": "hard"
+          },
+          "text": "Pipes A (fills in 12 h) and B (fills in 15 h) are opened at 8 a.m. Pipe C, which empties the tank in 20 h, is opened at 10 a.m. At what time will the tank be full?",
+          "options": [
+            {
+              "id": "A",
+              "text": "4 p.m."
+            },
+            {
+              "id": "B",
+              "text": "5 p.m."
+            },
+            {
+              "id": "C",
+              "text": "6 p.m."
+            },
+            {
+              "id": "D",
+              "text": "3 p.m."
+            }
+          ],
+          "answer": "B",
+          "explanation": "3/10 done by 10 a.m.; the rest at 1/10 per hour takes 7 hours."
+        },
+        {
+          "id": "q6",
+          "type": "numerical",
+          "metadata": {
+            "topic": "Time & Distance (Chase)",
+            "difficulty": "hard"
+          },
+          "text": "A policeman spots a thief 100 m away. The thief runs at 8 km/h and the policeman chases at 10 km/h. Enter the distance (in metres) the thief runs before being caught.",
+          "answer": 400,
+          "tolerance": 0.5,
+          "explanation": "Gap closes at 2 km/h in 3 minutes; thief covers 8 x 0.05 km."
+        },
+        {
+          "id": "q7",
+          "type": "single",
+          "metadata": {
+            "topic": "Boats & Streams (Classic)",
+            "difficulty": "hard"
+          },
+          "text": "A man rows to a place 48 km away and returns in 14 hours. He finds he can row 4 km with the stream in the same time as 3 km against it. The speed of the stream is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "0.5 km/h"
+            },
+            {
+              "id": "B",
+              "text": "1 km/h"
+            },
+            {
+              "id": "C",
+              "text": "1.5 km/h"
+            },
+            {
+              "id": "D",
+              "text": "2 km/h"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Down:up = 4:3; 48/4k + 48/3k = 14 gives k = 2; stream = 1."
+        },
+        {
+          "id": "q8",
+          "type": "single",
+          "metadata": {
+            "topic": "Compound Interest (Rate Recovery)",
+            "difficulty": "medium"
+          },
+          "text": "A sum becomes 1331/1000 of itself in 3 years at compound interest. The annual rate is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "8%"
+            },
+            {
+              "id": "B",
+              "text": "10%"
+            },
+            {
+              "id": "C",
+              "text": "11%"
+            },
+            {
+              "id": "D",
+              "text": "12%"
+            }
+          ],
+          "answer": "B",
+          "explanation": "1331/1000 = (11/10)^3."
+        },
+        {
+          "id": "q9",
+          "type": "single",
+          "metadata": {
+            "topic": "Ratio (Income & Savings)",
+            "difficulty": "hard"
+          },
+          "text": "The incomes of A and B are in the ratio 9:7 and their expenditures in the ratio 4:3. If each saves Rs 2000, A's income is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 14000"
+            },
+            {
+              "id": "B",
+              "text": "Rs 16000"
+            },
+            {
+              "id": "C",
+              "text": "Rs 18000"
+            },
+            {
+              "id": "D",
+              "text": "Rs 21000"
+            }
+          ],
+          "answer": "C",
+          "explanation": "9x - 4y = 7x - 3y = 2000 gives x = 2000; A earns 18000."
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "metadata": {
+            "topic": "Alligation (Free Component)",
+            "difficulty": "medium"
+          },
+          "text": "In what ratio must water be mixed with milk costing Rs 60 per litre so that the mixture is worth Rs 48 per litre?",
+          "options": [
+            {
+              "id": "A",
+              "text": "1:4"
+            },
+            {
+              "id": "B",
+              "text": "1:5"
+            },
+            {
+              "id": "C",
+              "text": "4:1"
+            },
+            {
+              "id": "D",
+              "text": "2:5"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Water:milk = (60-48):(48-0) = 12:48 = 1:4."
+        },
+        {
+          "id": "q11",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Sense (Consecutive Odds)",
+            "difficulty": "medium"
+          },
+          "text": "The sum of three consecutive odd numbers is 20 more than the first of these numbers. The middle number is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "7"
+            },
+            {
+              "id": "B",
+              "text": "9"
+            },
+            {
+              "id": "C",
+              "text": "11"
+            },
+            {
+              "id": "D",
+              "text": "13"
+            }
+          ],
+          "answer": "B",
+          "explanation": "2x + 6 = 20 gives x = 7; middle = 9."
+        },
+        {
+          "id": "q12",
+          "type": "single",
+          "metadata": {
+            "topic": "Algebraic Identities",
+            "difficulty": "medium"
+          },
+          "text": "If a - b = 3 and a^2 + b^2 = 29, then ab equals:",
+          "options": [
+            {
+              "id": "A",
+              "text": "8"
+            },
+            {
+              "id": "B",
+              "text": "10"
+            },
+            {
+              "id": "C",
+              "text": "12"
+            },
+            {
+              "id": "D",
+              "text": "15"
+            }
+          ],
+          "answer": "B",
+          "explanation": "(a-b)^2 = 29 - 2ab = 9, so ab = 10."
+        },
+        {
+          "id": "q13",
+          "type": "single",
+          "metadata": {
+            "topic": "Partnership (Equal Profit)",
+            "difficulty": "hard"
+          },
+          "text": "A invests Rs 12000 at the start of the year. B joins after 3 months with a capital X. At year end the profits are shared equally. X equals:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 14000"
+            },
+            {
+              "id": "B",
+              "text": "Rs 15000"
+            },
+            {
+              "id": "C",
+              "text": "Rs 16000"
+            },
+            {
+              "id": "D",
+              "text": "Rs 18000"
+            }
+          ],
+          "answer": "C",
+          "explanation": "12000 x 12 = X x 9 gives X = 16000."
+        },
+        {
+          "id": "q14",
+          "type": "single",
+          "metadata": {
+            "topic": "Mensuration (Sheet to Cylinder)",
+            "difficulty": "hard"
+          },
+          "text": "A rectangular sheet 44 cm x 20 cm is rolled along its length to form a cylinder. The volume of the cylinder is: (use pi = 22/7)",
+          "options": [
+            {
+              "id": "A",
+              "text": "1540 cu cm"
+            },
+            {
+              "id": "B",
+              "text": "2860 cu cm"
+            },
+            {
+              "id": "C",
+              "text": "3080 cu cm"
+            },
+            {
+              "id": "D",
+              "text": "6160 cu cm"
+            }
+          ],
+          "answer": "C",
+          "explanation": "2 pi r = 44 gives r = 7; V = pi x 49 x 20 = 3080."
+        },
+        {
+          "id": "q15",
+          "type": "single",
+          "metadata": {
+            "topic": "Graphs (Modulus Region)",
+            "difficulty": "hard"
+          },
+          "text": "The area enclosed by the graph |x| + |y| = 4 is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "16 sq units"
+            },
+            {
+              "id": "B",
+              "text": "24 sq units"
+            },
+            {
+              "id": "C",
+              "text": "32 sq units"
+            },
+            {
+              "id": "D",
+              "text": "64 sq units"
+            }
+          ],
+          "answer": "C",
+          "explanation": "A square with diagonals 8 and 8: area = 32."
+        },
+        {
+          "id": "q16",
+          "type": "single",
+          "metadata": {
+            "topic": "Circle (Chord & Central Angle)",
+            "difficulty": "medium"
+          },
+          "text": "A chord subtends an angle of 60 degrees at the centre of a circle of radius 12 cm. The length of the chord is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "6 cm"
+            },
+            {
+              "id": "B",
+              "text": "12 cm"
+            },
+            {
+              "id": "C",
+              "text": "12 sqrt(2) cm"
+            },
+            {
+              "id": "D",
+              "text": "12 sqrt(3) cm"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Chord = 2r sin(30) = 12; the triangle is equilateral."
+        }
+      ]
+    },
+    {
+      "id": "verbal-ability",
+      "title": "Verbal Ability",
+      "questions": [
+        {
+          "id": "q17",
+          "type": "single",
+          "metadata": {
+            "topic": "Shuffling of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Sentence 1: Antibiotic resistance is now a leading global health threat. Arrange P, Q, R, S. P: Bacteria exposed to incomplete doses survive and pass on their defences. Q: Patients often stop their course the moment symptoms fade. R: The result is infections that no common drug can cure. S: Doctors therefore insist that every prescribed course be completed.",
+          "options": [
+            {
+              "id": "A",
+              "text": "QPRS"
+            },
+            {
+              "id": "B",
+              "text": "PQRS"
+            },
+            {
+              "id": "C",
+              "text": "QRPS"
+            },
+            {
+              "id": "D",
+              "text": "SPQR"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Habit, mechanism, consequence, medical advice."
+        },
+        {
+          "id": "q18",
+          "type": "single",
+          "metadata": {
+            "topic": "Shuffling of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Sentence 1: The Silk Road was never a single road. Arrange P, Q, R, S. P: Along them travelled not just silk but religions, technologies and diseases. Q: It was a shifting web of caravan tracks linking China to the Mediterranean. R: Its true legacy is therefore cultural as much as commercial. S: Buddhism reached China and paper reached Europe by these routes.",
+          "options": [
+            {
+              "id": "A",
+              "text": "QPSR"
+            },
+            {
+              "id": "B",
+              "text": "PQSR"
+            },
+            {
+              "id": "C",
+              "text": "QSPR"
+            },
+            {
+              "id": "D",
+              "text": "SQPR"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Definition, what travelled, examples, conclusion."
+        },
+        {
+          "id": "q19",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "hard"
+          },
+          "text": "Select the meaning of the idiom: To pour oil on troubled waters",
+          "options": [
+            {
+              "id": "A",
+              "text": "To make a bad situation worse"
+            },
+            {
+              "id": "B",
+              "text": "To calm a quarrel or dispute"
+            },
+            {
+              "id": "C",
+              "text": "To waste valuable resources"
+            },
+            {
+              "id": "D",
+              "text": "To hide the real problem"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It means to soothe a heated situation."
+        },
+        {
+          "id": "q20",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "hard"
+          },
+          "text": "Select the meaning of the idiom: To gird up one's loins",
+          "options": [
+            {
+              "id": "A",
+              "text": "To dress formally"
+            },
+            {
+              "id": "B",
+              "text": "To prepare oneself for a difficult task"
+            },
+            {
+              "id": "C",
+              "text": "To tighten one's budget"
+            },
+            {
+              "id": "D",
+              "text": "To exercise regularly"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It means to get ready for demanding work."
+        },
+        {
+          "id": "q21",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "medium"
+          },
+          "text": "Select the meaning of the phrase: A white elephant",
+          "options": [
+            {
+              "id": "A",
+              "text": "A rare and precious gift"
+            },
+            {
+              "id": "B",
+              "text": "A costly but useless possession"
+            },
+            {
+              "id": "C",
+              "text": "An unbelievable story"
+            },
+            {
+              "id": "D",
+              "text": "A generous donor"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It is something expensive to keep yet of little use."
+        },
+        {
+          "id": "q22",
+          "type": "single",
+          "metadata": {
+            "topic": "One-word Substitution",
+            "difficulty": "hard"
+          },
+          "text": "Government by officials:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Aristocracy"
+            },
+            {
+              "id": "B",
+              "text": "Bureaucracy"
+            },
+            {
+              "id": "C",
+              "text": "Theocracy"
+            },
+            {
+              "id": "D",
+              "text": "Technocracy"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Bureaucracy is rule by administrative officials."
+        },
+        {
+          "id": "q23",
+          "type": "single",
+          "metadata": {
+            "topic": "One-word Substitution",
+            "difficulty": "hard"
+          },
+          "text": "A speech delivered without any previous preparation:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Extempore"
+            },
+            {
+              "id": "B",
+              "text": "Soliloquy"
+            },
+            {
+              "id": "C",
+              "text": "Monologue"
+            },
+            {
+              "id": "D",
+              "text": "Oration"
+            }
+          ],
+          "answer": "A",
+          "explanation": "An extempore speech is unprepared."
+        },
+        {
+          "id": "q24",
+          "type": "single",
+          "metadata": {
+            "topic": "Spelling",
+            "difficulty": "medium"
+          },
+          "text": "Select the correctly spelt word:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Perseverence"
+            },
+            {
+              "id": "B",
+              "text": "Perseverance"
+            },
+            {
+              "id": "C",
+              "text": "Persaverance"
+            },
+            {
+              "id": "D",
+              "text": "Presevearance"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Perseverance ends in -ance."
+        },
+        {
+          "id": "q25",
+          "type": "single",
+          "metadata": {
+            "topic": "Spelling",
+            "difficulty": "hard"
+          },
+          "text": "Select the incorrectly spelt word:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Entrepreneur"
+            },
+            {
+              "id": "B",
+              "text": "Bougainvillea"
+            },
+            {
+              "id": "C",
+              "text": "Dilemna"
+            },
+            {
+              "id": "D",
+              "text": "Silhouette"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The correct spelling is dilemma."
+        },
+        {
+          "id": "q26",
+          "type": "single",
+          "metadata": {
+            "topic": "Improvement of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Improve the underlined part: Scarcely had he entered THAN the phone rang.",
+          "options": [
+            {
+              "id": "A",
+              "text": "when the phone rang"
+            },
+            {
+              "id": "B",
+              "text": "then the phone rang"
+            },
+            {
+              "id": "C",
+              "text": "that the phone rang"
+            },
+            {
+              "id": "D",
+              "text": "No improvement"
+            }
+          ],
+          "answer": "A",
+          "explanation": "'Scarcely/hardly' pairs with 'when', not 'than'."
+        },
+        {
+          "id": "q27",
+          "type": "single",
+          "metadata": {
+            "topic": "Improvement of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Improve the underlined part: The number of road accidents HAVE increased sharply this year.",
+          "options": [
+            {
+              "id": "A",
+              "text": "has increased"
+            },
+            {
+              "id": "B",
+              "text": "have been increased"
+            },
+            {
+              "id": "C",
+              "text": "are increasing"
+            },
+            {
+              "id": "D",
+              "text": "No improvement"
+            }
+          ],
+          "answer": "A",
+          "explanation": "'The number of' takes a singular verb."
+        },
+        {
+          "id": "q28",
+          "type": "single",
+          "metadata": {
+            "topic": "Synonyms",
+            "difficulty": "hard"
+          },
+          "text": "Select the synonym of TACITURN:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Talkative"
+            },
+            {
+              "id": "B",
+              "text": "Reserved"
+            },
+            {
+              "id": "C",
+              "text": "Hostile"
+            },
+            {
+              "id": "D",
+              "text": "Careless"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Taciturn means habitually silent."
+        },
+        {
+          "id": "q29",
+          "type": "single",
+          "metadata": {
+            "topic": "Antonyms",
+            "difficulty": "hard"
+          },
+          "text": "Select the antonym of LUCID:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Transparent"
+            },
+            {
+              "id": "B",
+              "text": "Obscure"
+            },
+            {
+              "id": "C",
+              "text": "Bright"
+            },
+            {
+              "id": "D",
+              "text": "Fluent"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Lucid (clear) is opposite to obscure."
+        },
+        {
+          "id": "q30",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Central Idea)",
+            "difficulty": "hard"
+          },
+          "passage": "Platform work promises freedom: log in when you like, work as much as you choose. Millions of delivery riders and cab drivers have taken up the offer, yet studies reveal a more complicated bargain. Algorithms assign tasks, set pay and rate performance, exercising a control tighter than many formal employers, while the costs of vehicles, fuel and insurance fall on the worker. Because platforms classify them as independent partners rather than employees, most gig workers lack sick leave, pensions and minimum-wage protection. Several countries are now testing a third legal category, between employee and contractor, to extend basic security without erasing flexibility.",
+          "text": "The central paradox the passage highlights is that gig work:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pays more than formal employment"
+            },
+            {
+              "id": "B",
+              "text": "Advertises freedom while algorithms exert tight control"
+            },
+            {
+              "id": "C",
+              "text": "Requires no investment from workers"
+            },
+            {
+              "id": "D",
+              "text": "Is disappearing in most countries"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Freedom is promised, yet algorithmic control is tighter than many employers'."
+        },
+        {
+          "id": "q31",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Reasoning)",
+            "difficulty": "hard"
+          },
+          "passage": "Platform work promises freedom: log in when you like, work as much as you choose. Millions of delivery riders and cab drivers have taken up the offer, yet studies reveal a more complicated bargain. Algorithms assign tasks, set pay and rate performance, exercising a control tighter than many formal employers, while the costs of vehicles, fuel and insurance fall on the worker. Because platforms classify them as independent partners rather than employees, most gig workers lack sick leave, pensions and minimum-wage protection. Several countries are now testing a third legal category, between employee and contractor, to extend basic security without erasing flexibility.",
+          "text": "According to the passage, gig workers lack sick leave and pensions because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "They refuse such benefits"
+            },
+            {
+              "id": "B",
+              "text": "They are classified as independent partners, not employees"
+            },
+            {
+              "id": "C",
+              "text": "Their earnings are too irregular"
+            },
+            {
+              "id": "D",
+              "text": "Governments have banned such benefits"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The classification outside employment excludes them from protections."
+        },
+        {
+          "id": "q32",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Purpose)",
+            "difficulty": "medium"
+          },
+          "passage": "Platform work promises freedom: log in when you like, work as much as you choose. Millions of delivery riders and cab drivers have taken up the offer, yet studies reveal a more complicated bargain. Algorithms assign tasks, set pay and rate performance, exercising a control tighter than many formal employers, while the costs of vehicles, fuel and insurance fall on the worker. Because platforms classify them as independent partners rather than employees, most gig workers lack sick leave, pensions and minimum-wage protection. Several countries are now testing a third legal category, between employee and contractor, to extend basic security without erasing flexibility.",
+          "text": "The 'third legal category' mentioned in the passage aims to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Convert all gig workers into full employees"
+            },
+            {
+              "id": "B",
+              "text": "Give basic security while preserving flexibility"
+            },
+            {
+              "id": "C",
+              "text": "Abolish platform work altogether"
+            },
+            {
+              "id": "D",
+              "text": "Reduce the wages of contractors"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It sits between employee and contractor status."
+        }
+      ]
+    },
+    {
+      "id": "logical-numerical-reasoning",
+      "title": "Logical and Numerical Reasoning",
+      "questions": [
+        {
+          "id": "q33",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "difficulty": "medium"
+          },
+          "text": "Find the next term: 3, 10, 29, 66, 127, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "198"
+            },
+            {
+              "id": "B",
+              "text": "216"
+            },
+            {
+              "id": "C",
+              "text": "218"
+            },
+            {
+              "id": "D",
+              "text": "226"
+            }
+          ],
+          "answer": "C",
+          "explanation": "n^3 + 2: next is 216 + 2 = 218."
+        },
+        {
+          "id": "q34",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "difficulty": "medium"
+          },
+          "text": "Find the next term: 5, 7, 11, 19, 35, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "64"
+            },
+            {
+              "id": "B",
+              "text": "67"
+            },
+            {
+              "id": "C",
+              "text": "70"
+            },
+            {
+              "id": "D",
+              "text": "71"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Differences double: 2, 4, 8, 16, then 32."
+        },
+        {
+          "id": "q35",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series (Fraction End)",
+            "difficulty": "hard"
+          },
+          "text": "Find the next term: 240, 120, 40, 10, 2, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "1"
+            },
+            {
+              "id": "B",
+              "text": "2/3"
+            },
+            {
+              "id": "C",
+              "text": "1/3"
+            },
+            {
+              "id": "D",
+              "text": "1/2"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Divide successively by 2, 3, 4, 5, then 6."
+        },
+        {
+          "id": "q36",
+          "type": "single",
+          "metadata": {
+            "topic": "Letter Series",
+            "difficulty": "hard"
+          },
+          "text": "Find the next term: BEH, KNQ, TWZ, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "CFI"
+            },
+            {
+              "id": "B",
+              "text": "DGJ"
+            },
+            {
+              "id": "C",
+              "text": "BFI"
+            },
+            {
+              "id": "D",
+              "text": "CGI"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Each letter advances 9 places cyclically: T+9=C, W+9=F, Z+9=I."
+        },
+        {
+          "id": "q37",
+          "type": "single",
+          "metadata": {
+            "topic": "Digit Manipulation",
+            "difficulty": "medium"
+          },
+          "text": "In the number 583962, what is the sum of the digits at even places minus the sum of the digits at odd places (counting from the left)?",
+          "options": [
+            {
+              "id": "A",
+              "text": "3"
+            },
+            {
+              "id": "B",
+              "text": "4"
+            },
+            {
+              "id": "C",
+              "text": "5"
+            },
+            {
+              "id": "D",
+              "text": "6"
+            }
+          ],
+          "answer": "C",
+          "explanation": "(8 + 9 + 2) - (5 + 3 + 6) = 19 - 14 = 5."
+        },
+        {
+          "id": "q38",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Increasing Shift)",
+            "difficulty": "hard"
+          },
+          "text": "If FRIEND is coded as GTLISJ, how is MOTHER coded?",
+          "options": [
+            {
+              "id": "A",
+              "text": "NQWLJX"
+            },
+            {
+              "id": "B",
+              "text": "NQWLKX"
+            },
+            {
+              "id": "C",
+              "text": "NPWLJX"
+            },
+            {
+              "id": "D",
+              "text": "NQVLJX"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Shifts are +1, +2, +3, +4, +5, +6."
+        },
+        {
+          "id": "q39",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Position Sum)",
+            "difficulty": "medium"
+          },
+          "text": "If PEN = 35, then DESK = ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "37"
+            },
+            {
+              "id": "B",
+              "text": "39"
+            },
+            {
+              "id": "C",
+              "text": "41"
+            },
+            {
+              "id": "D",
+              "text": "43"
+            }
+          ],
+          "answer": "B",
+          "explanation": "4 + 5 + 19 + 11 = 39."
+        },
+        {
+          "id": "q40",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Substitution)",
+            "difficulty": "hard"
+          },
+          "text": "In a code, 'give me water' = 'ho na pa', 'water is life' = 'na ja da' and 'life is precious' = 'da ja xi'. What is the code for 'precious'?",
+          "options": [
+            {
+              "id": "A",
+              "text": "da"
+            },
+            {
+              "id": "B",
+              "text": "ja"
+            },
+            {
+              "id": "C",
+              "text": "xi"
+            },
+            {
+              "id": "D",
+              "text": "Cannot be determined"
+            }
+          ],
+          "answer": "C",
+          "explanation": "'da' and 'ja' are shared with sentence 2, leaving 'xi'."
+        },
+        {
+          "id": "q41",
+          "type": "single",
+          "metadata": {
+            "topic": "Linear Seating (Multi-constraint)",
+            "difficulty": "hard"
+          },
+          "text": "Six people L, M, N, O, P, Q sit in a row facing north. L sits third to the left of M, and neither L nor M is at an extreme end. O is immediately to the right of L, and P is immediately to the left of M. N sits somewhere to the left of L. Who sits at the extreme right?",
+          "options": [
+            {
+              "id": "A",
+              "text": "P"
+            },
+            {
+              "id": "B",
+              "text": "Q"
+            },
+            {
+              "id": "C",
+              "text": "N"
+            },
+            {
+              "id": "D",
+              "text": "M"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Order is N, L, O, P, M, Q."
+        },
+        {
+          "id": "q42",
+          "type": "single",
+          "metadata": {
+            "topic": "Circular Seating (Swap)",
+            "difficulty": "hard"
+          },
+          "text": "Eight children sit around a circle in the clockwise alphabetical order A, B, C, D, E, F, G, H. If D and G exchange seats, who now sits directly opposite D?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A"
+            },
+            {
+              "id": "B",
+              "text": "B"
+            },
+            {
+              "id": "C",
+              "text": "C"
+            },
+            {
+              "id": "D",
+              "text": "H"
+            }
+          ],
+          "answer": "C",
+          "explanation": "D moves to G's seat (7th); opposite the 7th seat is the 3rd, C."
+        },
+        {
+          "id": "q43",
+          "type": "single",
+          "metadata": {
+            "topic": "Ranking (Interchange)",
+            "difficulty": "hard"
+          },
+          "text": "In a row of boys, Ram is 8th from the left and Shyam is 12th from the right. When they interchange positions, Ram becomes 21st from the left. How many boys are in the row?",
+          "options": [
+            {
+              "id": "A",
+              "text": "30"
+            },
+            {
+              "id": "B",
+              "text": "31"
+            },
+            {
+              "id": "C",
+              "text": "32"
+            },
+            {
+              "id": "D",
+              "text": "33"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Ram now occupies Shyam's seat: 21 + 12 - 1 = 32."
+        },
+        {
+          "id": "q44",
+          "type": "single",
+          "metadata": {
+            "topic": "Calendar (Repetition)",
+            "difficulty": "hard"
+          },
+          "text": "The calendar of the leap year 2024 will be exactly repeated in which year?",
+          "options": [
+            {
+              "id": "A",
+              "text": "2048"
+            },
+            {
+              "id": "B",
+              "text": "2052"
+            },
+            {
+              "id": "C",
+              "text": "2044"
+            },
+            {
+              "id": "D",
+              "text": "2056"
+            }
+          ],
+          "answer": "B",
+          "explanation": "A leap year's calendar repeats after 28 years."
+        },
+        {
+          "id": "q45",
+          "type": "single",
+          "metadata": {
+            "topic": "Blood Relations",
+            "difficulty": "hard"
+          },
+          "text": "Pointing to a boy in a photograph, a woman says, 'His brother's father is the only son of my grandfather.' How is the boy related to the woman?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cousin"
+            },
+            {
+              "id": "B",
+              "text": "Brother"
+            },
+            {
+              "id": "C",
+              "text": "Nephew"
+            },
+            {
+              "id": "D",
+              "text": "Son"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The only son of her grandfather is her father, who is also the boy's father."
+        },
+        {
+          "id": "q46",
+          "type": "single",
+          "metadata": {
+            "topic": "Coded Blood Relations",
+            "difficulty": "hard"
+          },
+          "text": "A * B means A is the wife of B; A ? B means A is the son of B; A $ B means A is the sister of B. In P ? Q * R, how is R related to P?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mother"
+            },
+            {
+              "id": "B",
+              "text": "Uncle"
+            },
+            {
+              "id": "C",
+              "text": "Father"
+            },
+            {
+              "id": "D",
+              "text": "Grandfather"
+            }
+          ],
+          "answer": "C",
+          "explanation": "P is Q's son and Q is R's wife, so R is P's father."
+        },
+        {
+          "id": "q47",
+          "type": "single",
+          "metadata": {
+            "topic": "Direction Sense (Shadow)",
+            "difficulty": "hard"
+          },
+          "text": "At sunrise, Ram and Shyam stand talking face to face. Shyam's shadow falls exactly to his right. Which direction is Ram facing?",
+          "options": [
+            {
+              "id": "A",
+              "text": "North"
+            },
+            {
+              "id": "B",
+              "text": "South"
+            },
+            {
+              "id": "C",
+              "text": "East"
+            },
+            {
+              "id": "D",
+              "text": "West"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Shadows fall west at sunrise; west is Shyam's right only if he faces south, so Ram faces north."
+        },
+        {
+          "id": "q48",
+          "type": "single",
+          "metadata": {
+            "topic": "Symbolic Operations (Nested)",
+            "difficulty": "hard"
+          },
+          "text": "If a # b = a^2 - b^2, then (9 # 7) # 4 = ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "992"
+            },
+            {
+              "id": "B",
+              "text": "1008"
+            },
+            {
+              "id": "C",
+              "text": "1024"
+            },
+            {
+              "id": "D",
+              "text": "960"
+            }
+          ],
+          "answer": "B",
+          "explanation": "9#7 = 32; 32#4 = 1024 - 16 = 1008."
+        },
+        {
+          "id": "q49",
+          "type": "single",
+          "metadata": {
+            "topic": "Mathematical Signs (Insertion)",
+            "difficulty": "medium"
+          },
+          "text": "Which pair of signs, inserted in order, makes the equation 18 ? 6 ? 3 = 9 correct?",
+          "options": [
+            {
+              "id": "A",
+              "text": "/ and x"
+            },
+            {
+              "id": "B",
+              "text": "x and /"
+            },
+            {
+              "id": "C",
+              "text": "- and +"
+            },
+            {
+              "id": "D",
+              "text": "+ and -"
+            }
+          ],
+          "answer": "A",
+          "explanation": "18 / 6 x 3 = 9."
+        },
+        {
+          "id": "q50",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Analogy",
+            "difficulty": "hard"
+          },
+          "text": "7 : 350 :: 9 : ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "729"
+            },
+            {
+              "id": "B",
+              "text": "738"
+            },
+            {
+              "id": "C",
+              "text": "648"
+            },
+            {
+              "id": "D",
+              "text": "810"
+            }
+          ],
+          "answer": "B",
+          "explanation": "n^3 + n: 343 + 7 = 350, so 729 + 9 = 738."
+        },
+        {
+          "id": "q51",
+          "type": "single",
+          "metadata": {
+            "topic": "Classification (Odd One Out)",
+            "difficulty": "hard"
+          },
+          "text": "Find the odd one out: AEI, BFJ, CGK, DHM",
+          "options": [
+            {
+              "id": "A",
+              "text": "AEI"
+            },
+            {
+              "id": "B",
+              "text": "BFJ"
+            },
+            {
+              "id": "C",
+              "text": "CGK"
+            },
+            {
+              "id": "D",
+              "text": "DHM"
+            }
+          ],
+          "answer": "D",
+          "explanation": "The gap pattern +4, +4 breaks in DHM (D, H, M is +4, +5)."
+        },
+        {
+          "id": "q52",
+          "type": "single",
+          "metadata": {
+            "topic": "Syllogism (Three Statements)",
+            "difficulty": "hard"
+          },
+          "text": "Statements: All papers are files. All files are racks. No rack is a box. Conclusions: I. No paper is a box. II. All papers are racks.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only I follows"
+            },
+            {
+              "id": "B",
+              "text": "Only II follows"
+            },
+            {
+              "id": "C",
+              "text": "Both follow"
+            },
+            {
+              "id": "D",
+              "text": "Neither follows"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Papers are racks (chain), and racks exclude boxes."
+        },
+        {
+          "id": "q53",
+          "type": "figure",
+          "metadata": {
+            "topic": "Dice",
+            "difficulty": "hard"
+          },
+          "text": "Three positions of the same dice are shown. Determine the number on the face opposite to 5.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Dice Positions",
+            "description": "Three rotated views of a numbered dice from which the face opposite 5 must be deduced."
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          },
+          "explanation": "Unscored placeholder for a visual dice question."
+        },
+        {
+          "id": "q54",
+          "type": "figure",
+          "metadata": {
+            "topic": "Paper Folding",
+            "difficulty": "hard"
+          },
+          "text": "A sheet is folded as shown and a shape is cut out. Select how the sheet appears when unfolded.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Paper Folding & Cutting",
+            "description": "A sheet folded diagonally with a notch cut; the unfolded pattern must be chosen from four options."
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          },
+          "explanation": "Unscored placeholder for a visual folding question."
+        }
+      ]
+    },
+    {
+      "id": "general-awareness",
+      "title": "General Awareness",
+      "questions": [
+        {
+          "id": "q55",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Sports)",
+            "difficulty": "hard"
+          },
+          "text": "Which pair won India's first-ever Olympic medal in mixed team shooting (10 m air pistol) at Paris 2024?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Manu Bhaker and Sarabjot Singh"
+            },
+            {
+              "id": "B",
+              "text": "Saurabh Chaudhary and Manu Bhaker"
+            },
+            {
+              "id": "C",
+              "text": "Abhinav Bindra and Heena Sidhu"
+            },
+            {
+              "id": "D",
+              "text": "Jitu Rai and Apurvi Chandela"
+            }
+          ],
+          "answer": "A",
+          "explanation": "They took bronze in the 10 m air pistol mixed team event."
+        },
+        {
+          "id": "q56",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Awards)",
+            "difficulty": "hard"
+          },
+          "text": "The Nobel Prize in Economic Sciences 2024 (Acemoglu, Johnson, Robinson) was awarded for studies on:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Behavioural economics"
+            },
+            {
+              "id": "B",
+              "text": "How institutions shape national prosperity"
+            },
+            {
+              "id": "C",
+              "text": "Auction theory"
+            },
+            {
+              "id": "D",
+              "text": "Climate economics"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Their work links institutions to differences in prosperity."
+        },
+        {
+          "id": "q57",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Space)",
+            "difficulty": "hard"
+          },
+          "text": "Which Indian Air Force officer was assigned as prime astronaut for the Axiom-4 mission to the International Space Station?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prasanth Nair"
+            },
+            {
+              "id": "B",
+              "text": "Shubhanshu Shukla"
+            },
+            {
+              "id": "C",
+              "text": "Angad Pratap"
+            },
+            {
+              "id": "D",
+              "text": "Ajit Krishnan"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Group Captain Shubhanshu Shukla was named prime for Ax-4."
+        },
+        {
+          "id": "q58",
+          "type": "single",
+          "metadata": {
+            "topic": "General Policy (Agriculture)",
+            "difficulty": "hard"
+          },
+          "text": "'Operation Greens' of the Government of India was originally launched to stabilise the prices of:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Wheat, rice and pulses"
+            },
+            {
+              "id": "B",
+              "text": "Tomato, onion and potato"
+            },
+            {
+              "id": "C",
+              "text": "Tea, coffee and rubber"
+            },
+            {
+              "id": "D",
+              "text": "Milk and dairy products"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It targeted the TOP crops: tomato, onion, potato."
+        },
+        {
+          "id": "q59",
+          "type": "single",
+          "metadata": {
+            "topic": "History (Freedom Struggle)",
+            "difficulty": "medium"
+          },
+          "text": "The Simon Commission, boycotted with black-flag protests, arrived in India in:",
+          "options": [
+            {
+              "id": "A",
+              "text": "1919"
+            },
+            {
+              "id": "B",
+              "text": "1927"
+            },
+            {
+              "id": "C",
+              "text": "1928"
+            },
+            {
+              "id": "D",
+              "text": "1930"
+            }
+          ],
+          "answer": "C",
+          "explanation": "It landed in Bombay in February 1928."
+        },
+        {
+          "id": "q60",
+          "type": "single",
+          "metadata": {
+            "topic": "History (Anglo-Mysore Wars)",
+            "difficulty": "hard"
+          },
+          "text": "The Treaty of Srirangapatna (1792) was signed at the end of which war?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Second Anglo-Mysore War"
+            },
+            {
+              "id": "B",
+              "text": "Third Anglo-Mysore War"
+            },
+            {
+              "id": "C",
+              "text": "Fourth Anglo-Mysore War"
+            },
+            {
+              "id": "D",
+              "text": "First Anglo-Maratha War"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Tipu Sultan ceded half his territory after the Third war."
+        },
+        {
+          "id": "q61",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography (Rivers & Islands)",
+            "difficulty": "medium"
+          },
+          "text": "Majuli, among the world's largest river islands, lies in which river?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ganga"
+            },
+            {
+              "id": "B",
+              "text": "Brahmaputra"
+            },
+            {
+              "id": "C",
+              "text": "Barak"
+            },
+            {
+              "id": "D",
+              "text": "Teesta"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Majuli is in the Brahmaputra in Assam."
+        },
+        {
+          "id": "q62",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography (Strategic Locations)",
+            "difficulty": "hard"
+          },
+          "text": "Indira Point, India's southernmost tip, often in the news due to the Great Nicobar project, lies closest to which country?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sri Lanka"
+            },
+            {
+              "id": "B",
+              "text": "Indonesia"
+            },
+            {
+              "id": "C",
+              "text": "Myanmar"
+            },
+            {
+              "id": "D",
+              "text": "Thailand"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It is about 150 km from Indonesia's Sumatra."
+        },
+        {
+          "id": "q63",
+          "type": "single",
+          "metadata": {
+            "topic": "Culture (Ritual Arts)",
+            "difficulty": "hard"
+          },
+          "text": "Theyyam, a ritual dance form with elaborate face painting, belongs to which region?",
+          "options": [
+            {
+              "id": "A",
+              "text": "North Malabar, Kerala"
+            },
+            {
+              "id": "B",
+              "text": "Coastal Odisha"
+            },
+            {
+              "id": "C",
+              "text": "Chotanagpur plateau"
+            },
+            {
+              "id": "D",
+              "text": "Rayalaseema, Andhra Pradesh"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Theyyam is performed in northern Kerala."
+        },
+        {
+          "id": "q64",
+          "type": "single",
+          "metadata": {
+            "topic": "Indian Constitution",
+            "difficulty": "hard"
+          },
+          "text": "The President's power to promulgate ordinances when Parliament is not in session comes from:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Article 111"
+            },
+            {
+              "id": "B",
+              "text": "Article 123"
+            },
+            {
+              "id": "C",
+              "text": "Article 143"
+            },
+            {
+              "id": "D",
+              "text": "Article 213"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Article 123 empowers the President; 213 is for Governors."
+        },
+        {
+          "id": "q65",
+          "type": "single",
+          "metadata": {
+            "topic": "Books & Awards",
+            "difficulty": "hard"
+          },
+          "text": "The International Booker Prize 2024 went to 'Kairos', written by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Jenny Erpenbeck"
+            },
+            {
+              "id": "B",
+              "text": "Olga Tokarczuk"
+            },
+            {
+              "id": "C",
+              "text": "Geetanjali Shree"
+            },
+            {
+              "id": "D",
+              "text": "Han Kang"
+            }
+          ],
+          "answer": "A",
+          "explanation": "German author Jenny Erpenbeck won with translator Michael Hofmann."
+        },
+        {
+          "id": "q66",
+          "type": "single",
+          "metadata": {
+            "topic": "Neighbouring Countries",
+            "difficulty": "hard"
+          },
+          "text": "'Jatiya Sangsad' is the national parliament of:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nepal"
+            },
+            {
+              "id": "B",
+              "text": "Bangladesh"
+            },
+            {
+              "id": "C",
+              "text": "Bhutan"
+            },
+            {
+              "id": "D",
+              "text": "Sri Lanka"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Bangladesh's parliament sits in Dhaka."
+        },
+        {
+          "id": "q67",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Sports)",
+            "difficulty": "medium"
+          },
+          "text": "Who won the men's singles title at the Australian Open 2025?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Novak Djokovic"
+            },
+            {
+              "id": "B",
+              "text": "Carlos Alcaraz"
+            },
+            {
+              "id": "C",
+              "text": "Jannik Sinner"
+            },
+            {
+              "id": "D",
+              "text": "Alexander Zverev"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Sinner defended his title, beating Zverev in the final."
+        },
+        {
+          "id": "q68",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene (Pensions)",
+            "difficulty": "hard"
+          },
+          "text": "'NPS Vatsalya', launched in 2024, is a scheme that allows:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pension accounts to be opened for minors"
+            },
+            {
+              "id": "B",
+              "text": "Free LPG for senior citizens"
+            },
+            {
+              "id": "C",
+              "text": "Zero-balance accounts for farmers"
+            },
+            {
+              "id": "D",
+              "text": "Gold loans for women"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Parents can open NPS accounts in a child's name."
+        },
+        {
+          "id": "q69",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene (Institutions)",
+            "difficulty": "medium"
+          },
+          "text": "The 'World Economic Outlook' report is published by the:",
+          "options": [
+            {
+              "id": "A",
+              "text": "World Bank"
+            },
+            {
+              "id": "B",
+              "text": "International Monetary Fund"
+            },
+            {
+              "id": "C",
+              "text": "World Trade Organization"
+            },
+            {
+              "id": "D",
+              "text": "OECD"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The IMF publishes the WEO twice a year."
+        },
+        {
+          "id": "q70",
+          "type": "single",
+          "metadata": {
+            "topic": "Culture & Current Events (Heritage)",
+            "difficulty": "hard"
+          },
+          "text": "At the 46th World Heritage Committee session in New Delhi (2024), which Indian site was inscribed on the UNESCO list?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moidams of Charaideo, Assam"
+            },
+            {
+              "id": "B",
+              "text": "Sun Temple, Modhera"
+            },
+            {
+              "id": "C",
+              "text": "Rock Art of Bhimbetka"
+            },
+            {
+              "id": "D",
+              "text": "Lepakshi Temple"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The Ahom burial mounds of Charaideo were inscribed."
+        }
+      ]
+    },
+    {
+      "id": "computer-applications",
+      "title": "Knowledge in Computer Applications",
+      "questions": [
+        {
+          "id": "q71",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Excel (SUMIF)",
+            "difficulty": "hard"
+          },
+          "text": "In Excel, A1:A4 contain 10, 25, 30, 15. What does =SUMIF(A1:A4,\">=20\") return?",
+          "options": [
+            {
+              "id": "A",
+              "text": "80"
+            },
+            {
+              "id": "B",
+              "text": "55"
+            },
+            {
+              "id": "C",
+              "text": "45"
+            },
+            {
+              "id": "D",
+              "text": "40"
+            }
+          ],
+          "answer": "B",
+          "explanation": "25 + 30 = 55."
+        },
+        {
+          "id": "q72",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Excel (References)",
+            "difficulty": "medium"
+          },
+          "text": "In Excel, the reference $A$1 is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A relative reference"
+            },
+            {
+              "id": "B",
+              "text": "An absolute reference"
+            },
+            {
+              "id": "C",
+              "text": "A mixed reference"
+            },
+            {
+              "id": "D",
+              "text": "A circular reference"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Both row and column are locked with $."
+        },
+        {
+          "id": "q73",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Word (Shortcuts)",
+            "difficulty": "medium"
+          },
+          "text": "In MS Word, Ctrl + H opens which dialog?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Find"
+            },
+            {
+              "id": "B",
+              "text": "Replace"
+            },
+            {
+              "id": "C",
+              "text": "Hyperlink"
+            },
+            {
+              "id": "D",
+              "text": "Header"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Ctrl + H opens Find and Replace."
+        },
+        {
+          "id": "q74",
+          "type": "single",
+          "metadata": {
+            "topic": "Operating System (Shortcuts)",
+            "difficulty": "medium"
+          },
+          "text": "In Windows, Alt + F4 pressed on the desktop:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Locks the computer"
+            },
+            {
+              "id": "B",
+              "text": "Opens the shutdown dialog"
+            },
+            {
+              "id": "C",
+              "text": "Opens File Explorer"
+            },
+            {
+              "id": "D",
+              "text": "Takes a screenshot"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It closes windows; on the desktop, it offers shutdown."
+        },
+        {
+          "id": "q75",
+          "type": "single",
+          "metadata": {
+            "topic": "Operating System (Virtual Memory)",
+            "difficulty": "hard"
+          },
+          "text": "Virtual memory is implemented by using:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Extra RAM chips"
+            },
+            {
+              "id": "B",
+              "text": "A portion of the hard disk as an extension of RAM"
+            },
+            {
+              "id": "C",
+              "text": "The CPU cache"
+            },
+            {
+              "id": "D",
+              "text": "ROM chips"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Disk space (page file/swap) extends physical memory."
+        },
+        {
+          "id": "q76",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Organisation (Volatility)",
+            "difficulty": "hard"
+          },
+          "text": "Which of the following memories is volatile?",
+          "options": [
+            {
+              "id": "A",
+              "text": "SSD"
+            },
+            {
+              "id": "B",
+              "text": "ROM"
+            },
+            {
+              "id": "C",
+              "text": "DRAM"
+            },
+            {
+              "id": "D",
+              "text": "Flash memory"
+            }
+          ],
+          "answer": "C",
+          "explanation": "DRAM loses its contents without power."
+        },
+        {
+          "id": "q77",
+          "type": "single",
+          "metadata": {
+            "topic": "Operating System (Spooling)",
+            "difficulty": "hard"
+          },
+          "text": "Spooling is a technique most commonly associated with:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Printing"
+            },
+            {
+              "id": "B",
+              "text": "Browsing"
+            },
+            {
+              "id": "C",
+              "text": "Booting"
+            },
+            {
+              "id": "D",
+              "text": "Formatting disks"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Print jobs are queued (spooled) on disk."
+        },
+        {
+          "id": "q78",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Software (Firmware)",
+            "difficulty": "medium"
+          },
+          "text": "Firmware is best described as:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Software permanently embedded in hardware"
+            },
+            {
+              "id": "B",
+              "text": "Any application installed by the user"
+            },
+            {
+              "id": "C",
+              "text": "The fastest type of RAM"
+            },
+            {
+              "id": "D",
+              "text": "A physical component of the CPU"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Firmware lives in ROM/flash inside devices."
+        },
+        {
+          "id": "q79",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Software (Compilation)",
+            "difficulty": "hard"
+          },
+          "text": "The machine-language output produced by a compiler is called:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Source code"
+            },
+            {
+              "id": "B",
+              "text": "Object code"
+            },
+            {
+              "id": "C",
+              "text": "Byte code only"
+            },
+            {
+              "id": "D",
+              "text": "Pseudo code"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Compilers turn source code into object code."
+        },
+        {
+          "id": "q80",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Organisation (Word Length)",
+            "difficulty": "hard"
+          },
+          "text": "The 'word length' of a computer refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The number of characters in a file name"
+            },
+            {
+              "id": "B",
+              "text": "The number of bits the CPU can process at a time"
+            },
+            {
+              "id": "C",
+              "text": "The width of the monitor in pixels"
+            },
+            {
+              "id": "D",
+              "text": "The size of the hard disk"
+            }
+          ],
+          "answer": "B",
+          "explanation": "A 64-bit machine processes 64-bit words."
+        }
+      ]
+    }
+  ]
+}

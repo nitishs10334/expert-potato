@@ -1,0 +1,2365 @@
+{
+  "schemaVersion": "1.0",
+  "id": "iisc-aa-guess-08",
+  "title": "IISc Administrative Assistant Guess Paper 8",
+  "subtitle": "Hard-tier prediction set modelled on 2023 examiner patterns",
+  "version": "2026.07.05",
+  "durationMinutes": 90,
+  "language": "English",
+  "tags": [
+    "iisc",
+    "administrative-assistant",
+    "guess-paper",
+    "2026"
+  ],
+  "metadata": {
+    "exam": "IISc Administrative Assistant",
+    "year": 2026,
+    "source": "Guess Paper 3 of 5"
+  },
+  "instructions": [
+    "Total 80 questions to be attempted in 90 minutes.",
+    "Each correct answer earns +1 mark.",
+    "Negative marking applies: 0.33333 marks (one-third) are deducted for every incorrect answer.",
+    "Unattempted questions receive 0 marks.",
+    "Figure-based placeholder questions are unscored and carry 0 marks either way.",
+    "Difficulty is benchmarked at or above the actual 2023 paper: expect multi-step questions."
+  ],
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.33333,
+    "unattempted": 0,
+    "partial": false
+  },
+  "analytics": {
+    "groupBy": [
+      "section",
+      "topic",
+      "difficulty"
+    ]
+  },
+  "sections": [
+    {
+      "id": "quantitative-ability",
+      "title": "Quantitative Ability",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single",
+          "metadata": {
+            "topic": "Percentage (Population Growth)",
+            "difficulty": "medium"
+          },
+          "text": "The population of a town increases by 10% every year. If the present population is 21780, what was it two years ago?",
+          "options": [
+            {
+              "id": "A",
+              "text": "17500"
+            },
+            {
+              "id": "B",
+              "text": "18000"
+            },
+            {
+              "id": "C",
+              "text": "18200"
+            },
+            {
+              "id": "D",
+              "text": "19800"
+            }
+          ],
+          "answer": "B",
+          "explanation": "21780 / 1.21 = 18000."
+        },
+        {
+          "id": "q2",
+          "type": "single",
+          "metadata": {
+            "topic": "Profit & Loss (Loss on SP)",
+            "difficulty": "hard"
+          },
+          "text": "A man sells an article at a loss of 20% calculated on the selling price. His actual loss percentage on the cost price is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "20%"
+            },
+            {
+              "id": "B",
+              "text": "25%"
+            },
+            {
+              "id": "C",
+              "text": "16.67%"
+            },
+            {
+              "id": "D",
+              "text": "18%"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Loss = 0.2 SP, so CP = 1.2 SP; loss/CP = 1/6."
+        },
+        {
+          "id": "q3",
+          "type": "single",
+          "metadata": {
+            "topic": "Profit & Loss (False Weight)",
+            "difficulty": "hard"
+          },
+          "text": "A dealer professes to sell at cost price but uses a 900-gram weight instead of a kilogram. His gain percentage is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "10%"
+            },
+            {
+              "id": "B",
+              "text": "11.11%"
+            },
+            {
+              "id": "C",
+              "text": "9.09%"
+            },
+            {
+              "id": "D",
+              "text": "12.5%"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Gain = 100/900 = 1/9 = 11.11%."
+        },
+        {
+          "id": "q4",
+          "type": "single",
+          "metadata": {
+            "topic": "Discount (Mark-up + Double Discount)",
+            "difficulty": "hard"
+          },
+          "text": "A trader marks goods 40% above cost and allows successive discounts of 10% and 5%. His net profit percentage is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "19.7%"
+            },
+            {
+              "id": "B",
+              "text": "21.5%"
+            },
+            {
+              "id": "C",
+              "text": "25%"
+            },
+            {
+              "id": "D",
+              "text": "18.3%"
+            }
+          ],
+          "answer": "A",
+          "explanation": "1.4 x 0.9 x 0.95 = 1.197."
+        },
+        {
+          "id": "q5",
+          "type": "single",
+          "metadata": {
+            "topic": "Time & Work (Wages)",
+            "difficulty": "hard"
+          },
+          "text": "A can do a work in 6 days and B in 8 days. With C's help they finish it in 3 days. If the total wages are Rs 3200, C's share is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 300"
+            },
+            {
+              "id": "B",
+              "text": "Rs 400"
+            },
+            {
+              "id": "C",
+              "text": "Rs 500"
+            },
+            {
+              "id": "D",
+              "text": "Rs 600"
+            }
+          ],
+          "answer": "B",
+          "explanation": "C's rate is 1/24; ratio 4:3:1 gives C one-eighth."
+        },
+        {
+          "id": "q6",
+          "type": "single",
+          "metadata": {
+            "topic": "Time & Distance (Train vs Runner)",
+            "difficulty": "hard"
+          },
+          "text": "A 110 m long train passes a man running at 6 km/h in the direction opposite to the train in 6 seconds. The speed of the train is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "54 km/h"
+            },
+            {
+              "id": "B",
+              "text": "60 km/h"
+            },
+            {
+              "id": "C",
+              "text": "66 km/h"
+            },
+            {
+              "id": "D",
+              "text": "72 km/h"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Relative speed 110/6 m/s = 66 km/h; minus 6 = 60."
+        },
+        {
+          "id": "q7",
+          "type": "single",
+          "metadata": {
+            "topic": "Boats & Streams (Round Trip)",
+            "difficulty": "medium"
+          },
+          "text": "A man can row 8 km/h in still water in a stream flowing at 2 km/h. The time taken to row 30 km downstream and return is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "7 hours"
+            },
+            {
+              "id": "B",
+              "text": "7.5 hours"
+            },
+            {
+              "id": "C",
+              "text": "8 hours"
+            },
+            {
+              "id": "D",
+              "text": "8.5 hours"
+            }
+          ],
+          "answer": "C",
+          "explanation": "30/10 + 30/6 = 3 + 5 = 8."
+        },
+        {
+          "id": "q8",
+          "type": "single",
+          "metadata": {
+            "topic": "Compound Interest (Rate Recovery)",
+            "difficulty": "hard"
+          },
+          "text": "At what annual rate of compound interest will Rs 8000 amount to Rs 9261 in 3 years?",
+          "options": [
+            {
+              "id": "A",
+              "text": "4%"
+            },
+            {
+              "id": "B",
+              "text": "5%"
+            },
+            {
+              "id": "C",
+              "text": "6%"
+            },
+            {
+              "id": "D",
+              "text": "7.5%"
+            }
+          ],
+          "answer": "B",
+          "explanation": "9261/8000 = (21/20)^3, so r = 5%."
+        },
+        {
+          "id": "q9",
+          "type": "single",
+          "metadata": {
+            "topic": "Chain Rule (Work Proportion)",
+            "difficulty": "hard"
+          },
+          "text": "If 15 workers can build a 60 m wall in 8 days, how many workers are needed to build a 100 m wall in 10 days?",
+          "options": [
+            {
+              "id": "A",
+              "text": "18"
+            },
+            {
+              "id": "B",
+              "text": "20"
+            },
+            {
+              "id": "C",
+              "text": "24"
+            },
+            {
+              "id": "D",
+              "text": "25"
+            }
+          ],
+          "answer": "B",
+          "explanation": "15 x (100/60) x (8/10) = 20."
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "metadata": {
+            "topic": "Mixture (Three Vessels)",
+            "difficulty": "hard"
+          },
+          "text": "Three equal-capacity vessels contain milk and water in the ratios 2:1, 3:1 and 5:2. If all three are emptied into one large vessel, the ratio of milk to water becomes:",
+          "options": [
+            {
+              "id": "A",
+              "text": "179:73"
+            },
+            {
+              "id": "B",
+              "text": "10:3"
+            },
+            {
+              "id": "C",
+              "text": "83:29"
+            },
+            {
+              "id": "D",
+              "text": "173:79"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Milk = 2/3 + 3/4 + 5/7 = 179/84; water = 73/84."
+        },
+        {
+          "id": "q11",
+          "type": "numerical",
+          "metadata": {
+            "topic": "Number Sense (Nested Remainder)",
+            "difficulty": "hard"
+          },
+          "text": "A number divided by 342 leaves a remainder of 47. Enter the remainder when the same number is divided by 19.",
+          "answer": 9,
+          "tolerance": 0,
+          "explanation": "342 is divisible by 19; 47 mod 19 = 9."
+        },
+        {
+          "id": "q12",
+          "type": "single",
+          "metadata": {
+            "topic": "Algebra with Surds",
+            "difficulty": "hard"
+          },
+          "text": "If x = 3 + 2 sqrt(2), then the value of sqrt(x) - 1/sqrt(x) is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "1"
+            },
+            {
+              "id": "B",
+              "text": "2"
+            },
+            {
+              "id": "C",
+              "text": "2 sqrt(2)"
+            },
+            {
+              "id": "D",
+              "text": "sqrt(2)"
+            }
+          ],
+          "answer": "B",
+          "explanation": "x = (1 + sqrt(2))^2, so sqrt(x) - 1/sqrt(x) = (1+sqrt2) - (sqrt2 - 1) = 2."
+        },
+        {
+          "id": "q13",
+          "type": "single",
+          "metadata": {
+            "topic": "Partnership (Capital Withdrawal)",
+            "difficulty": "hard"
+          },
+          "text": "A starts with Rs 24000 and withdraws half his capital after 6 months. B joins at the start with Rs 36000 for the whole year. Out of a profit of Rs 13500, A's share is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 4000"
+            },
+            {
+              "id": "B",
+              "text": "Rs 4500"
+            },
+            {
+              "id": "C",
+              "text": "Rs 5000"
+            },
+            {
+              "id": "D",
+              "text": "Rs 5400"
+            }
+          ],
+          "answer": "B",
+          "explanation": "A: 24000x6 + 12000x6 = 216000; B: 432000; ratio 1:2."
+        },
+        {
+          "id": "q14",
+          "type": "single",
+          "metadata": {
+            "topic": "Mensuration (Cone to Cylinder)",
+            "difficulty": "hard"
+          },
+          "text": "A conical vessel of radius 12 cm and height 16 cm is full of water. The water is emptied into a cylindrical vessel of radius 8 cm. The height of water in the cylinder is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "10 cm"
+            },
+            {
+              "id": "B",
+              "text": "12 cm"
+            },
+            {
+              "id": "C",
+              "text": "14 cm"
+            },
+            {
+              "id": "D",
+              "text": "16 cm"
+            }
+          ],
+          "answer": "B",
+          "explanation": "768 pi / 64 pi = 12."
+        },
+        {
+          "id": "q15",
+          "type": "single",
+          "metadata": {
+            "topic": "Graphs (Line Through Points)",
+            "difficulty": "medium"
+          },
+          "text": "The equation of the straight line passing through (2, 3) and (4, 7) is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "y = 2x + 1"
+            },
+            {
+              "id": "B",
+              "text": "y = 2x - 1"
+            },
+            {
+              "id": "C",
+              "text": "y = x + 1"
+            },
+            {
+              "id": "D",
+              "text": "y = 3x - 3"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Slope 2; substituting (2,3) gives c = -1."
+        },
+        {
+          "id": "q16",
+          "type": "single",
+          "metadata": {
+            "topic": "Circle (Common Tangent)",
+            "difficulty": "hard"
+          },
+          "text": "Two circles of radii 8 cm and 3 cm have centres 13 cm apart. The length of their direct common tangent is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "5 cm"
+            },
+            {
+              "id": "B",
+              "text": "10 cm"
+            },
+            {
+              "id": "C",
+              "text": "12 cm"
+            },
+            {
+              "id": "D",
+              "text": "sqrt(153) cm"
+            }
+          ],
+          "answer": "C",
+          "explanation": "sqrt(13^2 - (8-3)^2) = sqrt(144) = 12."
+        }
+      ]
+    },
+    {
+      "id": "verbal-ability",
+      "title": "Verbal Ability",
+      "questions": [
+        {
+          "id": "q17",
+          "type": "single",
+          "metadata": {
+            "topic": "Shuffling of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Sentence 1: Public examinations in India attract millions of aspirants each year. Arrange P, Q, R, S. P: Coaching hubs like Kota have grown into entire economies around this demand. Q: For many families, a government job still promises security no private career can match. R: Reformers argue that broader job creation alone can ease this pressure. S: The result is fierce competition for a tiny number of posts.",
+          "options": [
+            {
+              "id": "A",
+              "text": "QSPR"
+            },
+            {
+              "id": "B",
+              "text": "SQPR"
+            },
+            {
+              "id": "C",
+              "text": "QPSR"
+            },
+            {
+              "id": "D",
+              "text": "PQSR"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Motive, consequence, industry born of it, proposed remedy."
+        },
+        {
+          "id": "q18",
+          "type": "single",
+          "metadata": {
+            "topic": "Shuffling of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Sentence 1: The oceans absorb nearly a third of the carbon dioxide humans emit. Arrange P, Q, R, S. P: Shell-forming creatures struggle to build skeletons in such waters. Q: This service, however, slowly turns seawater more acidic. R: Marine food chains could weaken as these species decline. S: Coral reefs and shellfish beds are already showing the strain.",
+          "options": [
+            {
+              "id": "A",
+              "text": "QPSR"
+            },
+            {
+              "id": "B",
+              "text": "PQSR"
+            },
+            {
+              "id": "C",
+              "text": "QSPR"
+            },
+            {
+              "id": "D",
+              "text": "SPQR"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Cost of absorption, its victims, current evidence, future risk."
+        },
+        {
+          "id": "q19",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "hard"
+          },
+          "text": "Select the meaning of the idiom: To cut the Gordian knot",
+          "options": [
+            {
+              "id": "A",
+              "text": "To solve a complicated problem by bold action"
+            },
+            {
+              "id": "B",
+              "text": "To destroy a valuable object"
+            },
+            {
+              "id": "C",
+              "text": "To end a friendship abruptly"
+            },
+            {
+              "id": "D",
+              "text": "To untie something patiently"
+            }
+          ],
+          "answer": "A",
+          "explanation": "It refers to a direct, decisive solution."
+        },
+        {
+          "id": "q20",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "hard"
+          },
+          "text": "Select the meaning of the idiom: To rest on one's laurels",
+          "options": [
+            {
+              "id": "A",
+              "text": "To retire from work"
+            },
+            {
+              "id": "B",
+              "text": "To be satisfied with past success and stop striving"
+            },
+            {
+              "id": "C",
+              "text": "To sleep peacefully"
+            },
+            {
+              "id": "D",
+              "text": "To claim someone else's credit"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It means relying on past achievements."
+        },
+        {
+          "id": "q21",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "medium"
+          },
+          "text": "Select the meaning of the phrase: A red-letter day",
+          "options": [
+            {
+              "id": "A",
+              "text": "A day of mourning"
+            },
+            {
+              "id": "B",
+              "text": "A memorably important or joyful day"
+            },
+            {
+              "id": "C",
+              "text": "A day of heavy losses"
+            },
+            {
+              "id": "D",
+              "text": "A public holiday only"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It marks a specially significant day."
+        },
+        {
+          "id": "q22",
+          "type": "single",
+          "metadata": {
+            "topic": "One-word Substitution",
+            "difficulty": "hard"
+          },
+          "text": "One who attacks cherished beliefs or institutions:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Iconoclast"
+            },
+            {
+              "id": "B",
+              "text": "Fanatic"
+            },
+            {
+              "id": "C",
+              "text": "Sceptic"
+            },
+            {
+              "id": "D",
+              "text": "Renegade"
+            }
+          ],
+          "answer": "A",
+          "explanation": "An iconoclast attacks established beliefs."
+        },
+        {
+          "id": "q23",
+          "type": "single",
+          "metadata": {
+            "topic": "One-word Substitution",
+            "difficulty": "hard"
+          },
+          "text": "A person who walks in their sleep:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Insomniac"
+            },
+            {
+              "id": "B",
+              "text": "Somnambulist"
+            },
+            {
+              "id": "C",
+              "text": "Narcoleptic"
+            },
+            {
+              "id": "D",
+              "text": "Ventriloquist"
+            }
+          ],
+          "answer": "B",
+          "explanation": "A somnambulist is a sleepwalker."
+        },
+        {
+          "id": "q24",
+          "type": "single",
+          "metadata": {
+            "topic": "Spelling",
+            "difficulty": "hard"
+          },
+          "text": "Select the correctly spelt word:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Beauracracy"
+            },
+            {
+              "id": "B",
+              "text": "Bureaucracy"
+            },
+            {
+              "id": "C",
+              "text": "Bureacracy"
+            },
+            {
+              "id": "D",
+              "text": "Burreaucracy"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Bureaucracy: bureau + cracy."
+        },
+        {
+          "id": "q25",
+          "type": "single",
+          "metadata": {
+            "topic": "Spelling",
+            "difficulty": "hard"
+          },
+          "text": "Select the incorrectly spelt word:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hinderance"
+            },
+            {
+              "id": "B",
+              "text": "Endurance"
+            },
+            {
+              "id": "C",
+              "text": "Utterance"
+            },
+            {
+              "id": "D",
+              "text": "Remembrance"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The correct form is hindrance."
+        },
+        {
+          "id": "q26",
+          "type": "single",
+          "metadata": {
+            "topic": "Improvement of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Improve the underlined part: If I WOULD HAVE KNOWN about the strike, I would have left earlier.",
+          "options": [
+            {
+              "id": "A",
+              "text": "had known"
+            },
+            {
+              "id": "B",
+              "text": "would know"
+            },
+            {
+              "id": "C",
+              "text": "have known"
+            },
+            {
+              "id": "D",
+              "text": "No improvement"
+            }
+          ],
+          "answer": "A",
+          "explanation": "The if-clause of a third conditional takes 'had known'."
+        },
+        {
+          "id": "q27",
+          "type": "single",
+          "metadata": {
+            "topic": "Improvement of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Improve the underlined part: The SCENERIES of Kashmir ARE breathtaking.",
+          "options": [
+            {
+              "id": "A",
+              "text": "scenery of Kashmir is"
+            },
+            {
+              "id": "B",
+              "text": "sceneries of Kashmir is"
+            },
+            {
+              "id": "C",
+              "text": "scenery of Kashmir are"
+            },
+            {
+              "id": "D",
+              "text": "No improvement"
+            }
+          ],
+          "answer": "A",
+          "explanation": "'Scenery' is uncountable and takes a singular verb."
+        },
+        {
+          "id": "q28",
+          "type": "single",
+          "metadata": {
+            "topic": "Synonyms",
+            "difficulty": "hard"
+          },
+          "text": "Select the synonym of EPHEMERAL:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Everlasting"
+            },
+            {
+              "id": "B",
+              "text": "Short-lived"
+            },
+            {
+              "id": "C",
+              "text": "Heavenly"
+            },
+            {
+              "id": "D",
+              "text": "Delicate"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Ephemeral means lasting a very short time."
+        },
+        {
+          "id": "q29",
+          "type": "single",
+          "metadata": {
+            "topic": "Antonyms",
+            "difficulty": "hard"
+          },
+          "text": "Select the antonym of PARSIMONIOUS:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Stingy"
+            },
+            {
+              "id": "B",
+              "text": "Generous"
+            },
+            {
+              "id": "C",
+              "text": "Careful"
+            },
+            {
+              "id": "D",
+              "text": "Wealthy"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Parsimonious (miserly) is opposite to generous."
+        },
+        {
+          "id": "q30",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Cause & Effect)",
+            "difficulty": "hard"
+          },
+          "passage": "Cities are becoming heat traps. Concrete and asphalt absorb solar radiation all day and release it through the night, keeping urban cores several degrees warmer than the surrounding countryside, a phenomenon called the urban heat island effect. Air conditioners, vehicles and industry add their own waste heat, while shrinking parks and lakes remove the natural cooling that vegetation and water once provided. The burden falls unevenly: the poorest neighbourhoods usually have the least shade and the fewest cooling options. Planners now prescribe reflective roofs, urban forests and restored water bodies, arguing that a cooler city is a matter of design, not chance.",
+          "text": "According to the passage, why do cities stay warmer than the countryside at night?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Because the sun sets later over cities"
+            },
+            {
+              "id": "B",
+              "text": "Because concrete and asphalt release heat absorbed during the day"
+            },
+            {
+              "id": "C",
+              "text": "Because villages use more air conditioning"
+            },
+            {
+              "id": "D",
+              "text": "Because city lakes give off heat"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Built surfaces store daytime heat and release it at night."
+        },
+        {
+          "id": "q31",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Inference)",
+            "difficulty": "hard"
+          },
+          "passage": "Cities are becoming heat traps. Concrete and asphalt absorb solar radiation all day and release it through the night, keeping urban cores several degrees warmer than the surrounding countryside, a phenomenon called the urban heat island effect. Air conditioners, vehicles and industry add their own waste heat, while shrinking parks and lakes remove the natural cooling that vegetation and water once provided. The burden falls unevenly: the poorest neighbourhoods usually have the least shade and the fewest cooling options. Planners now prescribe reflective roofs, urban forests and restored water bodies, arguing that a cooler city is a matter of design, not chance.",
+          "text": "It can be inferred that the poorest neighbourhoods suffer most because they:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Are located farthest from the city centre"
+            },
+            {
+              "id": "B",
+              "text": "Have the least vegetation and fewest means to cool themselves"
+            },
+            {
+              "id": "C",
+              "text": "House the most factories"
+            },
+            {
+              "id": "D",
+              "text": "Are built entirely of glass"
+            }
+          ],
+          "answer": "B",
+          "explanation": "They have the least shade and fewest cooling options."
+        },
+        {
+          "id": "q32",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Vocabulary)",
+            "difficulty": "medium"
+          },
+          "passage": "Cities are becoming heat traps. Concrete and asphalt absorb solar radiation all day and release it through the night, keeping urban cores several degrees warmer than the surrounding countryside, a phenomenon called the urban heat island effect. Air conditioners, vehicles and industry add their own waste heat, while shrinking parks and lakes remove the natural cooling that vegetation and water once provided. The burden falls unevenly: the poorest neighbourhoods usually have the least shade and the fewest cooling options. Planners now prescribe reflective roofs, urban forests and restored water bodies, arguing that a cooler city is a matter of design, not chance.",
+          "text": "In the passage, 'prescribe' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Forbid"
+            },
+            {
+              "id": "B",
+              "text": "Recommend as a remedy"
+            },
+            {
+              "id": "C",
+              "text": "Write down"
+            },
+            {
+              "id": "D",
+              "text": "Measure"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Planners recommend these measures as solutions."
+        }
+      ]
+    },
+    {
+      "id": "logical-numerical-reasoning",
+      "title": "Logical and Numerical Reasoning",
+      "questions": [
+        {
+          "id": "q33",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "difficulty": "hard"
+          },
+          "text": "Find the next term: 4, 6, 12, 30, 90, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "270"
+            },
+            {
+              "id": "B",
+              "text": "315"
+            },
+            {
+              "id": "C",
+              "text": "360"
+            },
+            {
+              "id": "D",
+              "text": "300"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Multipliers grow: x1.5, x2, x2.5, x3, then x3.5."
+        },
+        {
+          "id": "q34",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "difficulty": "medium"
+          },
+          "text": "Find the next term: 6, 11, 21, 41, 81, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "151"
+            },
+            {
+              "id": "B",
+              "text": "161"
+            },
+            {
+              "id": "C",
+              "text": "162"
+            },
+            {
+              "id": "D",
+              "text": "171"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Each term is double the previous minus 1."
+        },
+        {
+          "id": "q35",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "difficulty": "hard"
+          },
+          "text": "Find the next term: 1, 3, 11, 47, 239, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "1195"
+            },
+            {
+              "id": "B",
+              "text": "1439"
+            },
+            {
+              "id": "C",
+              "text": "1434"
+            },
+            {
+              "id": "D",
+              "text": "1443"
+            }
+          ],
+          "answer": "B",
+          "explanation": "x2+1, x3+2, x4+3, x5+4, then 239 x 6 + 5."
+        },
+        {
+          "id": "q36",
+          "type": "single",
+          "metadata": {
+            "topic": "Letter Series (Descending)",
+            "difficulty": "hard"
+          },
+          "text": "Find the next term: ZXV, USQ, PNL, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "KIG"
+            },
+            {
+              "id": "B",
+              "text": "JHF"
+            },
+            {
+              "id": "C",
+              "text": "KJH"
+            },
+            {
+              "id": "D",
+              "text": "LJH"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Within each trio letters fall by 2; trios start one below the last letter."
+        },
+        {
+          "id": "q37",
+          "type": "single",
+          "metadata": {
+            "topic": "Word Analysis",
+            "difficulty": "medium"
+          },
+          "text": "How many letters in the word ORGANISATION appear more than once?",
+          "options": [
+            {
+              "id": "A",
+              "text": "3"
+            },
+            {
+              "id": "B",
+              "text": "4"
+            },
+            {
+              "id": "C",
+              "text": "5"
+            },
+            {
+              "id": "D",
+              "text": "2"
+            }
+          ],
+          "answer": "B",
+          "explanation": "O, A, N and I each occur twice."
+        },
+        {
+          "id": "q38",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Value Map)",
+            "difficulty": "hard"
+          },
+          "text": "If each letter is valued at twice its alphabetical position (A=2, B=4, C=6, ...), the value of the word FADE is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "30"
+            },
+            {
+              "id": "B",
+              "text": "32"
+            },
+            {
+              "id": "C",
+              "text": "34"
+            },
+            {
+              "id": "D",
+              "text": "36"
+            }
+          ],
+          "answer": "B",
+          "explanation": "12 + 2 + 8 + 10 = 32."
+        },
+        {
+          "id": "q39",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Shift)",
+            "difficulty": "medium"
+          },
+          "text": "If MADRAS is coded as NBESBT, how is BOMBAY coded?",
+          "options": [
+            {
+              "id": "A",
+              "text": "CPNCBZ"
+            },
+            {
+              "id": "B",
+              "text": "CPNCBY"
+            },
+            {
+              "id": "C",
+              "text": "CQNCBZ"
+            },
+            {
+              "id": "D",
+              "text": "DPNCBZ"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Every letter moves one place forward."
+        },
+        {
+          "id": "q40",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Substitution)",
+            "difficulty": "hard"
+          },
+          "text": "In a code, 'pit na som' = 'bring me water', 'na jo tod' = 'water is life' and 'tod su pit' = 'give me life'. What is the code for 'bring'?",
+          "options": [
+            {
+              "id": "A",
+              "text": "pit"
+            },
+            {
+              "id": "B",
+              "text": "na"
+            },
+            {
+              "id": "C",
+              "text": "som"
+            },
+            {
+              "id": "D",
+              "text": "tod"
+            }
+          ],
+          "answer": "C",
+          "explanation": "na = water, pit = me, tod = life, so 'bring' = som."
+        },
+        {
+          "id": "q41",
+          "type": "single",
+          "metadata": {
+            "topic": "Floor Puzzle (Multi-clue)",
+            "difficulty": "hard"
+          },
+          "text": "Six people A, B, C, D, E, F live on separate floors of a six-storey building (floor 1 lowest). C lives on the top floor and E immediately below C. A lives immediately above B, and B lives on an odd-numbered floor. Exactly one person lives between B and F, and B lives above F. D lives immediately above F. Who lives on floor 2?",
+          "options": [
+            {
+              "id": "A",
+              "text": "D"
+            },
+            {
+              "id": "B",
+              "text": "F"
+            },
+            {
+              "id": "C",
+              "text": "B"
+            },
+            {
+              "id": "D",
+              "text": "A"
+            }
+          ],
+          "answer": "A",
+          "explanation": "From bottom: F, D, B, A, E, C."
+        },
+        {
+          "id": "q42",
+          "type": "single",
+          "metadata": {
+            "topic": "Circular Seating (Chain)",
+            "difficulty": "medium"
+          },
+          "text": "Eight friends sit around a circular table: B sits between A and C, D between C and E, F between E and G, and H between G and A. Who sits directly opposite G?",
+          "options": [
+            {
+              "id": "A",
+              "text": "B"
+            },
+            {
+              "id": "B",
+              "text": "C"
+            },
+            {
+              "id": "C",
+              "text": "D"
+            },
+            {
+              "id": "D",
+              "text": "A"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The order is A, B, C, D, E, F, G, H; opposite the 7th seat is the 3rd."
+        },
+        {
+          "id": "q43",
+          "type": "single",
+          "metadata": {
+            "topic": "Ordering (Heights)",
+            "difficulty": "medium"
+          },
+          "text": "Among five friends, P is taller than Q but shorter than R. S is the tallest. T is taller than Q but shorter than P. Who is the third tallest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "P"
+            },
+            {
+              "id": "B",
+              "text": "T"
+            },
+            {
+              "id": "C",
+              "text": "R"
+            },
+            {
+              "id": "D",
+              "text": "Q"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Order: S > R > P > T > Q."
+        },
+        {
+          "id": "q44",
+          "type": "single",
+          "metadata": {
+            "topic": "Calendar",
+            "difficulty": "hard"
+          },
+          "text": "If 1 January 2025 was a Wednesday, what day of the week was 1 March 2025?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Friday"
+            },
+            {
+              "id": "B",
+              "text": "Saturday"
+            },
+            {
+              "id": "C",
+              "text": "Sunday"
+            },
+            {
+              "id": "D",
+              "text": "Monday"
+            }
+          ],
+          "answer": "B",
+          "explanation": "59 days later; 59 mod 7 = 3, so Wednesday + 3 = Saturday."
+        },
+        {
+          "id": "q45",
+          "type": "single",
+          "metadata": {
+            "topic": "Blood Relations (Indeterminate)",
+            "difficulty": "hard"
+          },
+          "text": "M is the brother of N. N is the sister of O. P is the father of M. How is O related to P?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Son"
+            },
+            {
+              "id": "B",
+              "text": "Daughter"
+            },
+            {
+              "id": "C",
+              "text": "Son or daughter (cannot be determined)"
+            },
+            {
+              "id": "D",
+              "text": "Nephew"
+            }
+          ],
+          "answer": "C",
+          "explanation": "O is P's child, but O's gender is unknown."
+        },
+        {
+          "id": "q46",
+          "type": "single",
+          "metadata": {
+            "topic": "Coded Blood Relations (Chain)",
+            "difficulty": "hard"
+          },
+          "text": "A # B means A is the father of B; A * B means A is the brother of B; A @ B means A is the daughter of B. In P # Q * R @ S, how is S related to P?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Wife"
+            },
+            {
+              "id": "B",
+              "text": "Sister"
+            },
+            {
+              "id": "C",
+              "text": "Mother"
+            },
+            {
+              "id": "D",
+              "text": "Daughter"
+            }
+          ],
+          "answer": "A",
+          "explanation": "P fathers Q and R; R is S's daughter, so S is P's wife."
+        },
+        {
+          "id": "q47",
+          "type": "single",
+          "metadata": {
+            "topic": "Direction Sense (Clock Face)",
+            "difficulty": "hard"
+          },
+          "text": "A clock shows 3 o'clock. If the minute hand points east, in which direction does the hour hand point?",
+          "options": [
+            {
+              "id": "A",
+              "text": "North"
+            },
+            {
+              "id": "B",
+              "text": "South"
+            },
+            {
+              "id": "C",
+              "text": "West"
+            },
+            {
+              "id": "D",
+              "text": "North-East"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The hour hand is 90 degrees clockwise from the minute hand."
+        },
+        {
+          "id": "q48",
+          "type": "single",
+          "metadata": {
+            "topic": "Numerical Operations (Hidden Rule)",
+            "difficulty": "hard"
+          },
+          "text": "If 5 @ 3 = 16 and 7 @ 4 = 33, then 9 @ 5 = ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "45"
+            },
+            {
+              "id": "B",
+              "text": "56"
+            },
+            {
+              "id": "C",
+              "text": "61"
+            },
+            {
+              "id": "D",
+              "text": "72"
+            }
+          ],
+          "answer": "B",
+          "explanation": "a @ b = a^2 - b^2; 81 - 25 = 56."
+        },
+        {
+          "id": "q49",
+          "type": "single",
+          "metadata": {
+            "topic": "Mathematical Signs (Correction)",
+            "difficulty": "hard"
+          },
+          "text": "The equation 10 x 2 - 4 = 2 becomes correct when which two signs are interchanged?",
+          "options": [
+            {
+              "id": "A",
+              "text": "x and -"
+            },
+            {
+              "id": "B",
+              "text": "x and ="
+            },
+            {
+              "id": "C",
+              "text": "- and ="
+            },
+            {
+              "id": "D",
+              "text": "No interchange needed"
+            }
+          ],
+          "answer": "A",
+          "explanation": "10 - 2 x 4 = 10 - 8 = 2."
+        },
+        {
+          "id": "q50",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Analogy (Cubes)",
+            "difficulty": "medium"
+          },
+          "text": "125 : 216 :: 343 : ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "448"
+            },
+            {
+              "id": "B",
+              "text": "512"
+            },
+            {
+              "id": "C",
+              "text": "529"
+            },
+            {
+              "id": "D",
+              "text": "612"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Consecutive cubes: 5^3, 6^3 and 7^3, 8^3."
+        },
+        {
+          "id": "q51",
+          "type": "single",
+          "metadata": {
+            "topic": "Classification (Odd One Out)",
+            "difficulty": "medium"
+          },
+          "text": "Find the odd one out: 16, 25, 36, 72, 144",
+          "options": [
+            {
+              "id": "A",
+              "text": "25"
+            },
+            {
+              "id": "B",
+              "text": "36"
+            },
+            {
+              "id": "C",
+              "text": "72"
+            },
+            {
+              "id": "D",
+              "text": "144"
+            }
+          ],
+          "answer": "C",
+          "explanation": "All others are perfect squares."
+        },
+        {
+          "id": "q52",
+          "type": "single",
+          "metadata": {
+            "topic": "Syllogism (Either-Or)",
+            "difficulty": "hard"
+          },
+          "text": "Statements: All chairs are desks. Some desks are benches. Conclusions: I. Some benches are chairs. II. No bench is a chair.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only I follows"
+            },
+            {
+              "id": "B",
+              "text": "Only II follows"
+            },
+            {
+              "id": "C",
+              "text": "Either I or II follows"
+            },
+            {
+              "id": "D",
+              "text": "Both follow"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Neither is certain, but together they exhaust all cases."
+        },
+        {
+          "id": "q53",
+          "type": "figure",
+          "metadata": {
+            "topic": "Figural Series",
+            "difficulty": "hard"
+          },
+          "text": "Select the figure that continues the series, where shading moves two corners clockwise while an arrow alternates orientation.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Figural Series",
+            "description": "A four-figure sequence combining corner shading rotation with an alternating arrow; choose the fifth figure."
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          },
+          "explanation": "Unscored placeholder for a visual series question."
+        },
+        {
+          "id": "q54",
+          "type": "figure",
+          "metadata": {
+            "topic": "Mirror Image",
+            "difficulty": "medium"
+          },
+          "text": "Select the correct mirror image of the given clock face showing 4:40 when the mirror is placed vertically to the right.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Mirror Image (Clock)",
+            "description": "A clock face at 4:40 whose mirror image must be identified among four options."
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          },
+          "explanation": "Unscored placeholder for a visual mirror-image question."
+        }
+      ]
+    },
+    {
+      "id": "general-awareness",
+      "title": "General Awareness",
+      "questions": [
+        {
+          "id": "q55",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Para Sports)",
+            "difficulty": "hard"
+          },
+          "text": "India recorded its best-ever Paralympics performance at Paris 2024 with how many medals?",
+          "options": [
+            {
+              "id": "A",
+              "text": "19"
+            },
+            {
+              "id": "B",
+              "text": "25"
+            },
+            {
+              "id": "C",
+              "text": "29"
+            },
+            {
+              "id": "D",
+              "text": "35"
+            }
+          ],
+          "answer": "C",
+          "explanation": "India won 29 medals, including 7 golds."
+        },
+        {
+          "id": "q56",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Awards)",
+            "difficulty": "hard"
+          },
+          "text": "The Nobel Prize in Physiology or Medicine 2024 (Ambros and Ruvkun) honoured the discovery of:",
+          "options": [
+            {
+              "id": "A",
+              "text": "CRISPR gene editing"
+            },
+            {
+              "id": "B",
+              "text": "microRNA and its role in gene regulation"
+            },
+            {
+              "id": "C",
+              "text": "The Hepatitis C virus"
+            },
+            {
+              "id": "D",
+              "text": "mRNA vaccines"
+            }
+          ],
+          "answer": "B",
+          "explanation": "They discovered microRNA in the 1990s."
+        },
+        {
+          "id": "q57",
+          "type": "single",
+          "metadata": {
+            "topic": "Scientific Research (Meteorology)",
+            "difficulty": "hard"
+          },
+          "text": "Tropical cyclones over the North Indian Ocean are named by member countries under a panel coordinated by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "NASA"
+            },
+            {
+              "id": "B",
+              "text": "WMO/ESCAP"
+            },
+            {
+              "id": "C",
+              "text": "ISRO"
+            },
+            {
+              "id": "D",
+              "text": "UNEP"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The WMO/ESCAP panel maintains the naming lists."
+        },
+        {
+          "id": "q58",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene (Monetary Policy)",
+            "difficulty": "hard"
+          },
+          "text": "The Monetary Policy Committee (MPC) of the RBI consists of how many members?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Five"
+            },
+            {
+              "id": "B",
+              "text": "Six"
+            },
+            {
+              "id": "C",
+              "text": "Seven"
+            },
+            {
+              "id": "D",
+              "text": "Nine"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Three RBI members and three government nominees."
+        },
+        {
+          "id": "q59",
+          "type": "single",
+          "metadata": {
+            "topic": "History (Gandhian Movements)",
+            "difficulty": "medium"
+          },
+          "text": "The Champaran Satyagraha of 1917 concerned the cultivation of:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cotton"
+            },
+            {
+              "id": "B",
+              "text": "Indigo"
+            },
+            {
+              "id": "C",
+              "text": "Jute"
+            },
+            {
+              "id": "D",
+              "text": "Opium"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It challenged forced indigo cultivation in Bihar."
+        },
+        {
+          "id": "q60",
+          "type": "single",
+          "metadata": {
+            "topic": "History (Ancient Texts)",
+            "difficulty": "hard"
+          },
+          "text": "The Ashtadhyayi, a foundational treatise on Sanskrit grammar, was composed by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Patanjali"
+            },
+            {
+              "id": "B",
+              "text": "Panini"
+            },
+            {
+              "id": "C",
+              "text": "Kalidasa"
+            },
+            {
+              "id": "D",
+              "text": "Kautilya"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Panini codified Sanskrit grammar in the Ashtadhyayi."
+        },
+        {
+          "id": "q61",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography (Passes & Gaps)",
+            "difficulty": "hard"
+          },
+          "text": "The Palghat (Palakkad) Gap is a natural break in the Western Ghats connecting Kerala with:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Karnataka"
+            },
+            {
+              "id": "B",
+              "text": "Tamil Nadu"
+            },
+            {
+              "id": "C",
+              "text": "Goa"
+            },
+            {
+              "id": "D",
+              "text": "Andhra Pradesh"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It links Palakkad with Coimbatore in Tamil Nadu."
+        },
+        {
+          "id": "q62",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography (Glaciers)",
+            "difficulty": "hard"
+          },
+          "text": "The Siachen Glacier lies in which mountain range?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Greater Himalaya"
+            },
+            {
+              "id": "B",
+              "text": "Karakoram"
+            },
+            {
+              "id": "C",
+              "text": "Zanskar"
+            },
+            {
+              "id": "D",
+              "text": "Pir Panjal"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Siachen is in the eastern Karakoram."
+        },
+        {
+          "id": "q63",
+          "type": "single",
+          "metadata": {
+            "topic": "Culture (Tribal Festivals)",
+            "difficulty": "hard"
+          },
+          "text": "The Wangala, or Hundred Drums Festival, is celebrated by which tribe?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Khasi"
+            },
+            {
+              "id": "B",
+              "text": "Garo"
+            },
+            {
+              "id": "C",
+              "text": "Bodo"
+            },
+            {
+              "id": "D",
+              "text": "Mizo"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The Garos of Meghalaya celebrate Wangala after harvest."
+        },
+        {
+          "id": "q64",
+          "type": "single",
+          "metadata": {
+            "topic": "Indian Constitution",
+            "difficulty": "hard"
+          },
+          "text": "The anti-defection law is contained in which Schedule of the Constitution?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Eighth Schedule"
+            },
+            {
+              "id": "B",
+              "text": "Ninth Schedule"
+            },
+            {
+              "id": "C",
+              "text": "Tenth Schedule"
+            },
+            {
+              "id": "D",
+              "text": "Twelfth Schedule"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The 52nd Amendment added the Tenth Schedule in 1985."
+        },
+        {
+          "id": "q65",
+          "type": "single",
+          "metadata": {
+            "topic": "Books & Authors",
+            "difficulty": "medium"
+          },
+          "text": "'The Argumentative Indian' is a collection of essays by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Amartya Sen"
+            },
+            {
+              "id": "B",
+              "text": "Raghuram Rajan"
+            },
+            {
+              "id": "C",
+              "text": "Jagdish Bhagwati"
+            },
+            {
+              "id": "D",
+              "text": "Abhijit Banerjee"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Nobel laureate Amartya Sen wrote it in 2005."
+        },
+        {
+          "id": "q66",
+          "type": "single",
+          "metadata": {
+            "topic": "Neighbouring Countries (Geography)",
+            "difficulty": "hard"
+          },
+          "text": "Adam's Bridge (Ram Setu) stretches between Dhanushkodi in India and which place in Sri Lanka?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Jaffna"
+            },
+            {
+              "id": "B",
+              "text": "Talaimannar"
+            },
+            {
+              "id": "C",
+              "text": "Trincomalee"
+            },
+            {
+              "id": "D",
+              "text": "Colombo"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The chain of shoals ends near Talaimannar on Mannar Island."
+        },
+        {
+          "id": "q67",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Sports)",
+            "difficulty": "hard"
+          },
+          "text": "Aman Sehrawat won India's Paris 2024 bronze in which sport and category?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Boxing, 51 kg"
+            },
+            {
+              "id": "B",
+              "text": "Wrestling, 57 kg freestyle"
+            },
+            {
+              "id": "C",
+              "text": "Weightlifting, 61 kg"
+            },
+            {
+              "id": "D",
+              "text": "Judo, 60 kg"
+            }
+          ],
+          "answer": "B",
+          "explanation": "He took bronze in 57 kg freestyle wrestling."
+        },
+        {
+          "id": "q68",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene (Banking)",
+            "difficulty": "hard"
+          },
+          "text": "The RBI's UDGAM portal helps the public to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Track unclaimed bank deposits"
+            },
+            {
+              "id": "B",
+              "text": "File income-tax returns"
+            },
+            {
+              "id": "C",
+              "text": "Buy government bonds"
+            },
+            {
+              "id": "D",
+              "text": "Report counterfeit notes"
+            }
+          ],
+          "answer": "A",
+          "explanation": "UDGAM centralises the search for unclaimed deposits."
+        },
+        {
+          "id": "q69",
+          "type": "single",
+          "metadata": {
+            "topic": "Defence (Exercises)",
+            "difficulty": "medium"
+          },
+          "text": "Exercise Malabar is a naval exercise involving India, the USA, Japan and:",
+          "options": [
+            {
+              "id": "A",
+              "text": "France"
+            },
+            {
+              "id": "B",
+              "text": "Australia"
+            },
+            {
+              "id": "C",
+              "text": "United Kingdom"
+            },
+            {
+              "id": "D",
+              "text": "Singapore"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The Quad navies participate in Malabar."
+        },
+        {
+          "id": "q70",
+          "type": "single",
+          "metadata": {
+            "topic": "General Policy (Institutions)",
+            "difficulty": "hard"
+          },
+          "text": "Who was appointed Chairperson of the Lokpal of India in March 2024?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Justice A. M. Khanwilkar"
+            },
+            {
+              "id": "B",
+              "text": "Justice P. C. Ghose"
+            },
+            {
+              "id": "C",
+              "text": "Justice N. V. Ramana"
+            },
+            {
+              "id": "D",
+              "text": "Justice U. U. Lalit"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Former SC judge A. M. Khanwilkar took charge in 2024."
+        }
+      ]
+    },
+    {
+      "id": "computer-applications",
+      "title": "Knowledge in Computer Applications",
+      "questions": [
+        {
+          "id": "q71",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Excel (Text Functions)",
+            "difficulty": "hard"
+          },
+          "text": "In Excel, what does =MID(\"ADMINISTRATION\",3,4) return?",
+          "options": [
+            {
+              "id": "A",
+              "text": "DMIN"
+            },
+            {
+              "id": "B",
+              "text": "MINI"
+            },
+            {
+              "id": "C",
+              "text": "MIN"
+            },
+            {
+              "id": "D",
+              "text": "INIS"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Four characters starting at position 3: M, I, N, I."
+        },
+        {
+          "id": "q72",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Excel (Shortcuts)",
+            "difficulty": "hard"
+          },
+          "text": "In Excel, pressing Ctrl + ; (semicolon) inserts:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The current time"
+            },
+            {
+              "id": "B",
+              "text": "The current date"
+            },
+            {
+              "id": "C",
+              "text": "A new comment"
+            },
+            {
+              "id": "D",
+              "text": "A page break"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Ctrl+; gives the date; Ctrl+Shift+; gives the time."
+        },
+        {
+          "id": "q73",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Excel (Errors)",
+            "difficulty": "hard"
+          },
+          "text": "The #REF! error in Excel indicates:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Division by zero"
+            },
+            {
+              "id": "B",
+              "text": "An invalid cell reference"
+            },
+            {
+              "id": "C",
+              "text": "A misspelt function name"
+            },
+            {
+              "id": "D",
+              "text": "A number too large to display"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It appears when a referenced cell no longer exists."
+        },
+        {
+          "id": "q74",
+          "type": "single",
+          "metadata": {
+            "topic": "Operating System (Shortcuts)",
+            "difficulty": "hard"
+          },
+          "text": "Which shortcut opens the Windows Task Manager directly?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ctrl + Alt + Del"
+            },
+            {
+              "id": "B",
+              "text": "Ctrl + Shift + Esc"
+            },
+            {
+              "id": "C",
+              "text": "Windows + X"
+            },
+            {
+              "id": "D",
+              "text": "Alt + Esc"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Ctrl+Shift+Esc opens Task Manager without the menu screen."
+        },
+        {
+          "id": "q75",
+          "type": "single",
+          "metadata": {
+            "topic": "Data Representation (ASCII)",
+            "difficulty": "hard"
+          },
+          "text": "Standard (7-bit) ASCII can represent how many distinct characters?",
+          "options": [
+            {
+              "id": "A",
+              "text": "64"
+            },
+            {
+              "id": "B",
+              "text": "128"
+            },
+            {
+              "id": "C",
+              "text": "256"
+            },
+            {
+              "id": "D",
+              "text": "512"
+            }
+          ],
+          "answer": "B",
+          "explanation": "2^7 = 128 characters."
+        },
+        {
+          "id": "q76",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Organisation (Buses)",
+            "difficulty": "hard"
+          },
+          "text": "Which bus carries the locations of memory to be read or written?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Data bus"
+            },
+            {
+              "id": "B",
+              "text": "Address bus"
+            },
+            {
+              "id": "C",
+              "text": "Control bus"
+            },
+            {
+              "id": "D",
+              "text": "System clock"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The address bus carries memory addresses."
+        },
+        {
+          "id": "q77",
+          "type": "single",
+          "metadata": {
+            "topic": "Operating System (Concepts)",
+            "difficulty": "hard"
+          },
+          "text": "The key difference between multiprogramming and multiprocessing is that multiprocessing requires:",
+          "options": [
+            {
+              "id": "A",
+              "text": "More RAM"
+            },
+            {
+              "id": "B",
+              "text": "More than one CPU"
+            },
+            {
+              "id": "C",
+              "text": "A faster hard disk"
+            },
+            {
+              "id": "D",
+              "text": "A network connection"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Multiprocessing runs tasks on multiple processors simultaneously."
+        },
+        {
+          "id": "q78",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Excel (File Types)",
+            "difficulty": "hard"
+          },
+          "text": "A macro-enabled Excel workbook is saved with which extension?",
+          "options": [
+            {
+              "id": "A",
+              "text": ".xlsx"
+            },
+            {
+              "id": "B",
+              "text": ".xlsm"
+            },
+            {
+              "id": "C",
+              "text": ".xltx"
+            },
+            {
+              "id": "D",
+              "text": ".csv"
+            }
+          ],
+          "answer": "B",
+          "explanation": ".xlsm files can store VBA macros."
+        },
+        {
+          "id": "q79",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Organisation (Booting)",
+            "difficulty": "hard"
+          },
+          "text": "The Power-On Self-Test (POST) during booting is carried out by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The operating system"
+            },
+            {
+              "id": "B",
+              "text": "The BIOS/UEFI firmware"
+            },
+            {
+              "id": "C",
+              "text": "The antivirus program"
+            },
+            {
+              "id": "D",
+              "text": "The bootloader"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The firmware checks hardware before loading the OS."
+        },
+        {
+          "id": "q80",
+          "type": "single",
+          "metadata": {
+            "topic": "Storage (Hierarchy)",
+            "difficulty": "medium"
+          },
+          "text": "Which storage medium typically offers the largest capacity at the slowest access speed?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Magnetic tape"
+            },
+            {
+              "id": "B",
+              "text": "SSD"
+            },
+            {
+              "id": "C",
+              "text": "RAM"
+            },
+            {
+              "id": "D",
+              "text": "Cache"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Tape is used for cheap, slow archival storage."
+        }
+      ]
+    }
+  ]
+}

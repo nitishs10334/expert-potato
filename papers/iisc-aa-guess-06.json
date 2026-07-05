@@ -1,0 +1,2365 @@
+{
+  "schemaVersion": "1.0",
+  "id": "iisc-aa-guess-06",
+  "title": "IISc Administrative Assistant Guess Paper 6",
+  "subtitle": "Hard-tier prediction set modelled on 2023 examiner patterns",
+  "version": "2026.07.05",
+  "durationMinutes": 90,
+  "language": "English",
+  "tags": [
+    "iisc",
+    "administrative-assistant",
+    "guess-paper",
+    "2026"
+  ],
+  "metadata": {
+    "exam": "IISc Administrative Assistant",
+    "year": 2026,
+    "source": "Guess Paper 1 of 5"
+  },
+  "instructions": [
+    "Total 80 questions to be attempted in 90 minutes.",
+    "Each correct answer earns +1 mark.",
+    "Negative marking applies: 0.33333 marks (one-third) are deducted for every incorrect answer.",
+    "Unattempted questions receive 0 marks.",
+    "Figure-based placeholder questions are unscored and carry 0 marks either way.",
+    "Difficulty is benchmarked at or above the actual 2023 paper: expect multi-step questions."
+  ],
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.33333,
+    "unattempted": 0,
+    "partial": false
+  },
+  "analytics": {
+    "groupBy": [
+      "section",
+      "topic",
+      "difficulty"
+    ]
+  },
+  "sections": [
+    {
+      "id": "quantitative-ability",
+      "title": "Quantitative Ability",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single",
+          "metadata": {
+            "topic": "Percentage (Chained Comparison)",
+            "difficulty": "medium"
+          },
+          "text": "A's income is 20% more than B's, and B's income is 25% less than C's. A's income is what percentage of C's income?",
+          "options": [
+            {
+              "id": "A",
+              "text": "95%"
+            },
+            {
+              "id": "B",
+              "text": "90%"
+            },
+            {
+              "id": "C",
+              "text": "85%"
+            },
+            {
+              "id": "D",
+              "text": "105%"
+            }
+          ],
+          "answer": "B",
+          "explanation": "A = 1.2 x 0.75C = 0.9C."
+        },
+        {
+          "id": "q2",
+          "type": "single",
+          "metadata": {
+            "topic": "Profit & Loss + Discount",
+            "difficulty": "medium"
+          },
+          "text": "A trader marks an article at Rs 1300 and allows a 10% discount, still gaining 17%. The cost price of the article is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 1050"
+            },
+            {
+              "id": "B",
+              "text": "Rs 1000"
+            },
+            {
+              "id": "C",
+              "text": "Rs 1170"
+            },
+            {
+              "id": "D",
+              "text": "Rs 985"
+            }
+          ],
+          "answer": "B",
+          "explanation": "SP = 1170; CP = 1170/1.17 = 1000."
+        },
+        {
+          "id": "q3",
+          "type": "single",
+          "metadata": {
+            "topic": "Time & Work (Alternate Days)",
+            "difficulty": "hard"
+          },
+          "text": "A can do a work in 12 days and B in 15 days. They work on alternate days, starting with A. The work is completed in:",
+          "options": [
+            {
+              "id": "A",
+              "text": "13 days"
+            },
+            {
+              "id": "B",
+              "text": "13 and 1/4 days"
+            },
+            {
+              "id": "C",
+              "text": "13 and 1/2 days"
+            },
+            {
+              "id": "D",
+              "text": "14 days"
+            }
+          ],
+          "answer": "B",
+          "explanation": "12 days finish 9/10; A's 13th day leaves 1/60, which B does in 1/4 day."
+        },
+        {
+          "id": "q4",
+          "type": "single",
+          "metadata": {
+            "topic": "Time & Distance (Trains)",
+            "difficulty": "hard"
+          },
+          "text": "Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively, and they cross each other in 23 seconds. The ratio of their speeds is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "3:2"
+            },
+            {
+              "id": "B",
+              "text": "2:3"
+            },
+            {
+              "id": "C",
+              "text": "27:17"
+            },
+            {
+              "id": "D",
+              "text": "4:3"
+            }
+          ],
+          "answer": "A",
+          "explanation": "27v1 + 17v2 = 23(v1 + v2) gives 4v1 = 6v2."
+        },
+        {
+          "id": "q5",
+          "type": "single",
+          "metadata": {
+            "topic": "Boats & Streams (Quadratic)",
+            "difficulty": "hard"
+          },
+          "text": "A boat whose speed in still water is 9 km/h goes 12 km upstream and returns to the start in a total of 3 hours. The speed of the stream is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "2 km/h"
+            },
+            {
+              "id": "B",
+              "text": "2.5 km/h"
+            },
+            {
+              "id": "C",
+              "text": "3 km/h"
+            },
+            {
+              "id": "D",
+              "text": "4 km/h"
+            }
+          ],
+          "answer": "C",
+          "explanation": "216/(81 - s^2) = 3 gives s^2 = 9."
+        },
+        {
+          "id": "q6",
+          "type": "single",
+          "metadata": {
+            "topic": "Mixture (Repeated Replacement)",
+            "difficulty": "hard"
+          },
+          "text": "A vessel contains 80 litres of pure milk. 8 litres are drawn out and replaced with water; then 8 litres of the mixture are drawn out and replaced with water again. The quantity of milk now in the vessel is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "66 litres"
+            },
+            {
+              "id": "B",
+              "text": "64.8 litres"
+            },
+            {
+              "id": "C",
+              "text": "64 litres"
+            },
+            {
+              "id": "D",
+              "text": "63.2 litres"
+            }
+          ],
+          "answer": "B",
+          "explanation": "80 x (1 - 8/80)^2 = 80 x 0.81 = 64.8."
+        },
+        {
+          "id": "q7",
+          "type": "single",
+          "metadata": {
+            "topic": "Interest (SI to CI)",
+            "difficulty": "medium"
+          },
+          "text": "The simple interest on a sum for 2 years at 10% per annum is Rs 1200. The compound interest on the same sum at the same rate for the same period is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 1240"
+            },
+            {
+              "id": "B",
+              "text": "Rs 1250"
+            },
+            {
+              "id": "C",
+              "text": "Rs 1260"
+            },
+            {
+              "id": "D",
+              "text": "Rs 1320"
+            }
+          ],
+          "answer": "C",
+          "explanation": "P = 6000; CI = 6000(1.21 - 1) = 1260."
+        },
+        {
+          "id": "q8",
+          "type": "single",
+          "metadata": {
+            "topic": "Partnership (Late Entry)",
+            "difficulty": "medium"
+          },
+          "text": "A and B start a business with Rs 45000 and Rs 60000. After 4 months, C joins with Rs 90000. Out of a year-end profit of Rs 44000, C's share is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 12000"
+            },
+            {
+              "id": "B",
+              "text": "Rs 14000"
+            },
+            {
+              "id": "C",
+              "text": "Rs 16000"
+            },
+            {
+              "id": "D",
+              "text": "Rs 18000"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Capital-months 540:720:720 = 3:4:4; C gets 4/11 of 44000."
+        },
+        {
+          "id": "q9",
+          "type": "numerical",
+          "metadata": {
+            "topic": "Number Sense (LCM with Remainder)",
+            "difficulty": "medium"
+          },
+          "text": "Enter the largest three-digit number which, when divided by 6, 9 and 12, leaves a remainder of 3 in each case.",
+          "answer": 975,
+          "tolerance": 0,
+          "explanation": "Largest 3-digit multiple of 36 is 972; add 3."
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Sense (Fractions)",
+            "difficulty": "medium"
+          },
+          "text": "Simplify: (2/3 + 3/4 - 5/6) divided by (1/2 - 1/3 + 1/4)",
+          "options": [
+            {
+              "id": "A",
+              "text": "1"
+            },
+            {
+              "id": "B",
+              "text": "7/5"
+            },
+            {
+              "id": "C",
+              "text": "5/7"
+            },
+            {
+              "id": "D",
+              "text": "12/7"
+            }
+          ],
+          "answer": "B",
+          "explanation": "(7/12) / (5/12) = 7/5."
+        },
+        {
+          "id": "q11",
+          "type": "single",
+          "metadata": {
+            "topic": "Algebra (Ages)",
+            "difficulty": "medium"
+          },
+          "text": "The sum of the present ages of a father and son is 60 years. Six years ago, the father's age was five times the son's age. The son's age 6 years from now will be:",
+          "options": [
+            {
+              "id": "A",
+              "text": "14 years"
+            },
+            {
+              "id": "B",
+              "text": "18 years"
+            },
+            {
+              "id": "C",
+              "text": "20 years"
+            },
+            {
+              "id": "D",
+              "text": "22 years"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Six years ago the ages were 8 and 40; son is now 14, so 20 later."
+        },
+        {
+          "id": "q12",
+          "type": "single",
+          "metadata": {
+            "topic": "Pipes & Cisterns (Partial Closure)",
+            "difficulty": "hard"
+          },
+          "text": "Pipes A and B can fill a tank in 20 and 30 minutes. Both are opened together, but A is shut after some time, and the tank is filled in a total of 18 minutes. After how many minutes was A shut?",
+          "options": [
+            {
+              "id": "A",
+              "text": "6 minutes"
+            },
+            {
+              "id": "B",
+              "text": "8 minutes"
+            },
+            {
+              "id": "C",
+              "text": "9 minutes"
+            },
+            {
+              "id": "D",
+              "text": "12 minutes"
+            }
+          ],
+          "answer": "B",
+          "explanation": "t/20 + 18/30 = 1 gives t = 8."
+        },
+        {
+          "id": "q13",
+          "type": "single",
+          "metadata": {
+            "topic": "Percentage (Income & Savings)",
+            "difficulty": "hard"
+          },
+          "text": "A man spends 60% of his income. His income increases by 25% and his expenditure increases by 20%. The percentage increase in his savings is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "27.5%"
+            },
+            {
+              "id": "B",
+              "text": "30%"
+            },
+            {
+              "id": "C",
+              "text": "32.5%"
+            },
+            {
+              "id": "D",
+              "text": "35%"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Savings go from 40 to 125 - 72 = 53, i.e. 32.5% up."
+        },
+        {
+          "id": "q14",
+          "type": "single",
+          "metadata": {
+            "topic": "Mensuration (Melting & Recasting)",
+            "difficulty": "hard"
+          },
+          "text": "A solid metallic cone of base radius 6 cm and height 24 cm is melted and recast into identical solid spheres of radius 2 cm. The number of spheres formed is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "18"
+            },
+            {
+              "id": "B",
+              "text": "24"
+            },
+            {
+              "id": "C",
+              "text": "27"
+            },
+            {
+              "id": "D",
+              "text": "36"
+            }
+          ],
+          "answer": "C",
+          "explanation": "288 pi / (32 pi / 3) = 27."
+        },
+        {
+          "id": "q15",
+          "type": "single",
+          "metadata": {
+            "topic": "Graphs of Linear Equations",
+            "difficulty": "medium"
+          },
+          "text": "The area of the region bounded by the line 2x + y = 8 and the two coordinate axes is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "8 sq units"
+            },
+            {
+              "id": "B",
+              "text": "12 sq units"
+            },
+            {
+              "id": "C",
+              "text": "16 sq units"
+            },
+            {
+              "id": "D",
+              "text": "32 sq units"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Intercepts 4 and 8; area = (1/2) x 4 x 8 = 16."
+        },
+        {
+          "id": "q16",
+          "type": "single",
+          "metadata": {
+            "topic": "Circle (Parallel Chords)",
+            "difficulty": "hard"
+          },
+          "text": "Two parallel chords of lengths 30 cm and 16 cm lie on the same side of the centre of a circle of radius 17 cm. The distance between the chords is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "7 cm"
+            },
+            {
+              "id": "B",
+              "text": "9 cm"
+            },
+            {
+              "id": "C",
+              "text": "15 cm"
+            },
+            {
+              "id": "D",
+              "text": "23 cm"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Distances from centre are 8 and 15; difference is 7."
+        }
+      ]
+    },
+    {
+      "id": "verbal-ability",
+      "title": "Verbal Ability",
+      "questions": [
+        {
+          "id": "q17",
+          "type": "single",
+          "metadata": {
+            "topic": "Shuffling of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Sentence 1: The Green Revolution transformed Indian agriculture in the 1960s. Arrange P, Q, R, S. P: This success, however, came at the cost of depleted aquifers and degraded soils. Q: High-yield seeds, fertilisers and assured irrigation raised wheat output dramatically. R: Punjab and Haryana, the revolution's showcase states, now face both problems acutely. S: India moved from ship-to-mouth imports to comfortable buffer stocks within a decade.",
+          "options": [
+            {
+              "id": "A",
+              "text": "QSPR"
+            },
+            {
+              "id": "B",
+              "text": "SQPR"
+            },
+            {
+              "id": "C",
+              "text": "QPSR"
+            },
+            {
+              "id": "D",
+              "text": "PQSR"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Mechanism, outcome, hidden cost, present-day example."
+        },
+        {
+          "id": "q18",
+          "type": "single",
+          "metadata": {
+            "topic": "Shuffling of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Sentence 1: The Indian Constitution is often called a living document. Arrange P, Q, R, S. P: Judicial interpretation has likewise expanded rights the framers never spelt out. Q: Parliament has amended it more than a hundred times to meet new needs. R: Together, amendment and interpretation keep the text in step with society. S: Its framers deliberately made it neither too rigid nor too flexible.",
+          "options": [
+            {
+              "id": "A",
+              "text": "SQPR"
+            },
+            {
+              "id": "B",
+              "text": "QSPR"
+            },
+            {
+              "id": "C",
+              "text": "SPQR"
+            },
+            {
+              "id": "D",
+              "text": "QPRS"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Design intent, amendment, interpretation, combined effect."
+        },
+        {
+          "id": "q19",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "hard"
+          },
+          "text": "Select the meaning of the idiom: To ride roughshod over",
+          "options": [
+            {
+              "id": "A",
+              "text": "To treat someone harshly without regard for their feelings"
+            },
+            {
+              "id": "B",
+              "text": "To ride a horse without a saddle"
+            },
+            {
+              "id": "C",
+              "text": "To take a difficult route"
+            },
+            {
+              "id": "D",
+              "text": "To escape from a difficult situation"
+            }
+          ],
+          "answer": "A",
+          "explanation": "It means to domineer over someone inconsiderately."
+        },
+        {
+          "id": "q20",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "hard"
+          },
+          "text": "Select the meaning of the idiom: To be at daggers drawn",
+          "options": [
+            {
+              "id": "A",
+              "text": "To be armed for battle"
+            },
+            {
+              "id": "B",
+              "text": "To be bitterly hostile towards each other"
+            },
+            {
+              "id": "C",
+              "text": "To be ready with a solution"
+            },
+            {
+              "id": "D",
+              "text": "To threaten someone openly"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It describes open enmity between two parties."
+        },
+        {
+          "id": "q21",
+          "type": "single",
+          "metadata": {
+            "topic": "Idioms & Phrases",
+            "difficulty": "hard"
+          },
+          "text": "Select the meaning of the phrase: A Pyrrhic victory",
+          "options": [
+            {
+              "id": "A",
+              "text": "A victory won by deceit"
+            },
+            {
+              "id": "B",
+              "text": "An easy, one-sided victory"
+            },
+            {
+              "id": "C",
+              "text": "A victory gained at too great a cost"
+            },
+            {
+              "id": "D",
+              "text": "A victory in the final battle"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The winner's losses outweigh the gain."
+        },
+        {
+          "id": "q22",
+          "type": "single",
+          "metadata": {
+            "topic": "One-word Substitution",
+            "difficulty": "hard"
+          },
+          "text": "One who compiles dictionaries:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lexicographer"
+            },
+            {
+              "id": "B",
+              "text": "Linguist"
+            },
+            {
+              "id": "C",
+              "text": "Etymologist"
+            },
+            {
+              "id": "D",
+              "text": "Bibliographer"
+            }
+          ],
+          "answer": "A",
+          "explanation": "A lexicographer compiles dictionaries."
+        },
+        {
+          "id": "q23",
+          "type": "single",
+          "metadata": {
+            "topic": "One-word Substitution",
+            "difficulty": "hard"
+          },
+          "text": "The study or collection of coins:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Philately"
+            },
+            {
+              "id": "B",
+              "text": "Numismatics"
+            },
+            {
+              "id": "C",
+              "text": "Iconography"
+            },
+            {
+              "id": "D",
+              "text": "Calligraphy"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Numismatics deals with coins and currency."
+        },
+        {
+          "id": "q24",
+          "type": "single",
+          "metadata": {
+            "topic": "Spelling",
+            "difficulty": "hard"
+          },
+          "text": "Select the correctly spelt word:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Connoiseur"
+            },
+            {
+              "id": "B",
+              "text": "Conossieur"
+            },
+            {
+              "id": "C",
+              "text": "Connoisseur"
+            },
+            {
+              "id": "D",
+              "text": "Connossieur"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Connoisseur: double n, double s."
+        },
+        {
+          "id": "q25",
+          "type": "single",
+          "metadata": {
+            "topic": "Spelling",
+            "difficulty": "hard"
+          },
+          "text": "Select the incorrectly spelt word:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Precede"
+            },
+            {
+              "id": "B",
+              "text": "Supercede"
+            },
+            {
+              "id": "C",
+              "text": "Exceed"
+            },
+            {
+              "id": "D",
+              "text": "Succeed"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The correct spelling is supersede."
+        },
+        {
+          "id": "q26",
+          "type": "single",
+          "metadata": {
+            "topic": "Improvement of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Improve the underlined part: No sooner did he arrive WHEN the meeting began.",
+          "options": [
+            {
+              "id": "A",
+              "text": "than the meeting began"
+            },
+            {
+              "id": "B",
+              "text": "then the meeting began"
+            },
+            {
+              "id": "C",
+              "text": "that the meeting began"
+            },
+            {
+              "id": "D",
+              "text": "No improvement"
+            }
+          ],
+          "answer": "A",
+          "explanation": "'No sooner' is always paired with 'than'."
+        },
+        {
+          "id": "q27",
+          "type": "single",
+          "metadata": {
+            "topic": "Improvement of Sentences",
+            "difficulty": "hard"
+          },
+          "text": "Improve the underlined part: It is high time we START working on the project.",
+          "options": [
+            {
+              "id": "A",
+              "text": "started"
+            },
+            {
+              "id": "B",
+              "text": "have started"
+            },
+            {
+              "id": "C",
+              "text": "will start"
+            },
+            {
+              "id": "D",
+              "text": "No improvement"
+            }
+          ],
+          "answer": "A",
+          "explanation": "'It is high time' takes the past subjunctive."
+        },
+        {
+          "id": "q28",
+          "type": "single",
+          "metadata": {
+            "topic": "Synonyms",
+            "difficulty": "hard"
+          },
+          "text": "Select the synonym of OBDURATE:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Yielding"
+            },
+            {
+              "id": "B",
+              "text": "Stubborn"
+            },
+            {
+              "id": "C",
+              "text": "Dull"
+            },
+            {
+              "id": "D",
+              "text": "Ancient"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Obdurate means stubbornly refusing to change."
+        },
+        {
+          "id": "q29",
+          "type": "single",
+          "metadata": {
+            "topic": "Antonyms",
+            "difficulty": "hard"
+          },
+          "text": "Select the antonym of PROFLIGATE:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Wasteful"
+            },
+            {
+              "id": "B",
+              "text": "Immoral"
+            },
+            {
+              "id": "C",
+              "text": "Thrifty"
+            },
+            {
+              "id": "D",
+              "text": "Reckless"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Profligate (recklessly extravagant) is opposite to thrifty."
+        },
+        {
+          "id": "q30",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Inference)",
+            "difficulty": "hard"
+          },
+          "passage": "The Antarctic ice sheet holds enough frozen water to raise global sea levels by nearly sixty metres. For decades scientists believed it would respond only sluggishly to warming, but satellite records now show ice loss tripling since the 1990s. The greatest anxiety centres on West Antarctica, where glaciers rest on bedrock below sea level; warm ocean currents can melt them from beneath, a process that may become self-sustaining once begun. Even a partial collapse would redraw coastlines over centuries. Researchers stress that the timing remains uncertain, yet they agree that the choices made this century will decide the outcome.",
+          "text": "According to the passage, West Antarctica causes particular concern because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "It holds most of the continent's ice"
+            },
+            {
+              "id": "B",
+              "text": "Its glaciers sit on bedrock below sea level, exposed to warm currents from beneath"
+            },
+            {
+              "id": "C",
+              "text": "Satellites cannot monitor it properly"
+            },
+            {
+              "id": "D",
+              "text": "Its ice has already fully collapsed"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The grounding below sea level allows melting from below."
+        },
+        {
+          "id": "q31",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Fact Check)",
+            "difficulty": "hard"
+          },
+          "passage": "The Antarctic ice sheet holds enough frozen water to raise global sea levels by nearly sixty metres. For decades scientists believed it would respond only sluggishly to warming, but satellite records now show ice loss tripling since the 1990s. The greatest anxiety centres on West Antarctica, where glaciers rest on bedrock below sea level; warm ocean currents can melt them from beneath, a process that may become self-sustaining once begun. Even a partial collapse would redraw coastlines over centuries. Researchers stress that the timing remains uncertain, yet they agree that the choices made this century will decide the outcome.",
+          "text": "Which of the following is NOT stated in the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ice loss has tripled since the 1990s"
+            },
+            {
+              "id": "B",
+              "text": "The ice sheet could raise sea levels by about sixty metres"
+            },
+            {
+              "id": "C",
+              "text": "East Antarctica is melting the fastest"
+            },
+            {
+              "id": "D",
+              "text": "A partial collapse would redraw coastlines"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The passage never mentions East Antarctica."
+        },
+        {
+          "id": "q32",
+          "type": "paragraph",
+          "metadata": {
+            "topic": "Comprehension (Vocabulary)",
+            "difficulty": "medium"
+          },
+          "passage": "The Antarctic ice sheet holds enough frozen water to raise global sea levels by nearly sixty metres. For decades scientists believed it would respond only sluggishly to warming, but satellite records now show ice loss tripling since the 1990s. The greatest anxiety centres on West Antarctica, where glaciers rest on bedrock below sea level; warm ocean currents can melt them from beneath, a process that may become self-sustaining once begun. Even a partial collapse would redraw coastlines over centuries. Researchers stress that the timing remains uncertain, yet they agree that the choices made this century will decide the outcome.",
+          "text": "In the passage, 'self-sustaining' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Easily reversed"
+            },
+            {
+              "id": "B",
+              "text": "Continuing on its own once started"
+            },
+            {
+              "id": "C",
+              "text": "Dependent on further warming"
+            },
+            {
+              "id": "D",
+              "text": "Occurring only in summer"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The melting would feed itself once triggered."
+        }
+      ]
+    },
+    {
+      "id": "logical-numerical-reasoning",
+      "title": "Logical and Numerical Reasoning",
+      "questions": [
+        {
+          "id": "q33",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "difficulty": "medium"
+          },
+          "text": "Find the next term: 6, 13, 28, 59, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "118"
+            },
+            {
+              "id": "B",
+              "text": "120"
+            },
+            {
+              "id": "C",
+              "text": "122"
+            },
+            {
+              "id": "D",
+              "text": "126"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Pattern x2+1, x2+2, x2+3, then 59 x 2 + 4."
+        },
+        {
+          "id": "q34",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "difficulty": "medium"
+          },
+          "text": "Find the next term: 2, 9, 28, 65, 126, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "199"
+            },
+            {
+              "id": "B",
+              "text": "215"
+            },
+            {
+              "id": "C",
+              "text": "217"
+            },
+            {
+              "id": "D",
+              "text": "224"
+            }
+          ],
+          "answer": "C",
+          "explanation": "n^3 + 1: next is 6^3 + 1 = 217."
+        },
+        {
+          "id": "q35",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "difficulty": "hard"
+          },
+          "text": "Find the next term: 7, 8, 18, 57, 232, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "1160"
+            },
+            {
+              "id": "B",
+              "text": "1165"
+            },
+            {
+              "id": "C",
+              "text": "1185"
+            },
+            {
+              "id": "D",
+              "text": "1265"
+            }
+          ],
+          "answer": "B",
+          "explanation": "x1+1, x2+2, x3+3, x4+4, then 232 x 5 + 5."
+        },
+        {
+          "id": "q36",
+          "type": "single",
+          "metadata": {
+            "topic": "Letter Series",
+            "difficulty": "medium"
+          },
+          "text": "Find the next term: AZB, CYD, EXF, ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "GWH"
+            },
+            {
+              "id": "B",
+              "text": "GVH"
+            },
+            {
+              "id": "C",
+              "text": "HWI"
+            },
+            {
+              "id": "D",
+              "text": "GWI"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Outer letters run A,B,C,D... while the middle runs Z,Y,X,W."
+        },
+        {
+          "id": "q37",
+          "type": "single",
+          "metadata": {
+            "topic": "Mixed Series (Symbols)",
+            "difficulty": "hard"
+          },
+          "text": "In the arrangement 7 % A 9 # B C $ 2 @ 6 D * E, how many symbols are immediately preceded by a digit and immediately followed by a letter?",
+          "options": [
+            {
+              "id": "A",
+              "text": "One"
+            },
+            {
+              "id": "B",
+              "text": "Two"
+            },
+            {
+              "id": "C",
+              "text": "Three"
+            },
+            {
+              "id": "D",
+              "text": "Four"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Only % (7-%-A) and # (9-#-B) qualify."
+        },
+        {
+          "id": "q38",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Digit Map)",
+            "difficulty": "hard"
+          },
+          "text": "If CLOUD is coded as 59672 and RAIN as 8341, then AROUND is coded as:",
+          "options": [
+            {
+              "id": "A",
+              "text": "386712"
+            },
+            {
+              "id": "B",
+              "text": "368712"
+            },
+            {
+              "id": "C",
+              "text": "386721"
+            },
+            {
+              "id": "D",
+              "text": "387612"
+            }
+          ],
+          "answer": "A",
+          "explanation": "A=3, R=8, O=6, U=7, N=1, D=2."
+        },
+        {
+          "id": "q39",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Shift)",
+            "difficulty": "medium"
+          },
+          "text": "If PAPER is coded as SDSHU, how is PENCIL coded?",
+          "options": [
+            {
+              "id": "A",
+              "text": "SHQFLO"
+            },
+            {
+              "id": "B",
+              "text": "SHQGLO"
+            },
+            {
+              "id": "C",
+              "text": "SGQFLO"
+            },
+            {
+              "id": "D",
+              "text": "SHRFLO"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Every letter moves 3 places forward."
+        },
+        {
+          "id": "q40",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding (Substitution)",
+            "difficulty": "hard"
+          },
+          "text": "In a code language, 'morning walk is good' = 'na pa ta la', 'walk keeps body fit' = 'ja pa da ra' and 'good for body' = 'la ra sa'. What is the code for 'morning'?",
+          "options": [
+            {
+              "id": "A",
+              "text": "na"
+            },
+            {
+              "id": "B",
+              "text": "ta"
+            },
+            {
+              "id": "C",
+              "text": "la"
+            },
+            {
+              "id": "D",
+              "text": "Either 'na' or 'ta'"
+            }
+          ],
+          "answer": "D",
+          "explanation": "walk = pa and good = la; 'morning' and 'is' cannot be separated."
+        },
+        {
+          "id": "q41",
+          "type": "single",
+          "metadata": {
+            "topic": "Linear Seating (Multi-constraint)",
+            "difficulty": "hard"
+          },
+          "text": "Seven friends J, K, L, M, N, O, P sit in a row facing north. J is at the extreme left and K is fourth to the right of J. M sits exactly midway between J and K. N is immediately to the right of K. L is at the extreme right. O is immediately to the left of M. Who sits fourth from the right end?",
+          "options": [
+            {
+              "id": "A",
+              "text": "P"
+            },
+            {
+              "id": "B",
+              "text": "N"
+            },
+            {
+              "id": "C",
+              "text": "M"
+            },
+            {
+              "id": "D",
+              "text": "K"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Order is J, O, M, P, K, N, L; fourth from the right is P."
+        },
+        {
+          "id": "q42",
+          "type": "single",
+          "metadata": {
+            "topic": "Circular Seating",
+            "difficulty": "medium"
+          },
+          "text": "Six friends P, Q, R, S, T, U sit around a circular table. P sits between Q and R, U sits between R and T, and S sits between T and Q. Who sits directly opposite P?",
+          "options": [
+            {
+              "id": "A",
+              "text": "S"
+            },
+            {
+              "id": "B",
+              "text": "T"
+            },
+            {
+              "id": "C",
+              "text": "U"
+            },
+            {
+              "id": "D",
+              "text": "Q"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Circle order Q, P, R, U, T, S puts T opposite P."
+        },
+        {
+          "id": "q43",
+          "type": "single",
+          "metadata": {
+            "topic": "Ranking (Interchange)",
+            "difficulty": "hard"
+          },
+          "text": "In a row, Ajay is 17th from the left and Vijay is 19th from the right. After they interchange positions, Ajay becomes 25th from the left. What is Vijay's new position from the right?",
+          "options": [
+            {
+              "id": "A",
+              "text": "25th"
+            },
+            {
+              "id": "B",
+              "text": "26th"
+            },
+            {
+              "id": "C",
+              "text": "27th"
+            },
+            {
+              "id": "D",
+              "text": "29th"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Total = 25 + 19 - 1 = 43; Vijay is now 17th from left = 27th from right."
+        },
+        {
+          "id": "q44",
+          "type": "single",
+          "metadata": {
+            "topic": "Calendar",
+            "difficulty": "hard"
+          },
+          "text": "What day of the week was 26 January 1950, the day the Indian Constitution came into force?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tuesday"
+            },
+            {
+              "id": "B",
+              "text": "Wednesday"
+            },
+            {
+              "id": "C",
+              "text": "Thursday"
+            },
+            {
+              "id": "D",
+              "text": "Friday"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Republic Day 1950 fell on a Thursday."
+        },
+        {
+          "id": "q45",
+          "type": "single",
+          "metadata": {
+            "topic": "Blood Relations",
+            "difficulty": "hard"
+          },
+          "text": "A man said to a woman, 'Your mother's husband's sister is my aunt.' How is the woman related to the man?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cousin"
+            },
+            {
+              "id": "B",
+              "text": "Sister"
+            },
+            {
+              "id": "C",
+              "text": "Niece"
+            },
+            {
+              "id": "D",
+              "text": "Mother"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Her father's sister is his aunt too, so they share a father."
+        },
+        {
+          "id": "q46",
+          "type": "single",
+          "metadata": {
+            "topic": "Coded Blood Relations",
+            "difficulty": "hard"
+          },
+          "text": "P x Q means P is the mother of Q; P / Q means P is the husband of Q; P + Q means P is the brother of Q. In A / B x C + D, how is A related to D?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Brother"
+            },
+            {
+              "id": "B",
+              "text": "Uncle"
+            },
+            {
+              "id": "C",
+              "text": "Father"
+            },
+            {
+              "id": "D",
+              "text": "Grandfather"
+            }
+          ],
+          "answer": "C",
+          "explanation": "B is mother of C and D; A, her husband, is D's father."
+        },
+        {
+          "id": "q47",
+          "type": "single",
+          "metadata": {
+            "topic": "Direction Sense (Multi-leg)",
+            "difficulty": "medium"
+          },
+          "text": "Ravi walks 3 km north, turns right and walks 4 km, turns right again and walks 3 km, then turns left and walks 2 km. How far and in which direction is he from the start?",
+          "options": [
+            {
+              "id": "A",
+              "text": "6 km east"
+            },
+            {
+              "id": "B",
+              "text": "6 km west"
+            },
+            {
+              "id": "C",
+              "text": "4 km east"
+            },
+            {
+              "id": "D",
+              "text": "2 km south"
+            }
+          ],
+          "answer": "A",
+          "explanation": "North legs cancel; east legs total 4 + 2 = 6 km."
+        },
+        {
+          "id": "q48",
+          "type": "single",
+          "metadata": {
+            "topic": "Numerical Operations (Hidden Rule)",
+            "difficulty": "hard"
+          },
+          "text": "If 3 * 4 = 25 and 5 * 6 = 61, then 7 * 8 = ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "105"
+            },
+            {
+              "id": "B",
+              "text": "113"
+            },
+            {
+              "id": "C",
+              "text": "97"
+            },
+            {
+              "id": "D",
+              "text": "121"
+            }
+          ],
+          "answer": "B",
+          "explanation": "a*b = a^2 + b^2; 49 + 64 = 113."
+        },
+        {
+          "id": "q49",
+          "type": "single",
+          "metadata": {
+            "topic": "Mathematical Signs",
+            "difficulty": "hard"
+          },
+          "text": "If 'x' means '/', '/' means '-', '-' means '+' and '+' means 'x', then 16 x 4 / 2 - 8 + 3 = ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "22"
+            },
+            {
+              "id": "B",
+              "text": "24"
+            },
+            {
+              "id": "C",
+              "text": "26"
+            },
+            {
+              "id": "D",
+              "text": "30"
+            }
+          ],
+          "answer": "C",
+          "explanation": "16 / 4 - 2 + 8 x 3 = 4 - 2 + 24 = 26."
+        },
+        {
+          "id": "q50",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Analogy",
+            "difficulty": "hard"
+          },
+          "text": "11 : 143 :: 13 : ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "169"
+            },
+            {
+              "id": "B",
+              "text": "182"
+            },
+            {
+              "id": "C",
+              "text": "195"
+            },
+            {
+              "id": "D",
+              "text": "205"
+            }
+          ],
+          "answer": "C",
+          "explanation": "n x (n + 2): 11 x 13 = 143, so 13 x 15 = 195."
+        },
+        {
+          "id": "q51",
+          "type": "single",
+          "metadata": {
+            "topic": "Classification (Odd One Out)",
+            "difficulty": "hard"
+          },
+          "text": "Find the odd one out: 121, 169, 225, 289, 324",
+          "options": [
+            {
+              "id": "A",
+              "text": "169"
+            },
+            {
+              "id": "B",
+              "text": "225"
+            },
+            {
+              "id": "C",
+              "text": "289"
+            },
+            {
+              "id": "D",
+              "text": "324"
+            }
+          ],
+          "answer": "D",
+          "explanation": "All others are squares of odd numbers; 324 = 18^2."
+        },
+        {
+          "id": "q52",
+          "type": "single",
+          "metadata": {
+            "topic": "Syllogism",
+            "difficulty": "hard"
+          },
+          "text": "Statements: Some files are folders. No folder is a drawer. Conclusions: I. Some files are not drawers. II. No file is a drawer.",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only I follows"
+            },
+            {
+              "id": "B",
+              "text": "Only II follows"
+            },
+            {
+              "id": "C",
+              "text": "Both follow"
+            },
+            {
+              "id": "D",
+              "text": "Neither follows"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Files that are folders cannot be drawers; II is too strong."
+        },
+        {
+          "id": "q53",
+          "type": "figure",
+          "metadata": {
+            "topic": "Figural Series",
+            "difficulty": "hard"
+          },
+          "text": "Select the figure that continues the series, in which elements rotate and one element is replaced at each step.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Figural Series",
+            "description": "Four figures where shapes rotate 90 degrees clockwise and the innermost element changes alternately; the fifth figure must be chosen."
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          },
+          "explanation": "Unscored placeholder for a visual series question."
+        },
+        {
+          "id": "q54",
+          "type": "figure",
+          "metadata": {
+            "topic": "Mirror Image",
+            "difficulty": "medium"
+          },
+          "text": "Select the correct mirror image of the given alphanumeric cluster when the mirror is placed to the right.",
+          "options": [],
+          "answer": null,
+          "figure": {
+            "label": "Mirror Image",
+            "description": "A mixed cluster of letters and digits whose right-side mirror image must be identified from four closely similar options."
+          },
+          "scoring": {
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 0,
+            "partial": false
+          },
+          "explanation": "Unscored placeholder for a visual mirror-image question."
+        }
+      ]
+    },
+    {
+      "id": "general-awareness",
+      "title": "General Awareness",
+      "questions": [
+        {
+          "id": "q55",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Sports)",
+            "difficulty": "hard"
+          },
+          "text": "Which country topped the medal tally at the Paris 2024 Olympics after a tie of 40 golds was broken on total medals?",
+          "options": [
+            {
+              "id": "A",
+              "text": "China"
+            },
+            {
+              "id": "B",
+              "text": "United States"
+            },
+            {
+              "id": "C",
+              "text": "Japan"
+            },
+            {
+              "id": "D",
+              "text": "Great Britain"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The USA and China had 40 golds each; the USA had more total medals."
+        },
+        {
+          "id": "q56",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Awards)",
+            "difficulty": "hard"
+          },
+          "text": "The Nobel Prize in Chemistry 2024 (Baker, Hassabis, Jumper) recognised work on:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lithium-ion batteries"
+            },
+            {
+              "id": "B",
+              "text": "Protein structure prediction and computational protein design"
+            },
+            {
+              "id": "C",
+              "text": "Click chemistry"
+            },
+            {
+              "id": "D",
+              "text": "Quantum dots"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It honoured AlphaFold and computational protein design."
+        },
+        {
+          "id": "q57",
+          "type": "single",
+          "metadata": {
+            "topic": "Scientific Research (Space)",
+            "difficulty": "hard"
+          },
+          "text": "ISRO's SpaDeX docking mission was launched in December 2024 aboard which rocket?",
+          "options": [
+            {
+              "id": "A",
+              "text": "GSLV Mk III"
+            },
+            {
+              "id": "B",
+              "text": "PSLV-C60"
+            },
+            {
+              "id": "C",
+              "text": "SSLV-D3"
+            },
+            {
+              "id": "D",
+              "text": "LVM3-M4"
+            }
+          ],
+          "answer": "B",
+          "explanation": "PSLV-C60 carried the two SpaDeX satellites."
+        },
+        {
+          "id": "q58",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene (Budget)",
+            "difficulty": "hard"
+          },
+          "text": "In the Union Budget 2025-26, income up to what annual amount became effectively tax-free under the new regime (with rebate)?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rs 7 lakh"
+            },
+            {
+              "id": "B",
+              "text": "Rs 10 lakh"
+            },
+            {
+              "id": "C",
+              "text": "Rs 12 lakh"
+            },
+            {
+              "id": "D",
+              "text": "Rs 15 lakh"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The rebate threshold was raised to Rs 12 lakh."
+        },
+        {
+          "id": "q59",
+          "type": "single",
+          "metadata": {
+            "topic": "History (Freedom Struggle)",
+            "difficulty": "hard"
+          },
+          "text": "Who presided over the Lahore Session of the Indian National Congress (1929) that adopted the Purna Swaraj resolution?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mahatma Gandhi"
+            },
+            {
+              "id": "B",
+              "text": "Jawaharlal Nehru"
+            },
+            {
+              "id": "C",
+              "text": "Subhas Chandra Bose"
+            },
+            {
+              "id": "D",
+              "text": "Vallabhbhai Patel"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Jawaharlal Nehru presided at Lahore in December 1929."
+        },
+        {
+          "id": "q60",
+          "type": "single",
+          "metadata": {
+            "topic": "History (Colonial Legislation)",
+            "difficulty": "hard"
+          },
+          "text": "The Vernacular Press Act (1878), which curbed Indian-language newspapers, was enacted under:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lord Ripon"
+            },
+            {
+              "id": "B",
+              "text": "Lord Curzon"
+            },
+            {
+              "id": "C",
+              "text": "Lord Lytton"
+            },
+            {
+              "id": "D",
+              "text": "Lord Dufferin"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Lytton passed it; Ripon later repealed it."
+        },
+        {
+          "id": "q61",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography (Dams & Rivers)",
+            "difficulty": "hard"
+          },
+          "text": "The Mullaperiyar Dam, subject of a long dispute between Tamil Nadu and Kerala, stands on which river?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Periyar"
+            },
+            {
+              "id": "B",
+              "text": "Vaigai"
+            },
+            {
+              "id": "C",
+              "text": "Bharathappuzha"
+            },
+            {
+              "id": "D",
+              "text": "Pamba"
+            }
+          ],
+          "answer": "A",
+          "explanation": "It is built on the Periyar river in Kerala."
+        },
+        {
+          "id": "q62",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography (Current Hook)",
+            "difficulty": "hard"
+          },
+          "text": "The Ratle hydroelectric project, often in the news amid Indus Waters Treaty tensions, is being built on which river?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Jhelum"
+            },
+            {
+              "id": "B",
+              "text": "Chenab"
+            },
+            {
+              "id": "C",
+              "text": "Ravi"
+            },
+            {
+              "id": "D",
+              "text": "Indus"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Ratle is on the Chenab in Jammu and Kashmir."
+        },
+        {
+          "id": "q63",
+          "type": "single",
+          "metadata": {
+            "topic": "Culture (Languages)",
+            "difficulty": "hard"
+          },
+          "text": "In October 2024, how many additional languages were granted classical language status by the Union Cabinet?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Three"
+            },
+            {
+              "id": "B",
+              "text": "Four"
+            },
+            {
+              "id": "C",
+              "text": "Five"
+            },
+            {
+              "id": "D",
+              "text": "Six"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Marathi, Pali, Prakrit, Assamese and Bengali were added."
+        },
+        {
+          "id": "q64",
+          "type": "single",
+          "metadata": {
+            "topic": "Indian Constitution",
+            "difficulty": "hard"
+          },
+          "text": "The Uniform Civil Code is mentioned in which Article of the Constitution, under the Directive Principles?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Article 40"
+            },
+            {
+              "id": "B",
+              "text": "Article 44"
+            },
+            {
+              "id": "C",
+              "text": "Article 48"
+            },
+            {
+              "id": "D",
+              "text": "Article 51"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Article 44 directs the State to secure a UCC."
+        },
+        {
+          "id": "q65",
+          "type": "single",
+          "metadata": {
+            "topic": "Books & Authors",
+            "difficulty": "hard"
+          },
+          "text": "'The Golden Road: How Ancient India Transformed the World' (2024) is authored by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "William Dalrymple"
+            },
+            {
+              "id": "B",
+              "text": "Ramachandra Guha"
+            },
+            {
+              "id": "C",
+              "text": "Sanjeev Sanyal"
+            },
+            {
+              "id": "D",
+              "text": "Romila Thapar"
+            }
+          ],
+          "answer": "A",
+          "explanation": "Dalrymple's 2024 book traces India's ancient influence."
+        },
+        {
+          "id": "q66",
+          "type": "single",
+          "metadata": {
+            "topic": "Neighbouring Countries (Current)",
+            "difficulty": "hard"
+          },
+          "text": "Anura Kumara Dissanayake was elected President in September 2024 in which neighbouring country?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Maldives"
+            },
+            {
+              "id": "B",
+              "text": "Sri Lanka"
+            },
+            {
+              "id": "C",
+              "text": "Nepal"
+            },
+            {
+              "id": "D",
+              "text": "Bangladesh"
+            }
+          ],
+          "answer": "B",
+          "explanation": "He won Sri Lanka's presidential election."
+        },
+        {
+          "id": "q67",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Events (Sports Awards)",
+            "difficulty": "medium"
+          },
+          "text": "Khel Ratna 2024 awardee Harmanpreet Singh captains India in which sport?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hockey"
+            },
+            {
+              "id": "B",
+              "text": "Kabaddi"
+            },
+            {
+              "id": "C",
+              "text": "Football"
+            },
+            {
+              "id": "D",
+              "text": "Boxing"
+            }
+          ],
+          "answer": "A",
+          "explanation": "He led the hockey team to Olympic bronze in Paris."
+        },
+        {
+          "id": "q68",
+          "type": "single",
+          "metadata": {
+            "topic": "Economic Scene (Banking Tech)",
+            "difficulty": "hard"
+          },
+          "text": "The Unified Lending Interface (ULI), piloted from 2024 as a 'UPI for credit', is an initiative of:",
+          "options": [
+            {
+              "id": "A",
+              "text": "SEBI"
+            },
+            {
+              "id": "B",
+              "text": "NITI Aayog"
+            },
+            {
+              "id": "C",
+              "text": "Reserve Bank of India"
+            },
+            {
+              "id": "D",
+              "text": "Ministry of Finance"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The RBI is building ULI for frictionless credit."
+        },
+        {
+          "id": "q69",
+          "type": "single",
+          "metadata": {
+            "topic": "Scientific Research (Space)",
+            "difficulty": "hard"
+          },
+          "text": "The interplanetary mission approved by the Union Cabinet in 2024 for launch later this decade will orbit which planet?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mars"
+            },
+            {
+              "id": "B",
+              "text": "Venus"
+            },
+            {
+              "id": "C",
+              "text": "Jupiter"
+            },
+            {
+              "id": "D",
+              "text": "Mercury"
+            }
+          ],
+          "answer": "B",
+          "explanation": "The Venus Orbiter Mission (Shukrayaan) was approved."
+        },
+        {
+          "id": "q70",
+          "type": "single",
+          "metadata": {
+            "topic": "General Policy (Education & Research)",
+            "difficulty": "hard"
+          },
+          "text": "The 'One Nation One Subscription' scheme approved in November 2024 provides nationwide access to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "OTT streaming platforms"
+            },
+            {
+              "id": "B",
+              "text": "International research journals"
+            },
+            {
+              "id": "C",
+              "text": "Newspapers in regional languages"
+            },
+            {
+              "id": "D",
+              "text": "Coaching materials for exams"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It gives institutions access to scholarly journals."
+        }
+      ]
+    },
+    {
+      "id": "computer-applications",
+      "title": "Knowledge in Computer Applications",
+      "questions": [
+        {
+          "id": "q71",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Excel (Nested Formula)",
+            "difficulty": "hard"
+          },
+          "text": "In Excel, A1 = 5, A2 = 8, A3 = 9. What does =IF(SUM(A1:A3)>20, MAX(A1:A3), MIN(A1:A3)) return?",
+          "options": [
+            {
+              "id": "A",
+              "text": "5"
+            },
+            {
+              "id": "B",
+              "text": "9"
+            },
+            {
+              "id": "C",
+              "text": "22"
+            },
+            {
+              "id": "D",
+              "text": "8"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Sum is 22 (>20), so MAX = 9 is returned."
+        },
+        {
+          "id": "q72",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Excel (VLOOKUP)",
+            "difficulty": "hard"
+          },
+          "text": "In VLOOKUP, setting the fourth argument (range_lookup) to FALSE forces:",
+          "options": [
+            {
+              "id": "A",
+              "text": "An approximate match"
+            },
+            {
+              "id": "B",
+              "text": "An exact match"
+            },
+            {
+              "id": "C",
+              "text": "A case-sensitive match"
+            },
+            {
+              "id": "D",
+              "text": "A search in the last column"
+            }
+          ],
+          "answer": "B",
+          "explanation": "FALSE (or 0) demands an exact match."
+        },
+        {
+          "id": "q73",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Word (Shortcuts)",
+            "difficulty": "hard"
+          },
+          "text": "In MS Word, Ctrl + Shift + C copies:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The selected text"
+            },
+            {
+              "id": "B",
+              "text": "The formatting of the selected text"
+            },
+            {
+              "id": "C",
+              "text": "The whole page"
+            },
+            {
+              "id": "D",
+              "text": "A screenshot"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It copies formatting, applied later with Ctrl + Shift + V."
+        },
+        {
+          "id": "q74",
+          "type": "single",
+          "metadata": {
+            "topic": "Operating System (Shortcuts)",
+            "difficulty": "medium"
+          },
+          "text": "In Windows, the shortcut Windows key + Shift + S is used to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Shut down the PC"
+            },
+            {
+              "id": "B",
+              "text": "Capture a screen snip"
+            },
+            {
+              "id": "C",
+              "text": "Open Settings"
+            },
+            {
+              "id": "D",
+              "text": "Switch users"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It opens the Snipping tool overlay."
+        },
+        {
+          "id": "q75",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Organisation (Memory Hierarchy)",
+            "difficulty": "medium"
+          },
+          "text": "Which of the following memories is the fastest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cache"
+            },
+            {
+              "id": "B",
+              "text": "RAM"
+            },
+            {
+              "id": "C",
+              "text": "CPU registers"
+            },
+            {
+              "id": "D",
+              "text": "SSD"
+            }
+          ],
+          "answer": "C",
+          "explanation": "Registers inside the CPU are the fastest storage."
+        },
+        {
+          "id": "q76",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Organisation (SRAM/DRAM)",
+            "difficulty": "hard"
+          },
+          "text": "Cache memory is generally built from:",
+          "options": [
+            {
+              "id": "A",
+              "text": "DRAM"
+            },
+            {
+              "id": "B",
+              "text": "SRAM"
+            },
+            {
+              "id": "C",
+              "text": "EEPROM"
+            },
+            {
+              "id": "D",
+              "text": "Flash memory"
+            }
+          ],
+          "answer": "B",
+          "explanation": "Static RAM is faster and used for cache."
+        },
+        {
+          "id": "q77",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Software (Classification)",
+            "difficulty": "medium"
+          },
+          "text": "Which of the following is NOT utility software?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Disk Cleanup"
+            },
+            {
+              "id": "B",
+              "text": "Disk Defragmenter"
+            },
+            {
+              "id": "C",
+              "text": "Backup tool"
+            },
+            {
+              "id": "D",
+              "text": "Database Management System"
+            }
+          ],
+          "answer": "D",
+          "explanation": "A DBMS is application/system software, not a utility."
+        },
+        {
+          "id": "q78",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Software (Translators)",
+            "difficulty": "hard"
+          },
+          "text": "The program that combines separately compiled object modules into a single executable is the:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Compiler"
+            },
+            {
+              "id": "B",
+              "text": "Loader"
+            },
+            {
+              "id": "C",
+              "text": "Linker"
+            },
+            {
+              "id": "D",
+              "text": "Interpreter"
+            }
+          ],
+          "answer": "C",
+          "explanation": "The linker joins object files into one executable."
+        },
+        {
+          "id": "q79",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Software (Assembler)",
+            "difficulty": "medium"
+          },
+          "text": "Assembly language programs are translated into machine code by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A compiler"
+            },
+            {
+              "id": "B",
+              "text": "An assembler"
+            },
+            {
+              "id": "C",
+              "text": "An interpreter"
+            },
+            {
+              "id": "D",
+              "text": "A debugger"
+            }
+          ],
+          "answer": "B",
+          "explanation": "An assembler handles assembly-to-machine translation."
+        },
+        {
+          "id": "q80",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Architecture",
+            "difficulty": "hard"
+          },
+          "text": "The Von Neumann architecture is characterised by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Separate memories for data and instructions"
+            },
+            {
+              "id": "B",
+              "text": "Storing data and instructions in the same memory"
+            },
+            {
+              "id": "C",
+              "text": "The absence of any stored program"
+            },
+            {
+              "id": "D",
+              "text": "Purely optical processing"
+            }
+          ],
+          "answer": "B",
+          "explanation": "It uses a single memory for program and data."
+        }
+      ]
+    }
+  ]
+}
