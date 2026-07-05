@@ -1,0 +1,2617 @@
+{
+  "id": "iisc-aa-platinum",
+  "title": "IISc Administrative Assistant - Platinum Guess Paper",
+  "durationMinutes": 150,
+  "instructions": [
+    "This is a Platinum quality guess paper modelled strictly after the 2023 official paper.",
+    "Total questions: 80.",
+    "Each question carries equal marks."
+  ],
+  "sections": [
+    {
+      "id": "quantitative-ability",
+      "title": "Quantitative Ability",
+      "metadata": {
+        "section": "Quantitative Ability"
+      },
+      "questions": [
+        {
+          "id": "q-quant-1",
+          "displayNumber": "1",
+          "type": "single",
+          "metadata": {
+            "topic": "Linear Equations",
+            "subtopic": "Intersection of lines",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "The intersection point of the lines 3x - 2y = 12 and 5x + y = 33 lies on which of the following lines?",
+          "options": [
+            {
+              "id": "1",
+              "text": "2x + 3y = 21"
+            },
+            {
+              "id": "2",
+              "text": "4x - y = 20"
+            },
+            {
+              "id": "3",
+              "text": "x + 4y = 16"
+            },
+            {
+              "id": "4",
+              "text": "3x - 4y = 8"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-2",
+          "displayNumber": "2",
+          "type": "single",
+          "metadata": {
+            "topic": "Mensuration",
+            "subtopic": "Triangles and Circles",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "A circular track passes through all three vertices of a triangular field with side lengths 52 m, 56 m, and 60 m. What is the radius of the circular track?",
+          "options": [
+            {
+              "id": "1",
+              "text": "31.5 m"
+            },
+            {
+              "id": "2",
+              "text": "32.5 m"
+            },
+            {
+              "id": "3",
+              "text": "33.5 m"
+            },
+            {
+              "id": "4",
+              "text": "34.5 m"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-3",
+          "displayNumber": "3",
+          "type": "single",
+          "metadata": {
+            "topic": "Profit & Loss",
+            "subtopic": "Marked Price",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "By selling an article at 75% of its marked price, a trader makes a loss of 10%. If he sells it at 90% of its marked price, what will be his profit or loss percentage?",
+          "options": [
+            {
+              "id": "1",
+              "text": "8% profit"
+            },
+            {
+              "id": "2",
+              "text": "10% profit"
+            },
+            {
+              "id": "3",
+              "text": "8% loss"
+            },
+            {
+              "id": "4",
+              "text": "10% loss"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-4",
+          "displayNumber": "4",
+          "type": "single",
+          "metadata": {
+            "topic": "Percentage",
+            "subtopic": "Income & Expenditure",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Ravi spends 60% of his monthly income on household items and 25% of the remaining on transport. If his income is increased by 20% and his household expenditure is increased by 10%, but his transport expenditure remains the same, what is the percentage change in his savings?",
+          "options": [
+            {
+              "id": "1",
+              "text": "46.67% increase"
+            },
+            {
+              "id": "2",
+              "text": "43.33% increase"
+            },
+            {
+              "id": "3",
+              "text": "46.67% decrease"
+            },
+            {
+              "id": "4",
+              "text": "43.33% decrease"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-5",
+          "displayNumber": "5",
+          "type": "single",
+          "metadata": {
+            "topic": "Time & Work",
+            "subtopic": "Efficiency Chains",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "A and B together can do a piece of work in 12 days. B's efficiency is 25% less than C's efficiency. A, B, and C together can do the same work in 8 days. In how many days can A alone complete 2/3 of the work?",
+          "options": [
+            {
+              "id": "1",
+              "text": "12.8 days"
+            },
+            {
+              "id": "2",
+              "text": "15.2 days"
+            },
+            {
+              "id": "3",
+              "text": "14.4 days"
+            },
+            {
+              "id": "4",
+              "text": "10.6 days"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-6",
+          "displayNumber": "6",
+          "type": "single",
+          "metadata": {
+            "topic": "Number System",
+            "subtopic": "GCD and Remainders",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Let x be the greatest number which when divides 415, 627, and 945 leaves the same remainder in each case. What is the sum of the digits of x?",
+          "options": [
+            {
+              "id": "1",
+              "text": "7"
+            },
+            {
+              "id": "2",
+              "text": "8"
+            },
+            {
+              "id": "3",
+              "text": "9"
+            },
+            {
+              "id": "4",
+              "text": "10"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-7",
+          "displayNumber": "7",
+          "type": "single",
+          "metadata": {
+            "topic": "Simple Interest",
+            "subtopic": "Amounts over time",
+            "difficulty": "easy",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "A sum of money invested at simple interest amounts to Rs. 8,400 in 3 years and to Rs. 9,600 in 5 years. What is the principal sum?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Rs. 6000"
+            },
+            {
+              "id": "2",
+              "text": "Rs. 6600"
+            },
+            {
+              "id": "3",
+              "text": "Rs. 7000"
+            },
+            {
+              "id": "4",
+              "text": "Rs. 7200"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-8",
+          "displayNumber": "8",
+          "type": "single",
+          "metadata": {
+            "topic": "Ages",
+            "subtopic": "Ratios over time",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Five years ago, the ratio of the ages of A and B was 4:5. Eight years from now, the ratio of their ages will be 17:20. What is the ratio of A's present age to B's age 4 years ago?",
+          "options": [
+            {
+              "id": "1",
+              "text": "19:22"
+            },
+            {
+              "id": "2",
+              "text": "17:21"
+            },
+            {
+              "id": "3",
+              "text": "20:23"
+            },
+            {
+              "id": "4",
+              "text": "19:24"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-9",
+          "displayNumber": "9",
+          "type": "single",
+          "metadata": {
+            "topic": "Simplification",
+            "subtopic": "Fractions and BODMAS",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Evaluate: 3 1/4 \u00f7 [ 2 1/2 of ( 4 1/3 - 1 5/6 ) ] + 3/5",
+          "options": [
+            {
+              "id": "1",
+              "text": "1 3/25"
+            },
+            {
+              "id": "2",
+              "text": "1 1/25"
+            },
+            {
+              "id": "3",
+              "text": "2 3/25"
+            },
+            {
+              "id": "4",
+              "text": "28/15"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-10",
+          "displayNumber": "10",
+          "type": "single",
+          "metadata": {
+            "topic": "Percentage",
+            "subtopic": "Weighted average",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "The price of a laptop is 120% more than the price of a tablet. If the price of the laptop is increased by 15% and the price of the tablet is decreased by 10%, what is the percentage increase in the total cost of buying 2 laptops and 3 tablets?",
+          "options": [
+            {
+              "id": "1",
+              "text": "180/37 %"
+            },
+            {
+              "id": "2",
+              "text": "190/37 %"
+            },
+            {
+              "id": "3",
+              "text": "160/37 %"
+            },
+            {
+              "id": "4",
+              "text": "175/37 %"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-11",
+          "displayNumber": "11",
+          "type": "single",
+          "metadata": {
+            "topic": "Pipes & Cisterns",
+            "subtopic": "Alternative workings",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Pipe A can fill a tank in 18 hours and Pipe B in 24 hours. Pipe C can empty the full tank in 36 hours. If all three pipes are opened together for 4 hours, and then Pipe A is closed, how many more hours will it take to fill the remaining tank?",
+          "options": [
+            {
+              "id": "1",
+              "text": "52 hours"
+            },
+            {
+              "id": "2",
+              "text": "48 hours"
+            },
+            {
+              "id": "3",
+              "text": "54 hours"
+            },
+            {
+              "id": "4",
+              "text": "56 hours"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-12",
+          "displayNumber": "12",
+          "type": "single",
+          "metadata": {
+            "topic": "Mensuration",
+            "subtopic": "Volume and Flow Rates",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "A bucket is in the shape of a frustum of a cone with radii of its circular ends being 28 cm and 21 cm, and its depth is 30 cm. Water flows into the bucket through a cylindrical pipe of radius 1.4 cm at a speed of 50 cm/sec. How many seconds will it take to fill the empty bucket completely? (Take pi = 22/7)",
+          "options": [
+            {
+              "id": "1",
+              "text": "185 seconds"
+            },
+            {
+              "id": "2",
+              "text": "175 seconds"
+            },
+            {
+              "id": "3",
+              "text": "195 seconds"
+            },
+            {
+              "id": "4",
+              "text": "205 seconds"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-13",
+          "displayNumber": "13",
+          "type": "single",
+          "metadata": {
+            "topic": "Profit & Loss",
+            "subtopic": "Discounts",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "A retailer marks up his goods by 40% above the cost price and allows a discount of 15%. If he earns a profit of Rs. 475, what is the marked price of the goods?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Rs. 3500"
+            },
+            {
+              "id": "2",
+              "text": "Rs. 2500"
+            },
+            {
+              "id": "3",
+              "text": "Rs. 4200"
+            },
+            {
+              "id": "4",
+              "text": "Rs. 3800"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-14",
+          "displayNumber": "14",
+          "type": "single",
+          "metadata": {
+            "topic": "Partnership",
+            "subtopic": "Changing Capital",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "A, B, and C started a business with initial investments in the ratio 3:4:5. After 4 months, A doubled his investment, and after another 4 months, B halved his investment. If the total annual profit is Rs. 14,800, what is C's share?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Rs. 5550"
+            },
+            {
+              "id": "2",
+              "text": "Rs. 5450"
+            },
+            {
+              "id": "3",
+              "text": "Rs. 4850"
+            },
+            {
+              "id": "4",
+              "text": "Rs. 3700"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-15",
+          "displayNumber": "15",
+          "type": "single",
+          "metadata": {
+            "topic": "Boats & Streams",
+            "subtopic": "Ratio of times",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "The time taken by a boat to travel a certain distance upstream is 7/4 times the time taken to travel the same distance downstream. If the speed of the current is 3 km/hr, what is the speed of the boat in still water?",
+          "options": [
+            {
+              "id": "1",
+              "text": "11 km/hr"
+            },
+            {
+              "id": "2",
+              "text": "12 km/hr"
+            },
+            {
+              "id": "3",
+              "text": "10 km/hr"
+            },
+            {
+              "id": "4",
+              "text": "14 km/hr"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-quant-16",
+          "displayNumber": "16",
+          "type": "single",
+          "metadata": {
+            "topic": "Mixtures & Alligations",
+            "subtopic": "Ratios",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Alloy A contains copper and zinc in the ratio 5:3. Alloy B contains copper and zinc in the ratio 3:4. In what ratio should Alloys A and B be mixed to get a new alloy containing equal amounts of copper and zinc?",
+          "options": [
+            {
+              "id": "1",
+              "text": "4:7"
+            },
+            {
+              "id": "2",
+              "text": "5:8"
+            },
+            {
+              "id": "3",
+              "text": "3:5"
+            },
+            {
+              "id": "4",
+              "text": "7:9"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "verbal-ability",
+      "title": "Verbal Ability",
+      "metadata": {
+        "section": "Verbal Ability"
+      },
+      "questions": [
+        {
+          "id": "q-verb-17",
+          "displayNumber": "17",
+          "type": "single",
+          "metadata": {
+            "topic": "Vocabulary",
+            "subtopic": "Idioms",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the most appropriate meaning of the given idiom:\n\"To tilt at windmills\"",
+          "options": [
+            {
+              "id": "1",
+              "text": "To attack imaginary enemies"
+            },
+            {
+              "id": "2",
+              "text": "To build innovative structures"
+            },
+            {
+              "id": "3",
+              "text": "To waste time on trivial matters"
+            },
+            {
+              "id": "4",
+              "text": "To challenge the authority directly"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-18",
+          "displayNumber": "18",
+          "type": "single",
+          "metadata": {
+            "topic": "Grammar",
+            "subtopic": "Sentence Improvement",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the option that will improve the underlined part of the sentence.\nNo sooner had she finished the speech [then the audience gave] a standing ovation.",
+          "options": [
+            {
+              "id": "1",
+              "text": "than the audience gave"
+            },
+            {
+              "id": "2",
+              "text": "when the audience gave"
+            },
+            {
+              "id": "3",
+              "text": "then the audience given"
+            },
+            {
+              "id": "4",
+              "text": "No improvement"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-19",
+          "displayNumber": "19",
+          "type": "single",
+          "metadata": {
+            "topic": "Vocabulary",
+            "subtopic": "One word substitution",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the word which means the same as the group of words given.\nA person who collects or has a great love of books",
+          "options": [
+            {
+              "id": "1",
+              "text": "Bibliophile"
+            },
+            {
+              "id": "2",
+              "text": "Philatelist"
+            },
+            {
+              "id": "3",
+              "text": "Numismatist"
+            },
+            {
+              "id": "4",
+              "text": "Lexicographer"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-20",
+          "displayNumber": "20",
+          "type": "single",
+          "metadata": {
+            "topic": "Para Jumbles",
+            "subtopic": "Sentence Rearrangement",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Rearrange the parts of the sentence in correct order.\nA. The phenomenon of quantum entanglement\nB. states that two particles can be intimately linked\nC. to understand the fundamental nature of the universe\nD. independent of the distance separating them",
+          "options": [
+            {
+              "id": "1",
+              "text": "ABDC"
+            },
+            {
+              "id": "2",
+              "text": "ADBC"
+            },
+            {
+              "id": "3",
+              "text": "BADC"
+            },
+            {
+              "id": "4",
+              "text": "CABD"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-21",
+          "displayNumber": "21",
+          "type": "single",
+          "metadata": {
+            "topic": "Vocabulary",
+            "subtopic": "Synonyms",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the most appropriate synonym of the bracketed word to fill in the blank.\nThe committee's (ephemeral) popularity was largely due to the crisis at hand.",
+          "options": [
+            {
+              "id": "1",
+              "text": "Transient"
+            },
+            {
+              "id": "2",
+              "text": "Enduring"
+            },
+            {
+              "id": "3",
+              "text": "Profound"
+            },
+            {
+              "id": "4",
+              "text": "Superficial"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-22",
+          "displayNumber": "22",
+          "type": "single",
+          "metadata": {
+            "topic": "Vocabulary",
+            "subtopic": "Spelling",
+            "difficulty": "easy",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the correctly spelt word.",
+          "options": [
+            {
+              "id": "1",
+              "text": "Accommodate"
+            },
+            {
+              "id": "2",
+              "text": "Acommodate"
+            },
+            {
+              "id": "3",
+              "text": "Accomodate"
+            },
+            {
+              "id": "4",
+              "text": "Accomadate"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-23",
+          "displayNumber": "23",
+          "type": "single",
+          "metadata": {
+            "topic": "Grammar",
+            "subtopic": "Sentence Improvement",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the option that will improve the underlined part of the sentence.\nHe warned the workers that [unless they do not complete] the project on time, they will be fired.",
+          "options": [
+            {
+              "id": "1",
+              "text": "unless they complete"
+            },
+            {
+              "id": "2",
+              "text": "until they do not complete"
+            },
+            {
+              "id": "3",
+              "text": "lest they complete"
+            },
+            {
+              "id": "4",
+              "text": "No improvement"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-24",
+          "displayNumber": "24",
+          "type": "single",
+          "metadata": {
+            "topic": "Vocabulary",
+            "subtopic": "Idioms",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the most appropriate meaning of the given idiom:\n\"To bite the bullet\"",
+          "options": [
+            {
+              "id": "1",
+              "text": "To force yourself to do something unpleasant"
+            },
+            {
+              "id": "2",
+              "text": "To get injured in a conflict"
+            },
+            {
+              "id": "3",
+              "text": "To make a tough decision blindly"
+            },
+            {
+              "id": "4",
+              "text": "To speak aggressively"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-25",
+          "displayNumber": "25",
+          "type": "single",
+          "metadata": {
+            "topic": "Vocabulary",
+            "subtopic": "Antonyms",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the most appropriate antonym of the bracketed word to fill in the blank.\nDespite the (cacophony) in the market, she managed to focus on her reading.",
+          "options": [
+            {
+              "id": "1",
+              "text": "Harmony"
+            },
+            {
+              "id": "2",
+              "text": "Tumult"
+            },
+            {
+              "id": "3",
+              "text": "Discord"
+            },
+            {
+              "id": "4",
+              "text": "Clatter"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-26",
+          "displayNumber": "26",
+          "type": "single",
+          "metadata": {
+            "topic": "Para Jumbles",
+            "subtopic": "Sentence Rearrangement",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Given below are four jumbled sentences. Select the option that gives their correct order.\nA. However, this is changing rapidly as renewable energy becomes cheaper.\nB. For decades, coal has been the dominant source of electricity generation.\nC. Solar and wind power are leading this global transition.\nD. Consequently, many countries are phasing out coal power plants entirely.",
+          "options": [
+            {
+              "id": "1",
+              "text": "BADC"
+            },
+            {
+              "id": "2",
+              "text": "BACD"
+            },
+            {
+              "id": "3",
+              "text": "BCAD"
+            },
+            {
+              "id": "4",
+              "text": "ABCD"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-27",
+          "displayNumber": "27",
+          "type": "single",
+          "metadata": {
+            "topic": "Vocabulary",
+            "subtopic": "Spelling",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the INCORRECTLY spelt word.",
+          "options": [
+            {
+              "id": "1",
+              "text": "Millennium"
+            },
+            {
+              "id": "2",
+              "text": "Fascinate"
+            },
+            {
+              "id": "3",
+              "text": "Maintainance"
+            },
+            {
+              "id": "4",
+              "text": "Irresistible"
+            }
+          ],
+          "answer": "3",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-28",
+          "displayNumber": "28",
+          "type": "single",
+          "metadata": {
+            "topic": "Vocabulary",
+            "subtopic": "One word substitution",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the word which means the same as the group of words given.\nA person who is indifferent to both pleasure and pain",
+          "options": [
+            {
+              "id": "1",
+              "text": "Stoic"
+            },
+            {
+              "id": "2",
+              "text": "Ascetic"
+            },
+            {
+              "id": "3",
+              "text": "Epicurean"
+            },
+            {
+              "id": "4",
+              "text": "Misanthrope"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-29",
+          "displayNumber": "29",
+          "type": "single",
+          "metadata": {
+            "topic": "Vocabulary",
+            "subtopic": "Idioms",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the most appropriate meaning of the given idiom:\n\"Cut to the chase\"",
+          "options": [
+            {
+              "id": "1",
+              "text": "To get to the main point"
+            },
+            {
+              "id": "2",
+              "text": "To edit a movie"
+            },
+            {
+              "id": "3",
+              "text": "To lose an opportunity"
+            },
+            {
+              "id": "4",
+              "text": "To interrupt someone"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-30",
+          "displayNumber": "30",
+          "type": "single",
+          "metadata": {
+            "topic": "Reading Comprehension",
+            "subtopic": "RC - Fact",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Read the passage and answer the question:\nThe transition to a circular economy represents a fundamental shift in how we produce and consume goods. Unlike the traditional linear model\u2014take, make, dispose\u2014a circular economy aims to design out waste, keep materials in use, and regenerate natural systems. This approach not only mitigates environmental degradation but also offers substantial economic benefits by reducing supply chain risks and fostering innovation in product design.\n\nAccording to the passage, what is a primary goal of the circular economy?",
+          "options": [
+            {
+              "id": "1",
+              "text": "To design out waste and keep materials in use"
+            },
+            {
+              "id": "2",
+              "text": "To increase the consumption of disposable goods"
+            },
+            {
+              "id": "3",
+              "text": "To traditionalize the linear economic model"
+            },
+            {
+              "id": "4",
+              "text": "To eliminate the need for product innovation"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-31",
+          "displayNumber": "31",
+          "type": "single",
+          "metadata": {
+            "topic": "Reading Comprehension",
+            "subtopic": "RC - Theme",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Read the passage in the previous question and answer:\nWhat is the central theme of the passage?",
+          "options": [
+            {
+              "id": "1",
+              "text": "The shift towards sustainable and regenerative economic practices"
+            },
+            {
+              "id": "2",
+              "text": "The inevitable decline of global supply chains"
+            },
+            {
+              "id": "3",
+              "text": "The environmental dangers of technological innovation"
+            },
+            {
+              "id": "4",
+              "text": "The historical evolution of linear economies"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-verb-32",
+          "displayNumber": "32",
+          "type": "single",
+          "metadata": {
+            "topic": "Reading Comprehension",
+            "subtopic": "RC - Vocab",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Read the passage in the previous questions and answer:\nWhich of the following is closest in meaning to the word 'mitigates' as used in the passage?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Alleviates"
+            },
+            {
+              "id": "2",
+              "text": "Aggravates"
+            },
+            {
+              "id": "3",
+              "text": "Initiates"
+            },
+            {
+              "id": "4",
+              "text": "Complicates"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "logical-reasoning",
+      "title": "Logical & Numerical Reasoning",
+      "metadata": {
+        "section": "Logical & Numerical Reasoning"
+      },
+      "questions": [
+        {
+          "id": "q-reas-33",
+          "displayNumber": "33",
+          "type": "single",
+          "metadata": {
+            "topic": "Non-Verbal",
+            "subtopic": "Figure Series",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the figure that will come next in the following figure series.\n\n[Figure Placeholder: A series of geometric shapes rotating 90 degrees clockwise with an alternating shaded quadrant]",
+          "options": [
+            {
+              "id": "1",
+              "text": "[Figure 1]"
+            },
+            {
+              "id": "2",
+              "text": "[Figure 2]"
+            },
+            {
+              "id": "3",
+              "text": "[Figure 3]"
+            },
+            {
+              "id": "4",
+              "text": "[Figure 4]"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-34",
+          "displayNumber": "34",
+          "type": "single",
+          "metadata": {
+            "topic": "Non-Verbal",
+            "subtopic": "Mirror Image",
+            "difficulty": "easy",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the correct mirror image of the given combination when the mirror is placed at MN as shown.\n\n[Figure Placeholder: Alphanumeric string 'KL97Q']",
+          "options": [
+            {
+              "id": "1",
+              "text": "[Figure 1]"
+            },
+            {
+              "id": "2",
+              "text": "[Figure 2]"
+            },
+            {
+              "id": "3",
+              "text": "[Figure 3]"
+            },
+            {
+              "id": "4",
+              "text": "[Figure 4]"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-35",
+          "displayNumber": "35",
+          "type": "single",
+          "metadata": {
+            "topic": "Non-Verbal",
+            "subtopic": "Dice",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Two different positions of the same dice are shown, the six faces of which are numbered from 1 to 6. Select the number that will be on the face opposite to the face having the number '5'.\n\n[Figure Placeholder: Dice positions showing (1, 4, 5) and (1, 2, 6)]",
+          "options": [
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "6"
+            },
+            {
+              "id": "4",
+              "text": "4"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-36",
+          "displayNumber": "36",
+          "type": "single",
+          "metadata": {
+            "topic": "Non-Verbal",
+            "subtopic": "Figure Completion",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the option figure that will complete the pattern in the given figure.\n\n[Figure Placeholder: A grid with a missing corner containing intersecting diagonals]",
+          "options": [
+            {
+              "id": "1",
+              "text": "[Figure 1]"
+            },
+            {
+              "id": "2",
+              "text": "[Figure 2]"
+            },
+            {
+              "id": "3",
+              "text": "[Figure 3]"
+            },
+            {
+              "id": "4",
+              "text": "[Figure 4]"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-37",
+          "displayNumber": "37",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding",
+            "subtopic": "Letter Shift",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "In a certain code language, 'ROBUST' is written as 'QNATRS'. How will 'ZEBRA' be written in that language?",
+          "options": [
+            {
+              "id": "1",
+              "text": "YDAQZ"
+            },
+            {
+              "id": "2",
+              "text": "YDAQB"
+            },
+            {
+              "id": "3",
+              "text": "YDAPZ"
+            },
+            {
+              "id": "4",
+              "text": "YEAQZ"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-38",
+          "displayNumber": "38",
+          "type": "single",
+          "metadata": {
+            "topic": "Coding-Decoding",
+            "subtopic": "Number Coding",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "In a certain code language, 'PAINT' is coded as '60', and 'DROP' is coded as '53'. How will 'MARK' be coded in that language?",
+          "options": [
+            {
+              "id": "1",
+              "text": "43"
+            },
+            {
+              "id": "2",
+              "text": "45"
+            },
+            {
+              "id": "3",
+              "text": "41"
+            },
+            {
+              "id": "4",
+              "text": "47"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-39",
+          "displayNumber": "39",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "subtopic": "Difference Pattern",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the number from among the given options that can replace the question mark (?) in the following series.\n14, 21, 35, 56, 84, ?",
+          "options": [
+            {
+              "id": "1",
+              "text": "119"
+            },
+            {
+              "id": "2",
+              "text": "121"
+            },
+            {
+              "id": "3",
+              "text": "112"
+            },
+            {
+              "id": "4",
+              "text": "126"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-40",
+          "displayNumber": "40",
+          "type": "single",
+          "metadata": {
+            "topic": "Number Series",
+            "subtopic": "Multiplication Pattern",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the number that can replace the question mark (?) in the following series.\n5, 11, 25, 55, 117, ?",
+          "options": [
+            {
+              "id": "1",
+              "text": "243"
+            },
+            {
+              "id": "2",
+              "text": "245"
+            },
+            {
+              "id": "3",
+              "text": "239"
+            },
+            {
+              "id": "4",
+              "text": "251"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-41",
+          "displayNumber": "41",
+          "type": "single",
+          "metadata": {
+            "topic": "Seating Arrangement",
+            "subtopic": "Linear",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Seven people A, B, C, D, E, F, and G are sitting in a straight line facing north. B sits third to the left of G. G sits at one of the extreme ends. A sits second to the right of C. C is not an immediate neighbour of B. E and F are immediate neighbours. E is not sitting at any extreme end. Who sits at the extreme left end?",
+          "options": [
+            {
+              "id": "1",
+              "text": "C"
+            },
+            {
+              "id": "2",
+              "text": "D"
+            },
+            {
+              "id": "3",
+              "text": "E"
+            },
+            {
+              "id": "4",
+              "text": "F"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-42",
+          "displayNumber": "42",
+          "type": "single",
+          "metadata": {
+            "topic": "Seating Arrangement",
+            "subtopic": "Circular",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Six friends P, Q, R, S, T, and U are sitting around a circular table facing the centre. P sits second to the right of U. Q sits immediate left of R. S is not an immediate neighbour of P. Who sits opposite to T?",
+          "options": [
+            {
+              "id": "1",
+              "text": "U"
+            },
+            {
+              "id": "2",
+              "text": "Q"
+            },
+            {
+              "id": "3",
+              "text": "P"
+            },
+            {
+              "id": "4",
+              "text": "R"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-43",
+          "displayNumber": "43",
+          "type": "single",
+          "metadata": {
+            "topic": "Blood Relations",
+            "subtopic": "Verbal",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Pointing to a photograph, a man says, \"She is the only daughter of my wife's mother-in-law.\" How is the woman in the photograph related to the man?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Sister"
+            },
+            {
+              "id": "2",
+              "text": "Wife"
+            },
+            {
+              "id": "3",
+              "text": "Mother"
+            },
+            {
+              "id": "4",
+              "text": "Daughter"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-44",
+          "displayNumber": "44",
+          "type": "single",
+          "metadata": {
+            "topic": "Blood Relations",
+            "subtopic": "Coded",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "If A + B means A is the brother of B; A - B means A is the sister of B; A * B means A is the father of B; A / B means A is the mother of B.\nWhich of the following expressions shows that P is the paternal aunt of R?",
+          "options": [
+            {
+              "id": "1",
+              "text": "P - Q * R"
+            },
+            {
+              "id": "2",
+              "text": "P + Q * R"
+            },
+            {
+              "id": "3",
+              "text": "P - Q / R"
+            },
+            {
+              "id": "4",
+              "text": "P * Q - R"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-45",
+          "displayNumber": "45",
+          "type": "single",
+          "metadata": {
+            "topic": "Syllogism",
+            "subtopic": "Statements",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Statements:\n1. All cars are buses.\n2. Some buses are trucks.\n3. No truck is a bicycle.\nConclusions:\nI. Some cars are trucks.\nII. No bus is a bicycle.\nIII. Some buses are cars.",
+          "options": [
+            {
+              "id": "1",
+              "text": "Only conclusion III follows"
+            },
+            {
+              "id": "2",
+              "text": "Only I and III follow"
+            },
+            {
+              "id": "3",
+              "text": "Only II and III follow"
+            },
+            {
+              "id": "4",
+              "text": "All conclusions follow"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-46",
+          "displayNumber": "46",
+          "type": "single",
+          "metadata": {
+            "topic": "Ordering",
+            "subtopic": "Inequalities",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Among five friends J, K, L, M, and N, each has a different height. J is taller than only L. K is taller than M but shorter than N. Who is the third tallest?",
+          "options": [
+            {
+              "id": "1",
+              "text": "M"
+            },
+            {
+              "id": "2",
+              "text": "K"
+            },
+            {
+              "id": "3",
+              "text": "N"
+            },
+            {
+              "id": "4",
+              "text": "J"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-47",
+          "displayNumber": "47",
+          "type": "single",
+          "metadata": {
+            "topic": "Analogy",
+            "subtopic": "Letter Clusters",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first.\nGATE : HCYI :: SINK : ?",
+          "options": [
+            {
+              "id": "1",
+              "text": "TKQO"
+            },
+            {
+              "id": "2",
+              "text": "TKRO"
+            },
+            {
+              "id": "3",
+              "text": "TLQO"
+            },
+            {
+              "id": "4",
+              "text": "TKQP"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-48",
+          "displayNumber": "48",
+          "type": "single",
+          "metadata": {
+            "topic": "Odd One Out",
+            "subtopic": "Letter Pairs",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Four letter-clusters have been given, out of which three are alike in some manner and one is different. Select the odd letter-cluster.",
+          "options": [
+            {
+              "id": "1",
+              "text": "FHK"
+            },
+            {
+              "id": "2",
+              "text": "NPS"
+            },
+            {
+              "id": "3",
+              "text": "SUX"
+            },
+            {
+              "id": "4",
+              "text": "CFI"
+            }
+          ],
+          "answer": "4",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-49",
+          "displayNumber": "49",
+          "type": "single",
+          "metadata": {
+            "topic": "Letter Series",
+            "subtopic": "Repeating Block",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Select the combination of letters that when sequentially placed in the blanks of the given series will complete the series.\na _ c d _ b _ d a b c _",
+          "options": [
+            {
+              "id": "1",
+              "text": "b a c d"
+            },
+            {
+              "id": "2",
+              "text": "b c a d"
+            },
+            {
+              "id": "3",
+              "text": "b c c d"
+            },
+            {
+              "id": "4",
+              "text": "c b a d"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-50",
+          "displayNumber": "50",
+          "type": "single",
+          "metadata": {
+            "topic": "Alphanumeric Series",
+            "subtopic": "String Ops",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "If all the vowels are dropped from the string 'ALPHANUMERIC', which letter will be the fourth from the right end?",
+          "options": [
+            {
+              "id": "1",
+              "text": "M"
+            },
+            {
+              "id": "2",
+              "text": "N"
+            },
+            {
+              "id": "3",
+              "text": "R"
+            },
+            {
+              "id": "4",
+              "text": "H"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-51",
+          "displayNumber": "51",
+          "type": "single",
+          "metadata": {
+            "topic": "Mathematical Signs",
+            "subtopic": "Interchange",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which two numbers should be interchanged to make the given equation correct?\n14 + 5 \u00d7 4 - 12 \u00f7 3 = 26",
+          "options": [
+            {
+              "id": "1",
+              "text": "4 and 3"
+            },
+            {
+              "id": "2",
+              "text": "14 and 12"
+            },
+            {
+              "id": "3",
+              "text": "5 and 3"
+            },
+            {
+              "id": "4",
+              "text": "12 and 3"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-52",
+          "displayNumber": "52",
+          "type": "single",
+          "metadata": {
+            "topic": "Approximation",
+            "subtopic": "BODMAS",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "What approximate value will come in place of the question mark (?) in the following equation?\n24.98 \u00d7 15.02 - 110.11 + 39.99 = ?",
+          "options": [
+            {
+              "id": "1",
+              "text": "305"
+            },
+            {
+              "id": "2",
+              "text": "320"
+            },
+            {
+              "id": "3",
+              "text": "295"
+            },
+            {
+              "id": "4",
+              "text": "315"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-53",
+          "displayNumber": "53",
+          "type": "single",
+          "metadata": {
+            "topic": "Direction Sense",
+            "subtopic": "Angles",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "A man is facing West. He turns 45 degrees in the clockwise direction and then another 180 degrees in the same direction, and then 270 degrees in the anti-clockwise direction. Which direction is he facing now?",
+          "options": [
+            {
+              "id": "1",
+              "text": "South-West"
+            },
+            {
+              "id": "2",
+              "text": "North-West"
+            },
+            {
+              "id": "3",
+              "text": "South-East"
+            },
+            {
+              "id": "4",
+              "text": "North-East"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-reas-54",
+          "displayNumber": "54",
+          "type": "single",
+          "metadata": {
+            "topic": "Puzzle",
+            "subtopic": "Scheduling",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Seven lectures are scheduled on seven different days of the same week starting from Monday to Sunday. Lecture P is on Thursday. Two lectures are between P and Q. R is scheduled immediately before Q. Three lectures are between R and S. On which day is S scheduled?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Monday"
+            },
+            {
+              "id": "2",
+              "text": "Tuesday"
+            },
+            {
+              "id": "3",
+              "text": "Friday"
+            },
+            {
+              "id": "4",
+              "text": "Saturday"
+            }
+          ],
+          "answer": "2",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "general-awareness",
+      "title": "General Awareness",
+      "metadata": {
+        "section": "General Awareness"
+      },
+      "questions": [
+        {
+          "id": "q-ga-55",
+          "displayNumber": "55",
+          "type": "single",
+          "metadata": {
+            "topic": "History",
+            "subtopic": "Modern India",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Who among the following was the founder of the 'Servants of India Society' in 1905?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Gopal Krishna Gokhale"
+            },
+            {
+              "id": "2",
+              "text": "Bal Gangadhar Tilak"
+            },
+            {
+              "id": "3",
+              "text": "Lala Lajpat Rai"
+            },
+            {
+              "id": "4",
+              "text": "Annie Besant"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-56",
+          "displayNumber": "56",
+          "type": "single",
+          "metadata": {
+            "topic": "History",
+            "subtopic": "Medieval India",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "The system of Dagh (branding of horses) and Chehra (descriptive roll of soldiers) was introduced by which Delhi Sultan?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Alauddin Khalji"
+            },
+            {
+              "id": "2",
+              "text": "Muhammad bin Tughlaq"
+            },
+            {
+              "id": "3",
+              "text": "Iltutmish"
+            },
+            {
+              "id": "4",
+              "text": "Balban"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-57",
+          "displayNumber": "57",
+          "type": "single",
+          "metadata": {
+            "topic": "Economy",
+            "subtopic": "Current Affairs",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which institution replaced the Planning Commission of India in 2015?",
+          "options": [
+            {
+              "id": "1",
+              "text": "NITI Aayog"
+            },
+            {
+              "id": "2",
+              "text": "Finance Commission"
+            },
+            {
+              "id": "3",
+              "text": "National Development Council"
+            },
+            {
+              "id": "4",
+              "text": "Economic Advisory Council"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-58",
+          "displayNumber": "58",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography",
+            "subtopic": "Rivers",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "The Majuli island, which is the largest river island in the world, is located on which river?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Brahmaputra"
+            },
+            {
+              "id": "2",
+              "text": "Ganga"
+            },
+            {
+              "id": "3",
+              "text": "Godavari"
+            },
+            {
+              "id": "4",
+              "text": "Indus"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-59",
+          "displayNumber": "59",
+          "type": "single",
+          "metadata": {
+            "topic": "Sports",
+            "subtopic": "Awards",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "The Major Dhyan Chand Khel Ratna Award, India's highest sporting honour, was formerly known as:",
+          "options": [
+            {
+              "id": "1",
+              "text": "Rajiv Gandhi Khel Ratna Award"
+            },
+            {
+              "id": "2",
+              "text": "Arjuna Award"
+            },
+            {
+              "id": "3",
+              "text": "Dronacharya Award"
+            },
+            {
+              "id": "4",
+              "text": "National Sports Award"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-60",
+          "displayNumber": "60",
+          "type": "single",
+          "metadata": {
+            "topic": "Culture",
+            "subtopic": "Festivals",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "The famous 'Hornbill Festival' is celebrated in which state of India?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Nagaland"
+            },
+            {
+              "id": "2",
+              "text": "Manipur"
+            },
+            {
+              "id": "3",
+              "text": "Mizoram"
+            },
+            {
+              "id": "4",
+              "text": "Assam"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-61",
+          "displayNumber": "61",
+          "type": "single",
+          "metadata": {
+            "topic": "Constitution",
+            "subtopic": "Fundamental Rights",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which Article of the Indian Constitution guarantees the right to constitutional remedies?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Article 32"
+            },
+            {
+              "id": "2",
+              "text": "Article 21"
+            },
+            {
+              "id": "3",
+              "text": "Article 226"
+            },
+            {
+              "id": "4",
+              "text": "Article 14"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-62",
+          "displayNumber": "62",
+          "type": "single",
+          "metadata": {
+            "topic": "Science",
+            "subtopic": "Space",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which of the following was India's first dedicated multi-wavelength space observatory?",
+          "options": [
+            {
+              "id": "1",
+              "text": "AstroSat"
+            },
+            {
+              "id": "2",
+              "text": "Chandrayaan-1"
+            },
+            {
+              "id": "3",
+              "text": "Mangalyaan"
+            },
+            {
+              "id": "4",
+              "text": "Cartosat"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-63",
+          "displayNumber": "63",
+          "type": "single",
+          "metadata": {
+            "topic": "Books",
+            "subtopic": "Authors",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Who is the author of the book 'The Discovery of India'?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Jawaharlal Nehru"
+            },
+            {
+              "id": "2",
+              "text": "Mahatma Gandhi"
+            },
+            {
+              "id": "3",
+              "text": "Sardar Patel"
+            },
+            {
+              "id": "4",
+              "text": "Rabindranath Tagore"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-64",
+          "displayNumber": "64",
+          "type": "single",
+          "metadata": {
+            "topic": "Geography",
+            "subtopic": "Neighbouring Countries",
+            "difficulty": "easy",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which of the following Indian states does NOT share a border with Bangladesh?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Manipur"
+            },
+            {
+              "id": "2",
+              "text": "Meghalaya"
+            },
+            {
+              "id": "3",
+              "text": "Tripura"
+            },
+            {
+              "id": "4",
+              "text": "Assam"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-65",
+          "displayNumber": "65",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Affairs",
+            "subtopic": "Indices",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "In the Global Hunger Index 2023, India was ranked at which position out of 125 countries?",
+          "options": [
+            {
+              "id": "1",
+              "text": "111"
+            },
+            {
+              "id": "2",
+              "text": "107"
+            },
+            {
+              "id": "3",
+              "text": "101"
+            },
+            {
+              "id": "4",
+              "text": "94"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-66",
+          "displayNumber": "66",
+          "type": "single",
+          "metadata": {
+            "topic": "History",
+            "subtopic": "Ancient India",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "The Harappan site of Dholavira is located in which Indian state?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Gujarat"
+            },
+            {
+              "id": "2",
+              "text": "Rajasthan"
+            },
+            {
+              "id": "3",
+              "text": "Haryana"
+            },
+            {
+              "id": "4",
+              "text": "Punjab"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-67",
+          "displayNumber": "67",
+          "type": "single",
+          "metadata": {
+            "topic": "Economy",
+            "subtopic": "Banking",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which of the following is the central bank of India?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Reserve Bank of India"
+            },
+            {
+              "id": "2",
+              "text": "State Bank of India"
+            },
+            {
+              "id": "3",
+              "text": "Central Bank of India"
+            },
+            {
+              "id": "4",
+              "text": "Punjab National Bank"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-68",
+          "displayNumber": "68",
+          "type": "single",
+          "metadata": {
+            "topic": "Science",
+            "subtopic": "Biology",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which vitamin is also known as Ascorbic Acid?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Vitamin C"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin A"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin D"
+            },
+            {
+              "id": "4",
+              "text": "Vitamin B12"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-69",
+          "displayNumber": "69",
+          "type": "single",
+          "metadata": {
+            "topic": "Culture",
+            "subtopic": "Classical Dances",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Kuchipudi is a classical dance form of which Indian state?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Andhra Pradesh"
+            },
+            {
+              "id": "2",
+              "text": "Kerala"
+            },
+            {
+              "id": "3",
+              "text": "Tamil Nadu"
+            },
+            {
+              "id": "4",
+              "text": "Odisha"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-ga-70",
+          "displayNumber": "70",
+          "type": "single",
+          "metadata": {
+            "topic": "Current Affairs",
+            "subtopic": "Summits",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which country hosted the G20 Summit in the year 2023?",
+          "options": [
+            {
+              "id": "1",
+              "text": "India"
+            },
+            {
+              "id": "2",
+              "text": "Indonesia"
+            },
+            {
+              "id": "3",
+              "text": "Brazil"
+            },
+            {
+              "id": "4",
+              "text": "South Africa"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "computer-applications",
+      "title": "Knowledge in Computer Applications",
+      "metadata": {
+        "section": "Knowledge in Computer Applications"
+      },
+      "questions": [
+        {
+          "id": "q-comp-71",
+          "displayNumber": "71",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Office",
+            "subtopic": "Excel Functions",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "What will be the output of the function '=OR(A1>50, B1<10)' in MS-Excel 2010?",
+          "options": [
+            {
+              "id": "1",
+              "text": "TRUE if either A1 is greater than 50 or B1 is less than 10"
+            },
+            {
+              "id": "2",
+              "text": "TRUE only if both conditions are met"
+            },
+            {
+              "id": "3",
+              "text": "FALSE if A1 is 60 and B1 is 5"
+            },
+            {
+              "id": "4",
+              "text": "An error message"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-comp-72",
+          "displayNumber": "72",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Office",
+            "subtopic": "Shortcuts",
+            "difficulty": "easy",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which keyboard shortcut is used to create a new, blank workbook in MS-Excel?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Ctrl + N"
+            },
+            {
+              "id": "2",
+              "text": "Ctrl + O"
+            },
+            {
+              "id": "3",
+              "text": "Ctrl + W"
+            },
+            {
+              "id": "4",
+              "text": "Ctrl + M"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-comp-73",
+          "displayNumber": "73",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Organisation",
+            "subtopic": "Memory",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which type of memory is non-volatile and is used to store the computer's startup instructions (BIOS)?",
+          "options": [
+            {
+              "id": "1",
+              "text": "ROM"
+            },
+            {
+              "id": "2",
+              "text": "RAM"
+            },
+            {
+              "id": "3",
+              "text": "Cache"
+            },
+            {
+              "id": "4",
+              "text": "Virtual Memory"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-comp-74",
+          "displayNumber": "74",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Organisation",
+            "subtopic": "Hardware",
+            "difficulty": "easy",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which of the following components is known as the 'brain' of the computer?",
+          "options": [
+            {
+              "id": "1",
+              "text": "CPU"
+            },
+            {
+              "id": "2",
+              "text": "Motherboard"
+            },
+            {
+              "id": "3",
+              "text": "Hard Drive"
+            },
+            {
+              "id": "4",
+              "text": "RAM"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-comp-75",
+          "displayNumber": "75",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Software",
+            "subtopic": "Utility Software",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Disk defragmenter is an example of which type of software?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Utility Software"
+            },
+            {
+              "id": "2",
+              "text": "Application Software"
+            },
+            {
+              "id": "3",
+              "text": "Operating System"
+            },
+            {
+              "id": "4",
+              "text": "Firmware"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-comp-76",
+          "displayNumber": "76",
+          "type": "single",
+          "metadata": {
+            "topic": "Operating System",
+            "subtopic": "Windows Shortcuts",
+            "difficulty": "easy",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "What does the keyboard shortcut 'Windows Key + L' do in Windows 10?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Locks the computer"
+            },
+            {
+              "id": "2",
+              "text": "Opens File Explorer"
+            },
+            {
+              "id": "3",
+              "text": "Minimizes all windows"
+            },
+            {
+              "id": "4",
+              "text": "Opens the Run dialog"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-comp-77",
+          "displayNumber": "77",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Software",
+            "subtopic": "Statements",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which of the following statements is/are true?\n(i) Open-source software provides access to its source code.\n(ii) Freeware and open-source software are exactly the same thing.",
+          "options": [
+            {
+              "id": "1",
+              "text": "Only (i)"
+            },
+            {
+              "id": "2",
+              "text": "Only (ii)"
+            },
+            {
+              "id": "3",
+              "text": "Both (i) and (ii)"
+            },
+            {
+              "id": "4",
+              "text": "Neither (i) nor (ii)"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-comp-78",
+          "displayNumber": "78",
+          "type": "single",
+          "metadata": {
+            "topic": "Characteristics of Computers",
+            "subtopic": "Statements",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Identify whether the given statements are true or false.\na) Computers possess artificial intelligence inherently without programming.\nb) Computers can process millions of instructions per second without fatigue.",
+          "options": [
+            {
+              "id": "1",
+              "text": "a) False, b) True"
+            },
+            {
+              "id": "2",
+              "text": "a) True, b) False"
+            },
+            {
+              "id": "3",
+              "text": "a) True, b) True"
+            },
+            {
+              "id": "4",
+              "text": "a) False, b) False"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-comp-79",
+          "displayNumber": "79",
+          "type": "single",
+          "metadata": {
+            "topic": "Computer Software",
+            "subtopic": "System Software",
+            "difficulty": "medium",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "Which of the following is NOT an operating system?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Microsoft Office"
+            },
+            {
+              "id": "2",
+              "text": "Linux"
+            },
+            {
+              "id": "3",
+              "text": "macOS"
+            },
+            {
+              "id": "4",
+              "text": "Windows 11"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        },
+        {
+          "id": "q-comp-80",
+          "displayNumber": "80",
+          "type": "single",
+          "metadata": {
+            "topic": "MS Office",
+            "subtopic": "Excel Formula",
+            "difficulty": "hard",
+            "questionType": "Single Correct MCQ"
+          },
+          "text": "What will be the output of the following MS-Excel formula?\n= (8 / 2) * (2 + 2) + 3^2",
+          "options": [
+            {
+              "id": "1",
+              "text": "25"
+            },
+            {
+              "id": "2",
+              "text": "17"
+            },
+            {
+              "id": "3",
+              "text": "13"
+            },
+            {
+              "id": "4",
+              "text": "34"
+            }
+          ],
+          "answer": "1",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}
