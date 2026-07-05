@@ -622,9 +622,13 @@ function weakStrong(rows, keys) {
 
 /* ── PDF Generation ──────────────────────────────────────── */
 function buildPrintWindow(title, htmlBody) {
-  const win = window.open("", "_blank");
-  if (!win) { alert("Pop-up blocked! Please allow pop-ups for this page."); return; }
-  win.document.write(`<!doctype html><html><head><meta charset="utf-8"><title>${escapeHtml(title)}</title>
+  const iframe = document.createElement("iframe");
+  iframe.style.cssText = "position:fixed;right:0;bottom:0;width:0;height:0;border:0;visibility:hidden";
+  document.body.appendChild(iframe);
+  const cleanup = () => iframe.remove();
+  const doc = iframe.contentDocument;
+  doc.open();
+  doc.write(`<!doctype html><html><head><meta charset="utf-8"><title>${escapeHtml(title)}</title>
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
     body{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;color:#111;background:#fff;padding:28px 36px}
@@ -643,16 +647,16 @@ function buildPrintWindow(title, htmlBody) {
     .ans{margin-top:8px;font-weight:700;color:#16a34a;font-size:13px}
     .blank{margin-top:8px;color:#333;font-size:13px}
     .exp{margin-top:5px;color:#555;font-size:12px;line-height:1.5}
-    .tip{background:#fffbeb;border:1px solid #f59e0b;padding:10px 14px;border-radius:6px;margin-bottom:20px;font-size:13px;display:flex;align-items:center;gap:12px}
-    .tip button{padding:6px 14px;background:#0f766e;color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:13px;white-space:nowrap}
-    @media print{.tip{display:none!important}}
   </style></head><body>
-  <div class="tip">💡 Press <strong>Ctrl + P</strong> → set destination to <strong>"Save as PDF"</strong> to download.
-    <button onclick="window.print()">🖨 Print / Save as PDF</button>
-  </div>
   ${htmlBody}
   </body></html>`);
-  win.document.close();
+  doc.close();
+  iframe.contentWindow.onafterprint = cleanup;
+  iframe.onload = () => {
+    iframe.contentWindow.focus();
+    iframe.contentWindow.print();
+  };
+  setTimeout(cleanup, 60000);
 }
 
 function generatePaperPDF(paperId) {
