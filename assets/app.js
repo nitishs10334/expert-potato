@@ -956,7 +956,7 @@ function empty(message) {
   return `<div class="empty">${escapeHtml(message)}</div>`;
 }
 
-if (state.username) function showFatalError(err) {
+function showFatalError(err) {
   const container = document.getElementById("app") || document.body;
   container.innerHTML = `
     <div style="font-family:sans-serif;padding:40px;max-width:600px;margin:40px auto;background:#fff1f2;border:1px solid #fca5a5;border-radius:10px">
