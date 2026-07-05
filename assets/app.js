@@ -64,22 +64,6 @@ function switchUser() {
   render();
 }
 
-function setUsername(name) {
-  state.username = name.trim();
-  localStorage.setItem(USERNAME_KEY, state.username);
-  loadStore();
-}
-
-function switchUser() {
-  state.username = "";
-  localStorage.removeItem(USERNAME_KEY);
-  state.attempts = [];
-  state.importedPapers = [];
-  state.view = "dashboard";
-  stopTimer();
-  render();
-}
-
 function applySettings() {
   document.documentElement.dataset.theme = state.settings.theme;
   document.documentElement.style.setProperty("--font-scale", state.settings.fontScale);
@@ -634,99 +618,6 @@ function weakStrong(rows, keys) {
   const strong = topics.filter(t => t.attempted && t.accuracy >= .75).map(t => t.name).join(", ") || "None yet";
   const weak = topics.filter(t => !t.attempted || t.accuracy < .5).map(t => t.name).join(", ") || "None flagged";
   return `<div class="grid cards-grid" style="margin-top:14px"><div class="card"><strong>Strong areas</strong><p class="muted">${escapeHtml(strong)}</p></div><div class="card"><strong>Weak areas</strong><p class="muted">${escapeHtml(weak)}</p></div></div>`;
-}
-
-/* ── PDF Generation ──────────────────────────────────────── */
-function buildPrintWindow(title, htmlBody) {
-  const win = window.open("", "_blank");
-  if (!win) { alert("Pop-up blocked! Please allow pop-ups for this page."); return; }
-  win.document.write(`<!doctype html><html><head><meta charset="utf-8"><title>${escapeHtml(title)}</title>
-  <style>
-    *{box-sizing:border-box;margin:0;padding:0}
-    body{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;color:#111;background:#fff;padding:28px 36px}
-    h1{font-size:20px;margin-bottom:4px}
-    .subtitle{color:#555;font-size:13px;margin-bottom:4px}
-    .meta{color:#444;font-size:12px;margin-bottom:20px;padding-bottom:10px;border-bottom:2px solid #222}
-    .section-head{font-size:14px;font-weight:700;background:#f2f2f2;padding:6px 10px;margin:22px 0 10px;border-left:4px solid #0f766e;page-break-after:avoid}
-    .q{margin-bottom:20px;page-break-inside:avoid}
-    .q-num{font-weight:700;color:#0f766e;margin-right:4px}
-    .q-text{margin:5px 0 8px;line-height:1.6}
-    .passage{border-left:3px solid #ccc;padding:8px 12px;margin-bottom:10px;color:#333;font-style:italic;background:#fafafa;font-size:12px}
-    .fig{border:1px dashed #aaa;padding:14px;text-align:center;color:#666;margin:8px 0;font-size:12px}
-    .opts{margin:0 0 4px 18px}
-    .opt{margin-bottom:5px;line-height:1.4}
-    .opt.correct{font-weight:700;color:#16a34a}
-    .ans{margin-top:8px;font-weight:700;color:#16a34a;font-size:13px}
-    .blank{margin-top:8px;color:#333;font-size:13px}
-    .exp{margin-top:5px;color:#555;font-size:12px;line-height:1.5}
-    .tip{background:#fffbeb;border:1px solid #f59e0b;padding:10px 14px;border-radius:6px;margin-bottom:20px;font-size:13px;display:flex;align-items:center;gap:12px}
-    .tip button{padding:6px 14px;background:#0f766e;color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:13px;white-space:nowrap}
-    @media print{.tip{display:none!important}}
-  </style></head><body>
-  <div class="tip">💡 Press <strong>Ctrl + P</strong> → set destination to <strong>"Save as PDF"</strong> to download.
-    <button onclick="window.print()">🖨 Print / Save as PDF</button>
-  </div>
-  ${htmlBody}
-  </body></html>`);
-  win.document.close();
-}
-
-function generatePaperPDF(paperId) {
-  const paper = paperFor(paperId);
-  if (!paper) return;
-  let html = `<h1>${escapeHtml(paper.title)}</h1>
-  <div class="subtitle">${escapeHtml(paper.subtitle || "")}</div>
-  <div class="meta">Duration: ${paper.durationMinutes} min &nbsp;|&nbsp; Questions: ${paper.questions.length} &nbsp;|&nbsp; Marking: +${paper.marking.correct} / ${paper.marking.incorrect}${paper.instructions?.length ? " &nbsp;|&nbsp; " + escapeHtml(paper.instructions.join(" | ")) : ""}</div>`;
-  for (const section of paper.sections) {
-    html += `<div class="section-head">${escapeHtml(section.title)}</div>`;
-    for (const q of section.questions) {
-      html += `<div class="q">`;
-      if (q.passage) html += `<div class="passage">${escapeHtml(q.passage)}</div>`;
-      if (q.figure) html += `<div class="fig">[Figure: ${escapeHtml(q.figure.label || "")}${q.figure.description ? " — " + escapeHtml(q.figure.description) : ""}]</div>`;
-      html += `<div class="q-text"><span class="q-num">Q${escapeHtml(String(q.displayNumber))}.</span>${escapeHtml(q.text)}</div>`;
-      if (q.options?.length) {
-        html += `<div class="opts">${q.options.map(o => `<div class="opt">(${escapeHtml(o.id)})&nbsp;${escapeHtml(o.text)}</div>`).join("")}</div>`;
-      } else {
-        html += `<div class="blank">Answer: _______________________</div>`;
-      }
-      html += `</div>`;
-    }
-  }
-  buildPrintWindow(`${paper.title} — Question Paper`, html);
-}
-
-function generateKeyPDF(paperId) {
-  const paper = paperFor(paperId);
-  if (!paper) return;
-  let html = `<h1>${escapeHtml(paper.title)} — Answer Key &amp; Solutions</h1>
-  <div class="subtitle">${escapeHtml(paper.subtitle || "")}</div>
-  <div class="meta">Duration: ${paper.durationMinutes} min &nbsp;|&nbsp; Questions: ${paper.questions.length} &nbsp;|&nbsp; Marking: +${paper.marking.correct} / ${paper.marking.incorrect}</div>`;
-  for (const section of paper.sections) {
-    html += `<div class="section-head">${escapeHtml(section.title)}</div>`;
-    for (const q of section.questions) {
-      const answerIds = q.answer === null || q.answer === undefined ? [] : Array.isArray(q.answer) ? q.answer : [q.answer];
-      let answerLabel = "—";
-      if (q.options?.length && answerIds.length) {
-        answerLabel = answerIds.map(id => { const o = q.options.find(x => x.id === id); return o ? `(${id}) ${o.text}` : id; }).join(", ");
-      } else if (answerIds.length) {
-        answerLabel = answerIds.join(", ");
-      }
-      html += `<div class="q">`;
-      if (q.passage) html += `<div class="passage">${escapeHtml(q.passage)}</div>`;
-      if (q.figure) html += `<div class="fig">[Figure: ${escapeHtml(q.figure.label || "")}${q.figure.description ? " — " + escapeHtml(q.figure.description) : ""}]</div>`;
-      html += `<div class="q-text"><span class="q-num">Q${escapeHtml(String(q.displayNumber))}.</span>${escapeHtml(q.text)}</div>`;
-      if (q.options?.length) {
-        html += `<div class="opts">${q.options.map(o => {
-          const isAns = answerIds.includes(o.id);
-          return `<div class="opt${isAns ? " correct" : ""}">(${escapeHtml(o.id)})&nbsp;${escapeHtml(o.text)}${isAns ? " ✓" : ""}</div>`;
-        }).join("")}</div>`;
-      }
-      html += `<div class="ans">✅ Answer: ${escapeHtml(answerLabel)}</div>`;
-      if (q.explanation) html += `<div class="exp">💡 ${escapeHtml(q.explanation)}</div>`;
-      html += `</div>`;
-    }
-  }
-  buildPrintWindow(`${paper.title} — Answer Key`, html);
 }
 
 /* ── PDF Generation ──────────────────────────────────────── */
